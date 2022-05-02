@@ -1,1 +1,0 @@
-{"_generic":{"defaultPackage":"crc64","location":"","packages":{"crc64":"2.0.0"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"crc64":{"2.0.0":[]}},"sources":{"crc64":{"2.0.0":{"hash":"sha256-Jwfjr7peGbddWC2IvHkjdBjyoqLWc9Ac+bA2M7RumPM=","type":"crates-io"}}}}

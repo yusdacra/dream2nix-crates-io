@@ -6,4 +6,4 @@ edition = "2021"
 [dependencies]
 indexer = { path = "../../indexer", default-features = false }
 itertools = "0.10"
-microserde = "0.1"
+serde_json = "1"

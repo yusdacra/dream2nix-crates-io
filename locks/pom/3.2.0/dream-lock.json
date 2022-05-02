@@ -1,1 +1,0 @@
-{"_generic":{"defaultPackage":"pom","location":"","packages":{"pom":"3.2.0"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"pom":{"3.2.0":[]}},"sources":{"pom":{"3.2.0":{"hash":"sha256-B+IZJ4Dp+OKCBJ/5v/yqKBceHLCET0ntU3TlGK5gJOw=","type":"crates-io"}}}}

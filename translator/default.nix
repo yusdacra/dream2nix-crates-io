@@ -44,8 +44,10 @@
         }
       ]
       dreamLock;
+    # compress the dream lock
+    dreamLockCompressed = d2n.utils.dreamLock.compressDreamLock dreamLockPatched;
   in
-    dreamLockPatched;
+    dreamLockCompressed;
 
   # translates packages in a fetchedIndex, extending them with a "dreamLock",
   # making the index a translatedIndex.

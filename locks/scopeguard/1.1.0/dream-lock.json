@@ -1,1 +1,25 @@
-{"_generic":{"defaultPackage":"scopeguard","location":"","packages":{"scopeguard":"1.1.0"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"scopeguard":{"1.1.0":[]}},"sources":{"scopeguard":{"1.1.0":{"hash":"sha256-0pqwxtP8Dukv5m4tmfcA6rF6jVfRwdO3SDgPsguqeM0=","type":"crates-io"}}}}
+{
+  "_generic": {
+    "defaultPackage": "scopeguard",
+    "location": "",
+    "packages": {
+      "scopeguard": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "sha256-0pqwxtP8Dukv5m4tmfcA6rF6jVfRwdO3SDgPsguqeM0=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

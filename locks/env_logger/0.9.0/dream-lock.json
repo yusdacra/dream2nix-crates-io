@@ -1,1 +1,254 @@
-{"_generic":{"defaultPackage":"env_logger","location":"","packages":{"env_logger":"0.9.0"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"aho-corasick":{"0.7.18":[{"name":"memchr","version":"2.4.0"}]},"atty":{"0.2.14":[{"name":"hermit-abi","version":"0.1.19"},{"name":"libc","version":"0.2.98"},{"name":"winapi","version":"0.3.9"}]},"cfg-if":{"1.0.0":[]},"env_logger":{"0.9.0":[{"name":"atty","version":"0.2.14"},{"name":"humantime","version":"2.1.0"},{"name":"log","version":"0.4.14"},{"name":"regex","version":"1.5.4"},{"name":"termcolor","version":"1.1.2"}]},"hermit-abi":{"0.1.19":[{"name":"libc","version":"0.2.98"}]},"humantime":{"2.1.0":[]},"libc":{"0.2.98":[]},"log":{"0.4.14":[{"name":"cfg-if","version":"1.0.0"}]},"memchr":{"2.4.0":[]},"regex":{"1.5.4":[{"name":"aho-corasick","version":"0.7.18"},{"name":"memchr","version":"2.4.0"},{"name":"regex-syntax","version":"0.6.25"}]},"regex-syntax":{"0.6.25":[]},"termcolor":{"1.1.2":[{"name":"winapi-util","version":"0.1.5"}]},"winapi":{"0.3.9":[{"name":"winapi-i686-pc-windows-gnu","version":"0.4.0"},{"name":"winapi-x86_64-pc-windows-gnu","version":"0.4.0"}]},"winapi-i686-pc-windows-gnu":{"0.4.0":[]},"winapi-util":{"0.1.5":[{"name":"winapi","version":"0.3.9"}]},"winapi-x86_64-pc-windows-gnu":{"0.4.0":[]}},"sources":{"aho-corasick":{"0.7.18":{"hash":"1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f","name":"aho-corasick","type":"crates-io","version":"0.7.18"}},"atty":{"0.2.14":{"hash":"d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8","name":"atty","type":"crates-io","version":"0.2.14"}},"cfg-if":{"1.0.0":{"hash":"baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd","name":"cfg-if","type":"crates-io","version":"1.0.0"}},"env_logger":{"0.9.0":{"hash":"sha256-CyzwNElx7mxkwxvg1TB5P7pFfTIt/sKBDEU9DvIo+cM=","type":"crates-io"}},"hermit-abi":{"0.1.19":{"hash":"62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33","name":"hermit-abi","type":"crates-io","version":"0.1.19"}},"humantime":{"2.1.0":{"hash":"9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4","name":"humantime","type":"crates-io","version":"2.1.0"}},"libc":{"0.2.98":{"hash":"320cfe77175da3a483efed4bc0adc1968ca050b098ce4f2f1c13a56626128790","name":"libc","type":"crates-io","version":"0.2.98"}},"log":{"0.4.14":{"hash":"51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710","name":"log","type":"crates-io","version":"0.4.14"}},"memchr":{"2.4.0":{"hash":"b16bd47d9e329435e309c58469fe0791c2d0d1ba96ec0954152a5ae2b04387dc","name":"memchr","type":"crates-io","version":"2.4.0"}},"regex":{"1.5.4":{"hash":"d07a8629359eb56f1e2fb1652bb04212c072a87ba68546a04065d525673ac461","name":"regex","type":"crates-io","version":"1.5.4"}},"regex-syntax":{"0.6.25":{"hash":"f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b","name":"regex-syntax","type":"crates-io","version":"0.6.25"}},"termcolor":{"1.1.2":{"hash":"2dfed899f0eb03f32ee8c6a0aabdb8a7949659e3466561fc0adf54e26d88c5f4","name":"termcolor","type":"crates-io","version":"1.1.2"}},"winapi":{"0.3.9":{"hash":"5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419","name":"winapi","type":"crates-io","version":"0.3.9"}},"winapi-i686-pc-windows-gnu":{"0.4.0":{"hash":"ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6","name":"winapi-i686-pc-windows-gnu","type":"crates-io","version":"0.4.0"}},"winapi-util":{"0.1.5":{"hash":"70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178","name":"winapi-util","type":"crates-io","version":"0.1.5"}},"winapi-x86_64-pc-windows-gnu":{"0.4.0":{"hash":"712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f","name":"winapi-x86_64-pc-windows-gnu","type":"crates-io","version":"0.4.0"}}}}
+{
+  "_generic": {
+    "defaultPackage": "env_logger",
+    "location": "",
+    "packages": {
+      "env_logger": "0.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aho-corasick": {
+      "0.7.18": [
+        [
+          "memchr",
+          "2.4.0"
+        ]
+      ]
+    },
+    "atty": {
+      "0.2.14": [
+        [
+          "hermit-abi",
+          "0.1.19"
+        ],
+        [
+          "libc",
+          "0.2.98"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "env_logger": {
+      "0.9.0": [
+        [
+          "atty",
+          "0.2.14"
+        ],
+        [
+          "humantime",
+          "2.1.0"
+        ],
+        [
+          "log",
+          "0.4.14"
+        ],
+        [
+          "regex",
+          "1.5.4"
+        ],
+        [
+          "termcolor",
+          "1.1.2"
+        ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.19": [
+        [
+          "libc",
+          "0.2.98"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.14": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ]
+      ]
+    },
+    "regex": {
+      "1.5.4": [
+        [
+          "aho-corasick",
+          "0.7.18"
+        ],
+        [
+          "memchr",
+          "2.4.0"
+        ],
+        [
+          "regex-syntax",
+          "0.6.25"
+        ]
+      ]
+    },
+    "termcolor": {
+      "1.1.2": [
+        [
+          "winapi-util",
+          "0.1.5"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    },
+    "winapi-util": {
+      "0.1.5": [
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "aho-corasick": {
+      "0.7.18": {
+        "hash": "1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f",
+        "name": "aho-corasick",
+        "type": "crates-io",
+        "version": "0.7.18"
+      }
+    },
+    "atty": {
+      "0.2.14": {
+        "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
+        "name": "atty",
+        "type": "crates-io",
+        "version": "0.2.14"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "name": "cfg-if",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
+    "env_logger": {
+      "0.9.0": {
+        "hash": "sha256-CyzwNElx7mxkwxvg1TB5P7pFfTIt/sKBDEU9DvIo+cM=",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "name": "hermit-abi",
+        "type": "crates-io",
+        "version": "0.1.19"
+      }
+    },
+    "humantime": {
+      "2.1.0": {
+        "hash": "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4",
+        "name": "humantime",
+        "type": "crates-io",
+        "version": "2.1.0"
+      }
+    },
+    "libc": {
+      "0.2.98": {
+        "hash": "320cfe77175da3a483efed4bc0adc1968ca050b098ce4f2f1c13a56626128790",
+        "name": "libc",
+        "type": "crates-io",
+        "version": "0.2.98"
+      }
+    },
+    "log": {
+      "0.4.14": {
+        "hash": "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710",
+        "name": "log",
+        "type": "crates-io",
+        "version": "0.4.14"
+      }
+    },
+    "memchr": {
+      "2.4.0": {
+        "hash": "b16bd47d9e329435e309c58469fe0791c2d0d1ba96ec0954152a5ae2b04387dc",
+        "name": "memchr",
+        "type": "crates-io",
+        "version": "2.4.0"
+      }
+    },
+    "regex": {
+      "1.5.4": {
+        "hash": "d07a8629359eb56f1e2fb1652bb04212c072a87ba68546a04065d525673ac461",
+        "name": "regex",
+        "type": "crates-io",
+        "version": "1.5.4"
+      }
+    },
+    "regex-syntax": {
+      "0.6.25": {
+        "hash": "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b",
+        "name": "regex-syntax",
+        "type": "crates-io",
+        "version": "0.6.25"
+      }
+    },
+    "termcolor": {
+      "1.1.2": {
+        "hash": "2dfed899f0eb03f32ee8c6a0aabdb8a7949659e3466561fc0adf54e26d88c5f4",
+        "name": "termcolor",
+        "type": "crates-io",
+        "version": "1.1.2"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "name": "winapi",
+        "type": "crates-io",
+        "version": "0.3.9"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "name": "winapi-i686-pc-windows-gnu",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "winapi-util": {
+      "0.1.5": {
+        "hash": "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178",
+        "name": "winapi-util",
+        "type": "crates-io",
+        "version": "0.1.5"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "name": "winapi-x86_64-pc-windows-gnu",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    }
+  }
+}

@@ -85,18 +85,31 @@
 
       lockOutputs = let
         lockIndex = l.fromJSON (l.readFile ./locks/index.json);
-        mkPkgAttrName = pkg: "${pkg.name}-${pkg.version}";
-        mkPkgAttrValue = pkg:
+        mkPkg = name: version:
           (dream2nix.lib.${system}.makeOutputsForDreamLock {
             dreamLock = l.fromJSON (
-              l.readFile "${./locks}/${pkg.name}/${pkg.version}/dream-lock.json"
+              l.readFile "${./locks}/${name}/${version}/dream-lock.json"
             );
           })
           .packages
-          .${pkg.name};
-        pkgs = l.map (pkg: l.nameValuePair (mkPkgAttrName pkg) (mkPkgAttrValue pkg)) lockIndex;
+          .${name};
+        pkgs =
+          l.mapAttrs
+          (
+            name: versions:
+              l.listToAttrs (
+                l.map (
+                  version:
+                    l.nameValuePair
+                    "${name}-${version}"
+                    (mkPkg name version)
+                )
+                versions
+              )
+          )
+          lockIndex;
       in
-        l.listToAttrs pkgs;
+        l.foldl' (acc: el: acc // el) {} (l.attrValues pkgs);
     in rec {
       packages.${system} = lockOutputs;
       apps.${system} = {

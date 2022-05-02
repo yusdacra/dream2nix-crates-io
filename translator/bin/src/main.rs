@@ -8,8 +8,7 @@ fn main() {
     let start = Instant::now();
 
     let raw_index = fs::read_to_string("./index.json").expect("could not read index");
-    let index: Vec<CrateInformation> =
-        microserde::json::from_str(&raw_index).expect("could not parse index as JSON");
+    let index: Index = serde_json::from_str(&raw_index).expect("could not parse index as JSON");
     let index_len = index.len();
 
     let task_num = env::var("TASK_COUNT")
@@ -23,24 +22,20 @@ fn main() {
         let infos = chunk.collect_vec();
         let tx_success = tx_success.clone();
         let handle = std::thread::spawn(move || {
-            for info in infos {
-                match translate_and_write(&info) {
-                    Ok(wrote_to) => {
-                        println!("wrote lock file to '{}'", wrote_to.display());
-                        let _ = tx_success.send(info);
-                    }
-                    Err(err) => {
-                        let err_msg = err.to_string();
-                        if err_msg.contains("'Cargo.lock' missing") {
-                            eprintln!(
-                                "'{}-{}' has no Cargo.lock, skipping",
-                                info.name, info.version
-                            );
-                        } else {
-                            eprintln!(
-                                "error while translating '{}-{}':\n{}",
-                                info.name, info.version, err_msg
-                            );
+            for (name, versions) in infos {
+                for version in versions {
+                    match translate_and_write((&name, &version)) {
+                        Ok(wrote_to) => {
+                            println!("wrote lock file to '{}'", wrote_to.display());
+                            let _ = tx_success.send((name.clone(), version));
+                        }
+                        Err(err) => {
+                            let err_msg = err.to_string();
+                            if err_msg.contains("'Cargo.lock' missing") {
+                                eprintln!("'{name}-{version}' has no Cargo.lock, skipping");
+                            } else {
+                                eprintln!("error while translating '{name}-{version}':\n{err_msg}");
+                            }
                         }
                     }
                 }
@@ -53,9 +48,9 @@ fn main() {
         handle.join().expect("task panicked");
     }
 
-    let mut succeeded_crates = Vec::new();
-    while let Ok(info) = rx_success.try_recv() {
-        succeeded_crates.push(info);
+    let mut succeeded_crates = Index::default();
+    while let Ok((name, version)) = rx_success.try_recv() {
+        succeeded_crates.entry(name).or_default().push(version);
     }
 
     println!(
@@ -64,30 +59,34 @@ fn main() {
         index_len
     );
 
-    let index = microserde::json::to_string(&succeeded_crates);
+    let index = serde_json::to_string_pretty(&succeeded_crates)
+        .expect("failed to generate JSON for crates");
     fs::write("./locks/index.json", index).expect("could not write index");
     println!("wrote succeeded crates to './locks/index.json'");
 
     println!("done in {:.1} seconds", start.elapsed().as_secs_f32());
 }
 
-fn translate_and_write(info: &CrateInformation) -> Result<PathBuf> {
+fn translate_and_write((name, version): (&str, &str)) -> Result<PathBuf> {
     // generate dream lock
-    let expr = format!("(import ./default.nix).lib.${{builtins.currentSystem}}.dreamLockFor \"{}\" \"{}\"", info.name, info.version);
+    let expr = format!(
+        "(import ./default.nix).lib.${{builtins.currentSystem}}.dreamLockFor \"{name}\" \"{version}\"",
+    );
     let raw_dream_lock = nix(["eval", "--impure", "--expr", &expr])?;
     let dream_lock = raw_dream_lock
         .trim()
         .trim_start_matches('"')
         .trim_end_matches('"')
         .replace("\\", "");
+    let parsed_dream_lock: serde_json::Value = serde_json::from_str(&dream_lock)?;
+    let pretty_dream_lock = serde_json::to_string_pretty(&parsed_dream_lock)?;
 
     // create lock path, create lock dir
-    let lock_path: PathBuf =
-        format!("./locks/{}/{}/dream-lock.json", info.name, info.version).into();
+    let lock_path: PathBuf = format!("./locks/{name}/{version}/dream-lock.json").into();
     fs::create_dir_all(lock_path.parent().unwrap())?;
 
     // write lock
-    fs::write(&lock_path, dream_lock)?;
+    fs::write(&lock_path, pretty_dream_lock)?;
 
     Ok(lock_path)
 }

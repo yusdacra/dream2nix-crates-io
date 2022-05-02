@@ -1,1 +1,0 @@
-{"_generic":{"defaultPackage":"guard","location":"","packages":{"guard":"0.5.1"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"guard":{"0.5.1":[]}},"sources":{"guard":{"0.5.1":{"hash":"sha256-/4k8xR6gT4o7c/uvQ3bAbrxaDMvobUYIlvgF2UF8k+o=","type":"crates-io"}}}}

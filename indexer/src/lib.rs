@@ -1,13 +1,7 @@
 #![deny(rust_2018_idioms)]
 
-use microserde::{Deserialize, Serialize};
-
 /// A mapping of a crates name to its identifier used in source code
-#[derive(Debug, Serialize, Deserialize)]
-pub struct CrateInformation {
-    pub name: String,
-    pub version: String,
-}
+pub type Index = std::collections::HashMap<String, Vec<String>>;
 
 #[cfg(feature = "gen")]
 pub use self::indexer::{Indexer, Modifications, Settings};
@@ -20,6 +14,7 @@ mod indexer {
         util::{Config, VersionExt},
     };
     use curl::easy::Easy as Curl;
+    use serde::Deserialize;
     use std::collections::HashSet;
 
     /// The shared description of a crate
@@ -110,7 +105,7 @@ mod indexer {
             self
         }
 
-        pub fn generate_info(&mut self) -> Vec<CrateInformation> {
+        pub fn generate_info(&mut self) -> Index {
             // Setup to interact with cargo.
             let config = Config::default().expect("Unable to create default Cargo config");
             let _lock = config.acquire_package_cache_lock();
@@ -155,33 +150,23 @@ mod indexer {
                 summaries.push(summary);
             }
 
-            // Remove invalid and excluded packages that have been added due to resolution
-            let mut packages: Vec<_> = summaries
-                .into_iter()
-                .filter(|summary| {
-                    !self
-                        .settings
-                        .modifications
-                        .excluded(summary.name().as_str())
-                })
-                .collect();
+            let mut index = Index::default();
+            for summary in summaries {
+                let is_excluded = self
+                    .settings
+                    .modifications
+                    .excluded(summary.name().as_str());
+                if is_excluded {
+                    continue;
+                }
 
-            // Sort all packages by name then version (descending), so that
-            // when we group them we know we get all the same crates together
-            // and the newest version first.
-            packages.sort_by(|a, b| {
-                a.name()
-                    .cmp(&b.name())
-                    .then(a.version().cmp(&b.version()).reverse())
-            });
+                index
+                    .entry(summary.name().to_string())
+                    .or_default()
+                    .push(summary.version().to_string());
+            }
 
-            packages
-                .into_iter()
-                .map(|pkg| CrateInformation {
-                    name: pkg.name().to_string(),
-                    version: pkg.version().to_string(),
-                })
-                .collect()
+            index
         }
 
         fn fetch_top_crates(&mut self) -> TopCrates {
@@ -207,7 +192,7 @@ mod indexer {
             );
             let resp = String::from_utf8(body).expect("could not parse top crates as UTF-8 text");
 
-            microserde::json::from_str(&resp).expect("could not parse top crates as JSON")
+            serde_json::from_str(&resp).expect("could not parse top crates as JSON")
         }
 
         fn http_get(&mut self, url: &str) -> (Vec<u8>, u32) {

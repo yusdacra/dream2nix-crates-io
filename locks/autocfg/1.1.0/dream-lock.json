@@ -1,1 +1,25 @@
-{"_generic":{"defaultPackage":"autocfg","location":"","packages":{"autocfg":"1.1.0"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"autocfg":{"1.1.0":[]}},"sources":{"autocfg":{"1.1.0":{"hash":"sha256-1GiAK6sXy8DMV16bBT9B5yqja/prf1XjUp/6QxYbl/o=","type":"crates-io"}}}}
+{
+  "_generic": {
+    "defaultPackage": "autocfg",
+    "location": "",
+    "packages": {
+      "autocfg": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "sha256-1GiAK6sXy8DMV16bBT9B5yqja/prf1XjUp/6QxYbl/o=",
+        "type": "crates-io"
+      }
+    }
+  }
+}
