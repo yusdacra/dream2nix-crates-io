@@ -73,7 +73,7 @@ fn main() {
 
 fn translate_and_write(info: &CrateInformation) -> Result<PathBuf> {
     // generate dream lock
-    let expr = format!("(builtins.getFlake (toString ./.)).lib.${{builtins.currentSystem}}.dreamLockFor \"{}\" \"{}\"", info.name, info.version);
+    let expr = format!("(import ./default.nix).lib.${{builtins.currentSystem}}.dreamLockFor \"{}\" \"{}\"", info.name, info.version);
     let raw_dream_lock = nix(["eval", "--impure", "--expr", &expr])?;
     let dream_lock = raw_dream_lock
         .trim()

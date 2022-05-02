@@ -85,7 +85,7 @@
 
       lockOutputs = let
         lockIndex = l.fromJSON (l.readFile ./locks/index.json);
-        mkPkgAttrName = pkg: "${pkg.name}-${l.replaceStrings ["."] ["_"] pkg.version}";
+        mkPkgAttrName = pkg: "${pkg.name}-${pkg.version}";
         mkPkgAttrValue = pkg:
           (dream2nix.lib.${system}.makeOutputsForDreamLock {
             dreamLock = l.fromJSON (

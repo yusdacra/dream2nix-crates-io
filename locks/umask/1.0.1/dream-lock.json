@@ -1,0 +1,1 @@
+{"_generic":{"defaultPackage":"umask","location":"","packages":{"umask":"1.0.1"},"sourcesAggregatedHash":null,"subsystem":"rust"},"_subsystem":{"gitSources":[],"relPathReplacements":{}},"cyclicDependencies":{},"decompressed":true,"dependencies":{"umask":{"1.0.1":[]}},"sources":{"umask":{"1.0.1":{"hash":"sha256-77PziklBk7Vj6yFcQ8tjWk/aHfzYhf45BrIVvGqftrg=","type":"crates-io"}}}}
