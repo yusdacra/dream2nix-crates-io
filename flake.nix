@@ -3,7 +3,7 @@
 
   inputs = {
     dream2nix = {
-      url = "github:nix-community/dream2nix";
+      url = "github:yusdacra/dream2nix/main";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
@@ -79,8 +79,48 @@
         type = "app";
         program = toString script;
       };
+
+      lockOutputs = let
+        pkgsNames = l.attrNames (l.readDir ./locks);
+        pkgsUnfolded =
+          l.map (
+            name:
+              l.genAttrs
+              (
+                l.map
+                (version: "${name}-${version}")
+                (l.attrNames (l.readDir "${./locks}/${name}"))
+              )
+              (
+                n: let
+                  version = l.removePrefix "${name}-" n;
+                  outputs = dream2nix.lib.${system}.makeOutputsForDreamLock {
+                    dreamLock = l.fromJSON (
+                      l.readFile "${./locks}/${name}/${version}/dream-lock.json"
+                    );
+                  };
+                in
+                  outputs.packages.${name}
+              )
+          )
+          pkgsNames;
+      in
+        l.foldl'
+        (
+          acc: el:
+            acc
+            // (
+              l.mapAttrs' (
+                n: v:
+                  l.nameValuePair (l.replaceStrings ["."] ["_"] n) v
+              )
+              el
+            )
+        )
+        {}
+        pkgsUnfolded;
     in rec {
-      packages = outputs.packages;
+      packages.${system} = lockOutputs;
       apps.${system} = {
         index-top-5k-downloads = mkIndexApp {
           max_pages = 50;
@@ -100,7 +140,7 @@
         };
         translate = {
           type = "app";
-          program = "${packages.${system}.translator}/bin/translator";
+          program = "${outputs.packages.${system}.translator}/bin/translator";
         };
       };
       devShells.${system} = {
@@ -109,6 +149,11 @@
             name = "indexer-devshell";
             buildInputs = [openssl];
             nativeBuildInputs = [pkg-config cargo rustfmt];
+          };
+        translator = with pkgs;
+          mkShell {
+            name = "translator-devshell";
+            nativeBuildInputs = [cargo rustfmt];
           };
       };
       lib.${system} = {
