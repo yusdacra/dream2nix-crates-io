@@ -120,6 +120,10 @@
           max_pages = 50;
           sort_by = "downloads";
         };
+        index-top-1k-downloads = mkIndexApp {
+          max_pages = 50;
+          sort_by = "downloads";
+        };
         index-top-100-downloads = mkIndexApp {
           max_pages = 1;
           sort_by = "downloads";
