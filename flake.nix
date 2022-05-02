@@ -61,8 +61,12 @@
           indexer.add-openssl.overrideAttrs = old: {
             buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
             nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
+            doCheck = false;
           };
-          translator.add-flake-src = {FLAKE_SRC = toString inputs.self;};
+          translator.add-flake-src = {
+            FLAKE_SRC = toString inputs.self;
+            doCheck = false;
+          };
         };
       };
 
