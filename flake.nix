@@ -50,14 +50,13 @@
       };
       translateApp = let
         mkWriteLockForPkg = pkg: ''
-          id="${pkg.name}-${pkg.version}"
-          mkdir -p locks/$id
-          echo '${l.toJSON pkg.dreamLock}' > locks/$id/dream-lock.json
+          dirpath="${pkg.name}/${pkg.version}"
+          mkdir -p locks/$dirpath
+          echo '${l.toJSON pkg.dreamLock}' > locks/$dirpath/dream-lock.json
         '';
 
         script = pkgs.writeScript "translate" ''
           #!${pkgs.stdenv.shell}
-          mkdir -p locks
           ${l.concatStringsSep "\n" (l.map mkWriteLockForPkg translatedIndex)}
         '';
       in {
