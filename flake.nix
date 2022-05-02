@@ -14,17 +14,24 @@
     nixpkgs,
     ...
   } @ inputs: let
-    l = nixpkgs.lib // builtins;
+    lib = nixpkgs.lib;
+    l = lib // builtins;
     systems = ["x86_64-linux"];
 
     mkOutputsForSystem = system: let
       pkgs = nixpkgs.legacyPackages.${system};
-      dream2nix = inputs.dream2nix.lib.init {
+      d2n = dream2nix.lib.init {
         systems = [system];
         config.projectRoot = ./.;
       };
 
-      indexerOutputs = dream2nix.makeFlakeOutputs {
+      fetchIndex = import ./fetcher.nix {inherit dream2nix system lib;};
+      translateIndex = import ./translator.nix {inherit dream2nix system lib;};
+
+      fetchedIndex = fetchIndex (l.fromJSON (l.readFile ./index.json));
+      translatedIndex = translateIndex fetchedIndex;
+
+      indexerOutputs = d2n.makeFlakeOutputs {
         source = ./indexer;
         packageOverrides.indexer.add-openssl.overrideAttrs = old: {
           buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
@@ -41,12 +48,42 @@
         type = "app";
         program = toString script;
       };
+      translateApp = let
+        mkWriteLockForPkg = pkg: ''
+          id="${pkg.name}-${pkg.version}"
+          mkdir -p locks/$id
+          echo '${l.toJSON pkg.dreamLock}' > locks/$id/dream-lock.json
+        '';
+
+        script = pkgs.writeScript "translate" ''
+          #!${pkgs.stdenv.shell}
+          mkdir -p locks
+          ${l.concatStringsSep "\n" (l.map mkWriteLockForPkg translatedIndex)}
+        '';
+      in {
+        type = "app";
+        program = toString script;
+      };
     in rec {
       packages = indexerOutputs.packages;
       apps.${system} = {
-        index-top-5k-downloads = mkIndexApp {max_pages = 50; sort_by = "downloads";};
-        index-top-100-new = mkIndexApp {max_pages = 1; sort_by = "new";};
-        index-top-100-recently-updated = mkIndexApp {max_pages = 1; sort_by = "recent-updates";};
+        index-top-5k-downloads = mkIndexApp {
+          max_pages = 50;
+          sort_by = "downloads";
+        };
+        index-top-100-downloads = mkIndexApp {
+          max_pages = 1;
+          sort_by = "downloads";
+        };
+        index-top-100-new = mkIndexApp {
+          max_pages = 1;
+          sort_by = "new";
+        };
+        index-top-100-recently-updated = mkIndexApp {
+          max_pages = 1;
+          sort_by = "recent-updates";
+        };
+        translate = translateApp;
       };
       devShells.${system} = {
         indexer = with pkgs;
@@ -56,6 +93,7 @@
             nativeBuildInputs = [pkg-config cargo rustfmt];
           };
       };
+      lib.${system} = {inherit fetchIndex translateIndex fetchedIndex translatedIndex;};
     };
   in
     l.foldl'
