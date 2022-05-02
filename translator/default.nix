@@ -31,8 +31,20 @@
     };
     # simpleTranslate2 uses .result
     dreamLock = dreamLock'.result or dreamLock';
-  in
+    # patch this package's dependency to use crates-io source
+    # and not a path source.
+    dreamLockPatched = l.updateManyAttrsByPath [
+      {
+        path = ["sources" pkg.name pkg.version];
+        update = _: {
+          type = "crates-io";
+          hash = pkg.sourceHash;
+        };
+      }
+    ]
     dreamLock;
+  in
+    dreamLockPatched;
 
   # translates packages in a fetchedIndex, extending them with a "dreamLock",
   # making the index a translatedIndex.

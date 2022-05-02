@@ -34,7 +34,7 @@
       translator = callPackage ./translator {};
       dreamLockFor = name: version: let
         pkg = {inherit name version;};
-        pkgWithSrc = pkg // {source = fetcher.fetch pkg;};
+        pkgWithSrc = pkg // (fetcher.fetch pkg);
         dreamLock = translator.translate pkgWithSrc;
       in
         l.toJSON dreamLock;
@@ -48,10 +48,13 @@
           root = ./.;
           exclude = [
             "flake.nix"
-            "index.json"
             "flake.lock"
             "README"
+            "LICENSE"
+            "index.json"
             "locks"
+            "translator/default.nix"
+            "fetcher/default.nix"
           ];
         };
         packageOverrides.indexer.add-openssl.overrideAttrs = old: {
@@ -106,17 +109,11 @@
           pkgsNames;
       in
         l.foldl'
-        (
-          acc: el:
-            acc
-            // (
-              l.mapAttrs' (
-                n: v:
-                  l.nameValuePair (l.replaceStrings ["."] ["_"] n) v
-              )
-              el
-            )
-        )
+        (acc: el:
+          acc
+          // (l.mapAttrs' (n: v:
+            l.nameValuePair (l.replaceStrings ["."] ["_"] n) v)
+          el))
         {}
         pkgsUnfolded;
     in rec {
