@@ -84,38 +84,19 @@
       };
 
       lockOutputs = let
-        pkgsNames = l.attrNames (l.readDir ./locks);
-        pkgsUnfolded =
-          l.map (
-            name:
-              l.genAttrs
-              (
-                l.map
-                (version: "${name}-${version}")
-                (l.attrNames (l.readDir "${./locks}/${name}"))
-              )
-              (
-                n: let
-                  version = l.removePrefix "${name}-" n;
-                  outputs = dream2nix.lib.${system}.makeOutputsForDreamLock {
-                    dreamLock = l.fromJSON (
-                      l.readFile "${./locks}/${name}/${version}/dream-lock.json"
-                    );
-                  };
-                in
-                  outputs.packages.${name}
-              )
-          )
-          pkgsNames;
+        lockIndex = l.fromJSON (l.readFile ./locks/index.json);
+        mkPkgAttrName = pkg: "${pkg.name}-${l.replaceStrings ["."] ["_"] pkg.version}";
+        mkPkgAttrValue = pkg:
+          (dream2nix.lib.${system}.makeOutputsForDreamLock {
+            dreamLock = l.fromJSON (
+              l.readFile "${./locks}/${pkg.name}/${pkg.version}/dream-lock.json"
+            );
+          })
+          .packages
+          .${pkg.name};
+        pkgs = l.map (pkg: l.nameValuePair (mkPkgAttrName pkg) (mkPkgAttrValue pkg)) lockIndex;
       in
-        l.foldl'
-        (acc: el:
-          acc
-          // (l.mapAttrs' (n: v:
-            l.nameValuePair (l.replaceStrings ["."] ["_"] n) v)
-          el))
-        {}
-        pkgsUnfolded;
+        l.listToAttrs pkgs;
     in rec {
       packages.${system} = lockOutputs;
       apps.${system} = {

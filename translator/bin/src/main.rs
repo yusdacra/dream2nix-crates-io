@@ -12,7 +12,7 @@ fn main() {
         microserde::json::from_str(&raw_index).expect("could not parse index as JSON");
     let index_len = index.len();
 
-    let task_num = env::var("FETCHER_TASK_COUNT")
+    let task_num = env::var("TASK_COUNT")
         .ok()
         .and_then(|raw| raw.parse::<usize>().ok())
         .unwrap_or(4);
@@ -63,6 +63,11 @@ fn main() {
         succeeded_crates.len(),
         index_len
     );
+
+    let index = microserde::json::to_string(&succeeded_crates);
+    fs::write("./locks/index.json", index).expect("could not write index");
+    println!("wrote succeeded crates to './locks/index.json'");
+
     println!("done in {:.1} seconds", start.elapsed().as_secs_f32());
 }
 
