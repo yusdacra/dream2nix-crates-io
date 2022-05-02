@@ -28,7 +28,8 @@
       fetchIndex = import ./fetcher.nix {inherit dream2nix system lib;};
       translateIndex = import ./translator.nix {inherit dream2nix system lib;};
 
-      fetchedIndex = fetchIndex (l.fromJSON (l.readFile ./index.json));
+      index = l.fromJSON (l.readFile ./index.json);
+      fetchedIndex = fetchIndex index;
       translatedIndex = translateIndex fetchedIndex;
 
       indexerOutputs = d2n.makeFlakeOutputs {
@@ -92,7 +93,15 @@
             nativeBuildInputs = [pkg-config cargo rustfmt];
           };
       };
-      lib.${system} = {inherit fetchIndex translateIndex fetchedIndex translatedIndex;};
+      lib.${system} = {
+        inherit
+          fetchIndex
+          translateIndex
+          index
+          fetchedIndex
+          translatedIndex
+          ;
+      };
     };
   in
     l.foldl'
