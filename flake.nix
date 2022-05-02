@@ -57,9 +57,12 @@
             "fetcher/default.nix"
           ];
         };
-        packageOverrides.indexer.add-openssl.overrideAttrs = old: {
-          buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
-          nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
+        packageOverrides = {
+          indexer.add-openssl.overrideAttrs = old: {
+            buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
+            nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
+          };
+          translator.add-flake-src = {FLAKE_SRC = toString inputs.self;};
         };
       };
 
@@ -145,6 +148,7 @@
           mkShell {
             name = "translator-devshell";
             nativeBuildInputs = [cargo rustfmt];
+            FLAKE_SRC = toString inputs.self;
           };
       };
       lib.${system} = {

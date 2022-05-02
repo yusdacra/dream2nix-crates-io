@@ -68,9 +68,10 @@ fn main() {
 }
 
 fn translate_and_write((name, version): (&str, &str)) -> Result<PathBuf> {
+    let flake_src = option_env!("FLAKE_SRC").unwrap_or("./.");
     // generate dream lock
     let expr = format!(
-        "(import ./default.nix).lib.${{builtins.currentSystem}}.dreamLockFor \"{name}\" \"{version}\"",
+        "(builtins.getFlake (toString {flake_src})).lib.${{builtins.currentSystem}}.dreamLockFor \"{name}\" \"{version}\"",
     );
     let raw_dream_lock = nix(["eval", "--impure", "--expr", &expr])?;
     let dream_lock = raw_dream_lock
