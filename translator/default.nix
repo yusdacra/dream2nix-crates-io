@@ -6,16 +6,18 @@
 }: let
   l = lib // builtins;
 
-  d2n = dream2nix.lib;
-  translator = d2n.${system}.translators.translators.rust.all.cargo-lock;
+  d2n = dream2nix.lib.${system};
+  dlib = dream2nix.lib.dlib;
 
   translate = pkg: let
-    tree = d2n.dlib.prepareSourceTree {inherit (pkg) source;};
+    translator = d2n.translators.translators.rust.all.cargo-lock;
+
+    tree = dlib.prepareSourceTree {inherit (pkg) source;};
     # We don't use dream2nix's discoverProjects here since we know
     # there will always be one project (which will be at the root).
     # We also don't need to provide `crates` in subsystem attributes
     # since the source will always only include one crate.
-    project = d2n.dlib.construct.discoveredProject {
+    project = dlib.construct.discoveredProject {
       subsystem = "rust";
       relPath = "";
       name = pkg.name;
@@ -32,6 +34,8 @@
   in
     dreamLock;
 
+  # translates packages in a fetchedIndex, extending them with a "dreamLock",
+  # making the index a translatedIndex.
   translateIndex = fetchedIndex: let
     # Filter the fetched index to only get sources with a Cargo.lock
     # others aren't useful to us (we can't translate sources without a Cargo.lock).
@@ -43,5 +47,4 @@
     l.map
     (pkg: pkg // {dreamLock = translate pkg;})
     indexWithLocks;
-in
-  translateIndex
+in {inherit translate translateIndex;}

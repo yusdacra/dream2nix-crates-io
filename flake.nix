@@ -25,12 +25,15 @@
         config.projectRoot = ./.;
       };
 
-      fetchIndex = import ./fetcher.nix {inherit dream2nix system lib;};
-      translateIndex = import ./translator.nix {inherit dream2nix system lib;};
+      callPackage = f: args:
+        pkgs.callPackage f (args // {inherit dream2nix system lib;});
+
+      fetcher = callPackage ./fetcher {};
+      translator = callPackage ./translator {};
 
       index = l.fromJSON (l.readFile ./index.json);
-      fetchedIndex = fetchIndex index;
-      translatedIndex = translateIndex fetchedIndex;
+      fetchedIndex = fetcher.fetchIndex index;
+      translatedIndex = translator.translateIndex fetchedIndex;
 
       indexerOutputs = d2n.makeFlakeOutputs {
         source = ./indexer;
@@ -95,8 +98,8 @@
       };
       lib.${system} = {
         inherit
-          fetchIndex
-          translateIndex
+          fetcher
+          translator
           index
           fetchedIndex
           translatedIndex
