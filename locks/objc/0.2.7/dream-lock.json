@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "objc",
+    "location": "",
+    "packages": {
+      "objc": "0.2.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "malloc_buf": {
+      "0.0.6": [
+        [
+          "libc",
+          "0.2.57"
+        ]
+      ]
+    },
+    "objc": {
+      "0.2.7": [
+        [
+          "malloc_buf",
+          "0.0.6"
+        ],
+        [
+          "objc_exception",
+          "0.1.1"
+        ]
+      ]
+    },
+    "objc_exception": {
+      "0.1.1": [
+        [
+          "gcc",
+          "0.3.55"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "gcc": {
+      "0.3.55": {
+        "hash": "8f5f3913fa0bfe7ee1fd8248b6b9f42a5af4b9d65ec2dd2c3c26132b950ecfc2",
+        "name": "gcc",
+        "type": "crates-io",
+        "version": "0.3.55"
+      }
+    },
+    "libc": {
+      "0.2.57": {
+        "hash": "a844cabbd5a77e60403a58af576f0a1baa83c3dd2670be63e615bd24fc58b82d",
+        "name": "libc",
+        "type": "crates-io",
+        "version": "0.2.57"
+      }
+    },
+    "malloc_buf": {
+      "0.0.6": {
+        "hash": "62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb",
+        "name": "malloc_buf",
+        "type": "crates-io",
+        "version": "0.0.6"
+      }
+    },
+    "objc": {
+      "0.2.7": {
+        "hash": "sha256-kVsbRyvCHFNGTWyEYcnTr4Bboe+DfhysJUQo9Kdxd7E=",
+        "type": "crates-io"
+      }
+    },
+    "objc_exception": {
+      "0.1.1": {
+        "hash": "098cd29a2fa3c230d3463ae069cecccc3fdfd64c0d2496ab5b96f82dab6a00dc",
+        "name": "objc_exception",
+        "type": "crates-io",
+        "version": "0.1.1"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "rio",
+    "location": "",
+    "packages": {
+      "rio": "0.9.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rio": {
+      "0.9.4": [
+        [
+          "extreme",
+          "666.666.666"
+        ],
+        [
+          "libc",
+          "0.2.66"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "extreme": {
+      "666.666.666": {
+        "hash": "fcb80c0b0643cfce373e251391ed8a4d36efa3d30c5181929a70cc0f5f8157c0",
+        "name": "extreme",
+        "type": "crates-io",
+        "version": "666.666.666"
+      }
+    },
+    "libc": {
+      "0.2.66": {
+        "hash": "d515b1f41455adea1313a4a2ac8a8a477634fbae63cc6100e3aebb207ce61558",
+        "name": "libc",
+        "type": "crates-io",
+        "version": "0.2.66"
+      }
+    },
+    "rio": {
+      "0.9.4": {
+        "hash": "sha256-npjCVmWQmFPAeHQwESRIJ1RDRSCrVyrGoi6QNm3maFs=",
+        "type": "crates-io"
+      }
+    }
+  }
+}
