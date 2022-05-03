@@ -50,7 +50,7 @@ fn main() {
 
     let mut succeeded_crates = Index::default();
     while let Ok((name, version)) = rx_success.try_recv() {
-        succeeded_crates.entry(name).or_default().push(version);
+        succeeded_crates.entry(name).or_default().insert(version);
     }
 
     println!(

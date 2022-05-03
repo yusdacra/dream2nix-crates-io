@@ -1,7 +1,7 @@
 #![deny(rust_2018_idioms)]
 
 /// A mapping of a crates name to its identifier used in source code
-pub type Index = std::collections::HashMap<String, Vec<String>>;
+pub type Index = std::collections::BTreeMap<String, std::collections::BTreeSet<String>>;
 
 #[cfg(feature = "gen")]
 pub use self::indexer::{Indexer, Modifications, Settings};
@@ -163,7 +163,7 @@ mod indexer {
                 index
                     .entry(summary.name().to_string())
                     .or_default()
-                    .push(summary.version().to_string());
+                    .insert(summary.version().to_string());
             }
 
             index
