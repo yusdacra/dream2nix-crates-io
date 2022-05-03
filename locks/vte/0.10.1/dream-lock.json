@@ -1,0 +1,118 @@
+{
+  "_generic": {
+    "defaultPackage": "vte",
+    "location": "",
+    "packages": {
+      "vte": "0.10.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro2": {
+      "1.0.26": [
+        [
+          "unicode-xid",
+          "0.2.1"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.9": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ]
+      ]
+    },
+    "vte": {
+      "0.10.1": [
+        [
+          "arrayvec",
+          "0.5.2"
+        ],
+        [
+          "utf8parse",
+          "0.2.0"
+        ],
+        [
+          "vte_generate_state_changes",
+          "0.1.1"
+        ]
+      ]
+    },
+    "vte_generate_state_changes": {
+      "0.1.1": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "arrayvec": {
+      "0.5.2": {
+        "hash": "23b62fc65de8e4e7f52534fb52b0f3ed04746ae267519eef2a83941e8085068b",
+        "name": "arrayvec",
+        "type": "crates-io",
+        "version": "0.5.2"
+      }
+    },
+    "proc-macro2": {
+      "1.0.26": {
+        "hash": "a152013215dca273577e18d2bf00fa862b89b24169fb78c4c95aeb07992c9cec",
+        "name": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.26"
+      }
+    },
+    "quote": {
+      "1.0.9": {
+        "hash": "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7",
+        "name": "quote",
+        "type": "crates-io",
+        "version": "1.0.9"
+      }
+    },
+    "unicode-xid": {
+      "0.2.1": {
+        "hash": "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564",
+        "name": "unicode-xid",
+        "type": "crates-io",
+        "version": "0.2.1"
+      }
+    },
+    "utf8parse": {
+      "0.2.0": {
+        "hash": "936e4b492acfd135421d8dca4b1aa80a7bfc26e702ef3af710e0752684df5372",
+        "name": "utf8parse",
+        "type": "crates-io",
+        "version": "0.2.0"
+      }
+    },
+    "vte": {
+      "0.10.1": {
+        "hash": "sha256-bLzmkqtMovHzBH/PcyQwJJwOlxv90rI0zyxHrZOvWYM=",
+        "type": "crates-io"
+      }
+    },
+    "vte_generate_state_changes": {
+      "0.1.1": {
+        "hash": "d257817081c7dffcdbab24b9e62d2def62e2ff7d00b1c20062551e6cccc145ff",
+        "name": "vte_generate_state_changes",
+        "type": "crates-io",
+        "version": "0.1.1"
+      }
+    }
+  }
+}

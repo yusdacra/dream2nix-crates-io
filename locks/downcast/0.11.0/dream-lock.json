@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "downcast",
+    "location": "",
+    "packages": {
+      "downcast": "0.11.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "downcast": {
+      "0.11.0": {
+        "hash": "sha256-FDX6EFPYsvu+m+fpfsp/M9N7KECZWYE9rvwURqFCR/E=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

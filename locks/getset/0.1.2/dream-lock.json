@@ -1,0 +1,174 @@
+{
+  "_generic": {
+    "defaultPackage": "getset",
+    "location": "",
+    "packages": {
+      "getset": "0.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "getset": {
+      "0.1.2": [
+        [
+          "proc-macro-error",
+          "1.0.4"
+        ],
+        [
+          "proc-macro2",
+          "1.0.32"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.82"
+        ]
+      ]
+    },
+    "proc-macro-error": {
+      "1.0.4": [
+        [
+          "proc-macro-error-attr",
+          "1.0.4"
+        ],
+        [
+          "proc-macro2",
+          "1.0.32"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.82"
+        ],
+        [
+          "version_check",
+          "0.9.3"
+        ]
+      ]
+    },
+    "proc-macro-error-attr": {
+      "1.0.4": [
+        [
+          "proc-macro2",
+          "1.0.32"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "version_check",
+          "0.9.3"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.32": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.10": [
+        [
+          "proc-macro2",
+          "1.0.32"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.82": [
+        [
+          "proc-macro2",
+          "1.0.32"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "getset": {
+      "0.1.2": {
+        "hash": "sha256-5FcnJQ51zAT/KEamY5fajvKz245A4M7032eVCgdiHrk=",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro-error": {
+      "1.0.4": {
+        "hash": "da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c",
+        "name": "proc-macro-error",
+        "type": "crates-io",
+        "version": "1.0.4"
+      }
+    },
+    "proc-macro-error-attr": {
+      "1.0.4": {
+        "hash": "a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869",
+        "name": "proc-macro-error-attr",
+        "type": "crates-io",
+        "version": "1.0.4"
+      }
+    },
+    "proc-macro2": {
+      "1.0.32": {
+        "hash": "ba508cc11742c0dc5c1659771673afbab7a0efab23aa17e854cbab0837ed0b43",
+        "name": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.32"
+      }
+    },
+    "quote": {
+      "1.0.10": {
+        "hash": "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05",
+        "name": "quote",
+        "type": "crates-io",
+        "version": "1.0.10"
+      }
+    },
+    "syn": {
+      "1.0.82": {
+        "hash": "8daf5dd0bb60cbd4137b1b587d2fc0ae729bc07cf01cd70b36a1ed5ade3b9d59",
+        "name": "syn",
+        "type": "crates-io",
+        "version": "1.0.82"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "name": "unicode-xid",
+        "type": "crates-io",
+        "version": "0.2.2"
+      }
+    },
+    "version_check": {
+      "0.9.3": {
+        "hash": "5fecdca9a5291cc2b8dcf7dc02453fee791a280f3743cb0905f8822ae463b3fe",
+        "name": "version_check",
+        "type": "crates-io",
+        "version": "0.9.3"
+      }
+    }
+  }
+}

@@ -1,0 +1,1182 @@
+{
+  "_generic": {
+    "defaultPackage": "smithay-client-toolkit",
+    "location": "",
+    "packages": {
+      "smithay-client-toolkit": "0.15.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "calloop": {
+      "0.9.3": [
+        [
+          "log",
+          "0.4.14"
+        ],
+        [
+          "nix",
+          "0.22.3"
+        ]
+      ]
+    },
+    "crc32fast": {
+      "1.3.1": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ]
+      ]
+    },
+    "crossbeam-channel": {
+      "0.5.2": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "crossbeam-utils",
+          "0.8.6"
+        ]
+      ]
+    },
+    "crossbeam-deque": {
+      "0.8.1": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "crossbeam-epoch",
+          "0.9.6"
+        ],
+        [
+          "crossbeam-utils",
+          "0.8.6"
+        ]
+      ]
+    },
+    "crossbeam-epoch": {
+      "0.9.6": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "crossbeam-utils",
+          "0.8.6"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "memoffset",
+          "0.6.5"
+        ],
+        [
+          "scopeguard",
+          "1.1.0"
+        ]
+      ]
+    },
+    "crossbeam-utils": {
+      "0.8.6": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ]
+      ]
+    },
+    "deflate": {
+      "0.8.6": [
+        [
+          "adler32",
+          "1.2.0"
+        ],
+        [
+          "byteorder",
+          "1.4.3"
+        ]
+      ]
+    },
+    "dlib": {
+      "0.5.0": [
+        [
+          "libloading",
+          "0.7.3"
+        ]
+      ]
+    },
+    "gif": {
+      "0.11.3": [
+        [
+          "color_quant",
+          "1.1.0"
+        ],
+        [
+          "weezl",
+          "0.1.5"
+        ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.19": [
+        [
+          "libc",
+          "0.2.117"
+        ]
+      ]
+    },
+    "image": {
+      "0.23.14": [
+        [
+          "bytemuck",
+          "1.7.3"
+        ],
+        [
+          "byteorder",
+          "1.4.3"
+        ],
+        [
+          "color_quant",
+          "1.1.0"
+        ],
+        [
+          "gif",
+          "0.11.3"
+        ],
+        [
+          "jpeg-decoder",
+          "0.1.22"
+        ],
+        [
+          "num-iter",
+          "0.1.42"
+        ],
+        [
+          "num-rational",
+          "0.3.2"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ],
+        [
+          "png",
+          "0.16.8"
+        ],
+        [
+          "scoped_threadpool",
+          "0.1.9"
+        ],
+        [
+          "tiff",
+          "0.6.1"
+        ]
+      ]
+    },
+    "jpeg-decoder": {
+      "0.1.22": [
+        [
+          "rayon",
+          "1.5.1"
+        ]
+      ]
+    },
+    "libloading": {
+      "0.7.3": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.14": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ]
+      ]
+    },
+    "memmap2": {
+      "0.3.1": [
+        [
+          "libc",
+          "0.2.117"
+        ]
+      ]
+    },
+    "memoffset": {
+      "0.6.5": [
+        [
+          "autocfg",
+          "1.0.1"
+        ]
+      ]
+    },
+    "miniz_oxide": {
+      "0.3.7": [
+        [
+          "adler32",
+          "1.2.0"
+        ]
+      ],
+      "0.4.4": [
+        [
+          "adler",
+          "1.0.2"
+        ],
+        [
+          "autocfg",
+          "1.0.1"
+        ]
+      ]
+    },
+    "nix": {
+      "0.22.3": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "cc",
+          "1.0.72"
+        ],
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "libc",
+          "0.2.117"
+        ],
+        [
+          "memoffset",
+          "0.6.5"
+        ]
+      ]
+    },
+    "nom": {
+      "7.1.0": [
+        [
+          "memchr",
+          "2.4.1"
+        ],
+        [
+          "minimal-lexical",
+          "0.2.1"
+        ],
+        [
+          "version_check",
+          "0.9.4"
+        ]
+      ]
+    },
+    "num-integer": {
+      "0.1.44": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "num-iter": {
+      "0.1.42": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "num-integer",
+          "0.1.44"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "num-rational": {
+      "0.3.2": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "num-integer",
+          "0.1.44"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "num-traits": {
+      "0.2.14": [
+        [
+          "autocfg",
+          "1.0.1"
+        ]
+      ]
+    },
+    "num_cpus": {
+      "1.13.1": [
+        [
+          "hermit-abi",
+          "0.1.19"
+        ],
+        [
+          "libc",
+          "0.2.117"
+        ]
+      ]
+    },
+    "png": {
+      "0.16.8": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "crc32fast",
+          "1.3.1"
+        ],
+        [
+          "deflate",
+          "0.8.6"
+        ],
+        [
+          "miniz_oxide",
+          "0.3.7"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.36": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.15": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ]
+      ]
+    },
+    "rayon": {
+      "1.5.1": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "crossbeam-deque",
+          "0.8.1"
+        ],
+        [
+          "either",
+          "1.6.1"
+        ],
+        [
+          "rayon-core",
+          "1.9.1"
+        ]
+      ]
+    },
+    "rayon-core": {
+      "1.9.1": [
+        [
+          "crossbeam-channel",
+          "0.5.2"
+        ],
+        [
+          "crossbeam-deque",
+          "0.8.1"
+        ],
+        [
+          "crossbeam-utils",
+          "0.8.6"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "num_cpus",
+          "1.13.1"
+        ]
+      ]
+    },
+    "smithay-client-toolkit": {
+      "0.15.4": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "calloop",
+          "0.9.3"
+        ],
+        [
+          "dlib",
+          "0.5.0"
+        ],
+        [
+          "image",
+          "0.23.14"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "log",
+          "0.4.14"
+        ],
+        [
+          "memmap2",
+          "0.3.1"
+        ],
+        [
+          "nix",
+          "0.22.3"
+        ],
+        [
+          "pkg-config",
+          "0.3.24"
+        ],
+        [
+          "wayland-client",
+          "0.29.4"
+        ],
+        [
+          "wayland-cursor",
+          "0.29.4"
+        ],
+        [
+          "wayland-protocols",
+          "0.29.4"
+        ]
+      ]
+    },
+    "tiff": {
+      "0.6.1": [
+        [
+          "jpeg-decoder",
+          "0.1.22"
+        ],
+        [
+          "miniz_oxide",
+          "0.4.4"
+        ],
+        [
+          "weezl",
+          "0.1.5"
+        ]
+      ]
+    },
+    "wayland-client": {
+      "0.29.4": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "downcast-rs",
+          "1.2.0"
+        ],
+        [
+          "libc",
+          "0.2.117"
+        ],
+        [
+          "nix",
+          "0.22.3"
+        ],
+        [
+          "scoped-tls",
+          "1.0.0"
+        ],
+        [
+          "wayland-commons",
+          "0.29.4"
+        ],
+        [
+          "wayland-scanner",
+          "0.29.4"
+        ],
+        [
+          "wayland-sys",
+          "0.29.4"
+        ]
+      ]
+    },
+    "wayland-commons": {
+      "0.29.4": [
+        [
+          "nix",
+          "0.22.3"
+        ],
+        [
+          "once_cell",
+          "1.10.0"
+        ],
+        [
+          "smallvec",
+          "1.8.0"
+        ],
+        [
+          "wayland-sys",
+          "0.29.4"
+        ]
+      ]
+    },
+    "wayland-cursor": {
+      "0.29.4": [
+        [
+          "nix",
+          "0.22.3"
+        ],
+        [
+          "wayland-client",
+          "0.29.4"
+        ],
+        [
+          "xcursor",
+          "0.3.4"
+        ]
+      ]
+    },
+    "wayland-protocols": {
+      "0.29.4": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "wayland-client",
+          "0.29.4"
+        ],
+        [
+          "wayland-commons",
+          "0.29.4"
+        ],
+        [
+          "wayland-scanner",
+          "0.29.4"
+        ]
+      ]
+    },
+    "wayland-scanner": {
+      "0.29.4": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.15"
+        ],
+        [
+          "xml-rs",
+          "0.8.4"
+        ]
+      ]
+    },
+    "wayland-sys": {
+      "0.29.4": [
+        [
+          "dlib",
+          "0.5.0"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "pkg-config",
+          "0.3.24"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    },
+    "xcursor": {
+      "0.3.4": [
+        [
+          "nom",
+          "7.1.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "name": "adler",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
+    "adler32": {
+      "1.2.0": {
+        "hash": "aae1277d39aeec15cb388266ecc24b11c80469deae6067e17a1a7aa9e5c1f234",
+        "name": "adler32",
+        "type": "crates-io",
+        "version": "1.2.0"
+      }
+    },
+    "autocfg": {
+      "1.0.1": {
+        "hash": "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a",
+        "name": "autocfg",
+        "type": "crates-io",
+        "version": "1.0.1"
+      }
+    },
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "name": "bitflags",
+        "type": "crates-io",
+        "version": "1.3.2"
+      }
+    },
+    "bytemuck": {
+      "1.7.3": {
+        "hash": "439989e6b8c38d1b6570a384ef1e49c8848128f5a97f3914baef02920842712f",
+        "name": "bytemuck",
+        "type": "crates-io",
+        "version": "1.7.3"
+      }
+    },
+    "byteorder": {
+      "1.4.3": {
+        "hash": "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610",
+        "name": "byteorder",
+        "type": "crates-io",
+        "version": "1.4.3"
+      }
+    },
+    "calloop": {
+      "0.9.3": {
+        "hash": "bf2eec61efe56aa1e813f5126959296933cf0700030e4314786c48779a66ab82",
+        "name": "calloop",
+        "type": "crates-io",
+        "version": "0.9.3"
+      }
+    },
+    "cc": {
+      "1.0.72": {
+        "hash": "22a9137b95ea06864e018375b72adfb7db6e6f68cfc8df5a04d00288050485ee",
+        "name": "cc",
+        "type": "crates-io",
+        "version": "1.0.72"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "name": "cfg-if",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
+    "color_quant": {
+      "1.1.0": {
+        "hash": "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b",
+        "name": "color_quant",
+        "type": "crates-io",
+        "version": "1.1.0"
+      }
+    },
+    "crc32fast": {
+      "1.3.1": {
+        "hash": "a2209c310e29876f7f0b2721e7e26b84aff178aa3da5d091f9bfbf47669e60e3",
+        "name": "crc32fast",
+        "type": "crates-io",
+        "version": "1.3.1"
+      }
+    },
+    "crossbeam-channel": {
+      "0.5.2": {
+        "hash": "e54ea8bc3fb1ee042f5aace6e3c6e025d3874866da222930f70ce62aceba0bfa",
+        "name": "crossbeam-channel",
+        "type": "crates-io",
+        "version": "0.5.2"
+      }
+    },
+    "crossbeam-deque": {
+      "0.8.1": {
+        "hash": "6455c0ca19f0d2fbf751b908d5c55c1f5cbc65e03c4225427254b46890bdde1e",
+        "name": "crossbeam-deque",
+        "type": "crates-io",
+        "version": "0.8.1"
+      }
+    },
+    "crossbeam-epoch": {
+      "0.9.6": {
+        "hash": "97242a70df9b89a65d0b6df3c4bf5b9ce03c5b7309019777fbde37e7537f8762",
+        "name": "crossbeam-epoch",
+        "type": "crates-io",
+        "version": "0.9.6"
+      }
+    },
+    "crossbeam-utils": {
+      "0.8.6": {
+        "hash": "cfcae03edb34f947e64acdb1c33ec169824e20657e9ecb61cef6c8c74dcb8120",
+        "name": "crossbeam-utils",
+        "type": "crates-io",
+        "version": "0.8.6"
+      }
+    },
+    "deflate": {
+      "0.8.6": {
+        "hash": "73770f8e1fe7d64df17ca66ad28994a0a623ea497fa69486e14984e715c5d174",
+        "name": "deflate",
+        "type": "crates-io",
+        "version": "0.8.6"
+      }
+    },
+    "dlib": {
+      "0.5.0": {
+        "hash": "ac1b7517328c04c2aa68422fc60a41b92208182142ed04a25879c26c8f878794",
+        "name": "dlib",
+        "type": "crates-io",
+        "version": "0.5.0"
+      }
+    },
+    "downcast-rs": {
+      "1.2.0": {
+        "hash": "9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650",
+        "name": "downcast-rs",
+        "type": "crates-io",
+        "version": "1.2.0"
+      }
+    },
+    "either": {
+      "1.6.1": {
+        "hash": "e78d4f1cc4ae33bbfc157ed5d5a5ef3bc29227303d595861deb238fcec4e9457",
+        "name": "either",
+        "type": "crates-io",
+        "version": "1.6.1"
+      }
+    },
+    "gif": {
+      "0.11.3": {
+        "hash": "c3a7187e78088aead22ceedeee99779455b23fc231fe13ec443f99bb71694e5b",
+        "name": "gif",
+        "type": "crates-io",
+        "version": "0.11.3"
+      }
+    },
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "name": "hermit-abi",
+        "type": "crates-io",
+        "version": "0.1.19"
+      }
+    },
+    "image": {
+      "0.23.14": {
+        "hash": "24ffcb7e7244a9bf19d35bf2883b9c080c4ced3c07a9895572178cdb8f13f6a1",
+        "name": "image",
+        "type": "crates-io",
+        "version": "0.23.14"
+      }
+    },
+    "jpeg-decoder": {
+      "0.1.22": {
+        "hash": "229d53d58899083193af11e15917b5640cd40b29ff475a1fe4ef725deb02d0f2",
+        "name": "jpeg-decoder",
+        "type": "crates-io",
+        "version": "0.1.22"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "name": "lazy_static",
+        "type": "crates-io",
+        "version": "1.4.0"
+      }
+    },
+    "libc": {
+      "0.2.117": {
+        "hash": "e74d72e0f9b65b5b4ca49a346af3976df0f9c61d550727f349ecd559f251a26c",
+        "name": "libc",
+        "type": "crates-io",
+        "version": "0.2.117"
+      }
+    },
+    "libloading": {
+      "0.7.3": {
+        "hash": "efbc0f03f9a775e9f6aed295c6a1ba2253c5757a9e03d55c6caa46a681abcddd",
+        "name": "libloading",
+        "type": "crates-io",
+        "version": "0.7.3"
+      }
+    },
+    "log": {
+      "0.4.14": {
+        "hash": "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710",
+        "name": "log",
+        "type": "crates-io",
+        "version": "0.4.14"
+      }
+    },
+    "memchr": {
+      "2.4.1": {
+        "hash": "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a",
+        "name": "memchr",
+        "type": "crates-io",
+        "version": "2.4.1"
+      }
+    },
+    "memmap2": {
+      "0.3.1": {
+        "hash": "00b6c2ebff6180198788f5db08d7ce3bc1d0b617176678831a7510825973e357",
+        "name": "memmap2",
+        "type": "crates-io",
+        "version": "0.3.1"
+      }
+    },
+    "memoffset": {
+      "0.6.5": {
+        "hash": "5aa361d4faea93603064a027415f07bd8e1d5c88c9fbf68bf56a285428fd79ce",
+        "name": "memoffset",
+        "type": "crates-io",
+        "version": "0.6.5"
+      }
+    },
+    "minimal-lexical": {
+      "0.2.1": {
+        "hash": "68354c5c6bd36d73ff3feceb05efa59b6acb7626617f4962be322a825e61f79a",
+        "name": "minimal-lexical",
+        "type": "crates-io",
+        "version": "0.2.1"
+      }
+    },
+    "miniz_oxide": {
+      "0.3.7": {
+        "hash": "791daaae1ed6889560f8c4359194f56648355540573244a5448a83ba1ecc7435",
+        "name": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.3.7"
+      },
+      "0.4.4": {
+        "hash": "a92518e98c078586bc6c934028adcca4c92a53d6a958196de835170a01d84e4b",
+        "name": "miniz_oxide",
+        "type": "crates-io",
+        "version": "0.4.4"
+      }
+    },
+    "nix": {
+      "0.22.3": {
+        "hash": "e4916f159ed8e5de0082076562152a76b7a1f64a01fd9d1e0fea002c37624faf",
+        "name": "nix",
+        "type": "crates-io",
+        "version": "0.22.3"
+      }
+    },
+    "nom": {
+      "7.1.0": {
+        "hash": "1b1d11e1ef389c76fe5b81bcaf2ea32cf88b62bc494e19f493d0b30e7a930109",
+        "name": "nom",
+        "type": "crates-io",
+        "version": "7.1.0"
+      }
+    },
+    "num-integer": {
+      "0.1.44": {
+        "hash": "d2cc698a63b549a70bc047073d2949cce27cd1c7b0a4a862d08a8031bc2801db",
+        "name": "num-integer",
+        "type": "crates-io",
+        "version": "0.1.44"
+      }
+    },
+    "num-iter": {
+      "0.1.42": {
+        "hash": "b2021c8337a54d21aca0d59a92577a029af9431cb59b909b03252b9c164fad59",
+        "name": "num-iter",
+        "type": "crates-io",
+        "version": "0.1.42"
+      }
+    },
+    "num-rational": {
+      "0.3.2": {
+        "hash": "12ac428b1cb17fce6f731001d307d351ec70a6d202fc2e60f7d4c5e42d8f4f07",
+        "name": "num-rational",
+        "type": "crates-io",
+        "version": "0.3.2"
+      }
+    },
+    "num-traits": {
+      "0.2.14": {
+        "hash": "9a64b1ec5cda2586e284722486d802acf1f7dbdc623e2bfc57e65ca1cd099290",
+        "name": "num-traits",
+        "type": "crates-io",
+        "version": "0.2.14"
+      }
+    },
+    "num_cpus": {
+      "1.13.1": {
+        "hash": "19e64526ebdee182341572e50e9ad03965aa510cd94427a4549448f285e957a1",
+        "name": "num_cpus",
+        "type": "crates-io",
+        "version": "1.13.1"
+      }
+    },
+    "once_cell": {
+      "1.10.0": {
+        "hash": "87f3e037eac156d1775da914196f0f37741a274155e34a0b7e427c35d2a2ecb9",
+        "name": "once_cell",
+        "type": "crates-io",
+        "version": "1.10.0"
+      }
+    },
+    "pkg-config": {
+      "0.3.24": {
+        "hash": "58893f751c9b0412871a09abd62ecd2a00298c6c83befa223ef98c52aef40cbe",
+        "name": "pkg-config",
+        "type": "crates-io",
+        "version": "0.3.24"
+      }
+    },
+    "png": {
+      "0.16.8": {
+        "hash": "3c3287920cb847dee3de33d301c463fba14dda99db24214ddf93f83d3021f4c6",
+        "name": "png",
+        "type": "crates-io",
+        "version": "0.16.8"
+      }
+    },
+    "proc-macro2": {
+      "1.0.36": {
+        "hash": "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029",
+        "name": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.36"
+      }
+    },
+    "quote": {
+      "1.0.15": {
+        "hash": "864d3e96a899863136fc6e99f3d7cae289dafe43bf2c5ac19b70df7210c0a145",
+        "name": "quote",
+        "type": "crates-io",
+        "version": "1.0.15"
+      }
+    },
+    "rayon": {
+      "1.5.1": {
+        "hash": "c06aca804d41dbc8ba42dfd964f0d01334eceb64314b9ecf7c5fad5188a06d90",
+        "name": "rayon",
+        "type": "crates-io",
+        "version": "1.5.1"
+      }
+    },
+    "rayon-core": {
+      "1.9.1": {
+        "hash": "d78120e2c850279833f1dd3582f730c4ab53ed95aeaaaa862a2a5c71b1656d8e",
+        "name": "rayon-core",
+        "type": "crates-io",
+        "version": "1.9.1"
+      }
+    },
+    "scoped-tls": {
+      "1.0.0": {
+        "hash": "ea6a9290e3c9cf0f18145ef7ffa62d68ee0bf5fcd651017e586dc7fd5da448c2",
+        "name": "scoped-tls",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
+    "scoped_threadpool": {
+      "0.1.9": {
+        "hash": "1d51f5df5af43ab3f1360b429fa5e0152ac5ce8c0bd6485cae490332e96846a8",
+        "name": "scoped_threadpool",
+        "type": "crates-io",
+        "version": "0.1.9"
+      }
+    },
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
+        "name": "scopeguard",
+        "type": "crates-io",
+        "version": "1.1.0"
+      }
+    },
+    "smallvec": {
+      "1.8.0": {
+        "hash": "f2dd574626839106c320a323308629dcb1acfc96e32a8cba364ddc61ac23ee83",
+        "name": "smallvec",
+        "type": "crates-io",
+        "version": "1.8.0"
+      }
+    },
+    "smithay-client-toolkit": {
+      "0.15.4": {
+        "hash": "sha256-iijxapf6DozlY7J3TR5zLdXUAl0ncsXboKQaD5CinaM=",
+        "type": "crates-io"
+      }
+    },
+    "tiff": {
+      "0.6.1": {
+        "hash": "9a53f4706d65497df0c4349241deddf35f84cee19c87ed86ea8ca590f4464437",
+        "name": "tiff",
+        "type": "crates-io",
+        "version": "0.6.1"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "name": "unicode-xid",
+        "type": "crates-io",
+        "version": "0.2.2"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "name": "version_check",
+        "type": "crates-io",
+        "version": "0.9.4"
+      }
+    },
+    "wayland-client": {
+      "0.29.4": {
+        "hash": "91223460e73257f697d9e23d401279123d36039a3f7a449e983f123292d4458f",
+        "name": "wayland-client",
+        "type": "crates-io",
+        "version": "0.29.4"
+      }
+    },
+    "wayland-commons": {
+      "0.29.4": {
+        "hash": "94f6e5e340d7c13490eca867898c4cec5af56c27a5ffe5c80c6fc4708e22d33e",
+        "name": "wayland-commons",
+        "type": "crates-io",
+        "version": "0.29.4"
+      }
+    },
+    "wayland-cursor": {
+      "0.29.4": {
+        "hash": "c52758f13d5e7861fc83d942d3d99bf270c83269575e52ac29e5b73cb956a6bd",
+        "name": "wayland-cursor",
+        "type": "crates-io",
+        "version": "0.29.4"
+      }
+    },
+    "wayland-protocols": {
+      "0.29.4": {
+        "hash": "60147ae23303402e41fe034f74fb2c35ad0780ee88a1c40ac09a3be1e7465741",
+        "name": "wayland-protocols",
+        "type": "crates-io",
+        "version": "0.29.4"
+      }
+    },
+    "wayland-scanner": {
+      "0.29.4": {
+        "hash": "39a1ed3143f7a143187156a2ab52742e89dac33245ba505c17224df48939f9e0",
+        "name": "wayland-scanner",
+        "type": "crates-io",
+        "version": "0.29.4"
+      }
+    },
+    "wayland-sys": {
+      "0.29.4": {
+        "hash": "d9341df79a8975679188e37dab3889bfa57c44ac2cb6da166f519a81cbe452d4",
+        "name": "wayland-sys",
+        "type": "crates-io",
+        "version": "0.29.4"
+      }
+    },
+    "weezl": {
+      "0.1.5": {
+        "hash": "d8b77fdfd5a253be4ab714e4ffa3c49caf146b4de743e97510c0656cf90f1e8e",
+        "name": "weezl",
+        "type": "crates-io",
+        "version": "0.1.5"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "name": "winapi",
+        "type": "crates-io",
+        "version": "0.3.9"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "name": "winapi-i686-pc-windows-gnu",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "name": "winapi-x86_64-pc-windows-gnu",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "xcursor": {
+      "0.3.4": {
+        "hash": "463705a63313cd4301184381c5e8042f0a7e9b4bb63653f216311d4ae74690b7",
+        "name": "xcursor",
+        "type": "crates-io",
+        "version": "0.3.4"
+      }
+    },
+    "xml-rs": {
+      "0.8.4": {
+        "hash": "d2d7d3948613f75c98fd9328cfdcc45acc4d360655289d0a7d4ec931392200a3",
+        "name": "xml-rs",
+        "type": "crates-io",
+        "version": "0.8.4"
+      }
+    }
+  }
+}

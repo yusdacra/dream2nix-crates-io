@@ -1,0 +1,42 @@
+{
+  "_generic": {
+    "defaultPackage": "psm",
+    "location": "",
+    "packages": {
+      "psm": "0.1.18"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "psm": {
+      "0.1.18": [
+        [
+          "cc",
+          "1.0.73"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "name": "cc",
+        "type": "crates-io",
+        "version": "1.0.73"
+      }
+    },
+    "psm": {
+      "0.1.18": {
+        "hash": "sha256-hxNyOReGzOwA08XT1mCJBbPU2yY2Oc/gddO2CnNtEVo=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

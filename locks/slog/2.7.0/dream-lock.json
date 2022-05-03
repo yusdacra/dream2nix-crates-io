@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "slog",
+    "location": "",
+    "packages": {
+      "slog": "2.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "erased-serde": {
+      "0.3.3": [
+        [
+          "serde",
+          "1.0.70"
+        ]
+      ]
+    },
+    "slog": {
+      "2.7.0": [
+        [
+          "erased-serde",
+          "0.3.3"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "erased-serde": {
+      "0.3.3": {
+        "hash": "c564e32677839f1c551664c478e079c9b128a1a2d223180bffb2ddfabeded0be",
+        "name": "erased-serde",
+        "type": "crates-io",
+        "version": "0.3.3"
+      }
+    },
+    "serde": {
+      "1.0.70": {
+        "hash": "0c3adf19c07af6d186d91dae8927b83b0553d07ca56cbf7f2f32560455c91920",
+        "name": "serde",
+        "type": "crates-io",
+        "version": "1.0.70"
+      }
+    },
+    "slog": {
+      "2.7.0": {
+        "hash": "sha256-g0cEbU69lDEnFXuU1jq7mQ/Pcp3E6ZeJJ/30rDyZjQY=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

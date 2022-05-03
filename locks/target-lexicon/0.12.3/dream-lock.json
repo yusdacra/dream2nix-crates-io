@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "target-lexicon",
+    "location": "",
+    "packages": {
+      "target-lexicon": "0.12.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "target-lexicon": {
+      "0.12.3": {
+        "hash": "sha256-1/p+VQQ6y4X8prPAFIWi7ra2nF0hAC4nPHnkZfQ7esE=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

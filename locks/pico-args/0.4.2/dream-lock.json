@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "pico-args",
+    "location": "",
+    "packages": {
+      "pico-args": "0.4.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "pico-args": {
+      "0.4.2": {
+        "hash": "sha256-24vNlst0DQMUnLrVUY25/YcSahCrUZwBGJOxdUE0xGg=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

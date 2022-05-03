@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "version-compare",
+    "location": "",
+    "packages": {
+      "version-compare": "0.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "version-compare": {
+      "0.1.0": {
+        "hash": "sha256-/ogke5LB32tt6A3cKQ85dtvfL19dP9BJqftZjG3VynM=",
+        "type": "crates-io"
+      }
+    }
+  }
+}

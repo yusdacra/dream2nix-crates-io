@@ -1,0 +1,414 @@
+{
+  "_generic": {
+    "defaultPackage": "integer-encoding",
+    "location": "",
+    "packages": {
+      "integer-encoding": "3.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async-trait": {
+      "0.1.24": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.86"
+        ]
+      ]
+    },
+    "futures-macro": {
+      "0.3.4": [
+        [
+          "proc-macro-hack",
+          "0.5.11"
+        ],
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.86"
+        ]
+      ]
+    },
+    "futures-util": {
+      "0.3.4": [
+        [
+          "futures-core",
+          "0.3.4"
+        ],
+        [
+          "futures-io",
+          "0.3.4"
+        ],
+        [
+          "futures-macro",
+          "0.3.4"
+        ],
+        [
+          "futures-task",
+          "0.3.4"
+        ],
+        [
+          "memchr",
+          "2.3.3"
+        ],
+        [
+          "pin-utils",
+          "0.1.0-alpha.4"
+        ],
+        [
+          "proc-macro-hack",
+          "0.5.11"
+        ],
+        [
+          "proc-macro-nested",
+          "0.1.3"
+        ],
+        [
+          "slab",
+          "0.4.2"
+        ]
+      ]
+    },
+    "hermit-abi": {
+      "0.1.8": [
+        [
+          "libc",
+          "0.2.67"
+        ]
+      ]
+    },
+    "integer-encoding": {
+      "3.0.3": [
+        [
+          "async-trait",
+          "0.1.24"
+        ],
+        [
+          "bencher",
+          "0.1.5"
+        ],
+        [
+          "futures-util",
+          "0.3.4"
+        ],
+        [
+          "tokio",
+          "1.15.0"
+        ]
+      ]
+    },
+    "num_cpus": {
+      "1.12.0": [
+        [
+          "hermit-abi",
+          "0.1.8"
+        ],
+        [
+          "libc",
+          "0.2.67"
+        ]
+      ]
+    },
+    "proc-macro-hack": {
+      "0.5.11": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.86"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.36": [
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.2": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.86": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    },
+    "tokio": {
+      "1.15.0": [
+        [
+          "bytes",
+          "1.1.0"
+        ],
+        [
+          "memchr",
+          "2.3.3"
+        ],
+        [
+          "num_cpus",
+          "1.12.0"
+        ],
+        [
+          "pin-project-lite",
+          "0.2.8"
+        ],
+        [
+          "tokio-macros",
+          "1.7.0"
+        ]
+      ]
+    },
+    "tokio-macros": {
+      "1.7.0": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.86"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "async-trait": {
+      "0.1.24": {
+        "hash": "750b1c38a1dfadd108da0f01c08f4cdc7ff1bb39b325f9c82cc972361780a6e1",
+        "name": "async-trait",
+        "type": "crates-io",
+        "version": "0.1.24"
+      }
+    },
+    "bencher": {
+      "0.1.5": {
+        "hash": "7dfdb4953a096c551ce9ace855a604d702e6e62d77fac690575ae347571717f5",
+        "name": "bencher",
+        "type": "crates-io",
+        "version": "0.1.5"
+      }
+    },
+    "bytes": {
+      "1.1.0": {
+        "hash": "c4872d67bab6358e59559027aa3b9157c53d9358c51423c17554809a8858e0f8",
+        "name": "bytes",
+        "type": "crates-io",
+        "version": "1.1.0"
+      }
+    },
+    "futures-core": {
+      "0.3.4": {
+        "hash": "f25592f769825e89b92358db00d26f965761e094951ac44d3663ef25b7ac464a",
+        "name": "futures-core",
+        "type": "crates-io",
+        "version": "0.3.4"
+      }
+    },
+    "futures-io": {
+      "0.3.4": {
+        "hash": "a638959aa96152c7a4cddf50fcb1e3fede0583b27157c26e67d6f99904090dc6",
+        "name": "futures-io",
+        "type": "crates-io",
+        "version": "0.3.4"
+      }
+    },
+    "futures-macro": {
+      "0.3.4": {
+        "hash": "9a5081aa3de1f7542a794a397cde100ed903b0630152d0973479018fd85423a7",
+        "name": "futures-macro",
+        "type": "crates-io",
+        "version": "0.3.4"
+      }
+    },
+    "futures-task": {
+      "0.3.4": {
+        "hash": "7b0a34e53cf6cdcd0178aa573aed466b646eb3db769570841fda0c7ede375a27",
+        "name": "futures-task",
+        "type": "crates-io",
+        "version": "0.3.4"
+      }
+    },
+    "futures-util": {
+      "0.3.4": {
+        "hash": "22766cf25d64306bedf0384da004d05c9974ab104fcc4528f1236181c18004c5",
+        "name": "futures-util",
+        "type": "crates-io",
+        "version": "0.3.4"
+      }
+    },
+    "hermit-abi": {
+      "0.1.8": {
+        "hash": "1010591b26bbfe835e9faeabeb11866061cc7dcebffd56ad7d0942d0e61aefd8",
+        "name": "hermit-abi",
+        "type": "crates-io",
+        "version": "0.1.8"
+      }
+    },
+    "integer-encoding": {
+      "3.0.3": {
+        "hash": "sha256-DoWhUJoSjIVTaOE1z/zefqwX2OEIP0HiuYxYvBpQdL4=",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.67": {
+        "hash": "eb147597cdf94ed43ab7a9038716637d2d1bf2bc571da995d0028dec06bd3018",
+        "name": "libc",
+        "type": "crates-io",
+        "version": "0.2.67"
+      }
+    },
+    "memchr": {
+      "2.3.3": {
+        "hash": "3728d817d99e5ac407411fa471ff9800a778d88a24685968b36824eaf4bee400",
+        "name": "memchr",
+        "type": "crates-io",
+        "version": "2.3.3"
+      }
+    },
+    "num_cpus": {
+      "1.12.0": {
+        "hash": "46203554f085ff89c235cd12f7075f3233af9b11ed7c9e16dfe2560d03313ce6",
+        "name": "num_cpus",
+        "type": "crates-io",
+        "version": "1.12.0"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.8": {
+        "hash": "e280fbe77cc62c91527259e9442153f4688736748d24660126286329742b4c6c",
+        "name": "pin-project-lite",
+        "type": "crates-io",
+        "version": "0.2.8"
+      }
+    },
+    "pin-utils": {
+      "0.1.0-alpha.4": {
+        "hash": "5894c618ce612a3fa23881b152b608bafb8c56cfc22f434a3ba3120b40f7b587",
+        "name": "pin-utils",
+        "type": "crates-io",
+        "version": "0.1.0-alpha.4"
+      }
+    },
+    "proc-macro-hack": {
+      "0.5.11": {
+        "hash": "ecd45702f76d6d3c75a80564378ae228a85f0b59d2f3ed43c91b4a69eb2ebfc5",
+        "name": "proc-macro-hack",
+        "type": "crates-io",
+        "version": "0.5.11"
+      }
+    },
+    "proc-macro-nested": {
+      "0.1.3": {
+        "hash": "369a6ed065f249a159e06c45752c780bda2fb53c995718f9e484d08daa9eb42e",
+        "name": "proc-macro-nested",
+        "type": "crates-io",
+        "version": "0.1.3"
+      }
+    },
+    "proc-macro2": {
+      "1.0.36": {
+        "hash": "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029",
+        "name": "proc-macro2",
+        "type": "crates-io",
+        "version": "1.0.36"
+      }
+    },
+    "quote": {
+      "1.0.2": {
+        "hash": "053a8c8bcc71fcce321828dc897a98ab9760bef03a4fc36693c231e5b3216cfe",
+        "name": "quote",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    },
+    "slab": {
+      "0.4.2": {
+        "hash": "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8",
+        "name": "slab",
+        "type": "crates-io",
+        "version": "0.4.2"
+      }
+    },
+    "syn": {
+      "1.0.86": {
+        "hash": "8a65b3f4ffa0092e9887669db0eae07941f023991ab58ea44da8fe8e2d511c6b",
+        "name": "syn",
+        "type": "crates-io",
+        "version": "1.0.86"
+      }
+    },
+    "tokio": {
+      "1.15.0": {
+        "hash": "fbbf1c778ec206785635ce8ad57fe52b3009ae9e0c9f574a728f3049d3e55838",
+        "name": "tokio",
+        "type": "crates-io",
+        "version": "1.15.0"
+      }
+    },
+    "tokio-macros": {
+      "1.7.0": {
+        "hash": "b557f72f448c511a979e2564e55d74e6c4432fc96ff4f6241bc6bded342643b7",
+        "name": "tokio-macros",
+        "type": "crates-io",
+        "version": "1.7.0"
+      }
+    },
+    "unicode-xid": {
+      "0.2.0": {
+        "hash": "826e7639553986605ec5979c7dd957c7895e93eabed50ab2ffa7f6128a75097c",
+        "name": "unicode-xid",
+        "type": "crates-io",
+        "version": "0.2.0"
+      }
+    }
+  }
+}
