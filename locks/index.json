@@ -1,225 +1,192 @@
 {
-  "mime_guess": [
-    "2.0.4"
-  ],
-  "phf_generator": [
-    "0.10.0"
-  ],
-  "der-parser": [
-    "8.0.0"
-  ],
-  "simple_logger": [
-    "2.1.0"
-  ],
-  "getset": [
-    "0.1.2"
-  ],
-  "ctrlc": [
-    "3.2.2"
-  ],
-  "spin": [
-    "0.9.3"
-  ],
-  "curl": [
-    "0.4.43"
-  ],
-  "git2": [
-    "0.14.3"
-  ],
-  "bstr": [
-    "0.2.17"
-  ],
-  "wayland-commons": [
-    "0.29.4"
-  ],
-  "tendermint-abci": [
-    "0.23.7"
-  ],
-  "wasmparser": [
-    "0.84.0"
-  ],
-  "regex": [
-    "1.5.5"
-  ],
-  "alloc-no-stdlib": [
-    "2.0.3"
-  ],
-  "textwrap": [
-    "0.15.0"
-  ],
-  "crossbeam-channel": [
-    "0.5.4"
-  ],
-  "mio": [
-    "0.8.2"
-  ],
-  "security-framework": [
-    "2.6.1"
-  ],
-  "actix-server": [
-    "2.1.1"
-  ],
-  "xml-rs": [
-    "0.8.4"
-  ],
-  "arbitrary": [
-    "1.1.0"
-  ],
-  "crossbeam-epoch": [
-    "0.9.8"
-  ],
-  "actix-rt": [
-    "2.7.0"
-  ],
-  "reqwest": [
-    "0.11.10"
-  ],
-  "raw-cpuid": [
-    "10.3.0"
-  ],
   "bincode": [
     "1.3.3"
-  ],
-  "actix-router": [
-    "0.5.0"
-  ],
-  "nalgebra": [
-    "0.31.0"
-  ],
-  "procfs": [
-    "0.12.0"
-  ],
-  "winreg": [
-    "0.10.1"
-  ],
-  "async-attributes": [
-    "1.1.2"
-  ],
-  "vec-arena": [
-    "1.2.0"
-  ],
-  "scroll": [
-    "0.11.0"
-  ],
-  "ignore": [
-    "0.4.18"
-  ],
-  "target-lexicon": [
-    "0.12.3"
-  ],
-  "async-compression": [
-    "0.3.12"
-  ],
-  "wayland-client": [
-    "0.29.4"
-  ],
-  "eyre": [
-    "0.6.8"
-  ],
-  "multipart": [
-    "0.18.0"
-  ],
-  "kv-log-macro": [
-    "1.0.7"
   ],
   "inotify": [
     "0.10.0"
   ],
-  "duct": [
-    "0.13.5"
+  "hyper": [
+    "0.14.18"
   ],
-  "zip": [
-    "0.6.2"
+  "codespan-reporting": [
+    "0.11.1"
   ],
-  "x509-parser": [
-    "0.13.2"
+  "infer": [
+    "0.7.0"
   ],
-  "yaml-rust": [
-    "0.4.5"
+  "derive_more": [
+    "0.99.17"
   ],
-  "btm": [
-    "0.6.5"
+  "rayon": [
+    "1.5.2"
   ],
-  "addr2line": [
-    "0.17.0"
+  "libflate": [
+    "1.2.0"
   ],
-  "jsonrpc-derive": [
-    "18.0.0"
+  "structopt": [
+    "0.3.26"
   ],
-  "tungstenite": [
-    "0.17.2"
+  "cargo-platform": [
+    "0.1.2"
   ],
-  "integer-encoding": [
-    "3.0.3"
+  "jsonwebtoken": [
+    "8.1.0"
+  ],
+  "brotli-decompressor": [
+    "2.3.2"
+  ],
+  "async-task": [
+    "4.2.0"
+  ],
+  "kv-log-macro": [
+    "1.0.7"
+  ],
+  "textwrap": [
+    "0.15.0"
   ],
   "bson": [
     "2.2.0"
   ],
-  "fern": [
-    "0.6.1"
+  "html5ever": [
+    "0.26.0"
   ],
-  "strip-ansi-escapes": [
-    "0.1.1"
+  "schemars": [
+    "0.8.8"
   ],
-  "async-mutex": [
-    "1.4.0"
+  "reqwest": [
+    "0.11.10"
   ],
-  "hyper-tls": [
-    "0.5.0"
+  "stream-cipher": [
+    "0.99.99"
   ],
-  "tokio-fs": [
-    "0.1.7"
-  ],
-  "pico-args": [
-    "0.4.2"
-  ],
-  "warp": [
-    "0.3.2"
-  ],
-  "matrixmultiply": [
-    "0.3.2"
+  "tungstenite": [
+    "0.17.2"
   ],
   "open": [
     "2.1.2"
   ],
-  "slog-json": [
+  "owo-colors": [
+    "3.4.0"
+  ],
+  "output_vt100": [
+    "0.1.3"
+  ],
+  "num_cpus": [
+    "1.13.1"
+  ],
+  "eyre": [
+    "0.6.8"
+  ],
+  "ndarray": [
+    "0.15.4"
+  ],
+  "redis": [
+    "0.21.5"
+  ],
+  "bs58": [
+    "0.4.0"
+  ],
+  "secp256k1": [
+    "0.22.1"
+  ],
+  "cbindgen": [
+    "0.23.0"
+  ],
+  "addr2line": [
+    "0.17.0"
+  ],
+  "tokio-tls": [
+    "0.3.1"
+  ],
+  "tokio-threadpool": [
+    "0.1.18"
+  ],
+  "multipart": [
+    "0.18.0"
+  ],
+  "hyper-tls": [
+    "0.5.0"
+  ],
+  "mdbook": [
+    "0.4.18"
+  ],
+  "ttf-parser": [
+    "0.15.0"
+  ],
+  "ureq": [
+    "2.4.0"
+  ],
+  "config": [
+    "0.13.1"
+  ],
+  "getset": [
+    "0.1.2"
+  ],
+  "whoami": [
+    "1.2.1"
+  ],
+  "os_pipe": [
+    "1.0.1"
+  ],
+  "der-parser": [
+    "8.0.0"
+  ],
+  "security-framework": [
     "2.6.1"
   ],
-  "ctor": [
-    "0.1.22"
+  "winit": [
+    "0.26.1"
   ],
-  "failure": [
-    "0.1.8"
+  "psm": [
+    "0.1.18"
   ],
-  "metrics": [
-    "0.18.1"
+  "yaml-rust": [
+    "0.4.5"
   ],
-  "hyper-timeout": [
-    "0.4.1"
+  "clap": [
+    "3.1.15"
   ],
-  "pulldown-cmark": [
-    "0.9.1"
+  "hdrhistogram": [
+    "7.5.0"
   ],
-  "jpeg-decoder": [
+  "predicates": [
+    "2.1.1"
+  ],
+  "x11-dl": [
+    "2.19.1"
+  ],
+  "humansize": [
+    "1.1.1"
+  ],
+  "handlebars": [
+    "4.2.2"
+  ],
+  "version-compare": [
+    "0.1.0"
+  ],
+  "backtrace": [
+    "0.3.65"
+  ],
+  "simplelog": [
+    "0.12.0"
+  ],
+  "tendermint-abci": [
+    "0.23.7"
+  ],
+  "pest": [
+    "2.1.3"
+  ],
+  "backoff": [
+    "0.4.0"
+  ],
+  "tokio-process": [
     "0.2.5"
   ],
-  "brotli": [
-    "3.3.4"
-  ],
-  "inventory": [
-    "0.2.3"
-  ],
-  "zstd": [
-    "0.11.1+zstd.1.5.2"
-  ],
-  "number_prefix": [
-    "0.4.0"
+  "indenter": [
+    "0.3.3"
   ],
   "parity-wasm": [
     "0.42.2"
-  ],
-  "pin-project": [
-    "1.0.10"
   ],
   "quickcheck": [
     "1.0.3"
@@ -227,502 +194,535 @@
   "ipconfig": [
     "0.3.0"
   ],
-  "rgb": [
-    "0.8.32"
-  ],
-  "schemars": [
-    "0.8.8"
-  ],
-  "tokio-tungstenite": [
-    "0.17.1"
-  ],
-  "radium": [
-    "0.7.0"
-  ],
-  "slog-term": [
-    "2.9.0"
-  ],
-  "autocfg": [
-    "1.1.0"
-  ],
   "pretty_assertions": [
     "1.2.1"
-  ],
-  "slog-scope": [
-    "4.4.0"
-  ],
-  "indicatif": [
-    "0.16.2"
-  ],
-  "tokio-threadpool": [
-    "0.1.18"
-  ],
-  "tokio-native-tls": [
-    "0.3.0"
-  ],
-  "h2": [
-    "0.3.13"
-  ],
-  "semver-parser": [
-    "0.10.2"
-  ],
-  "png": [
-    "0.17.5"
-  ],
-  "codespan-reporting": [
-    "0.11.1"
-  ],
-  "pest": [
-    "2.1.3"
-  ],
-  "new_debug_unreachable": [
-    "1.0.4"
-  ],
-  "num_cpus": [
-    "1.13.1"
-  ],
-  "resolv-conf": [
-    "0.7.0"
-  ],
-  "tendril": [
-    "0.4.3"
-  ],
-  "output_vt100": [
-    "0.1.3"
-  ],
-  "brotli-decompressor": [
-    "2.3.2"
-  ],
-  "rustyline": [
-    "9.1.2"
-  ],
-  "async-io": [
-    "1.6.0"
-  ],
-  "trust-dns-resolver": [
-    "0.21.2"
-  ],
-  "tokio-tls": [
-    "0.3.1"
-  ],
-  "cargo-platform": [
-    "0.1.2"
-  ],
-  "cpp_demangle": [
-    "0.3.5"
-  ],
-  "owo-colors": [
-    "3.4.0"
-  ],
-  "prometheus": [
-    "0.13.0"
-  ],
-  "sentry": [
-    "0.25.0"
-  ],
-  "mdbook": [
-    "0.4.18"
-  ],
-  "unicode-bidi": [
-    "0.3.8"
-  ],
-  "blocking": [
-    "1.2.0"
-  ],
-  "bigdecimal": [
-    "0.3.0"
-  ],
-  "redis": [
-    "0.21.5"
-  ],
-  "config": [
-    "0.13.1"
-  ],
-  "uuid": [
-    "1.0.0"
-  ],
-  "ureq": [
-    "2.4.0"
-  ],
-  "x11-dl": [
-    "2.19.1"
-  ],
-  "stream-cipher": [
-    "0.99.99"
-  ],
-  "jsonwebtoken": [
-    "8.1.0"
-  ],
-  "hash32": [
-    "0.3.0"
-  ],
-  "derive_builder": [
-    "0.11.2"
-  ],
-  "actix-service": [
-    "2.0.2"
-  ],
-  "actix-web": [
-    "4.0.1"
-  ],
-  "snap": [
-    "1.0.5"
-  ],
-  "predicates-tree": [
-    "1.0.5"
-  ],
-  "backoff": [
-    "0.4.0"
-  ],
-  "native-tls": [
-    "0.2.10"
-  ],
-  "actix": [
-    "0.13.0"
-  ],
-  "tokio-signal": [
-    "0.2.9"
-  ],
-  "fancy-regex": [
-    "0.10.0"
-  ],
-  "leb128": [
-    "0.2.5"
   ],
   "serde_qs": [
     "0.9.2"
   ],
-  "bitvec": [
-    "1.0.0"
-  ],
-  "termion": [
-    "1.5.6"
-  ],
-  "tera": [
-    "1.15.0"
-  ],
-  "winit": [
-    "0.26.1"
-  ],
-  "twox-hash": [
-    "1.6.2"
-  ],
-  "cbindgen": [
-    "0.23.0"
-  ],
-  "polling": [
-    "2.2.0"
-  ],
-  "rust-ini": [
-    "0.18.0"
-  ],
-  "nom": [
-    "7.1.1"
-  ],
-  "async-task": [
-    "4.2.0"
-  ],
-  "actix-tls": [
-    "3.0.3"
-  ],
-  "serde_cbor": [
-    "0.11.2"
-  ],
-  "scopeguard": [
-    "1.1.0"
-  ],
-  "uint": [
-    "0.9.3"
-  ],
-  "version-compare": [
-    "0.1.0"
-  ],
-  "gif": [
-    "0.11.3"
-  ],
-  "parse-zoneinfo": [
-    "0.3.0"
-  ],
-  "simplelog": [
-    "0.12.0"
-  ],
-  "hyper": [
-    "0.14.18"
-  ],
-  "jsonrpc-core": [
-    "18.0.0"
-  ],
-  "downcast": [
-    "0.11.0"
-  ],
-  "html5ever": [
-    "0.26.0"
-  ],
-  "humansize": [
-    "1.1.1"
-  ],
-  "error-chain": [
-    "0.12.4"
-  ],
-  "rayon": [
-    "1.5.2"
-  ],
-  "vsdb": [
-    "0.34.1"
-  ],
-  "event-listener": [
-    "2.5.2"
-  ],
-  "docopt": [
-    "1.1.1"
-  ],
-  "rustfix": [
-    "0.6.0"
-  ],
-  "ttf-parser": [
-    "0.15.0"
-  ],
-  "unsigned-varint": [
-    "0.7.1"
-  ],
-  "actix-http": [
-    "3.0.4"
-  ],
-  "protobuf-codegen": [
-    "3.0.1"
-  ],
-  "flate2": [
-    "1.0.23"
-  ],
-  "terminal_size": [
-    "0.1.17"
-  ],
-  "backtrace": [
-    "0.3.65"
-  ],
-  "quick-xml": [
-    "0.22.0"
-  ],
-  "gimli": [
-    "0.26.1"
-  ],
-  "openssl": [
-    "0.10.39"
-  ],
-  "attohttpc": [
-    "0.19.1"
-  ],
-  "console": [
-    "0.15.0"
-  ],
-  "tokio-process": [
-    "0.2.5"
-  ],
-  "ndarray": [
-    "0.15.4"
-  ],
-  "tower": [
-    "0.4.12"
-  ],
-  "vte": [
-    "0.10.1"
-  ],
-  "os_pipe": [
-    "1.0.1"
-  ],
-  "rustls-native-certs": [
-    "0.6.2"
-  ],
-  "libflate": [
-    "1.2.0"
-  ],
-  "bindgen": [
-    "0.59.2"
-  ],
-  "itertools": [
-    "0.10.3"
-  ],
-  "hdrhistogram": [
-    "7.5.0"
-  ],
-  "tar": [
-    "0.4.38"
-  ],
-  "rand": [
-    "0.8.5"
-  ],
-  "async-stream": [
-    "0.3.3"
-  ],
-  "tokio-core": [
-    "0.1.18"
-  ],
-  "rustls": [
-    "0.20.4"
-  ],
-  "sysinfo": [
-    "0.23.11"
-  ],
-  "lz4": [
-    "1.23.3"
-  ],
-  "once_cell": [
-    "1.10.0"
-  ],
-  "cocoa": [
-    "0.24.0"
-  ],
-  "quick-error": [
-    "2.0.1"
-  ],
-  "crossterm": [
-    "0.23.2"
-  ],
-  "derive_more": [
-    "0.99.17"
-  ],
-  "secp256k1": [
-    "0.22.1"
-  ],
-  "memmap2": [
-    "0.5.3"
-  ],
-  "psm": [
-    "0.1.18"
-  ],
-  "slog": [
-    "2.7.0"
-  ],
-  "openssl-probe": [
-    "0.1.5"
-  ],
-  "cc": [
-    "1.0.73"
-  ],
-  "smithay-client-toolkit": [
-    "0.15.4"
-  ],
-  "soketto": [
-    "0.7.1"
-  ],
-  "log4rs": [
-    "1.1.1"
-  ],
   "string_cache": [
     "0.8.4"
-  ],
-  "predicates": [
-    "2.1.1"
-  ],
-  "dialoguer": [
-    "0.10.0"
-  ],
-  "multihash": [
-    "0.16.2"
-  ],
-  "awc": [
-    "3.0.0"
-  ],
-  "scroll_derive": [
-    "0.11.0"
-  ],
-  "jsonrpc-pubsub": [
-    "18.0.0"
-  ],
-  "env_logger": [
-    "0.9.0"
-  ],
-  "handlebars": [
-    "4.2.2"
-  ],
-  "darling": [
-    "0.14.1"
-  ],
-  "combine": [
-    "4.6.4"
-  ],
-  "zstd-sys": [
-    "2.0.1+zstd.1.5.2"
-  ],
-  "libnghttp2-sys": [
-    "0.1.7+1.45.0"
-  ],
-  "bs58": [
-    "0.4.0"
-  ],
-  "compiler_builtins": [
-    "0.1.72"
-  ],
-  "async-executor": [
-    "1.4.1"
-  ],
-  "image": [
-    "0.24.2"
-  ],
-  "os_info": [
-    "3.3.0"
-  ],
-  "annotate-snippets": [
-    "0.9.1"
-  ],
-  "clap": [
-    "3.1.15"
-  ],
-  "ryu": [
-    "1.0.9"
-  ],
-  "goblin": [
-    "0.5.1"
-  ],
-  "proptest": [
-    "1.0.0"
-  ],
-  "hyper-rustls": [
-    "0.23.0"
-  ],
-  "csv": [
-    "1.1.6"
-  ],
-  "notify": [
-    "4.0.17"
-  ],
-  "structopt": [
-    "0.3.26"
-  ],
-  "typed-builder": [
-    "0.10.0"
-  ],
-  "toml": [
-    "0.5.9"
-  ],
-  "whoami": [
-    "1.2.1"
-  ],
-  "webpki-roots": [
-    "0.22.3"
-  ],
-  "async-std": [
-    "1.11.0"
-  ],
-  "indenter": [
-    "0.3.3"
-  ],
-  "infer": [
-    "0.7.0"
-  ],
-  "plotters": [
-    "0.3.1"
-  ],
-  "lalrpop": [
-    "0.19.7"
-  ],
-  "signal-hook": [
-    "0.3.13"
   ],
   "mockall": [
     "0.11.0"
   ],
+  "actix-web": [
+    "4.0.1"
+  ],
+  "openssl-probe": [
+    "0.1.5"
+  ],
+  "actix-rt": [
+    "2.7.0"
+  ],
+  "wasmparser": [
+    "0.84.0"
+  ],
+  "raw-cpuid": [
+    "10.3.0"
+  ],
+  "parse-zoneinfo": [
+    "0.3.0"
+  ],
+  "vec-arena": [
+    "1.2.0"
+  ],
+  "uint": [
+    "0.9.3"
+  ],
+  "pin-project": [
+    "1.0.10"
+  ],
+  "async-compression": [
+    "0.3.12"
+  ],
+  "ignore": [
+    "0.4.18"
+  ],
+  "leb128": [
+    "0.2.5"
+  ],
+  "blocking": [
+    "1.2.0"
+  ],
+  "smithay-client-toolkit": [
+    "0.15.4"
+  ],
+  "target-lexicon": [
+    "0.12.3"
+  ],
+  "csv": [
+    "1.1.6"
+  ],
+  "os_info": [
+    "3.3.0"
+  ],
+  "scroll_derive": [
+    "0.11.0"
+  ],
+  "nom": [
+    "7.1.1"
+  ],
+  "lz4": [
+    "1.23.3"
+  ],
+  "zstd": [
+    "0.11.1+zstd.1.5.2"
+  ],
+  "log4rs": [
+    "1.1.1"
+  ],
+  "wayland-commons": [
+    "0.29.4"
+  ],
+  "slog-json": [
+    "2.6.1"
+  ],
+  "pico-args": [
+    "0.4.2"
+  ],
+  "protobuf-codegen": [
+    "3.0.1"
+  ],
+  "env_logger": [
+    "0.9.0"
+  ],
+  "alloc-no-stdlib": [
+    "2.0.3"
+  ],
+  "ctrlc": [
+    "3.2.2"
+  ],
+  "combine": [
+    "4.6.4"
+  ],
+  "regex": [
+    "1.5.5"
+  ],
+  "autocfg": [
+    "1.1.0"
+  ],
+  "spin": [
+    "0.9.3"
+  ],
+  "darling": [
+    "0.14.1"
+  ],
+  "trust-dns-resolver": [
+    "0.21.2"
+  ],
+  "arbitrary": [
+    "1.1.0"
+  ],
+  "crossbeam-channel": [
+    "0.5.4"
+  ],
+  "jsonrpc-core": [
+    "18.0.0"
+  ],
+  "unicode-bidi": [
+    "0.3.8"
+  ],
+  "tendril": [
+    "0.4.3"
+  ],
+  "uuid": [
+    "1.0.0"
+  ],
+  "plotters": [
+    "0.3.1"
+  ],
+  "zip": [
+    "0.6.2"
+  ],
+  "webpki-roots": [
+    "0.22.3"
+  ],
+  "typed-builder": [
+    "0.10.0"
+  ],
+  "procfs": [
+    "0.12.0"
+  ],
+  "zstd-sys": [
+    "2.0.1+zstd.1.5.2"
+  ],
+  "mio": [
+    "0.8.2"
+  ],
+  "inventory": [
+    "0.2.3"
+  ],
+  "indicatif": [
+    "0.16.2"
+  ],
+  "async-io": [
+    "1.6.0"
+  ],
+  "async-executor": [
+    "1.4.1"
+  ],
+  "crossbeam-epoch": [
+    "0.9.8"
+  ],
+  "scroll": [
+    "0.11.0"
+  ],
+  "curl": [
+    "0.4.43"
+  ],
+  "prometheus": [
+    "0.13.0"
+  ],
+  "ryu": [
+    "1.0.9"
+  ],
   "assert_cmd": [
     "2.0.4"
+  ],
+  "async-attributes": [
+    "1.1.2"
+  ],
+  "duct": [
+    "0.13.5"
+  ],
+  "compiler_builtins": [
+    "0.1.72"
+  ],
+  "predicates-tree": [
+    "1.0.5"
+  ],
+  "xml-rs": [
+    "0.8.4"
+  ],
+  "cc": [
+    "1.0.73"
+  ],
+  "semver-parser": [
+    "0.10.2"
+  ],
+  "toml": [
+    "0.5.9"
+  ],
+  "twox-hash": [
+    "1.6.2"
+  ],
+  "scopeguard": [
+    "1.1.0"
+  ],
+  "event-listener": [
+    "2.5.2"
+  ],
+  "wayland-client": [
+    "0.29.4"
+  ],
+  "mime_guess": [
+    "2.0.4"
+  ],
+  "ctor": [
+    "0.1.22"
+  ],
+  "quick-error": [
+    "2.0.1"
+  ],
+  "slog-term": [
+    "2.9.0"
+  ],
+  "cpp_demangle": [
+    "0.3.5"
+  ],
+  "tokio-core": [
+    "0.1.18"
+  ],
+  "downcast": [
+    "0.11.0"
+  ],
+  "polling": [
+    "2.2.0"
+  ],
+  "memmap2": [
+    "0.5.3"
+  ],
+  "h2": [
+    "0.3.13"
+  ],
+  "strip-ansi-escapes": [
+    "0.1.1"
+  ],
+  "rand": [
+    "0.8.5"
+  ],
+  "tokio-native-tls": [
+    "0.3.0"
+  ],
+  "crossterm": [
+    "0.23.2"
+  ],
+  "unsigned-varint": [
+    "0.7.1"
+  ],
+  "rgb": [
+    "0.8.32"
+  ],
+  "soketto": [
+    "0.7.1"
+  ],
+  "failure": [
+    "0.1.8"
+  ],
+  "async-stream": [
+    "0.3.3"
+  ],
+  "async-mutex": [
+    "1.4.0"
+  ],
+  "hyper-timeout": [
+    "0.4.1"
+  ],
+  "bitvec": [
+    "1.0.0"
+  ],
+  "rustfix": [
+    "0.6.0"
+  ],
+  "lalrpop": [
+    "0.19.7"
+  ],
+  "jsonrpc-derive": [
+    "18.0.0"
+  ],
+  "docopt": [
+    "1.1.1"
+  ],
+  "gif": [
+    "0.11.3"
+  ],
+  "flate2": [
+    "1.0.23"
+  ],
+  "tokio-tungstenite": [
+    "0.17.1"
+  ],
+  "nalgebra": [
+    "0.31.0"
+  ],
+  "btm": [
+    "0.6.5"
+  ],
+  "annotate-snippets": [
+    "0.9.1"
+  ],
+  "libnghttp2-sys": [
+    "0.1.7+1.45.0"
+  ],
+  "fern": [
+    "0.6.1"
+  ],
+  "actix-http": [
+    "3.0.4"
+  ],
+  "hyper-rustls": [
+    "0.23.0"
+  ],
+  "hash32": [
+    "0.3.0"
+  ],
+  "tera": [
+    "1.15.0"
+  ],
+  "jpeg-decoder": [
+    "0.2.5"
+  ],
+  "once_cell": [
+    "1.10.0"
+  ],
+  "tower": [
+    "0.4.12"
+  ],
+  "multihash": [
+    "0.16.2"
+  ],
+  "metrics": [
+    "0.18.1"
+  ],
+  "actix-router": [
+    "0.5.0"
+  ],
+  "quick-xml": [
+    "0.22.0"
+  ],
+  "derive_builder": [
+    "0.11.2"
+  ],
+  "png": [
+    "0.17.5"
+  ],
+  "resolv-conf": [
+    "0.7.0"
+  ],
+  "terminal_size": [
+    "0.1.17"
+  ],
+  "matrixmultiply": [
+    "0.3.2"
+  ],
+  "pulldown-cmark": [
+    "0.9.1"
+  ],
+  "cocoa": [
+    "0.24.0"
+  ],
+  "x509-parser": [
+    "0.13.2"
+  ],
+  "error-chain": [
+    "0.12.4"
+  ],
+  "tokio-fs": [
+    "0.1.7"
+  ],
+  "notify": [
+    "4.0.17"
+  ],
+  "sentry": [
+    "0.25.0"
+  ],
+  "new_debug_unreachable": [
+    "1.0.4"
+  ],
+  "simple_logger": [
+    "2.1.0"
+  ],
+  "bigdecimal": [
+    "0.3.0"
+  ],
+  "actix-tls": [
+    "3.0.3"
+  ],
+  "tar": [
+    "0.4.38"
+  ],
+  "serde_cbor": [
+    "0.11.2"
+  ],
+  "rustls": [
+    "0.20.4"
+  ],
+  "number_prefix": [
+    "0.4.0"
+  ],
+  "brotli": [
+    "3.3.4"
+  ],
+  "fancy-regex": [
+    "0.10.0"
+  ],
+  "tokio-signal": [
+    "0.2.9"
+  ],
+  "goblin": [
+    "0.5.1"
+  ],
+  "git2": [
+    "0.14.3"
+  ],
+  "slog-scope": [
+    "4.4.0"
+  ],
+  "async-std": [
+    "1.11.0"
+  ],
+  "snap": [
+    "1.0.5"
+  ],
+  "itertools": [
+    "0.10.3"
+  ],
+  "radium": [
+    "0.7.0"
+  ],
+  "winreg": [
+    "0.10.1"
+  ],
+  "rustyline": [
+    "9.1.2"
+  ],
+  "native-tls": [
+    "0.2.10"
+  ],
+  "dialoguer": [
+    "0.10.0"
+  ],
+  "sysinfo": [
+    "0.23.11"
+  ],
+  "actix": [
+    "0.13.0"
+  ],
+  "vte": [
+    "0.10.1"
+  ],
+  "slog": [
+    "2.7.0"
+  ],
+  "bstr": [
+    "0.2.17"
+  ],
+  "rust-ini": [
+    "0.18.0"
+  ],
+  "attohttpc": [
+    "0.19.1"
+  ],
+  "image": [
+    "0.24.2"
+  ],
+  "gimli": [
+    "0.26.1"
+  ],
+  "bindgen": [
+    "0.59.2"
+  ],
+  "proptest": [
+    "1.0.0"
+  ],
+  "console": [
+    "0.15.0"
+  ],
+  "rustls-native-certs": [
+    "0.6.2"
+  ],
+  "awc": [
+    "3.0.0"
+  ],
+  "integer-encoding": [
+    "3.0.3"
+  ],
+  "vsdb": [
+    "0.34.1"
+  ],
+  "phf_generator": [
+    "0.10.0"
+  ],
+  "actix-server": [
+    "2.1.1"
+  ],
+  "signal-hook": [
+    "0.3.13"
+  ],
+  "jsonrpc-pubsub": [
+    "18.0.0"
+  ],
+  "termion": [
+    "1.5.6"
+  ],
+  "actix-service": [
+    "2.0.2"
+  ],
+  "openssl": [
+    "0.10.39"
+  ],
+  "warp": [
+    "0.3.2"
   ]
 }
