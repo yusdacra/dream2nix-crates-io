@@ -53,11 +53,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1651546620,
-        "narHash": "sha256-nPWzpauq7syTQNIAK+vzd1ZSf2HtQfs2Q+XusiNBP9s=",
+        "lastModified": 1651547993,
+        "narHash": "sha256-fmIBxlI2es/7Ky7Ci2Rv1B5H/Fy9h4Gx9QFKg6dfST0=",
         "owner": "yusdacra",
         "repo": "dream2nix",
-        "rev": "5a4076a881be1af127148765fea634bc2c2ee058",
+        "rev": "c807bf85af283cea002a82cdbd657ef897ee7f54",
         "type": "github"
       },
       "original": {
