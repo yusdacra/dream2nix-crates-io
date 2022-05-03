@@ -118,6 +118,7 @@
       in
         l.foldl' (acc: el: acc // el) {} (l.attrValues pkgs);
     in rec {
+      hydraJobs = l.mapAttrs (_: pkg: {${system} = pkg;}) lockOutputs;
       packages.${system} = lockOutputs;
       apps.${system} = {
         index-top-5k-downloads = mkIndexApp {
