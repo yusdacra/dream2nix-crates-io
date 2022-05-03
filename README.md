@@ -1,7 +1,7 @@
 # dream2nix-crates-io
 
 crates.io indexed and translated into dream2nix lockfiles.
-The package index & lock files are updated automatically every day.
+The package index & lock files are updated automatically every day (at 06:00 UTC).
 
 ### Usage
 
