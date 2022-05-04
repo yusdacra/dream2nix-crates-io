@@ -92,6 +92,7 @@
 
       lockOutputs = let
         lockIndex = l.fromJSON (l.readFile ./locks/index.json);
+        sanitizePkgName = name: l.replaceStrings ["." "+"] ["_" "_"] name;
         mkPkg = name: version:
           (dream2nix.lib.${system}.makeOutputsForDreamLock {
             dreamLock = l.fromJSON (
@@ -108,7 +109,7 @@
                 l.map (
                   version:
                     l.nameValuePair
-                    "${name}-${version}"
+                    (sanitizePkgName "${name}-${version}")
                     (mkPkg name version)
                 )
                 versions
