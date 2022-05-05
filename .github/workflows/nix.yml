@@ -26,8 +26,8 @@ jobs:
       run: nix run .#index-top-1k-downloads
     - name: Translate new
       run: |
-        rm -rf ./locks
-        VERBOSE=1 TASK_COUNT=10 nix run .#translate
+        rm -rf ./gen/locks
+        VERBOSE=1 TASK_COUNT=20 nix run .#translate
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
