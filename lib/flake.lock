@@ -45,9 +45,7 @@
         "flake-utils-pre-commit": "flake-utils-pre-commit",
         "gomod2nix": "gomod2nix",
         "mach-nix": "mach-nix",
-        "nixpkgs": [
-          "nixpkgs"
-        ],
+        "nixpkgs": "nixpkgs",
         "node2nix": "node2nix",
         "poetry2nix": "poetry2nix",
         "pre-commit-hooks": "pre-commit-hooks"
@@ -62,7 +60,6 @@
       },
       "original": {
         "owner": "nix-community",
-        "ref": "main",
         "repo": "dream2nix",
         "type": "github"
       }
@@ -130,6 +127,21 @@
       }
     },
     "nixpkgs": {
+      "locked": {
+        "lastModified": 1645433236,
+        "narHash": "sha256-4va4MvJ076XyPp5h8sm5eMQvCrJ6yZAbBmyw95dGyw4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7f9b6e2babf232412682c09e57ed666d8f84ac2d",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
       "locked": {
         "lastModified": 1651746324,
         "narHash": "sha256-1z9bfBgMEgnjEHV52s3WiEyVF2murDj64o++kDPY0oU=",
@@ -206,28 +218,7 @@
     "root": {
       "inputs": {
         "dream2nix": "dream2nix",
-        "nixpkgs": "nixpkgs",
-        "slib": "slib"
-      }
-    },
-    "slib": {
-      "inputs": {
-        "dream2nix": [
-          "dream2nix"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-GtgNn78QDcEmTiKh7aAlKv866WD1nuFcdylI+gB6UN0=",
-        "path": "./lib",
-        "type": "path"
-      },
-      "original": {
-        "path": "./lib",
-        "type": "path"
+        "nixpkgs": "nixpkgs_2"
       }
     }
   },

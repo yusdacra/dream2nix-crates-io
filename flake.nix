@@ -7,68 +7,52 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    nix-filter.url = "github:numtide/nix-filter";
+    slib = {
+      url = "path:./lib";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.dream2nix.follows = "dream2nix";
+    };
   };
 
   outputs = {
     dream2nix,
     nixpkgs,
-    nix-filter,
     ...
   } @ inputs: let
-    lib = nixpkgs.lib;
-    l = lib // builtins;
+    l = nixpkgs.lib // builtins;
+
     systems = ["x86_64-linux"];
 
     mkOutputsForSystem = system: let
+      slib = inputs.slib.lib.mkLibForSystem system;
+
       pkgs = nixpkgs.legacyPackages.${system};
       d2n = dream2nix.lib.init {
         systems = [system];
         config.projectRoot = ./.;
       };
 
-      callPackage = f: args:
-        pkgs.callPackage f (args // {inherit dream2nix system lib;});
+      index = l.fromJSON (l.readFile ./gen/index.json);
+      fetchedIndex = slib.fetchIndex index;
+      translatedIndex = slib.translateIndex fetchedIndex;
 
-      fetcher = callPackage ./fetcher {};
-      translator = callPackage ./translator {};
-      dreamLockFor = name: version: let
-        pkg = {inherit name version;};
-        pkgWithSrc = pkg // (fetcher.fetch pkg);
-        dreamLock = translator.translate pkgWithSrc;
-      in
-        l.toJSON dreamLock;
-
-      index = l.fromJSON (l.readFile ./index.json);
-      fetchedIndex = fetcher.fetchIndex index;
-      translatedIndex = translator.translateIndex fetchedIndex;
-
-      outputs = d2n.makeFlakeOutputs {
-        source = nix-filter.lib.filter {
-          root = ./.;
-          exclude = [
-            "flake.nix"
-            "flake.lock"
-            "README"
-            "LICENSE"
-            "index.json"
-            "locks"
-            "translator/default.nix"
-            "fetcher/default.nix"
-          ];
-        };
-        packageOverrides = {
-          indexer.add-openssl.overrideAttrs = old: {
-            buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
-            nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
-            doCheck = false;
+      crates =
+        (d2n.makeFlakeOutputs {
+          source = ./crates;
+          packageOverrides = {
+            indexer.add-openssl.overrideAttrs = old: {
+              buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
+              nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
+              doCheck = false;
+            };
+            translator.add-flake-src = {
+              SLIB_FLAKE_SRC = toString inputs.slib;
+              doCheck = false;
+            };
           };
-          translator.add-flake-src = {
-            FLAKE_SRC = toString inputs.self;
-            doCheck = false;
-          };
-        };
-      };
+        })
+        .packages
+        .${system};
 
       mkIndexApp = args: let
         defaultSettings = {
@@ -83,7 +67,7 @@
         settings = defaultSettings // args;
         script = pkgs.writeScript "index" ''
           #!${pkgs.stdenv.shell}
-          ${outputs.packages.${system}.indexer}/bin/indexer '${builtins.toJSON settings}' > index.json
+          ${crates.indexer}/bin/indexer '${builtins.toJSON settings}' > gen/index.json
         '';
       in {
         type = "app";
@@ -91,12 +75,12 @@
       };
 
       lockOutputs = let
-        lockIndex = l.fromJSON (l.readFile ./locks/index.json);
+        lockIndex = l.fromJSON (l.readFile ./gen/locks/index.json);
         sanitizePkgName = name: l.replaceStrings ["." "+"] ["_" "_"] name;
         mkPkg = name: version:
           (dream2nix.lib.${system}.makeOutputsForDreamLock {
             dreamLock = l.fromJSON (
-              l.readFile "${./locks}/${name}/${version}/dream-lock.json"
+              l.readFile "${./gen/locks}/${name}/${version}/dream-lock.json"
             );
           })
           .packages
@@ -120,7 +104,7 @@
         l.foldl' (acc: el: acc // el) {} (l.attrValues pkgs);
     in rec {
       hydraJobs = l.mapAttrs (_: pkg: {${system} = pkg;}) lockOutputs;
-      packages.${system} = lockOutputs;
+      packages.${system} = lockOutputs // crates;
       apps.${system} = {
         index-top-5k-downloads = mkIndexApp {
           max_pages = 50;
@@ -144,7 +128,7 @@
         };
         translate = {
           type = "app";
-          program = "${outputs.packages.${system}.translator}/bin/translator";
+          program = "${crates.translator}/bin/translator";
         };
       };
       devShells.${system} = {
@@ -158,17 +142,15 @@
           mkShell {
             name = "translator-devshell";
             nativeBuildInputs = [cargo rustfmt];
-            FLAKE_SRC = toString inputs.self;
+            SLIB_FLAKE_SRC = toString inputs.slib;
           };
       };
       lib.${system} = {
         inherit
-          fetcher
-          translator
+          slib
           index
           fetchedIndex
           translatedIndex
-          dreamLockFor
           ;
       };
     };
