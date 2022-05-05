@@ -3,7 +3,7 @@
     "defaultPackage": "openssl",
     "location": "",
     "packages": {
-      "openssl": "0.10.39"
+      "openssl": "0.10.40"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -239,7 +239,7 @@
       ]
     },
     "openssl": {
-      "0.10.39": [
+      "0.10.40": [
         [
           "bitflags",
           "1.3.2"
@@ -657,8 +657,8 @@
       }
     },
     "openssl": {
-      "0.10.39": {
-        "hash": "sha256-KPORbUbZ2BOmLXt9JyTXsUeFrJmftiPZkO5GA/kSJ0I=",
+      "0.10.40": {
+        "hash": "sha256-+4GmQwrJEayyX+Wsjx0q8bTqik/f2g8e5Ckq8uLY6w4=",
         "type": "crates-io"
       }
     },
