@@ -32,7 +32,9 @@
         config.projectRoot = ./.;
       };
 
-      index = l.fromJSON (l.readFile ./gen/index.json);
+      genTree = dream2nix.lib.dlib.prepareSourceTree {source = ./gen;};
+
+      index = genTree.files."index.json".jsonContent;
       fetchedIndex = slib.fetchIndex index;
       translatedIndex = slib.translateIndex fetchedIndex;
 
@@ -75,13 +77,11 @@
       };
 
       lockOutputs = let
-        lockIndex = l.fromJSON (l.readFile ./gen/locks/index.json);
+        lockIndex = (genTree.getNodeFromPath "locks/index.json").jsonContent;
         sanitizePkgName = name: l.replaceStrings ["." "+"] ["_" "_"] name;
         mkPkg = name: version:
           (dream2nix.lib.${system}.makeOutputsForDreamLock {
-            dreamLock = l.fromJSON (
-              l.readFile "${./gen/locks}/${name}/${version}/dream-lock.json"
-            );
+            dreamLock = (genTree.getNodeFromPath "locks/${name}/${version}/dream-lock.json").jsonContent;
           })
           .packages
           .${name};
