@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "atom",
+    "location": "",
+    "packages": {
+      "atom": "0.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "atom": {
+      "0.4.0": {
+        "hash": "1dcfa7026c8fa43fa767bff0b7cd4d1963cdfd946e0386bee93003e9b2498562",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "ioctl-sys",
+    "location": "",
+    "packages": {
+      "ioctl-sys": "0.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "ioctl-sys": {
+      "0.8.0": {
+        "hash": "8bd11f3a29434026f5ff98c730b668ba74b1033637b8817940b54d040696133c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

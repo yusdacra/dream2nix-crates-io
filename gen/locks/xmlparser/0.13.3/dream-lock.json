@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "xmlparser",
+    "location": "",
+    "packages": {
+      "xmlparser": "0.13.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "xmlparser": {
+      "0.13.3": {
+        "hash": "114ba2b24d2167ef6d67d7d04c8cc86522b87f490025f39f0303b7db5bf5e3d8",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "_generic": {
+    "defaultPackage": "pistoncore-sdl2_window",
+    "location": "",
+    "packages": {
+      "pistoncore-sdl2_window": "0.68.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "gl": {
+      "0.13.0": [
+        [
+          "gl_generator",
+          "0.13.1"
+        ]
+      ]
+    },
+    "gl_generator": {
+      "0.13.1": [
+        [
+          "khronos_api",
+          "3.1.0"
+        ],
+        [
+          "log",
+          "0.4.14"
+        ],
+        [
+          "xml-rs",
+          "0.8.4"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.14": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ]
+      ]
+    },
+    "piston-viewport": {
+      "1.0.2": [
+        [
+          "piston-float",
+          "1.0.1"
+        ]
+      ]
+    },
+    "pistoncore-input": {
+      "1.0.1": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "piston-viewport",
+          "1.0.2"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde_derive",
+          "1.0.136"
+        ]
+      ]
+    },
+    "pistoncore-sdl2_window": {
+      "0.68.0": [
+        [
+          "gl",
+          "0.13.0"
+        ],
+        [
+          "pistoncore-input",
+          "1.0.1"
+        ],
+        [
+          "pistoncore-window",
+          "0.47.1"
+        ],
+        [
+          "sdl2",
+          "0.35.2"
+        ],
+        [
+          "shader_version",
+          "0.7.0"
+        ]
+      ]
+    },
+    "pistoncore-window": {
+      "0.47.1": [
+        [
+          "piston-graphics_api_version",
+          "1.0.1"
+        ],
+        [
+          "pistoncore-input",
+          "1.0.1"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.36": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.15": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ]
+      ]
+    },
+    "sdl2": {
+      "0.35.2": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "libc",
+          "0.2.119"
+        ],
+        [
+          "sdl2-sys",
+          "0.35.2"
+        ]
+      ]
+    },
+    "sdl2-sys": {
+      "0.35.2": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "libc",
+          "0.2.119"
+        ],
+        [
+          "version-compare",
+          "0.1.0"
+        ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.136": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.15"
+        ],
+        [
+          "syn",
+          "1.0.86"
+        ]
+      ]
+    },
+    "shader_version": {
+      "0.7.0": [
+        [
+          "piston-graphics_api_version",
+          "1.0.1"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.86": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.15"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "gl": {
+      "0.13.0": {
+        "hash": "4b411c7e0bfc599e3606412c190e786b5bb48cf00073e1635f9bb6f88fe7d84a",
+        "type": "crates-io"
+      }
+    },
+    "gl_generator": {
+      "0.13.1": {
+        "hash": "ca98bbde17256e02d17336a6bdb5a50f7d0ccacee502e191d3e3d0ec2f96f84a",
+        "type": "crates-io"
+      }
+    },
+    "khronos_api": {
+      "3.1.0": {
+        "hash": "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.119": {
+        "hash": "1bf2e165bb3457c8e098ea76f3e3bc9db55f87aa90d52d0e6be741470916aaa4",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.14": {
+        "hash": "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710",
+        "type": "crates-io"
+      }
+    },
+    "piston-float": {
+      "1.0.1": {
+        "hash": "ad78bf43dcf80e8f950c92b84f938a0fc7590b7f6866fbcbeca781609c115590",
+        "type": "crates-io"
+      }
+    },
+    "piston-graphics_api_version": {
+      "1.0.1": {
+        "hash": "3b06401e3ea38467d8d85b394557408107e3e56d827f0d00c9b47e902cbd1bed",
+        "type": "crates-io"
+      }
+    },
+    "piston-viewport": {
+      "1.0.2": {
+        "hash": "61ecaf8ae0d71dd9cdbbd8662b47659621c09430ff3cb880d154858d3b8ac001",
+        "type": "crates-io"
+      }
+    },
+    "pistoncore-input": {
+      "1.0.1": {
+        "hash": "2977fed6eb16c554fd445a09a50c8a0c250f4c50f752be46a7bd9dcc5ba471f0",
+        "type": "crates-io"
+      }
+    },
+    "pistoncore-sdl2_window": {
+      "0.68.0": {
+        "hash": "b9a96c39ba1217b7f124bfc88126e3338333020250a91ed3ff1d01f7b944bd88",
+        "type": "crates-io"
+      }
+    },
+    "pistoncore-window": {
+      "0.47.1": {
+        "hash": "d62962b4e9cfc13143c77e032302fedc58a8f0f570d30006cdb38ba00a5e50bf",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.36": {
+        "hash": "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.15": {
+        "hash": "864d3e96a899863136fc6e99f3d7cae289dafe43bf2c5ac19b70df7210c0a145",
+        "type": "crates-io"
+      }
+    },
+    "sdl2": {
+      "0.35.2": {
+        "hash": "f7959277b623f1fb9e04aea73686c3ca52f01b2145f8ea16f4ff30d8b7623b1a",
+        "type": "crates-io"
+      }
+    },
+    "sdl2-sys": {
+      "0.35.2": {
+        "hash": "e3586be2cf6c0a8099a79a12b4084357aa9b3e0b0d7980e3b67aaf7a9d55f9f0",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.136": {
+        "hash": "ce31e24b01e1e524df96f1c2fdd054405f8d7376249a5110886fb4b658484789",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.136": {
+        "hash": "08597e7152fcd306f41838ed3e37be9eaeed2b61c42e2117266a554fab4662f9",
+        "type": "crates-io"
+      }
+    },
+    "shader_version": {
+      "0.7.0": {
+        "hash": "dfadbf7574784ee97f062ace17e1008fb5e7f46dd714b7dd46baf6efebd30e26",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.86": {
+        "hash": "8a65b3f4ffa0092e9887669db0eae07941f023991ab58ea44da8fe8e2d511c6b",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "version-compare": {
+      "0.1.0": {
+        "hash": "fe88247b92c1df6b6de80ddc290f3976dbdf2f5f5d3fd049a9fb598c6dd5ca73",
+        "type": "crates-io"
+      }
+    },
+    "xml-rs": {
+      "0.8.4": {
+        "hash": "d2d7d3948613f75c98fd9328cfdcc45acc4d360655289d0a7d4ec931392200a3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "xflags",
+    "location": "",
+    "packages": {
+      "xflags": "0.2.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "xflags": {
+      "0.2.4": [
+        [
+          "xflags-macros",
+          "0.2.4"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "xflags": {
+      "0.2.4": {
+        "hash": "3f14fe1ed41a5a2b5ef3f565586c4a8a559ee55d3953faab360a771135bdee00",
+        "type": "crates-io"
+      }
+    },
+    "xflags-macros": {
+      "0.2.4": {
+        "hash": "45d11d5fc2a97287eded8b170ca80533b3c42646dd7fa386a5eb045817921022",
+        "type": "crates-io"
+      }
+    }
+  }
+}

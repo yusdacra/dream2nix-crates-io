@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "argv",
+    "location": "",
+    "packages": {
+      "argv": "0.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "argv": {
+      "0.1.5": [
+        [
+          "rustversion",
+          "1.0.6"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "argv": {
+      "0.1.5": {
+        "hash": "593b6306f88ed573d52d5d07e309317f1c5e95777bf559b2ddb33f50b7d1158d",
+        "type": "crates-io"
+      }
+    },
+    "rustversion": {
+      "1.0.6": {
+        "hash": "f2cc38e8fa666e2de3c4aba7edeb5ffc5246c1c2ed0e3d17e560aeeba736b23f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "qrcodegen",
+    "location": "",
+    "packages": {
+      "qrcodegen": "1.8.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "qrcodegen": {
+      "1.8.0": {
+        "hash": "4339fc7a1021c9c1621d87f5e3505f2805c8c105420ba2f2a4df86814590c142",
+        "type": "crates-io"
+      }
+    }
+  }
+}

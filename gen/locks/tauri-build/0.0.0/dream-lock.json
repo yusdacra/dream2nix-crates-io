@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "tauri-build",
+    "location": "",
+    "packages": {
+      "tauri-build": "0.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "tauri-build": {
+      "0.0.0": {
+        "hash": "f1ad05626bc183ef503236c780c28f0b30212680a88d1ff3e44bd82e5e424b21",
+        "type": "crates-io"
+      }
+    }
+  }
+}

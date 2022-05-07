@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "grpc-compiler",
+    "location": "",
+    "packages": {
+      "grpc-compiler": "0.8.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "grpc-compiler": {
+      "0.8.3": [
+        [
+          "protobuf",
+          "2.18.2"
+        ],
+        [
+          "protobuf-codegen",
+          "2.18.2"
+        ]
+      ]
+    },
+    "protobuf-codegen": {
+      "2.18.2": [
+        [
+          "protobuf",
+          "2.18.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "grpc-compiler": {
+      "0.8.3": {
+        "hash": "45f971449e16e799ebbf106d2414c115ff46f2849689c61da3a3271be0884a34",
+        "type": "crates-io"
+      }
+    },
+    "protobuf": {
+      "2.18.2": {
+        "hash": "fe8e18df92889779cfe50ccf640173141ff73c5b2817e553d6d35230f798a036",
+        "type": "crates-io"
+      }
+    },
+    "protobuf-codegen": {
+      "2.18.2": {
+        "hash": "f49782fe28b5ff7d5d51cbfbe8985f3ff863acea663c515ed369c53f72e1d628",
+        "type": "crates-io"
+      }
+    }
+  }
+}

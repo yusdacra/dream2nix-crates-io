@@ -1,0 +1,558 @@
+{
+  "_generic": {
+    "defaultPackage": "lewton",
+    "location": "",
+    "packages": {
+      "lewton": "0.10.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "al-sys": {
+      "0.6.1": [
+        [
+          "cmake",
+          "0.1.42"
+        ],
+        [
+          "libloading",
+          "0.5.2"
+        ],
+        [
+          "rental",
+          "0.5.5"
+        ]
+      ]
+    },
+    "alto": {
+      "3.0.4": [
+        [
+          "al-sys",
+          "0.6.1"
+        ],
+        [
+          "lazy_static",
+          "0.2.11"
+        ],
+        [
+          "parking_lot",
+          "0.4.8"
+        ]
+      ]
+    },
+    "bytes": {
+      "0.4.12": [
+        [
+          "byteorder",
+          "1.3.2"
+        ],
+        [
+          "iovec",
+          "0.1.4"
+        ]
+      ]
+    },
+    "cmake": {
+      "0.1.42": [
+        [
+          "cc",
+          "1.0.50"
+        ]
+      ]
+    },
+    "iovec": {
+      "0.1.4": [
+        [
+          "libc",
+          "0.2.66"
+        ]
+      ]
+    },
+    "lewton": {
+      "0.10.2": [
+        [
+          "alto",
+          "3.0.4"
+        ],
+        [
+          "byteorder",
+          "1.3.2"
+        ],
+        [
+          "futures",
+          "0.1.29"
+        ],
+        [
+          "ogg",
+          "0.8.0"
+        ],
+        [
+          "tinyvec",
+          "1.0.1"
+        ],
+        [
+          "tokio-io",
+          "0.1.12"
+        ]
+      ]
+    },
+    "libloading": {
+      "0.5.2": [
+        [
+          "cc",
+          "1.0.50"
+        ],
+        [
+          "winapi",
+          "0.3.8"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.8": [
+        [
+          "cfg-if",
+          "0.1.10"
+        ]
+      ]
+    },
+    "ogg": {
+      "0.8.0": [
+        [
+          "byteorder",
+          "1.3.2"
+        ],
+        [
+          "bytes",
+          "0.4.12"
+        ],
+        [
+          "futures",
+          "0.1.29"
+        ],
+        [
+          "tokio-io",
+          "0.1.12"
+        ]
+      ]
+    },
+    "owning_ref": {
+      "0.3.3": [
+        [
+          "stable_deref_trait",
+          "1.1.1"
+        ]
+      ]
+    },
+    "parking_lot": {
+      "0.4.8": [
+        [
+          "owning_ref",
+          "0.3.3"
+        ],
+        [
+          "parking_lot_core",
+          "0.2.14"
+        ]
+      ]
+    },
+    "parking_lot_core": {
+      "0.2.14": [
+        [
+          "libc",
+          "0.2.66"
+        ],
+        [
+          "rand",
+          "0.4.6"
+        ],
+        [
+          "smallvec",
+          "0.6.13"
+        ],
+        [
+          "winapi",
+          "0.3.8"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.8": [
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.2": [
+        [
+          "proc-macro2",
+          "1.0.8"
+        ]
+      ]
+    },
+    "rand": {
+      "0.4.6": [
+        [
+          "fuchsia-cprng",
+          "0.1.1"
+        ],
+        [
+          "libc",
+          "0.2.66"
+        ],
+        [
+          "rand_core",
+          "0.3.1"
+        ],
+        [
+          "rdrand",
+          "0.4.0"
+        ],
+        [
+          "winapi",
+          "0.3.8"
+        ]
+      ]
+    },
+    "rand_core": {
+      "0.3.1": [
+        [
+          "rand_core",
+          "0.4.2"
+        ]
+      ]
+    },
+    "rdrand": {
+      "0.4.0": [
+        [
+          "rand_core",
+          "0.3.1"
+        ]
+      ]
+    },
+    "rental": {
+      "0.5.5": [
+        [
+          "rental-impl",
+          "0.5.5"
+        ],
+        [
+          "stable_deref_trait",
+          "1.1.1"
+        ]
+      ]
+    },
+    "rental-impl": {
+      "0.5.5": [
+        [
+          "proc-macro2",
+          "1.0.8"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.14"
+        ]
+      ]
+    },
+    "smallvec": {
+      "0.6.13": [
+        [
+          "maybe-uninit",
+          "2.0.0"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.14": [
+        [
+          "proc-macro2",
+          "1.0.8"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    },
+    "tinyvec": {
+      "1.0.1": [
+        [
+          "tinyvec_macros",
+          "0.1.0"
+        ]
+      ]
+    },
+    "tokio-io": {
+      "0.1.12": [
+        [
+          "bytes",
+          "0.4.12"
+        ],
+        [
+          "futures",
+          "0.1.29"
+        ],
+        [
+          "log",
+          "0.4.8"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.8": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "al-sys": {
+      "0.6.1": {
+        "hash": "ff8d9b0f4d10264c060ee5614dedb6b7695f366e93be6549c48f58981da39023",
+        "type": "crates-io"
+      }
+    },
+    "alto": {
+      "3.0.4": {
+        "hash": "d75be812fc4f27ac66752f30715a2357c9f3ad619229fc21cf431b32606dfae5",
+        "type": "crates-io"
+      }
+    },
+    "byteorder": {
+      "1.3.2": {
+        "hash": "a7c3dd8985a7111efc5c80b44e23ecdd8c007de8ade3b96595387e812b957cf5",
+        "type": "crates-io"
+      }
+    },
+    "bytes": {
+      "0.4.12": {
+        "hash": "206fdffcfa2df7cbe15601ef46c813fce0965eb3286db6b56c583b814b51c81c",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.50": {
+        "hash": "95e28fa049fda1c330bcf9d723be7663a899c4679724b34c81e9f5a326aab8cd",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "0.1.10": {
+        "hash": "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.42": {
+        "hash": "81fb25b677f8bf1eb325017cb6bb8452f87969db0fedb4f757b297bee78a7c62",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-cprng": {
+      "0.1.1": {
+        "hash": "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba",
+        "type": "crates-io"
+      }
+    },
+    "futures": {
+      "0.1.29": {
+        "hash": "1b980f2816d6ee8673b6517b52cb0e808a180efc92e5c19d02cdda79066703ef",
+        "type": "crates-io"
+      }
+    },
+    "iovec": {
+      "0.1.4": {
+        "hash": "b2b3ea6ff95e175473f8ffe6a7eb7c00d054240321b84c57051175fe3c1e075e",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "0.2.11": {
+        "hash": "76f033c7ad61445c5b347c7382dd1237847eb1bce590fe50365dcb33d546be73",
+        "type": "crates-io"
+      }
+    },
+    "lewton": {
+      "0.10.2": {
+        "hash": "777b48df9aaab155475a83a7df3070395ea1ac6902f5cd062b8f2b028075c030",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.66": {
+        "hash": "d515b1f41455adea1313a4a2ac8a8a477634fbae63cc6100e3aebb207ce61558",
+        "type": "crates-io"
+      }
+    },
+    "libloading": {
+      "0.5.2": {
+        "hash": "f2b111a074963af1d37a139918ac6d49ad1d0d5e47f72fd55388619691a7d753",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.8": {
+        "hash": "14b6052be84e6b71ab17edffc2eeabf5c2c3ae1fdb464aae35ac50c67a44e1f7",
+        "type": "crates-io"
+      }
+    },
+    "maybe-uninit": {
+      "2.0.0": {
+        "hash": "60302e4db3a61da70c0cb7991976248362f30319e88850c487b9b95bbf059e00",
+        "type": "crates-io"
+      }
+    },
+    "ogg": {
+      "0.8.0": {
+        "hash": "6951b4e8bf21c8193da321bcce9c9dd2e13c858fe078bf9054a288b419ae5d6e",
+        "type": "crates-io"
+      }
+    },
+    "owning_ref": {
+      "0.3.3": {
+        "hash": "cdf84f41639e037b484f93433aa3897863b561ed65c6e59c7073d7c561710f37",
+        "type": "crates-io"
+      }
+    },
+    "parking_lot": {
+      "0.4.8": {
+        "hash": "149d8f5b97f3c1133e3cfcd8886449959e856b557ff281e292b733d7c69e005e",
+        "type": "crates-io"
+      }
+    },
+    "parking_lot_core": {
+      "0.2.14": {
+        "hash": "4db1a8ccf734a7bce794cc19b3df06ed87ab2f3907036b693c68f56b4d4537fa",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.8": {
+        "hash": "3acb317c6ff86a4e579dfa00fc5e6cca91ecbb4e7eb2df0468805b674eb88548",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.2": {
+        "hash": "053a8c8bcc71fcce321828dc897a98ab9760bef03a4fc36693c231e5b3216cfe",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.4.6": {
+        "hash": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.3.1": {
+        "hash": "7a6fdeb83b075e8266dcc8762c22776f6877a63111121f5f8c7411e5be7eed4b",
+        "type": "crates-io"
+      },
+      "0.4.2": {
+        "hash": "9c33a3c44ca05fa6f1807d8e6743f3824e8509beca625669633be0acbdf509dc",
+        "type": "crates-io"
+      }
+    },
+    "rdrand": {
+      "0.4.0": {
+        "hash": "678054eb77286b51581ba43620cc911abf02758c91f93f479767aed0f90458b2",
+        "type": "crates-io"
+      }
+    },
+    "rental": {
+      "0.5.5": {
+        "hash": "8545debe98b2b139fb04cad8618b530e9b07c152d99a5de83c860b877d67847f",
+        "type": "crates-io"
+      }
+    },
+    "rental-impl": {
+      "0.5.5": {
+        "hash": "475e68978dc5b743f2f40d8e0a8fdc83f1c5e78cbf4b8fa5e74e73beebc340de",
+        "type": "crates-io"
+      }
+    },
+    "smallvec": {
+      "0.6.13": {
+        "hash": "f7b0758c52e15a8b5e3691eae6cc559f08eee9406e548a4477ba4e67770a82b6",
+        "type": "crates-io"
+      }
+    },
+    "stable_deref_trait": {
+      "1.1.1": {
+        "hash": "dba1a27d3efae4351c8051072d619e3ade2820635c3958d826bfea39d59b54c8",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.14": {
+        "hash": "af6f3550d8dff9ef7dc34d384ac6f107e5d31c8f57d9f28e0081503f547ac8f5",
+        "type": "crates-io"
+      }
+    },
+    "tinyvec": {
+      "1.0.1": {
+        "hash": "b78a366903f506d2ad52ca8dc552102ffdd3e937ba8a227f024dc1d1eae28575",
+        "type": "crates-io"
+      }
+    },
+    "tinyvec_macros": {
+      "0.1.0": {
+        "hash": "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c",
+        "type": "crates-io"
+      }
+    },
+    "tokio-io": {
+      "0.1.12": {
+        "hash": "5090db468dad16e1a7a54c8c67280c5e4b544f3d3e018f0b913b400261f85926",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.0": {
+        "hash": "826e7639553986605ec5979c7dd957c7895e93eabed50ab2ffa7f6128a75097c",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.8": {
+        "hash": "8093091eeb260906a183e6ae1abdba2ef5ef2257a21801128899c3fc699229c6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

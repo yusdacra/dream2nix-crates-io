@@ -1,0 +1,218 @@
+{
+  "_generic": {
+    "defaultPackage": "x11rb",
+    "location": "",
+    "packages": {
+      "x11rb": "0.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "gethostname": {
+      "0.2.1": [
+        [
+          "libc",
+          "0.2.101"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "libloading": {
+      "0.7.0": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "memoffset": {
+      "0.6.4": [
+        [
+          "autocfg",
+          "1.0.1"
+        ]
+      ]
+    },
+    "nix": {
+      "0.22.1": [
+        [
+          "bitflags",
+          "1.2.1"
+        ],
+        [
+          "cc",
+          "1.0.69"
+        ],
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "libc",
+          "0.2.101"
+        ],
+        [
+          "memoffset",
+          "0.6.4"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    },
+    "winapi-wsapoll": {
+      "0.1.1": [
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "x11rb": {
+      "0.9.0": [
+        [
+          "gethostname",
+          "0.2.1"
+        ],
+        [
+          "libc",
+          "0.2.101"
+        ],
+        [
+          "libloading",
+          "0.7.0"
+        ],
+        [
+          "nix",
+          "0.22.1"
+        ],
+        [
+          "once_cell",
+          "1.8.0"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ],
+        [
+          "winapi-wsapoll",
+          "0.1.1"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.0.1": {
+        "hash": "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a",
+        "type": "crates-io"
+      }
+    },
+    "bitflags": {
+      "1.2.1": {
+        "hash": "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.69": {
+        "hash": "e70cc2f62c6ce1868963827bd677764c62d07c3d9a3e1fb1177ee1a9ab199eb2",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "gethostname": {
+      "0.2.1": {
+        "hash": "e692e296bfac1d2533ef168d0b60ff5897b8b70a4009276834014dd8924cc028",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.101": {
+        "hash": "3cb00336871be5ed2c8ed44b60ae9959dc5b9f08539422ed43f09e34ecaeba21",
+        "type": "crates-io"
+      }
+    },
+    "libloading": {
+      "0.7.0": {
+        "hash": "6f84d96438c15fcd6c3f244c8fce01d1e2b9c6b5623e9c711dc9286d8fc92d6a",
+        "type": "crates-io"
+      }
+    },
+    "memoffset": {
+      "0.6.4": {
+        "hash": "59accc507f1338036a0477ef61afdae33cde60840f4dfe481319ce3ad116ddf9",
+        "type": "crates-io"
+      }
+    },
+    "nix": {
+      "0.22.1": {
+        "hash": "e7555d6c7164cc913be1ce7f95cbecdabda61eb2ccd89008524af306fb7f5031",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.8.0": {
+        "hash": "692fcb63b64b1758029e0a96ee63e049ce8c5948587f2f7208df04625e5f6b56",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-wsapoll": {
+      "0.1.1": {
+        "hash": "44c17110f57155602a80dca10be03852116403c9ff3cd25b079d666f2aa3df6e",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    },
+    "x11rb": {
+      "0.9.0": {
+        "hash": "6e99be55648b3ae2a52342f9a870c0e138709a3493261ce9b469afe6e4df6d8a",
+        "type": "crates-io"
+      }
+    }
+  }
+}

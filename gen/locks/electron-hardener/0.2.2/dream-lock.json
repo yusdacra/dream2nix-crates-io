@@ -1,0 +1,178 @@
+{
+  "_generic": {
+    "defaultPackage": "electron-hardener",
+    "location": "",
+    "packages": {
+      "electron-hardener": "0.2.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aho-corasick": {
+      "0.7.15": [
+        [
+          "memchr",
+          "2.3.4"
+        ]
+      ]
+    },
+    "electron-hardener": {
+      "0.2.2": [
+        [
+          "enum-iterator",
+          "0.6.0"
+        ],
+        [
+          "regex",
+          "1.4.6"
+        ]
+      ]
+    },
+    "enum-iterator": {
+      "0.6.0": [
+        [
+          "enum-iterator-derive",
+          "0.6.0"
+        ]
+      ]
+    },
+    "enum-iterator-derive": {
+      "0.6.0": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ],
+        [
+          "syn",
+          "1.0.70"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.26": [
+        [
+          "unicode-xid",
+          "0.2.1"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.9": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ]
+      ]
+    },
+    "regex": {
+      "1.4.6": [
+        [
+          "aho-corasick",
+          "0.7.15"
+        ],
+        [
+          "memchr",
+          "2.3.4"
+        ],
+        [
+          "regex-syntax",
+          "0.6.23"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.70": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ],
+        [
+          "unicode-xid",
+          "0.2.1"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "aho-corasick": {
+      "0.7.15": {
+        "hash": "7404febffaa47dac81aa44dba71523c9d069b1bdc50a77db41195149e17f68e5",
+        "type": "crates-io"
+      }
+    },
+    "electron-hardener": {
+      "0.2.2": {
+        "hash": "a5123e1424a3cc7d1c8448f559fec5b95457ce30bc515894543dddb846564992",
+        "type": "crates-io"
+      }
+    },
+    "enum-iterator": {
+      "0.6.0": {
+        "hash": "c79a6321a1197d7730510c7e3f6cb80432dfefecb32426de8cea0aa19b4bb8d7",
+        "type": "crates-io"
+      }
+    },
+    "enum-iterator-derive": {
+      "0.6.0": {
+        "hash": "1e94aa31f7c0dc764f57896dc615ddd76fc13b0d5dca7eb6cc5e018a5a09ec06",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.3.4": {
+        "hash": "0ee1c47aaa256ecabcaea351eae4a9b01ef39ed810004e298d2511ed284b1525",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.26": {
+        "hash": "a152013215dca273577e18d2bf00fa862b89b24169fb78c4c95aeb07992c9cec",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.9": {
+        "hash": "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.4.6": {
+        "hash": "2a26af418b574bd56588335b3a3659a65725d4e636eb1016c2f9e3b38c7cc759",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.23": {
+        "hash": "24d5f089152e60f62d28b835fbff2cd2e8dc0baf1ac13343bef92ab7eed84548",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.70": {
+        "hash": "b9505f307c872bab8eb46f77ae357c8eba1fdacead58ee5a850116b1d7f82883",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.1": {
+        "hash": "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564",
+        "type": "crates-io"
+      }
+    }
+  }
+}

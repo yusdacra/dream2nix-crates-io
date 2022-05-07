@@ -1,0 +1,54 @@
+{
+  "_generic": {
+    "defaultPackage": "spin",
+    "location": "",
+    "packages": {
+      "spin": "0.9.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "lock_api": {
+      "0.4.1": [
+        [
+          "scopeguard",
+          "1.1.0"
+        ]
+      ]
+    },
+    "spin": {
+      "0.9.3": [
+        [
+          "lock_api",
+          "0.4.1"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "lock_api": {
+      "0.4.1": {
+        "hash": "28247cc5a5be2f05fbcd76dd0cf2c7d3b5400cb978a28042abcd4fa0b3f8261c",
+        "type": "crates-io"
+      }
+    },
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
+        "type": "crates-io"
+      }
+    },
+    "spin": {
+      "0.9.3": {
+        "hash": "c530c2b0d0bf8b69304b39fe2001993e267461948b890cd037d8ad4293fa1a0d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

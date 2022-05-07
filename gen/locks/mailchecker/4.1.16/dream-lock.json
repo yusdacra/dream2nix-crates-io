@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "mailchecker",
+    "location": "",
+    "packages": {
+      "mailchecker": "4.1.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fast_chemail": {
+      "0.9.6": [
+        [
+          "ascii_utils",
+          "0.9.3"
+        ]
+      ]
+    },
+    "mailchecker": {
+      "4.1.16": [
+        [
+          "fast_chemail",
+          "0.9.6"
+        ],
+        [
+          "once_cell",
+          "1.8.0"
+        ],
+        [
+          "pretty_assertions",
+          "0.1.2"
+        ]
+      ]
+    },
+    "pretty_assertions": {
+      "0.1.2": [
+        [
+          "difference",
+          "1.0.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "ascii_utils": {
+      "0.9.3": {
+        "hash": "71938f30533e4d95a6d17aa530939da3842c2ab6f4f84b9dae68447e4129f74a",
+        "type": "crates-io"
+      }
+    },
+    "difference": {
+      "1.0.0": {
+        "hash": "b3304d19798a8e067e48d8e69b2c37f0b5e9b4e462504ad9e27e9f3fce02bba8",
+        "type": "crates-io"
+      }
+    },
+    "fast_chemail": {
+      "0.9.6": {
+        "hash": "495a39d30d624c2caabe6312bfead73e7717692b44e0b32df168c275a2e8e9e4",
+        "type": "crates-io"
+      }
+    },
+    "mailchecker": {
+      "4.1.16": {
+        "hash": "6995bc829d84842d1e7e7f73e0e6454dd6cd366911cc449b6fe9e2c0f8d5db4c",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.8.0": {
+        "hash": "692fcb63b64b1758029e0a96ee63e049ce8c5948587f2f7208df04625e5f6b56",
+        "type": "crates-io"
+      }
+    },
+    "pretty_assertions": {
+      "0.1.2": {
+        "hash": "2412f3332a07c7a2a50168988dcc184f32180a9758ad470390e5f55e089f6b6e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

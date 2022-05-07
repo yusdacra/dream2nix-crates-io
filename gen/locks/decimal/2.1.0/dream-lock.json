@@ -1,0 +1,128 @@
+{
+  "_generic": {
+    "defaultPackage": "decimal",
+    "location": "",
+    "packages": {
+      "decimal": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "decimal": {
+      "2.1.0": [
+        [
+          "bitflags",
+          "1.2.1"
+        ],
+        [
+          "cc",
+          "1.0.67"
+        ],
+        [
+          "libc",
+          "0.2.88"
+        ],
+        [
+          "ord_subset",
+          "3.1.1"
+        ],
+        [
+          "rustc-serialize",
+          "0.3.24"
+        ],
+        [
+          "serde",
+          "1.0.124"
+        ],
+        [
+          "serde_json",
+          "1.0.64"
+        ]
+      ]
+    },
+    "serde_json": {
+      "1.0.64": [
+        [
+          "itoa",
+          "0.4.7"
+        ],
+        [
+          "ryu",
+          "1.0.5"
+        ],
+        [
+          "serde",
+          "1.0.124"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "bitflags": {
+      "1.2.1": {
+        "hash": "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.67": {
+        "hash": "e3c69b077ad434294d3ce9f1f6143a2a4b89a8a2d54ef813d85003a4fd1137fd",
+        "type": "crates-io"
+      }
+    },
+    "decimal": {
+      "2.1.0": {
+        "hash": "5a8ab77e91baeb15034c3be91e87bff4665c9036216148e4996d9a9f5792114d",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "0.4.7": {
+        "hash": "dd25036021b0de88a0aff6b850051563c6516d0bf53f8638938edbb9de732736",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.88": {
+        "hash": "03b07a082330a35e43f63177cc01689da34fbffa0105e1246cf0311472cac73a",
+        "type": "crates-io"
+      }
+    },
+    "ord_subset": {
+      "3.1.1": {
+        "hash": "d7ce14664caf5b27f5656ff727defd68ae1eb75ef3c4d95259361df1eb376bef",
+        "type": "crates-io"
+      }
+    },
+    "rustc-serialize": {
+      "0.3.24": {
+        "hash": "dcf128d1287d2ea9d80910b5f1120d0b8eede3fbf1abe91c40d39ea7d51e6fda",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.5": {
+        "hash": "71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.124": {
+        "hash": "bd761ff957cb2a45fbb9ab3da6512de9de55872866160b23c25f1a841e99d29f",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.64": {
+        "hash": "799e97dc9fdae36a5c8b8f2cae9ce2ee9fdce2058c57a93e6099d919fd982f79",
+        "type": "crates-io"
+      }
+    }
+  }
+}

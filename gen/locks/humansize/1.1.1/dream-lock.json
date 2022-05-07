@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "humansize",
+    "location": "",
+    "packages": {
+      "humansize": "1.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "humansize": {
+      "1.1.1": {
+        "hash": "02296996cb8796d7c6e3bc2d9211b7802812d36999a51bb754123ead7d37d026",
+        "type": "crates-io"
+      }
+    }
+  }
+}

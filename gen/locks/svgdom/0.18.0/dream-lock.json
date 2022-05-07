@@ -1,0 +1,388 @@
+{
+  "_generic": {
+    "defaultPackage": "svgdom",
+    "location": "",
+    "packages": {
+      "svgdom": "0.18.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ansi_term": {
+      "0.11.0": [
+        [
+          "winapi",
+          "0.3.7"
+        ]
+      ]
+    },
+    "ctor": {
+      "0.1.9": [
+        [
+          "quote",
+          "0.6.12"
+        ],
+        [
+          "syn",
+          "0.15.35"
+        ]
+      ]
+    },
+    "fern": {
+      "0.5.8": [
+        [
+          "log",
+          "0.4.8"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.8": [
+        [
+          "cfg-if",
+          "0.1.9"
+        ]
+      ]
+    },
+    "output_vt100": {
+      "0.1.2": [
+        [
+          "winapi",
+          "0.3.7"
+        ]
+      ]
+    },
+    "pretty_assertions": {
+      "0.6.1": [
+        [
+          "ansi_term",
+          "0.11.0"
+        ],
+        [
+          "ctor",
+          "0.1.9"
+        ],
+        [
+          "difference",
+          "2.0.0"
+        ],
+        [
+          "output_vt100",
+          "0.1.2"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "0.4.30": [
+        [
+          "unicode-xid",
+          "0.1.0"
+        ]
+      ]
+    },
+    "quote": {
+      "0.6.12": [
+        [
+          "proc-macro2",
+          "0.4.30"
+        ]
+      ]
+    },
+    "roxmltree": {
+      "0.6.0": [
+        [
+          "xmlparser",
+          "0.9.0"
+        ]
+      ]
+    },
+    "simplecss": {
+      "0.2.0": [
+        [
+          "log",
+          "0.4.8"
+        ]
+      ]
+    },
+    "svgdom": {
+      "0.18.0": [
+        [
+          "bencher",
+          "0.1.5"
+        ],
+        [
+          "fern",
+          "0.5.8"
+        ],
+        [
+          "log",
+          "0.4.8"
+        ],
+        [
+          "pretty_assertions",
+          "0.6.1"
+        ],
+        [
+          "roxmltree",
+          "0.6.0"
+        ],
+        [
+          "simplecss",
+          "0.2.0"
+        ],
+        [
+          "siphasher",
+          "0.2.3"
+        ],
+        [
+          "slab",
+          "0.4.2"
+        ],
+        [
+          "svgtypes",
+          "0.5.0"
+        ],
+        [
+          "time",
+          "0.1.42"
+        ],
+        [
+          "xmlwriter",
+          "0.1.0"
+        ]
+      ]
+    },
+    "svgtypes": {
+      "0.5.0": [
+        [
+          "float-cmp",
+          "0.5.0"
+        ],
+        [
+          "siphasher",
+          "0.2.3"
+        ]
+      ]
+    },
+    "syn": {
+      "0.15.35": [
+        [
+          "proc-macro2",
+          "0.4.30"
+        ],
+        [
+          "quote",
+          "0.6.12"
+        ],
+        [
+          "unicode-xid",
+          "0.1.0"
+        ]
+      ]
+    },
+    "time": {
+      "0.1.42": [
+        [
+          "libc",
+          "0.2.58"
+        ],
+        [
+          "redox_syscall",
+          "0.1.54"
+        ],
+        [
+          "winapi",
+          "0.3.7"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.7": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "ansi_term": {
+      "0.11.0": {
+        "hash": "ee49baf6cb617b853aa8d93bf420db2383fab46d314482ca2803b40d5fde979b",
+        "type": "crates-io"
+      }
+    },
+    "bencher": {
+      "0.1.5": {
+        "hash": "7dfdb4953a096c551ce9ace855a604d702e6e62d77fac690575ae347571717f5",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "0.1.9": {
+        "hash": "b486ce3ccf7ffd79fdeb678eac06a9e6c09fc88d33836340becb8fffe87c5e33",
+        "type": "crates-io"
+      }
+    },
+    "ctor": {
+      "0.1.9": {
+        "hash": "3b4c17619643c1252b5f690084b82639dd7fac141c57c8e77a00e0148132092c",
+        "type": "crates-io"
+      }
+    },
+    "difference": {
+      "2.0.0": {
+        "hash": "524cbf6897b527295dff137cec09ecf3a05f4fddffd7dfcd1585403449e74198",
+        "type": "crates-io"
+      }
+    },
+    "fern": {
+      "0.5.8": {
+        "hash": "29d26fa0f4d433d1956746e66ec10d6bf4d6c8b93cd39965cceea7f7cc78c7dd",
+        "type": "crates-io"
+      }
+    },
+    "float-cmp": {
+      "0.5.0": {
+        "hash": "17ae3a6394183450225f33d9419cbd627b3cfc831e14f3f1146d5bcaf984e00c",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.58": {
+        "hash": "6281b86796ba5e4366000be6e9e18bf35580adf9e63fbe2294aadb587613a319",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.8": {
+        "hash": "14b6052be84e6b71ab17edffc2eeabf5c2c3ae1fdb464aae35ac50c67a44e1f7",
+        "type": "crates-io"
+      }
+    },
+    "output_vt100": {
+      "0.1.2": {
+        "hash": "53cdc5b785b7a58c5aad8216b3dfa114df64b0b06ae6e1501cef91df2fbdf8f9",
+        "type": "crates-io"
+      }
+    },
+    "pretty_assertions": {
+      "0.6.1": {
+        "hash": "3f81e1644e1b54f5a68959a29aa86cde704219254669da328ecfdf6a1f09d427",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "0.4.30": {
+        "hash": "cf3d2011ab5c909338f7887f4fc896d35932e29146c12c8d01da6b22a80ba759",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "0.6.12": {
+        "hash": "faf4799c5d274f3868a4aae320a0a182cbd2baee377b378f080e16a23e9d80db",
+        "type": "crates-io"
+      }
+    },
+    "redox_syscall": {
+      "0.1.54": {
+        "hash": "12229c14a0f65c4f1cb046a3b52047cdd9da1f4b30f8a39c5063c8bae515e252",
+        "type": "crates-io"
+      }
+    },
+    "roxmltree": {
+      "0.6.0": {
+        "hash": "53b0200cbfa8b3f6cfd6076592717d697a1ddc57cb2a8fbfd3d133c06011b579",
+        "type": "crates-io"
+      }
+    },
+    "simplecss": {
+      "0.2.0": {
+        "hash": "596554e63596d556a0dbd681416342ca61c75f1a45203201e7e77d3fa2fa9014",
+        "type": "crates-io"
+      }
+    },
+    "siphasher": {
+      "0.2.3": {
+        "hash": "0b8de496cf83d4ed58b6be86c3a275b8602f6ffe98d3024a869e124147a9a3ac",
+        "type": "crates-io"
+      }
+    },
+    "slab": {
+      "0.4.2": {
+        "hash": "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8",
+        "type": "crates-io"
+      }
+    },
+    "svgdom": {
+      "0.18.0": {
+        "hash": "e4ae7d6df72b3a36c0f003f1f8919c96be43d20d7c015f8dcf2f82531a4fc33b",
+        "type": "crates-io"
+      }
+    },
+    "svgtypes": {
+      "0.5.0": {
+        "hash": "9c536faaff1a10837cfe373142583f6e27d81e96beba339147e77b67c9f260ff",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "0.15.35": {
+        "hash": "641e117d55514d6d918490e47102f7e08d096fdde360247e4a10f7a91a8478d3",
+        "type": "crates-io"
+      }
+    },
+    "time": {
+      "0.1.42": {
+        "hash": "db8dcfca086c1143c9270ac42a2bbd8a7ee477b78ac8e45b19abfb0cbede4b6f",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.1.0": {
+        "hash": "fc72304796d0818e357ead4e000d19c9c174ab23dc11093ac919054d20a6a7fc",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.7": {
+        "hash": "f10e386af2b13e47c89e7236a7a14a086791a2b88ebad6df9bf42040195cf770",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    },
+    "xmlparser": {
+      "0.9.0": {
+        "hash": "ecec95f00fb0ff019153e64ea520f87d1409769db3e8f4db3ea588638a3e1cee",
+        "type": "crates-io"
+      }
+    },
+    "xmlwriter": {
+      "0.1.0": {
+        "hash": "ec7a2a501ed189703dba8b08142f057e887dfc4b2cc4db2d343ac6376ba3e0b9",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "_generic": {
+    "defaultPackage": "gflags",
+    "location": "",
+    "packages": {
+      "gflags": "0.3.11"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aho-corasick": {
+      "0.7.18": [
+        [
+          "memchr",
+          "2.4.1"
+        ]
+      ]
+    },
+    "assert_cmd": {
+      "2.0.2": [
+        [
+          "bstr",
+          "0.2.17"
+        ],
+        [
+          "doc-comment",
+          "0.3.3"
+        ],
+        [
+          "predicates",
+          "2.1.0"
+        ],
+        [
+          "predicates-core",
+          "1.0.2"
+        ],
+        [
+          "predicates-tree",
+          "1.0.4"
+        ],
+        [
+          "wait-timeout",
+          "0.2.0"
+        ]
+      ]
+    },
+    "bstr": {
+      "0.2.17": [
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "memchr",
+          "2.4.1"
+        ],
+        [
+          "regex-automata",
+          "0.1.10"
+        ]
+      ]
+    },
+    "ctor": {
+      "0.1.21": [
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.83"
+        ]
+      ]
+    },
+    "float-cmp": {
+      "0.9.0": [
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "gflags": {
+      "0.3.11": [
+        [
+          "argv",
+          "0.1.4"
+        ],
+        [
+          "assert_cmd",
+          "2.0.2"
+        ],
+        [
+          "gflags-impl",
+          "0.3.11"
+        ],
+        [
+          "inventory",
+          "0.2.0"
+        ],
+        [
+          "predicates",
+          "2.1.0"
+        ],
+        [
+          "ref-cast",
+          "1.0.6"
+        ]
+      ]
+    },
+    "gflags-impl": {
+      "0.3.11": [
+        [
+          "proc-macro2",
+          "1.0.34"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.83"
+        ]
+      ]
+    },
+    "ghost": {
+      "0.1.2": [
+        [
+          "proc-macro2",
+          "1.0.34"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.83"
+        ]
+      ]
+    },
+    "inventory": {
+      "0.2.0": [
+        [
+          "ctor",
+          "0.1.21"
+        ],
+        [
+          "ghost",
+          "0.1.2"
+        ]
+      ]
+    },
+    "itertools": {
+      "0.10.3": [
+        [
+          "either",
+          "1.6.1"
+        ]
+      ]
+    },
+    "num-traits": {
+      "0.2.14": [
+        [
+          "autocfg",
+          "1.0.1"
+        ]
+      ]
+    },
+    "predicates": {
+      "2.1.0": [
+        [
+          "difflib",
+          "0.4.0"
+        ],
+        [
+          "float-cmp",
+          "0.9.0"
+        ],
+        [
+          "itertools",
+          "0.10.3"
+        ],
+        [
+          "normalize-line-endings",
+          "0.3.0"
+        ],
+        [
+          "predicates-core",
+          "1.0.2"
+        ],
+        [
+          "regex",
+          "1.5.4"
+        ]
+      ]
+    },
+    "predicates-tree": {
+      "1.0.4": [
+        [
+          "predicates-core",
+          "1.0.2"
+        ],
+        [
+          "termtree",
+          "0.2.3"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.34": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.10": [
+        [
+          "proc-macro2",
+          "1.0.34"
+        ]
+      ]
+    },
+    "ref-cast": {
+      "1.0.6": [
+        [
+          "ref-cast-impl",
+          "1.0.6"
+        ]
+      ]
+    },
+    "ref-cast-impl": {
+      "1.0.6": [
+        [
+          "proc-macro2",
+          "1.0.34"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.83"
+        ]
+      ]
+    },
+    "regex": {
+      "1.5.4": [
+        [
+          "aho-corasick",
+          "0.7.18"
+        ],
+        [
+          "memchr",
+          "2.4.1"
+        ],
+        [
+          "regex-syntax",
+          "0.6.25"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.83": [
+        [
+          "proc-macro2",
+          "1.0.34"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "wait-timeout": {
+      "0.2.0": [
+        [
+          "libc",
+          "0.2.112"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "aho-corasick": {
+      "0.7.18": {
+        "hash": "1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f",
+        "type": "crates-io"
+      }
+    },
+    "argv": {
+      "0.1.4": {
+        "hash": "e9fec65789d8c87d48232b6f988ca269e2729ee9f878ffe0631b82b5695ab8d9",
+        "type": "crates-io"
+      }
+    },
+    "assert_cmd": {
+      "2.0.2": {
+        "hash": "e996dc7940838b7ef1096b882e29ec30a3149a3a443cdc8dba19ed382eca1fe2",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.0.1": {
+        "hash": "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a",
+        "type": "crates-io"
+      }
+    },
+    "bstr": {
+      "0.2.17": {
+        "hash": "ba3569f383e8f1598449f1a423e72e99569137b47740b1da11ef19af3d5c3223",
+        "type": "crates-io"
+      }
+    },
+    "ctor": {
+      "0.1.21": {
+        "hash": "ccc0a48a9b826acdf4028595adc9db92caea352f7af011a3034acd172a52a0aa",
+        "type": "crates-io"
+      }
+    },
+    "difflib": {
+      "0.4.0": {
+        "hash": "6184e33543162437515c2e2b48714794e37845ec9851711914eec9d308f6ebe8",
+        "type": "crates-io"
+      }
+    },
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "either": {
+      "1.6.1": {
+        "hash": "e78d4f1cc4ae33bbfc157ed5d5a5ef3bc29227303d595861deb238fcec4e9457",
+        "type": "crates-io"
+      }
+    },
+    "float-cmp": {
+      "0.9.0": {
+        "hash": "98de4bbd547a563b716d8dfa9aad1cb19bfab00f4fa09a6a4ed21dbcf44ce9c4",
+        "type": "crates-io"
+      }
+    },
+    "gflags": {
+      "0.3.11": {
+        "hash": "9e835c8e2fe3791dbb31f9ed72f5f1016ca4bba0fa47d745e8eea845608df1a1",
+        "type": "crates-io"
+      }
+    },
+    "gflags-impl": {
+      "0.3.11": {
+        "hash": "27434aa2db8a77023f3355188e3b46c07c9ee3708e374a2a1347c60a474d2ffc",
+        "type": "crates-io"
+      }
+    },
+    "ghost": {
+      "0.1.2": {
+        "hash": "1a5bcf1bbeab73aa4cf2fde60a846858dc036163c7c33bec309f8d17de785479",
+        "type": "crates-io"
+      }
+    },
+    "inventory": {
+      "0.2.0": {
+        "hash": "1367fed6750ff2a5bcb967a631528303bb85631f167a75eb1bf7762d57eb7678",
+        "type": "crates-io"
+      }
+    },
+    "itertools": {
+      "0.10.3": {
+        "hash": "a9a9d19fa1e79b6215ff29b9d6880b706147f16e9b1dbb1e4e5947b5b02bc5e3",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.112": {
+        "hash": "1b03d17f364a3a042d5e5d46b053bbbf82c92c9430c592dd4c064dc6ee997125",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.4.1": {
+        "hash": "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a",
+        "type": "crates-io"
+      }
+    },
+    "normalize-line-endings": {
+      "0.3.0": {
+        "hash": "61807f77802ff30975e01f4f071c8ba10c022052f98b3294119f3e615d13e5be",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.14": {
+        "hash": "9a64b1ec5cda2586e284722486d802acf1f7dbdc623e2bfc57e65ca1cd099290",
+        "type": "crates-io"
+      }
+    },
+    "predicates": {
+      "2.1.0": {
+        "hash": "95e5a7689e456ab905c22c2b48225bb921aba7c8dfa58440d68ba13f6222a715",
+        "type": "crates-io"
+      }
+    },
+    "predicates-core": {
+      "1.0.2": {
+        "hash": "57e35a3326b75e49aa85f5dc6ec15b41108cf5aee58eabb1f274dd18b73c2451",
+        "type": "crates-io"
+      }
+    },
+    "predicates-tree": {
+      "1.0.4": {
+        "hash": "338c7be2905b732ae3984a2f40032b5e94fd8f52505b186c7d4d68d193445df7",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.34": {
+        "hash": "2f84e92c0f7c9d58328b85a78557813e4bd845130db68d7184635344399423b1",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.10": {
+        "hash": "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05",
+        "type": "crates-io"
+      }
+    },
+    "ref-cast": {
+      "1.0.6": {
+        "hash": "300f2a835d808734ee295d45007adacb9ebb29dd3ae2424acfa17930cae541da",
+        "type": "crates-io"
+      }
+    },
+    "ref-cast-impl": {
+      "1.0.6": {
+        "hash": "4c38e3aecd2b21cb3959637b883bb3714bc7e43f0268b9a29d3743ee3e55cdd2",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.5.4": {
+        "hash": "d07a8629359eb56f1e2fb1652bb04212c072a87ba68546a04065d525673ac461",
+        "type": "crates-io"
+      }
+    },
+    "regex-automata": {
+      "0.1.10": {
+        "hash": "6c230d73fb8d8c1b9c0b3135c5142a8acee3a0558fb8db5cf1cb65f8d7862132",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.25": {
+        "hash": "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.83": {
+        "hash": "23a1dfb999630e338648c83e91c59a4e9fb7620f520c3194b6b89e276f2f1959",
+        "type": "crates-io"
+      }
+    },
+    "termtree": {
+      "0.2.3": {
+        "hash": "13a4ec180a2de59b57434704ccfad967f789b12737738798fa08798cd5824c16",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "wait-timeout": {
+      "0.2.0": {
+        "hash": "9f200f5b12eb75f8c1ed65abd4b2db8a6e1b138a20de009dacee265a2498f3f6",
+        "type": "crates-io"
+      }
+    }
+  }
+}

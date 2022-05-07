@@ -1,0 +1,132 @@
+{
+  "_generic": {
+    "defaultPackage": "rust-stemmers",
+    "location": "",
+    "packages": {
+      "rust-stemmers": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rust-stemmers": {
+      "1.2.0": [
+        [
+          "serde",
+          "1.0.11"
+        ],
+        [
+          "serde_derive",
+          "1.0.11"
+        ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.11": [
+        [
+          "quote",
+          "0.3.15"
+        ],
+        [
+          "serde_derive_internals",
+          "0.15.1"
+        ],
+        [
+          "syn",
+          "0.11.11"
+        ]
+      ]
+    },
+    "serde_derive_internals": {
+      "0.15.1": [
+        [
+          "syn",
+          "0.11.11"
+        ],
+        [
+          "synom",
+          "0.11.3"
+        ]
+      ]
+    },
+    "syn": {
+      "0.11.11": [
+        [
+          "quote",
+          "0.3.15"
+        ],
+        [
+          "synom",
+          "0.11.3"
+        ],
+        [
+          "unicode-xid",
+          "0.0.4"
+        ]
+      ]
+    },
+    "synom": {
+      "0.11.3": [
+        [
+          "unicode-xid",
+          "0.0.4"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "quote": {
+      "0.3.15": {
+        "hash": "7a6e920b65c65f10b2ae65c831a81a073a89edd28c7cce89475bff467ab4167a",
+        "type": "crates-io"
+      }
+    },
+    "rust-stemmers": {
+      "1.2.0": {
+        "hash": "e46a2036019fdb888131db7a4c847a1063a7493f971ed94ea82c67eada63ca54",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.11": {
+        "hash": "f7726f29ddf9731b17ff113c461e362c381d9d69433f79de4f3dd572488823e9",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.11": {
+        "hash": "cf823e706be268e73e7747b147aa31c8f633ab4ba31f115efb57e5047c3a76dd",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive_internals": {
+      "0.15.1": {
+        "hash": "37aee4e0da52d801acfbc0cc219eb1eda7142112339726e427926a6f6ee65d3a",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "0.11.11": {
+        "hash": "d3b891b9015c88c576343b9b3e41c2c11a51c219ef067b264bd9c8aa9b441dad",
+        "type": "crates-io"
+      }
+    },
+    "synom": {
+      "0.11.3": {
+        "hash": "a393066ed9010ebaed60b9eafa373d4b1baac186dd7e008555b0f702b51945b6",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.0.4": {
+        "hash": "8c1f860d7d29cf02cb2f3f359fd35991af3d30bac52c57d265a3c461074cb4dc",
+        "type": "crates-io"
+      }
+    }
+  }
+}

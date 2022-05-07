@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "any_ascii",
+    "location": "",
+    "packages": {
+      "any_ascii": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "any_ascii": {
+      "0.3.1": {
+        "hash": "b1c2f61e4959c7ccd1bd26c13497471ec96a43ba8b7df3384b4cb6d92794f688",
+        "type": "crates-io"
+      }
+    }
+  }
+}

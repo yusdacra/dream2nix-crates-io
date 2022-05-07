@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "strip_bom",
+    "location": "",
+    "packages": {
+      "strip_bom": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "strip_bom": {
+      "1.0.0": {
+        "hash": "20cecc5f9998340da802809fe89e8a769b192960cf4dd77fccd9da7f60821d33",
+        "type": "crates-io"
+      }
+    }
+  }
+}
