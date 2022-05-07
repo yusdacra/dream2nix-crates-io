@@ -33,7 +33,9 @@
         inherit system;
         subsystem = "rust";
         fetcherName = "crates-io";
-        translatorName = "cargo-lock";
+        translatorForPath = {
+          "Cargo.lock" = "cargo-lock";
+        };
       };
 
       genTree = dream2nix.lib.dlib.prepareSourceTree {source = ./gen;};
