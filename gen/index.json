@@ -1104,7 +1104,7 @@
     "0.5.1": "bed554bd50246729a1ec158d08aa3235d1b69d94ad120ebe187e28894787e736"
   },
   "bellman": {
-    "0.12.0": "e323bc53df375ffa4eab01c7cfded9bfbc45bbb9f8b917e81f946c9eb087db2b"
+    "0.13.0": "0d96d7f4f3dc9a699bdef1d19648f6f20ef966b51892d224582a4475be669cb5"
   },
   "bellperson": {
     "0.20.0": "3440a7dc1fb5893a06e3b73091bd0b9617893010e72f35ff821d265607b21b32"
@@ -1147,6 +1147,9 @@
   },
   "bevy_diagnostic": {
     "0.7.0": "6ebf72ea058cfc379756e9da7de6861174e1860504f41e3e5a46d5b1c35d6644"
+  },
+  "bevy_dynamic_plugin": {
+    "0.7.0": "0321b0921b09db9f4822369cd46a0117f2a23c2bc35080cc583c53efc675e875"
   },
   "bevy_ecs": {
     "0.7.0": "79e67dd06b14e787d2026fe6e2b63f67482afcc62284f20ea2784d8b0662e95f"
@@ -3645,10 +3648,10 @@
     "0.1.1": "f16ef37b2a9b242295d61a154ee91ae884afff6b8b933b486b12481cc58310ca"
   },
   "enum-iterator": {
-    "0.7.0": "4eeac5c5edb79e4e39fe8439ef35207780a11f69c52cbe424ce3dfad4cb78de6"
+    "0.8.1": "2953d1df47ac0eb70086ccabf0275aa8da8591a28bd358ee2b52bd9f9e3ff9e9"
   },
   "enum-iterator-derive": {
-    "0.7.0": "c134c37760b27a871ba422106eedbb8247da973a09e82558bf26d619c882b159"
+    "0.8.1": "8958699f9359f0b04e691a13850d48b7de329138023876d07cbd024c2c820598"
   },
   "enum-kinds": {
     "0.5.1": "4e40a16955681d469ab3da85aaa6b42ff656b3c67b52e1d8d3dd36afe97fd462"
@@ -5754,7 +5757,7 @@
     "0.16.2": "2d207dc617c7a380ab07ff572a6e52fa202a2a8f355860ac9c38e23f8196be1b"
   },
   "indoc": {
-    "1.0.5": "4a8c9da27a49b1504a78476c7105eb4686f93235fd445444a84e92df5ce6937c"
+    "1.0.6": "05a0bd019339e5d968b37855180087b7b9d512c5046fbd244cf8c95687927d6e"
   },
   "indoc-impl": {
     "0.3.6": "ce046d161f000fffde5f432a0d034d0341dc152643b2598ed5bfce44c4f3a8f0"
@@ -6646,9 +6649,6 @@
   },
   "libpulse-sys": {
     "1.19.3": "991e6bd0efe2a36e6534e136e7996925e4c1a8e35b7807fe533f2beffff27c30"
-  },
-  "librespot": {
-    "0.3.1": "5fb49bc466977d940fae6e9219d56e1355a2f3d77a348fe7f708fa8f36905491"
   },
   "librespot-audio": {
     "0.3.1": "e5f7cc7e4d1c2596191be523668c933e07ec8a318d099fd66658258a4fe4a2dc"
@@ -13746,7 +13746,7 @@
     "0.2.1": "496a3d395ed0c30f411ceace4a91f7d93b148fb5a9b383d5d4cff7850f048d5f"
   },
   "unindent": {
-    "0.1.8": "514672a55d7380da379785a4d70ca8386c8883ff7eaae877be4d2081cebe73d8"
+    "0.1.9": "52fee519a3e570f7df377a06a1a7775cdbfb7aa460be7e08de2b1f0e69973a44"
   },
   "uninit": {
     "0.5.0": "bdb5fa53d0101e0cd980b0d679db2c76f75c94b883985f57cfe7f50c72dd0536"
