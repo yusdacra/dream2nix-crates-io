@@ -152,7 +152,7 @@
     },
     "crossbeam-channel": {
       "0.5.4": {
-        "hash": "sha256-Wqp71ftmXGhktflj3ZCXkFxUElkJx6qUyeGFB82+bFM=",
+        "hash": "5aaa7bd5fb665c6864b5f963dd9097905c54125909c7aa94c9e18507cdbe6c53",
         "type": "crates-io"
       }
     },

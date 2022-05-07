@@ -45,7 +45,7 @@
     "0.4.19": "670ad68c9088c2a963aaa298cb369688cf3f9465ce5e2d4ca10e6e0098a1ce73"
   },
   "clap": {
-    "3.1.15": "85a35a599b11c089a7f49105658d089b8f2cf0882993c17daf6de15285c2c35d"
+    "3.1.17": "47582c09be7c8b32c0ab3a6181825ababb713fde6fff20fc573a3870dd45c6a0"
   },
   "crossbeam-channel": {
     "0.5.4": "5aaa7bd5fb665c6864b5f963dd9097905c54125909c7aa94c9e18507cdbe6c53"
@@ -73,6 +73,9 @@
   },
   "futures": {
     "0.3.21": "f73fe65f54d1e12b726f517d3e2135ca3125a437b6d998caf1962961f7172d9e"
+  },
+  "futures-channel": {
+    "0.3.21": "c3083ce4b914124575708913bca19bfe887522d6e2e6d0952943f5eac4a74010"
   },
   "futures-core": {
     "0.3.21": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3"
@@ -173,9 +176,6 @@
   "percent-encoding": {
     "2.1.0": "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e"
   },
-  "pin-project": {
-    "1.0.10": "58ad3879ad3baf4e44784bc6a718a8698867bb991f8ce24d1bcbe2cfb4c3a75e"
-  },
   "pin-project-lite": {
     "0.2.9": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116"
   },
@@ -189,7 +189,7 @@
     "0.5.19": "dbf0c48bc1d91375ae5c3cd81e3722dff1abcf81a30960240640d223f59fe0e5"
   },
   "proc-macro2": {
-    "1.0.37": "ec757218438d5fda206afc041538b2f6d889286160d649a86a24d37e1235afd1"
+    "1.0.38": "9027b48e9d4c9175fa2218adf3557f91c1137021739951d4932f5f8268ac48aa"
   },
   "quote": {
     "1.0.18": "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1"

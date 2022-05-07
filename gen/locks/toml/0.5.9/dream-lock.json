@@ -170,7 +170,7 @@
     },
     "toml": {
       "0.5.9": {
-        "hash": "sha256-jYLhp3WGIqRl+M7gd2FMc0hNrFuDbAL/akDV0QEDJNc=",
+        "hash": "8d82e1a7758622a465f8cee077614c73484dac5b836c02ff6a40d5d1010324d7",
         "type": "crates-io"
       }
     },

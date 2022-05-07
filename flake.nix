@@ -2,13 +2,13 @@
   description = "crates.io indexed & translated into dream2nix lockfile.";
 
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     dream2nix = {
       url = "github:nix-community/dream2nix/main";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    slib = {
-      url = "path:./lib";
+    ilib = {
+      url = "github:yusdacra/dream2nix-index-lib";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.dream2nix.follows = "dream2nix";
     };
@@ -24,19 +24,23 @@
     systems = ["x86_64-linux"];
 
     mkOutputsForSystem = system: let
-      slib = inputs.slib.lib.mkLibForSystem system;
-
       pkgs = nixpkgs.legacyPackages.${system};
       d2n = dream2nix.lib.init {
         systems = [system];
         config.projectRoot = ./.;
       };
+      ilib = inputs.ilib.lib.mkLib {
+        inherit system;
+        subsystem = "rust";
+        fetcherName = "crates-io";
+        translatorName = "cargo-lock";
+      };
 
       genTree = dream2nix.lib.dlib.prepareSourceTree {source = ./gen;};
 
       index = genTree.files."index.json".jsonContent;
-      fetchedIndex = slib.fetchIndex index;
-      translatedIndex = slib.translateIndex fetchedIndex;
+      fetchedIndex = ilib.fetchIndex index;
+      translatedIndex = ilib.translateIndex fetchedIndex;
 
       crates =
         (d2n.makeFlakeOutputs {
@@ -45,10 +49,6 @@
             indexer.add-openssl.overrideAttrs = old: {
               buildInputs = (old.buildInputs or []) ++ [pkgs.openssl];
               nativeBuildInputs = (old.nativeBuildInputs or []) ++ [pkgs.pkg-config];
-              doCheck = false;
-            };
-            translator.add-flake-src = {
-              SLIB_FLAKE_SRC = toString inputs.slib;
               doCheck = false;
             };
           };
@@ -76,8 +76,32 @@
         program = toString script;
       };
 
+      translateScript = let
+        pkgsUnflattened =
+          l.mapAttrsToList
+          (
+            name: versions:
+              l.mapAttrsToList
+              (version: hash: {inherit name version hash;})
+              versions
+          )
+          index;
+      in
+        ilib.translateBin (l.flatten pkgsUnflattened);
+
       lockOutputs = let
-        lockIndex = (genTree.getNodeFromPath "locks/index.json").jsonContent;
+        locksTree = genTree.directories."locks";
+        lockInfos = l.flatten (
+          l.map
+          (
+            name:
+              l.map
+              (version: {inherit name version;})
+              (l.attrNames locksTree.directories.${name}.directories)
+          )
+          (l.attrNames locksTree.directories)
+        );
+
         sanitizePkgName = name: l.replaceStrings ["." "+"] ["_" "_"] name;
         mkPkg = name: version:
           (dream2nix.lib.${system}.makeOutputsForDreamLock {
@@ -85,24 +109,19 @@
           })
           .packages
           .${name};
+
         pkgs =
-          l.mapAttrs
+          l.map
           (
-            name: versions:
-              l.listToAttrs (
-                l.map (
-                  version:
-                    l.nameValuePair
-                    (sanitizePkgName "${name}-${version}")
-                    (mkPkg name version)
-                )
-                versions
-              )
+            info:
+              l.nameValuePair
+              (sanitizePkgName "${info.name}-${info.version}")
+              (mkPkg info.name info.version)
           )
-          lockIndex;
+          lockInfos;
       in
-        l.foldl' (acc: el: acc // el) {} (l.attrValues pkgs);
-    in rec {
+        l.listToAttrs pkgs;
+    in {
       hydraJobs = l.mapAttrs (_: pkg: {${system} = pkg;}) lockOutputs;
       packages.${system} = lockOutputs // crates;
       apps.${system} = {
@@ -128,7 +147,7 @@
         };
         translate = {
           type = "app";
-          program = "${crates.translator}/bin/translator";
+          program = toString translateScript;
         };
       };
       devShells.${system} = {
@@ -138,19 +157,14 @@
             buildInputs = [openssl];
             nativeBuildInputs = [pkg-config cargo rustfmt];
           };
-        translator = with pkgs;
-          mkShell {
-            name = "translator-devshell";
-            nativeBuildInputs = [cargo rustfmt];
-            SLIB_FLAKE_SRC = toString inputs.slib;
-          };
       };
       lib.${system} = {
         inherit
-          slib
+          ilib
           index
           fetchedIndex
           translatedIndex
+          translateScript
           ;
       };
     };

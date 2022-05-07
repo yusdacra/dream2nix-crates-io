@@ -262,7 +262,7 @@
     },
     "ryu": {
       "1.0.9": {
-        "hash": "sha256-c7S3UMeCllwhG0LwIvWa8fvOq90CZiNxTxBBUvHsFJ8=",
+        "hash": "73b4b750c782965c211b42f022f59af1fbceabdd026623714f104152f1ec149f",
         "type": "crates-io"
       }
     },

@@ -54,7 +54,7 @@
   "sources": {
     "atty": {
       "0.2.14": {
-        "hash": "sha256-2bOb4Ydw0RQhzbG5lHpF3T836TCSy/N3YUgooxnV/ug=",
+        "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
         "type": "crates-io"
       }
     },

@@ -1032,7 +1032,7 @@
     },
     "hyper": {
       "0.14.18": {
-        "hash": "sha256-smrgqAr+vhMIYdkKv5jjgUpPKKTG/+tauOuyvjEeDvI=",
+        "hash": "b26ae0a80afebe130861d90abf98e3814a4f28a4c6ffeb5ab8ebb2be311e0ef2",
         "type": "crates-io"
       }
     },

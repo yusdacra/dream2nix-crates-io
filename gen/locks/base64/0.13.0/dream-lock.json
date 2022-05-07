@@ -964,7 +964,7 @@
     },
     "base64": {
       "0.13.0": {
-        "hash": "sha256-kE3+rFDzzauij8b1f9zdt19J7WE0ZnanjE/+VYd4Av0=",
+        "hash": "904dfeac50f3cdaba28fc6f57fdcddb75f49ed61346676a78c4ffe55877802fd",
         "type": "crates-io"
       }
     },

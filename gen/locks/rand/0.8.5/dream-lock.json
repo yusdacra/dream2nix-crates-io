@@ -246,7 +246,7 @@
     },
     "rand": {
       "0.8.5": {
-        "hash": "sha256-NK+NGg4lkkvFt8Q8B5yUIznY8Ki1fDkEm+9YG0YydAQ=",
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
         "type": "crates-io"
       }
     },

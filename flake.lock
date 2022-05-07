@@ -53,11 +53,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1651780426,
-        "narHash": "sha256-rg5nJldfRTX3CLS+r01cjeG3o9mLGie++vFV06f7XM0=",
+        "lastModified": 1651844867,
+        "narHash": "sha256-a+bAmmeIudRVY23ZkEB5W5xJumBY3ydsiDIGN/56NmQ=",
         "owner": "nix-community",
         "repo": "dream2nix",
-        "rev": "aaa946287eb7056b37b89e2aa5156b1809486be9",
+        "rev": "e5d0e9cdb00695b0b63d1f52ff3b39c0e3035fe3",
         "type": "github"
       },
       "original": {
@@ -114,6 +114,29 @@
         "type": "github"
       }
     },
+    "ilib": {
+      "inputs": {
+        "dream2nix": [
+          "dream2nix"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1651884588,
+        "narHash": "sha256-A0Z9y3bCXBj68+8EdPU8PxfkrUZucpCOkE86WNsRn+w=",
+        "owner": "yusdacra",
+        "repo": "dream2nix-index-lib",
+        "rev": "fb8a8b1f7531d96aa1aeb3d0af5f39a12605bb6e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "yusdacra",
+        "repo": "dream2nix-index-lib",
+        "type": "github"
+      }
+    },
     "mach-nix": {
       "flake": false,
       "locked": {
@@ -131,11 +154,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1651779476,
-        "narHash": "sha256-wPXzrSdad3qocoz2t375Gtm/2sh2+e2A/Iqsc9+oiF4=",
+        "lastModified": 1651804312,
+        "narHash": "sha256-DJxOGlxwQccuuwXUS0oRRkcNJbW5UP4fpsL5ga9ZwYw=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "020b061a1aef9e678770295f86b1f58007e284eb",
+        "rev": "d59dd43e49f24b58fe8d5ded38cbdf00c3da4dc2",
         "type": "github"
       },
       "original": {
@@ -206,28 +229,8 @@
     "root": {
       "inputs": {
         "dream2nix": "dream2nix",
-        "nixpkgs": "nixpkgs",
-        "slib": "slib"
-      }
-    },
-    "slib": {
-      "inputs": {
-        "dream2nix": [
-          "dream2nix"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-o7+cP3OPZQoIXi6qoyQS43NH+kJtNqvC3MOGdMqOWgs=",
-        "path": "./lib",
-        "type": "path"
-      },
-      "original": {
-        "path": "./lib",
-        "type": "path"
+        "ilib": "ilib",
+        "nixpkgs": "nixpkgs"
       }
     }
   },

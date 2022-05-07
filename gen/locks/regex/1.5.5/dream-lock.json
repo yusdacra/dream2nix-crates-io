@@ -148,7 +148,7 @@
     },
     "regex": {
       "1.5.5": {
-        "hash": "sha256-GhFke2sl/wWlFcuSw2XOwIgB6DQjojW1HiMeGAh0coY=",
+        "hash": "1a11647b6b25ff05a515cb92c365cec08801e83423a235b51e231e1808747286",
         "type": "crates-io"
       }
     },

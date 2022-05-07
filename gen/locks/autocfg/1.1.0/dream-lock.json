@@ -17,7 +17,7 @@
   "sources": {
     "autocfg": {
       "1.1.0": {
-        "hash": "sha256-1GiAK6sXy8DMV16bBT9B5yqja/prf1XjUp/6QxYbl/o=",
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
         "type": "crates-io"
       }
     }

@@ -414,7 +414,7 @@
     },
     "crossbeam-epoch": {
       "0.9.8": {
-        "hash": "sha256-EUXPExosa6BhUHmramOPfhlzrJwmNPy+qq1hFCRu/ow=",
+        "hash": "1145cf131a2c6ba0615079ab6a638f7e1973ac9c2634fcbeaaad6114246efe8c",
         "type": "crates-io"
       }
     },
