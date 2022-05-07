@@ -89,38 +89,7 @@
       in
         ilib.translateBin (l.flatten pkgsUnflattened);
 
-      lockOutputs = let
-        locksTree = genTree.directories."locks";
-        lockInfos = l.flatten (
-          l.map
-          (
-            name:
-              l.map
-              (version: {inherit name version;})
-              (l.attrNames locksTree.directories.${name}.directories)
-          )
-          (l.attrNames locksTree.directories)
-        );
-
-        sanitizePkgName = name: l.replaceStrings ["." "+"] ["_" "_"] name;
-        mkPkg = name: version:
-          (dream2nix.lib.${system}.makeOutputsForDreamLock {
-            dreamLock = (genTree.getNodeFromPath "locks/${name}/${version}/dream-lock.json").jsonContent;
-          })
-          .packages
-          .${name};
-
-        pkgs =
-          l.map
-          (
-            info:
-              l.nameValuePair
-              (sanitizePkgName "${info.name}-${info.version}")
-              (mkPkg info.name info.version)
-          )
-          lockInfos;
-      in
-        l.listToAttrs pkgs;
+      lockOutputs = ilib.mkLocksOutputs {tree = genTree;};
     in {
       hydraJobs = l.mapAttrs (_: pkg: {${system} = pkg;}) lockOutputs;
       packages.${system} = lockOutputs // crates;
