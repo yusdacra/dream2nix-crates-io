@@ -1,0 +1,254 @@
+{
+  "_generic": {
+    "defaultPackage": "vmw_backdoor",
+    "location": "",
+    "packages": {
+      "vmw_backdoor": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "errno": {
+      "0.2.7": [
+        [
+          "errno-dragonfly",
+          "0.1.1"
+        ],
+        [
+          "libc",
+          "0.2.93"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "errno-dragonfly": {
+      "0.1.1": [
+        [
+          "gcc",
+          "0.3.55"
+        ],
+        [
+          "libc",
+          "0.2.93"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.14": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.26": [
+        [
+          "unicode-xid",
+          "0.2.1"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.9": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.69": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ],
+        [
+          "unicode-xid",
+          "0.2.1"
+        ]
+      ]
+    },
+    "thiserror": {
+      "1.0.24": [
+        [
+          "thiserror-impl",
+          "1.0.24"
+        ]
+      ]
+    },
+    "thiserror-impl": {
+      "1.0.24": [
+        [
+          "proc-macro2",
+          "1.0.26"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ],
+        [
+          "syn",
+          "1.0.69"
+        ]
+      ]
+    },
+    "vmw_backdoor": {
+      "0.2.1": [
+        [
+          "cc",
+          "1.0.67"
+        ],
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "errno",
+          "0.2.7"
+        ],
+        [
+          "libc",
+          "0.2.93"
+        ],
+        [
+          "log",
+          "0.4.14"
+        ],
+        [
+          "thiserror",
+          "1.0.24"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.67": {
+        "hash": "e3c69b077ad434294d3ce9f1f6143a2a4b89a8a2d54ef813d85003a4fd1137fd",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "errno": {
+      "0.2.7": {
+        "hash": "fa68f2fb9cae9d37c9b2b3584aba698a2e97f72d7aef7b9f7aa71d8b54ce46fe",
+        "type": "crates-io"
+      }
+    },
+    "errno-dragonfly": {
+      "0.1.1": {
+        "hash": "14ca354e36190500e1e1fb267c647932382b54053c50b14970856c0b00a35067",
+        "type": "crates-io"
+      }
+    },
+    "gcc": {
+      "0.3.55": {
+        "hash": "8f5f3913fa0bfe7ee1fd8248b6b9f42a5af4b9d65ec2dd2c3c26132b950ecfc2",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.93": {
+        "hash": "9385f66bf6105b241aa65a61cb923ef20efc665cb9f9bb50ac2f0c4b7f378d41",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.14": {
+        "hash": "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.26": {
+        "hash": "a152013215dca273577e18d2bf00fa862b89b24169fb78c4c95aeb07992c9cec",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.9": {
+        "hash": "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.69": {
+        "hash": "48fe99c6bd8b1cc636890bcc071842de909d902c81ac7dab53ba33c421ab8ffb",
+        "type": "crates-io"
+      }
+    },
+    "thiserror": {
+      "1.0.24": {
+        "hash": "e0f4a65597094d4483ddaed134f409b2cb7c1beccf25201a9f73c719254fa98e",
+        "type": "crates-io"
+      }
+    },
+    "thiserror-impl": {
+      "1.0.24": {
+        "hash": "7765189610d8241a44529806d6fd1f2e0a08734313a35d5b3a556f92b381f3c0",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.1": {
+        "hash": "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564",
+        "type": "crates-io"
+      }
+    },
+    "vmw_backdoor": {
+      "0.2.1": {
+        "hash": "59dadb264325fd034df77ba88c2ddd1650d78ec8e7548af3003ecdc598dfe0b3",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "_generic": {
+    "defaultPackage": "coreaudio-rs",
+    "location": "",
+    "packages": {
+      "coreaudio-rs": "0.11.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bindgen": {
+      "0.56.0": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "cexpr",
+          "0.4.0"
+        ],
+        [
+          "clang-sys",
+          "1.3.0"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "lazycell",
+          "1.3.0"
+        ],
+        [
+          "peeking_take_while",
+          "0.1.2"
+        ],
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.15"
+        ],
+        [
+          "regex",
+          "1.5.4"
+        ],
+        [
+          "rustc-hash",
+          "1.1.0"
+        ],
+        [
+          "shlex",
+          "0.1.1"
+        ]
+      ]
+    },
+    "cexpr": {
+      "0.4.0": [
+        [
+          "nom",
+          "5.1.2"
+        ]
+      ]
+    },
+    "clang-sys": {
+      "1.3.0": [
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.116"
+        ],
+        [
+          "libloading",
+          "0.7.3"
+        ]
+      ]
+    },
+    "coreaudio-rs": {
+      "0.11.1": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "core-foundation-sys",
+          "0.6.2"
+        ],
+        [
+          "coreaudio-sys",
+          "0.2.9"
+        ]
+      ]
+    },
+    "coreaudio-sys": {
+      "0.2.9": [
+        [
+          "bindgen",
+          "0.56.0"
+        ]
+      ]
+    },
+    "libloading": {
+      "0.7.3": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "nom": {
+      "5.1.2": [
+        [
+          "memchr",
+          "2.4.1"
+        ],
+        [
+          "version_check",
+          "0.9.4"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.36": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.15": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ]
+      ]
+    },
+    "regex": {
+      "1.5.4": [
+        [
+          "regex-syntax",
+          "0.6.25"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "bindgen": {
+      "0.56.0": {
+        "hash": "2da379dbebc0b76ef63ca68d8fc6e71c0f13e59432e0987e508c1820e6ab5239",
+        "type": "crates-io"
+      }
+    },
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "cexpr": {
+      "0.4.0": {
+        "hash": "f4aedb84272dbe89af497cf81375129abda4fc0a9e7c5d317498c15cc30c0d27",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "clang-sys": {
+      "1.3.0": {
+        "hash": "fa66045b9cb23c2e9c1520732030608b02ee07e5cfaa5a521ec15ded7fa24c90",
+        "type": "crates-io"
+      }
+    },
+    "core-foundation-sys": {
+      "0.6.2": {
+        "hash": "e7ca8a5221364ef15ce201e8ed2f609fc312682a8f4e0e3d4aa5879764e0fa3b",
+        "type": "crates-io"
+      }
+    },
+    "coreaudio-rs": {
+      "0.11.1": {
+        "hash": "5d3719e41553597cc2d53170cdcb5c72a4c0b35d0c95a0fce1e2a7a4c2c74440",
+        "type": "crates-io"
+      }
+    },
+    "coreaudio-sys": {
+      "0.2.9": {
+        "hash": "ca4679a59dbd8c15f064c012dfe8c1163b9453224238b59bb9328c142b8b248b",
+        "type": "crates-io"
+      }
+    },
+    "glob": {
+      "0.3.0": {
+        "hash": "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "lazycell": {
+      "1.3.0": {
+        "hash": "830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.116": {
+        "hash": "565dbd88872dbe4cc8a46e527f26483c1d1f7afa6b884a3bd6cd893d4f98da74",
+        "type": "crates-io"
+      }
+    },
+    "libloading": {
+      "0.7.3": {
+        "hash": "efbc0f03f9a775e9f6aed295c6a1ba2253c5757a9e03d55c6caa46a681abcddd",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.4.1": {
+        "hash": "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a",
+        "type": "crates-io"
+      }
+    },
+    "nom": {
+      "5.1.2": {
+        "hash": "ffb4262d26ed83a1c0a33a38fe2bb15797329c85770da05e6b828ddb782627af",
+        "type": "crates-io"
+      }
+    },
+    "peeking_take_while": {
+      "0.1.2": {
+        "hash": "19b17cddbe7ec3f8bc800887bab5e717348c95ea2ca0b1bf0837fb964dc67099",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.36": {
+        "hash": "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.15": {
+        "hash": "864d3e96a899863136fc6e99f3d7cae289dafe43bf2c5ac19b70df7210c0a145",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.5.4": {
+        "hash": "d07a8629359eb56f1e2fb1652bb04212c072a87ba68546a04065d525673ac461",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.25": {
+        "hash": "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b",
+        "type": "crates-io"
+      }
+    },
+    "rustc-hash": {
+      "1.1.0": {
+        "hash": "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2",
+        "type": "crates-io"
+      }
+    },
+    "shlex": {
+      "0.1.1": {
+        "hash": "7fdf1b9db47230893d76faad238fd6097fd6d6a9245cd7a4d90dbd639536bbd2",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "termion",
+    "location": "",
+    "packages": {
+      "termion": "1.5.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "redox_syscall": {
+      "0.2.4": [
+        [
+          "bitflags",
+          "1.2.1"
+        ]
+      ]
+    },
+    "redox_termios": {
+      "0.1.2": [
+        [
+          "redox_syscall",
+          "0.2.4"
+        ]
+      ]
+    },
+    "termion": {
+      "1.5.6": [
+        [
+          "libc",
+          "0.2.82"
+        ],
+        [
+          "numtoa",
+          "0.1.0"
+        ],
+        [
+          "redox_syscall",
+          "0.2.4"
+        ],
+        [
+          "redox_termios",
+          "0.1.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "bitflags": {
+      "1.2.1": {
+        "hash": "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.82": {
+        "hash": "89203f3fba0a3795506acaad8ebce3c80c0af93f994d5a1d7a0b1eeb23271929",
+        "type": "crates-io"
+      }
+    },
+    "numtoa": {
+      "0.1.0": {
+        "hash": "b8f8bdf33df195859076e54ab11ee78a1b208382d3a26ec40d142ffc1ecc49ef",
+        "type": "crates-io"
+      }
+    },
+    "redox_syscall": {
+      "0.2.4": {
+        "hash": "05ec8ca9416c5ea37062b502703cd7fcb207736bc294f6e0cf367ac6fc234570",
+        "type": "crates-io"
+      }
+    },
+    "redox_termios": {
+      "0.1.2": {
+        "hash": "8440d8acb4fd3d277125b4bd01a6f38aee8d814b3b5fc09b3f2b825d37d3fe8f",
+        "type": "crates-io"
+      }
+    },
+    "termion": {
+      "1.5.6": {
+        "hash": "077185e2eac69c3f8379a4298e1e07cd36beb962290d4a51199acf0fdc10607e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

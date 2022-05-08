@@ -1,0 +1,96 @@
+{
+  "_generic": {
+    "defaultPackage": "simplecss",
+    "location": "",
+    "packages": {
+      "simplecss": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "env_logger": {
+      "0.6.2": [
+        [
+          "log",
+          "0.4.14"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.14": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ]
+      ]
+    },
+    "roxmltree": {
+      "0.7.3": [
+        [
+          "xmlparser",
+          "0.10.0"
+        ]
+      ]
+    },
+    "simplecss": {
+      "0.2.1": [
+        [
+          "env_logger",
+          "0.6.2"
+        ],
+        [
+          "log",
+          "0.4.14"
+        ],
+        [
+          "roxmltree",
+          "0.7.3"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "env_logger": {
+      "0.6.2": {
+        "hash": "aafcde04e90a5226a6443b7aabdb016ba2f8307c847d524724bd9b346dd1a2d3",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.14": {
+        "hash": "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710",
+        "type": "crates-io"
+      }
+    },
+    "roxmltree": {
+      "0.7.3": {
+        "hash": "0852407257c1b696a0c66b9db3ffe7769c2744a2fa725c8050e6f3e5a823c02b",
+        "type": "crates-io"
+      }
+    },
+    "simplecss": {
+      "0.2.1": {
+        "hash": "a11be7c62927d9427e9f40f3444d5499d868648e2edbc4e2116de69e7ec0e89d",
+        "type": "crates-io"
+      }
+    },
+    "xmlparser": {
+      "0.10.0": {
+        "hash": "8110496c5bcc0d966b0b2da38d5a791aa139eeb0b80e7840a7463c2b806921eb",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "wit-schema-version",
+    "location": "",
+    "packages": {
+      "wit-schema-version": "0.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "wit-schema-version": {
+      "0.1.0": {
+        "hash": "bfee4a6a4716eefa0682e7a3b836152e894a3e4f34a9d6c2c3e1c94429bfe36a",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "_generic": {
+    "defaultPackage": "olpc-cjson",
+    "location": "",
+    "packages": {
+      "olpc-cjson": "0.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "olpc-cjson": {
+      "0.1.1": [
+        [
+          "serde",
+          "1.0.126"
+        ],
+        [
+          "serde_json",
+          "1.0.66"
+        ],
+        [
+          "unicode-normalization",
+          "0.1.19"
+        ]
+      ]
+    },
+    "serde_json": {
+      "1.0.66": [
+        [
+          "itoa",
+          "0.4.7"
+        ],
+        [
+          "ryu",
+          "1.0.5"
+        ],
+        [
+          "serde",
+          "1.0.126"
+        ]
+      ]
+    },
+    "tinyvec": {
+      "1.3.1": [
+        [
+          "tinyvec_macros",
+          "0.1.0"
+        ]
+      ]
+    },
+    "unicode-normalization": {
+      "0.1.19": [
+        [
+          "tinyvec",
+          "1.3.1"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "itoa": {
+      "0.4.7": {
+        "hash": "dd25036021b0de88a0aff6b850051563c6516d0bf53f8638938edbb9de732736",
+        "type": "crates-io"
+      }
+    },
+    "olpc-cjson": {
+      "0.1.1": {
+        "hash": "72ca49fe685014bbf124ee547da94ed7bb65a6eb9dc9c4711773c081af96a39c",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.5": {
+        "hash": "71d301d4193d031abdd79ff7e3dd721168a9572ef3fe51a1517aba235bd8f86e",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.126": {
+        "hash": "ec7505abeacaec74ae4778d9d9328fe5a5d04253220a85c4ee022239fc996d03",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.66": {
+        "hash": "336b10da19a12ad094b59d870ebde26a45402e5b470add4b5fd03c5048a32127",
+        "type": "crates-io"
+      }
+    },
+    "tinyvec": {
+      "1.3.1": {
+        "hash": "848a1e1181b9f6753b5e96a092749e29b11d19ede67dfbbd6c7dc7e0f49b5338",
+        "type": "crates-io"
+      }
+    },
+    "tinyvec_macros": {
+      "0.1.0": {
+        "hash": "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c",
+        "type": "crates-io"
+      }
+    },
+    "unicode-normalization": {
+      "0.1.19": {
+        "hash": "d54590932941a9e9266f0832deed84ebe1bf2e4c9e4a3554d393d18f5e854bf9",
+        "type": "crates-io"
+      }
+    }
+  }
+}

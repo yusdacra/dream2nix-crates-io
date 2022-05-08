@@ -1,0 +1,132 @@
+{
+  "_generic": {
+    "defaultPackage": "shrinkwraprs",
+    "location": "",
+    "packages": {
+      "shrinkwraprs": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "itertools": {
+      "0.8.1": [
+        [
+          "either",
+          "1.5.3"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.6": [
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.2": [
+        [
+          "proc-macro2",
+          "1.0.6"
+        ]
+      ]
+    },
+    "shrinkwraprs": {
+      "0.3.0": [
+        [
+          "bitflags",
+          "1.2.1"
+        ],
+        [
+          "itertools",
+          "0.8.1"
+        ],
+        [
+          "proc-macro2",
+          "1.0.6"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.8"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.8": [
+        [
+          "proc-macro2",
+          "1.0.6"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "bitflags": {
+      "1.2.1": {
+        "hash": "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693",
+        "type": "crates-io"
+      }
+    },
+    "either": {
+      "1.5.3": {
+        "hash": "bb1f6b1ce1c140482ea30ddd3335fc0024ac7ee112895426e0a629a6c20adfe3",
+        "type": "crates-io"
+      }
+    },
+    "itertools": {
+      "0.8.1": {
+        "hash": "87fa75c9dea7b07be3138c49abbb83fd4bea199b5cdc76f9804458edc5da0d6e",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.6": {
+        "hash": "9c9e470a8dc4aeae2dee2f335e8f533e2d4b347e1434e5671afc49b054592f27",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.2": {
+        "hash": "053a8c8bcc71fcce321828dc897a98ab9760bef03a4fc36693c231e5b3216cfe",
+        "type": "crates-io"
+      }
+    },
+    "shrinkwraprs": {
+      "0.3.0": {
+        "hash": "e63e6744142336dfb606fe2b068afa2e1cca1ee6a5d8377277a92945d81fa331",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.8": {
+        "hash": "661641ea2aa15845cddeb97dad000d22070bb5c1fb456b96c1cba883ec691e92",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.0": {
+        "hash": "826e7639553986605ec5979c7dd957c7895e93eabed50ab2ffa7f6128a75097c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

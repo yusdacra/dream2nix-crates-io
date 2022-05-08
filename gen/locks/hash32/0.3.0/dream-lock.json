@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "hash32",
+    "location": "",
+    "packages": {
+      "hash32": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hash32": {
+      "0.3.0": [
+        [
+          "byteorder",
+          "1.4.3"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "byteorder": {
+      "1.4.3": {
+        "hash": "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610",
+        "type": "crates-io"
+      }
+    },
+    "hash32": {
+      "0.3.0": {
+        "hash": "2baa98978c170759522ad6ebb567aeb29a62e1867551f39ae2e5b749fbd5cc21",
+        "type": "crates-io"
+      }
+    }
+  }
+}

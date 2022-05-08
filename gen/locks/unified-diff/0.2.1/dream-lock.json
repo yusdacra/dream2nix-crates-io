@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "unified-diff",
+    "location": "",
+    "packages": {
+      "unified-diff": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unified-diff": {
+      "0.2.1": [
+        [
+          "diff",
+          "0.1.12"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "diff": {
+      "0.1.12": {
+        "hash": "0e25ea47919b1560c4e3b7fe0aaab9becf5b84a10325ddf7db0f0ba5e1026499",
+        "type": "crates-io"
+      }
+    },
+    "unified-diff": {
+      "0.2.1": {
+        "hash": "496a3d395ed0c30f411ceace4a91f7d93b148fb5a9b383d5d4cff7850f048d5f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

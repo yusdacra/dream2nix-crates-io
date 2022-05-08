@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "anomaly",
+    "location": "",
+    "packages": {
+      "anomaly": "0.99.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "anomaly": {
+      "0.99.0": {
+        "hash": "99b3c39bef24889f744c03ae6a1fac9dc17ad1bc9a72b386af637cdd9a23530f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

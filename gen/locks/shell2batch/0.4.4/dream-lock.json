@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "shell2batch",
+    "location": "",
+    "packages": {
+      "shell2batch": "0.4.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "aho-corasick": {
+      "0.7.18": [
+        [
+          "memchr",
+          "2.4.1"
+        ]
+      ]
+    },
+    "regex": {
+      "1.5.4": [
+        [
+          "aho-corasick",
+          "0.7.18"
+        ],
+        [
+          "memchr",
+          "2.4.1"
+        ],
+        [
+          "regex-syntax",
+          "0.6.25"
+        ]
+      ]
+    },
+    "shell2batch": {
+      "0.4.4": [
+        [
+          "doc-comment",
+          "0.3.3"
+        ],
+        [
+          "regex",
+          "1.5.4"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "aho-corasick": {
+      "0.7.18": {
+        "hash": "1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f",
+        "type": "crates-io"
+      }
+    },
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.4.1": {
+        "hash": "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.5.4": {
+        "hash": "d07a8629359eb56f1e2fb1652bb04212c072a87ba68546a04065d525673ac461",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.25": {
+        "hash": "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b",
+        "type": "crates-io"
+      }
+    },
+    "shell2batch": {
+      "0.4.4": {
+        "hash": "14f4ec0e1f6a52fffcb4789ee0070f473f4cf5581ee532b8b2b8a6da901904a9",
+        "type": "crates-io"
+      }
+    }
+  }
+}

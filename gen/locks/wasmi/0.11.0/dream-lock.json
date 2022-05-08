@@ -1,0 +1,546 @@
+{
+  "_generic": {
+    "defaultPackage": "wasmi",
+    "location": "",
+    "packages": {
+      "wasmi": "0.11.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cmake": {
+      "0.1.46": [
+        [
+          "cc",
+          "1.0.72"
+        ]
+      ]
+    },
+    "mach": {
+      "0.3.2": [
+        [
+          "libc",
+          "0.2.111"
+        ]
+      ]
+    },
+    "num-bigint": {
+      "0.4.3": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "num-integer",
+          "0.1.44"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "num-integer": {
+      "0.1.44": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "num-rational": {
+      "0.4.0": [
+        [
+          "autocfg",
+          "1.0.1"
+        ],
+        [
+          "num-bigint",
+          "0.4.3"
+        ],
+        [
+          "num-integer",
+          "0.1.44"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ]
+      ]
+    },
+    "num-traits": {
+      "0.2.14": [
+        [
+          "autocfg",
+          "1.0.1"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.33": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.10": [
+        [
+          "proc-macro2",
+          "1.0.33"
+        ]
+      ]
+    },
+    "rand": {
+      "0.4.6": [
+        [
+          "fuchsia-cprng",
+          "0.1.1"
+        ],
+        [
+          "libc",
+          "0.2.111"
+        ],
+        [
+          "rand_core",
+          "0.3.1"
+        ],
+        [
+          "rdrand",
+          "0.4.0"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "rand_core": {
+      "0.3.1": [
+        [
+          "rand_core",
+          "0.4.2"
+        ]
+      ]
+    },
+    "rdrand": {
+      "0.4.0": [
+        [
+          "rand_core",
+          "0.3.1"
+        ]
+      ]
+    },
+    "region": {
+      "3.0.0": [
+        [
+          "bitflags",
+          "1.3.2"
+        ],
+        [
+          "libc",
+          "0.2.111"
+        ],
+        [
+          "mach",
+          "0.3.2"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.131": [
+        [
+          "proc-macro2",
+          "1.0.33"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.82"
+        ]
+      ]
+    },
+    "serde_json": {
+      "1.0.72": [
+        [
+          "itoa",
+          "0.4.8"
+        ],
+        [
+          "ryu",
+          "1.0.9"
+        ],
+        [
+          "serde",
+          "1.0.131"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.82": [
+        [
+          "proc-macro2",
+          "1.0.33"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "wabt": {
+      "0.9.1": [
+        [
+          "serde",
+          "1.0.131"
+        ],
+        [
+          "serde_derive",
+          "1.0.131"
+        ],
+        [
+          "serde_json",
+          "1.0.72"
+        ],
+        [
+          "wabt-sys",
+          "0.6.1"
+        ]
+      ]
+    },
+    "wabt-sys": {
+      "0.6.1": [
+        [
+          "cc",
+          "1.0.72"
+        ],
+        [
+          "cmake",
+          "0.1.46"
+        ],
+        [
+          "glob",
+          "0.2.11"
+        ]
+      ]
+    },
+    "wasmi": {
+      "0.11.0": [
+        [
+          "assert_matches",
+          "1.5.0"
+        ],
+        [
+          "downcast-rs",
+          "1.2.0"
+        ],
+        [
+          "libm",
+          "0.2.1"
+        ],
+        [
+          "memory_units",
+          "0.3.0"
+        ],
+        [
+          "num-rational",
+          "0.4.0"
+        ],
+        [
+          "num-traits",
+          "0.2.14"
+        ],
+        [
+          "parity-wasm",
+          "0.42.2"
+        ],
+        [
+          "rand",
+          "0.4.6"
+        ],
+        [
+          "region",
+          "3.0.0"
+        ],
+        [
+          "wabt",
+          "0.9.1"
+        ],
+        [
+          "wasmi-validation",
+          "0.4.1"
+        ]
+      ]
+    },
+    "wasmi-validation": {
+      "0.4.1": [
+        [
+          "parity-wasm",
+          "0.42.2"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "assert_matches": {
+      "1.5.0": {
+        "hash": "9b34d609dfbaf33d6889b2b7106d3ca345eacad44200913df5ba02bfd31d2ba9",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.0.1": {
+        "hash": "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a",
+        "type": "crates-io"
+      }
+    },
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.72": {
+        "hash": "22a9137b95ea06864e018375b72adfb7db6e6f68cfc8df5a04d00288050485ee",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.46": {
+        "hash": "b7b858541263efe664aead4a5209a4ae5c5d2811167d4ed4ee0944503f8d2089",
+        "type": "crates-io"
+      }
+    },
+    "downcast-rs": {
+      "1.2.0": {
+        "hash": "9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650",
+        "type": "crates-io"
+      }
+    },
+    "fuchsia-cprng": {
+      "0.1.1": {
+        "hash": "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba",
+        "type": "crates-io"
+      }
+    },
+    "glob": {
+      "0.2.11": {
+        "hash": "8be18de09a56b60ed0edf84bc9df007e30040691af7acd1c41874faac5895bfb",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "0.4.8": {
+        "hash": "b71991ff56294aa922b450139ee08b3bfc70982c6b2c7562771375cf73542dd4",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.111": {
+        "hash": "8e167738f1866a7ec625567bae89ca0d44477232a4f7c52b1c7f2adc2c98804f",
+        "type": "crates-io"
+      }
+    },
+    "libm": {
+      "0.2.1": {
+        "hash": "c7d73b3f436185384286bd8098d17ec07c9a7d2388a6599f824d8502b529702a",
+        "type": "crates-io"
+      }
+    },
+    "mach": {
+      "0.3.2": {
+        "hash": "b823e83b2affd8f40a9ee8c29dbc56404c1e34cd2710921f2801e2cf29527afa",
+        "type": "crates-io"
+      }
+    },
+    "memory_units": {
+      "0.3.0": {
+        "hash": "71d96e3f3c0b6325d8ccd83c33b28acb183edcb6c67938ba104ec546854b0882",
+        "type": "crates-io"
+      }
+    },
+    "num-bigint": {
+      "0.4.3": {
+        "hash": "f93ab6289c7b344a8a9f60f88d80aa20032336fe78da341afc91c8a2341fc75f",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.44": {
+        "hash": "d2cc698a63b549a70bc047073d2949cce27cd1c7b0a4a862d08a8031bc2801db",
+        "type": "crates-io"
+      }
+    },
+    "num-rational": {
+      "0.4.0": {
+        "hash": "d41702bd167c2df5520b384281bc111a4b5efcf7fbc4c9c222c815b07e0a6a6a",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.14": {
+        "hash": "9a64b1ec5cda2586e284722486d802acf1f7dbdc623e2bfc57e65ca1cd099290",
+        "type": "crates-io"
+      }
+    },
+    "parity-wasm": {
+      "0.42.2": {
+        "hash": "be5e13c266502aadf83426d87d81a0f5d1ef45b8027f5a471c360abfe4bfae92",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.33": {
+        "hash": "fb37d2df5df740e582f28f8560cf425f52bb267d872fe58358eadb554909f07a",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.10": {
+        "hash": "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.4.6": {
+        "hash": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.3.1": {
+        "hash": "7a6fdeb83b075e8266dcc8762c22776f6877a63111121f5f8c7411e5be7eed4b",
+        "type": "crates-io"
+      },
+      "0.4.2": {
+        "hash": "9c33a3c44ca05fa6f1807d8e6743f3824e8509beca625669633be0acbdf509dc",
+        "type": "crates-io"
+      }
+    },
+    "rdrand": {
+      "0.4.0": {
+        "hash": "678054eb77286b51581ba43620cc911abf02758c91f93f479767aed0f90458b2",
+        "type": "crates-io"
+      }
+    },
+    "region": {
+      "3.0.0": {
+        "hash": "76e189c2369884dce920945e2ddf79b3dff49e071a167dd1817fa9c4c00d512e",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.9": {
+        "hash": "73b4b750c782965c211b42f022f59af1fbceabdd026623714f104152f1ec149f",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.131": {
+        "hash": "b4ad69dfbd3e45369132cc64e6748c2d65cdfb001a2b1c232d128b4ad60561c1",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.131": {
+        "hash": "b710a83c4e0dff6a3d511946b95274ad9ca9e5d3ae497b63fda866ac955358d2",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.72": {
+        "hash": "d0ffa0837f2dfa6fb90868c2b5468cad482e175f7dad97e7421951e663f2b527",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.82": {
+        "hash": "8daf5dd0bb60cbd4137b1b587d2fc0ae729bc07cf01cd70b36a1ed5ade3b9d59",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "wabt": {
+      "0.9.1": {
+        "hash": "94b5f5d6984ca42df66280baa8a15ac188a173ddaf4580b574a98931c01920e7",
+        "type": "crates-io"
+      }
+    },
+    "wabt-sys": {
+      "0.6.1": {
+        "hash": "b064c81821100adb4b71923cecfc67fef083db21c3bbd454b0162c7ffe63eeaa",
+        "type": "crates-io"
+      }
+    },
+    "wasmi": {
+      "0.11.0": {
+        "hash": "0a3cb58f98e4d6c944af18c2c9002f22d0b928dfbb8b6c2b7d78a8573a5216bf",
+        "type": "crates-io"
+      }
+    },
+    "wasmi-validation": {
+      "0.4.1": {
+        "hash": "165343ecd6c018fc09ebcae280752702c9a2ef3e6f8d02f1cfcbdb53ef6d7937",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

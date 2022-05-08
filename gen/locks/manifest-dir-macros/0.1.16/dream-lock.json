@@ -1,0 +1,156 @@
+{
+  "_generic": {
+    "defaultPackage": "manifest-dir-macros",
+    "location": "",
+    "packages": {
+      "manifest-dir-macros": "0.1.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "manifest-dir-macros": {
+      "0.1.16": [
+        [
+          "mime_guess",
+          "2.0.4"
+        ],
+        [
+          "once_cell",
+          "1.10.0"
+        ],
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.15"
+        ],
+        [
+          "syn",
+          "1.0.89"
+        ]
+      ]
+    },
+    "mime_guess": {
+      "2.0.4": [
+        [
+          "mime",
+          "0.3.16"
+        ],
+        [
+          "unicase",
+          "2.6.0"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.36": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.15": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.89": [
+        [
+          "proc-macro2",
+          "1.0.36"
+        ],
+        [
+          "quote",
+          "1.0.15"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "unicase": {
+      "2.6.0": [
+        [
+          "version_check",
+          "0.9.4"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "manifest-dir-macros": {
+      "0.1.16": {
+        "hash": "f08150cf2bab1fc47c2196f4f41173a27fcd0f684165e5458c0046b53a472e2f",
+        "type": "crates-io"
+      }
+    },
+    "mime": {
+      "0.3.16": {
+        "hash": "2a60c7ce501c71e03a9c9c0d35b861413ae925bd979cc7a4e30d060069aaac8d",
+        "type": "crates-io"
+      }
+    },
+    "mime_guess": {
+      "2.0.4": {
+        "hash": "4192263c238a5f0d0c6bfd21f336a313a4ce1c450542449ca191bb657b4642ef",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.10.0": {
+        "hash": "87f3e037eac156d1775da914196f0f37741a274155e34a0b7e427c35d2a2ecb9",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.36": {
+        "hash": "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.15": {
+        "hash": "864d3e96a899863136fc6e99f3d7cae289dafe43bf2c5ac19b70df7210c0a145",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.89": {
+        "hash": "ea297be220d52398dcc07ce15a209fce436d361735ac1db700cab3b6cdfb9f54",
+        "type": "crates-io"
+      }
+    },
+    "unicase": {
+      "2.6.0": {
+        "hash": "50f37be617794602aabbeee0be4f259dc1778fabe05e2d67ee8f79326d5cb4f6",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

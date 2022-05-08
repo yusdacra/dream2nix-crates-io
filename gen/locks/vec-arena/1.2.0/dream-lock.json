@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "vec-arena",
+    "location": "",
+    "packages": {
+      "vec-arena": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "vec-arena": {
+      "1.2.0": {
+        "hash": "dae23c56872cdb2d1b1ddb90112da26615654fa4d4e3ee84e2d3b3e9c9853145",
+        "type": "crates-io"
+      }
+    }
+  }
+}

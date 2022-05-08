@@ -1,0 +1,50 @@
+{
+  "_generic": {
+    "defaultPackage": "x11",
+    "location": "",
+    "packages": {
+      "x11": "2.19.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "x11": {
+      "2.19.1": [
+        [
+          "libc",
+          "0.2.102"
+        ],
+        [
+          "pkg-config",
+          "0.3.19"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "libc": {
+      "0.2.102": {
+        "hash": "a2a5ac8f984bfcf3a823267e5fde638acc3325f6496633a5da6bb6eb2171e103",
+        "type": "crates-io"
+      }
+    },
+    "pkg-config": {
+      "0.3.19": {
+        "hash": "3831453b3449ceb48b6d9c7ad7c96d5ea673e9b470a1dc578c2ce6521230884c",
+        "type": "crates-io"
+      }
+    },
+    "x11": {
+      "2.19.1": {
+        "hash": "6dd0565fa8bfba8c5efe02725b14dff114c866724eff2cfd44d76cea74bcd87a",
+        "type": "crates-io"
+      }
+    }
+  }
+}

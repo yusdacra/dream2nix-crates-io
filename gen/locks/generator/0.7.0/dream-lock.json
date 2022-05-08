@@ -1,0 +1,118 @@
+{
+  "_generic": {
+    "defaultPackage": "generator",
+    "location": "",
+    "packages": {
+      "generator": "0.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "generator": {
+      "0.7.0": [
+        [
+          "cc",
+          "1.0.61"
+        ],
+        [
+          "libc",
+          "0.2.79"
+        ],
+        [
+          "log",
+          "0.4.11"
+        ],
+        [
+          "rustversion",
+          "1.0.4"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.11": [
+        [
+          "cfg-if",
+          "0.1.10"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.61": {
+        "hash": "ed67cbde08356238e75fc4656be4749481eeffb09e19f320a25237d5221c985d",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "0.1.10": {
+        "hash": "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822",
+        "type": "crates-io"
+      }
+    },
+    "generator": {
+      "0.7.0": {
+        "hash": "c1d9279ca822891c1a4dae06d185612cf8fc6acfe5dff37781b41297811b12ee",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.79": {
+        "hash": "2448f6066e80e3bfc792e9c98bf705b4b0fc6e8ef5b43e5889aff0eaa9c58743",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.11": {
+        "hash": "4fabed175da42fed1fa0746b0ea71f412aa9d35e76e95e59b192c64b9dc2bf8b",
+        "type": "crates-io"
+      }
+    },
+    "rustversion": {
+      "1.0.4": {
+        "hash": "cb5d2a036dc6d2d8fd16fde3498b04306e29bd193bf306a57427019b823d5acd",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

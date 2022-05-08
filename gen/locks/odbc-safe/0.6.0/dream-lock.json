@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "odbc-safe",
+    "location": "",
+    "packages": {
+      "odbc-safe": "0.6.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "odbc-safe": {
+      "0.6.0": [
+        [
+          "odbc-sys",
+          "0.8.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "odbc-safe": {
+      "0.6.0": {
+        "hash": "5de6da59e8296b3d1d57926b4e4b40237640d4c409c34cba28c4bc778531bcd6",
+        "type": "crates-io"
+      }
+    },
+    "odbc-sys": {
+      "0.8.2": {
+        "hash": "dec5c5490e13c423d25508b13cd2cc432490043f5ed5b46b61a75857642f4f37",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "alloc-no-stdlib",
+    "location": "",
+    "packages": {
+      "alloc-no-stdlib": "2.0.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "alloc-no-stdlib": {
+      "2.0.3": {
+        "hash": "35ef4730490ad1c4eae5c4325b2a95f521d023e5c885853ff7aca0a6a1631db3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

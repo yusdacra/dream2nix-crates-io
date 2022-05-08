@@ -1,0 +1,174 @@
+{
+  "_generic": {
+    "defaultPackage": "git_info",
+    "location": "",
+    "packages": {
+      "git_info": "0.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ci_info": {
+      "0.10.0": [
+        [
+          "envmnt",
+          "0.8.2"
+        ]
+      ]
+    },
+    "envmnt": {
+      "0.8.2": [
+        [
+          "fsio",
+          "0.1.2"
+        ],
+        [
+          "indexmap",
+          "1.3.2"
+        ]
+      ]
+    },
+    "getopts": {
+      "0.2.21": [
+        [
+          "unicode-width",
+          "0.1.7"
+        ]
+      ]
+    },
+    "git_info": {
+      "0.1.2": [
+        [
+          "doc-comment",
+          "0.3.3"
+        ],
+        [
+          "rusty-hook",
+          "0.11.1"
+        ]
+      ]
+    },
+    "indexmap": {
+      "1.3.2": [
+        [
+          "autocfg",
+          "1.0.0"
+        ]
+      ]
+    },
+    "rusty-hook": {
+      "0.11.1": [
+        [
+          "ci_info",
+          "0.10.0"
+        ],
+        [
+          "getopts",
+          "0.2.21"
+        ],
+        [
+          "nias",
+          "0.5.0"
+        ],
+        [
+          "toml",
+          "0.5.6"
+        ]
+      ]
+    },
+    "toml": {
+      "0.5.6": [
+        [
+          "serde",
+          "1.0.106"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.0.0": {
+        "hash": "f8aac770f1885fd7e387acedd76065302551364496e46b3dd00860b2f8359b9d",
+        "type": "crates-io"
+      }
+    },
+    "ci_info": {
+      "0.10.0": {
+        "hash": "b407009a4a51ae109dbdfcd7b6e4de38d148f37fad512b8c4623c642c4045e68",
+        "type": "crates-io"
+      }
+    },
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "envmnt": {
+      "0.8.2": {
+        "hash": "5fba7e7d8c007e12db7b3bd6f04b8e47e206c9173d9c75413a042ccc941723c8",
+        "type": "crates-io"
+      }
+    },
+    "fsio": {
+      "0.1.2": {
+        "hash": "2131cb03096f67334dfba2f0bc46afc5564b08a919d042c6e217e2665741fc54",
+        "type": "crates-io"
+      }
+    },
+    "getopts": {
+      "0.2.21": {
+        "hash": "14dbbfd5c71d70241ecf9e6f13737f7b5ce823821063188d7e46c41d371eebd5",
+        "type": "crates-io"
+      }
+    },
+    "git_info": {
+      "0.1.2": {
+        "hash": "641b847f0375f4b2c595438eefc17a9c0fbf47b400cbdd1ad9332bf1e16b779d",
+        "type": "crates-io"
+      }
+    },
+    "indexmap": {
+      "1.3.2": {
+        "hash": "076f042c5b7b98f31d205f1249267e12a6518c1481e9dae9764af19b707d2292",
+        "type": "crates-io"
+      }
+    },
+    "nias": {
+      "0.5.0": {
+        "hash": "ab250442c86f1850815b5d268639dff018c0627022bc1940eb2d642ca1ce12f0",
+        "type": "crates-io"
+      }
+    },
+    "rusty-hook": {
+      "0.11.1": {
+        "hash": "27138b73a8ce63ae918707a5e3b57f9b0c0842a57b82f0e43474cf4e3aaf0ff4",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.106": {
+        "hash": "36df6ac6412072f67cf767ebbde4133a5b2e88e76dc6187fa7104cd16f783399",
+        "type": "crates-io"
+      }
+    },
+    "toml": {
+      "0.5.6": {
+        "hash": "ffc92d160b1eef40665be3a05630d003936a3bc7da7421277846c2613e92c71a",
+        "type": "crates-io"
+      }
+    },
+    "unicode-width": {
+      "0.1.7": {
+        "hash": "caaa9d531767d1ff2150b9332433f32a24622147e5ebb1f26409d5da67afd479",
+        "type": "crates-io"
+      }
+    }
+  }
+}

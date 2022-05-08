@@ -1,0 +1,714 @@
+{
+  "_generic": {
+    "defaultPackage": "pqcrypto",
+    "location": "",
+    "packages": {
+      "pqcrypto": "0.15.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cc": {
+      "1.0.73": [
+        [
+          "jobserver",
+          "0.1.24"
+        ]
+      ]
+    },
+    "getrandom": {
+      "0.2.6": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "wasi",
+          "0.10.2+wasi-snapshot-preview1"
+        ]
+      ]
+    },
+    "jobserver": {
+      "0.1.24": [
+        [
+          "libc",
+          "0.2.123"
+        ]
+      ]
+    },
+    "pqcrypto": {
+      "0.15.0": [
+        [
+          "pqcrypto-classicmceliece",
+          "0.1.7"
+        ],
+        [
+          "pqcrypto-dilithium",
+          "0.4.5"
+        ],
+        [
+          "pqcrypto-falcon",
+          "0.2.10"
+        ],
+        [
+          "pqcrypto-frodo",
+          "0.4.11"
+        ],
+        [
+          "pqcrypto-hqc",
+          "0.1.5"
+        ],
+        [
+          "pqcrypto-kyber",
+          "0.7.5"
+        ],
+        [
+          "pqcrypto-ntru",
+          "0.5.8"
+        ],
+        [
+          "pqcrypto-ntruprime",
+          "0.1.6"
+        ],
+        [
+          "pqcrypto-rainbow",
+          "0.3.0"
+        ],
+        [
+          "pqcrypto-saber",
+          "0.1.11"
+        ],
+        [
+          "pqcrypto-sphincsplus",
+          "0.6.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ]
+      ]
+    },
+    "pqcrypto-classicmceliece": {
+      "0.1.7": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-dilithium": {
+      "0.4.5": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-falcon": {
+      "0.2.10": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-frodo": {
+      "0.4.11": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-hqc": {
+      "0.1.5": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-internals": {
+      "0.2.4": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "dunce",
+          "1.0.2"
+        ],
+        [
+          "getrandom",
+          "0.2.6"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ]
+      ]
+    },
+    "pqcrypto-kyber": {
+      "0.7.5": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-ntru": {
+      "0.5.8": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-ntruprime": {
+      "0.1.6": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-rainbow": {
+      "0.3.0": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-saber": {
+      "0.1.11": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "pqcrypto-sphincsplus": {
+      "0.6.4": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "glob",
+          "0.3.0"
+        ],
+        [
+          "libc",
+          "0.2.123"
+        ],
+        [
+          "pqcrypto-internals",
+          "0.2.4"
+        ],
+        [
+          "pqcrypto-traits",
+          "0.3.4"
+        ],
+        [
+          "serde",
+          "1.0.136"
+        ],
+        [
+          "serde-big-array",
+          "0.3.3"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.37": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.18": [
+        [
+          "proc-macro2",
+          "1.0.37"
+        ]
+      ]
+    },
+    "serde": {
+      "1.0.136": [
+        [
+          "serde_derive",
+          "1.0.136"
+        ]
+      ]
+    },
+    "serde-big-array": {
+      "0.3.3": [
+        [
+          "serde",
+          "1.0.136"
+        ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.136": [
+        [
+          "proc-macro2",
+          "1.0.37"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.91"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.91": [
+        [
+          "proc-macro2",
+          "1.0.37"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "dunce": {
+      "1.0.2": {
+        "hash": "453440c271cf5577fd2a40e4942540cb7d0d2f85e27c8d07dd0023c925a67541",
+        "type": "crates-io"
+      }
+    },
+    "getrandom": {
+      "0.2.6": {
+        "hash": "9be70c98951c83b8d2f8f60d7065fa6d5146873094452a1008da8c2f1e4205ad",
+        "type": "crates-io"
+      }
+    },
+    "glob": {
+      "0.3.0": {
+        "hash": "9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574",
+        "type": "crates-io"
+      }
+    },
+    "jobserver": {
+      "0.1.24": {
+        "hash": "af25a77299a7f711a01975c35a6a424eb6862092cc2d6c72c4ed6cbc56dfc1fa",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.123": {
+        "hash": "cb691a747a7ab48abc15c5b42066eaafde10dc427e3b6ee2a1cf43db04c763bd",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto": {
+      "0.15.0": {
+        "hash": "e10caefecccc56b78d30a6b46effa2360048104d668fb7cea944c0761f9c1f11",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-classicmceliece": {
+      "0.1.7": {
+        "hash": "058221b011ba4e1665060ee46c76a262fc0483219e284b83761f7cd0602da2aa",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-dilithium": {
+      "0.4.5": {
+        "hash": "aa4b9aa326173185297d00161c0b1d4b3b641308d16b5133d90775d5d56d123f",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-falcon": {
+      "0.2.10": {
+        "hash": "5b6ee639378f80f29c4d9a14b7098f1d80c4d65b43f27d2bcfc87285a380f169",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-frodo": {
+      "0.4.11": {
+        "hash": "65122d9fc0f4c0bd4fe8d51caa2c662d0b43d1af8576eae3331ec6ea2240b5d2",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-hqc": {
+      "0.1.5": {
+        "hash": "bb20b1324e5b76497ba6f030dea222059f8a815c0e641a0ad5e1c4cc1afb5db6",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-internals": {
+      "0.2.4": {
+        "hash": "0127cbc0239f585139a56effd7867921eae3425a000a72dde2b0a156062346b2",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-kyber": {
+      "0.7.5": {
+        "hash": "8a17989a978f7d7c1496e38806ad9ff11f36eb8e419c562eafddbbf176af4a8a",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-ntru": {
+      "0.5.8": {
+        "hash": "5fd7546c95224f2b1bf24694f8270a4caff92f87c26d4e1602ca32488e3cd872",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-ntruprime": {
+      "0.1.6": {
+        "hash": "9efad3ff41ac31e389e1e4577a7962ad382d14715cf19a127ec39170d231b0ae",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-rainbow": {
+      "0.3.0": {
+        "hash": "72022fc0deb051cef2561928a84a989146f4e994fb4ac2c4a819c27f67f92ac3",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-saber": {
+      "0.1.11": {
+        "hash": "7453b631d7bd268fffadf70514cdf05c9e9fd9574e26eafb85b5b86402e34c5b",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-sphincsplus": {
+      "0.6.4": {
+        "hash": "1b1ac9adfc6a5f52ca8dc4fef14a808386975e3ff82145ce0a21cbc3c5632946",
+        "type": "crates-io"
+      }
+    },
+    "pqcrypto-traits": {
+      "0.3.4": {
+        "hash": "97e91cb6af081c6daad5fa705f8adb0634c027662052cb3174bdf2957bf07e25",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.37": {
+        "hash": "ec757218438d5fda206afc041538b2f6d889286160d649a86a24d37e1235afd1",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.18": {
+        "hash": "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.136": {
+        "hash": "ce31e24b01e1e524df96f1c2fdd054405f8d7376249a5110886fb4b658484789",
+        "type": "crates-io"
+      }
+    },
+    "serde-big-array": {
+      "0.3.3": {
+        "hash": "cd31f59f6fe2b0c055371bb2f16d7f0aa7d8881676c04a55b1596d1a17cd10a4",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.136": {
+        "hash": "08597e7152fcd306f41838ed3e37be9eaeed2b61c42e2117266a554fab4662f9",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.91": {
+        "hash": "b683b2b825c8eef438b77c36a06dc262294da3d5a5813fac20da149241dcd44d",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.10.2+wasi-snapshot-preview1": {
+        "hash": "fd6fbd9a79829dd1ad0cc20627bf1ed606756a7f77edff7b66b7064f9cb327c6",
+        "type": "crates-io"
+      }
+    }
+  }
+}

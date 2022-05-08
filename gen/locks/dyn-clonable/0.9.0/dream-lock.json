@@ -1,0 +1,122 @@
+{
+  "_generic": {
+    "defaultPackage": "dyn-clonable",
+    "location": "",
+    "packages": {
+      "dyn-clonable": "0.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "dyn-clonable": {
+      "0.9.0": [
+        [
+          "dyn-clonable-impl",
+          "0.9.0"
+        ],
+        [
+          "dyn-clone",
+          "1.0.1"
+        ]
+      ]
+    },
+    "dyn-clonable-impl": {
+      "0.9.0": [
+        [
+          "proc-macro2",
+          "1.0.6"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "syn",
+          "1.0.11"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.6": [
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.2": [
+        [
+          "proc-macro2",
+          "1.0.6"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.11": [
+        [
+          "proc-macro2",
+          "1.0.6"
+        ],
+        [
+          "quote",
+          "1.0.2"
+        ],
+        [
+          "unicode-xid",
+          "0.2.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "dyn-clonable": {
+      "0.9.0": {
+        "hash": "4e9232f0e607a262ceb9bd5141a3dfb3e4db6994b31989bbfd845878cba59fd4",
+        "type": "crates-io"
+      }
+    },
+    "dyn-clonable-impl": {
+      "0.9.0": {
+        "hash": "558e40ea573c374cf53507fd240b7ee2f5477df7cfebdb97323ec61c719399c5",
+        "type": "crates-io"
+      }
+    },
+    "dyn-clone": {
+      "1.0.1": {
+        "hash": "b3ec9c7fb9a2ce708751c98e31ccbae74b6ab194f5c8e30cfb7ed62e38b70866",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.6": {
+        "hash": "9c9e470a8dc4aeae2dee2f335e8f533e2d4b347e1434e5671afc49b054592f27",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.2": {
+        "hash": "053a8c8bcc71fcce321828dc897a98ab9760bef03a4fc36693c231e5b3216cfe",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.11": {
+        "hash": "dff0acdb207ae2fe6d5976617f887eb1e35a2ba52c13c7234c790960cdad9238",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.0": {
+        "hash": "826e7639553986605ec5979c7dd957c7895e93eabed50ab2ffa7f6128a75097c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

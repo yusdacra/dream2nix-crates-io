@@ -1,0 +1,74 @@
+{
+  "_generic": {
+    "defaultPackage": "libffi",
+    "location": "",
+    "packages": {
+      "libffi": "3.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "libffi": {
+      "3.0.0": [
+        [
+          "abort_on_panic",
+          "2.0.0"
+        ],
+        [
+          "libc",
+          "0.2.119"
+        ],
+        [
+          "libffi-sys",
+          "2.0.0"
+        ]
+      ]
+    },
+    "libffi-sys": {
+      "2.0.0": [
+        [
+          "cc",
+          "1.0.73"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "abort_on_panic": {
+      "2.0.0": {
+        "hash": "955f37ac58af2416bac687c8ab66a4ccba282229bd7422a28d2281a5e66a6116",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.119": {
+        "hash": "1bf2e165bb3457c8e098ea76f3e3bc9db55f87aa90d52d0e6be741470916aaa4",
+        "type": "crates-io"
+      }
+    },
+    "libffi": {
+      "3.0.0": {
+        "hash": "0e08093a2ddeee94bd0c830a53d895ff91f1f3bb0f9b3c8c6b00739cdf76bc1d",
+        "type": "crates-io"
+      }
+    },
+    "libffi-sys": {
+      "2.0.0": {
+        "hash": "ab4106b7f09d7b87d021334d5618fac1dfcfb824d4c5fe111ff0074dfd242e15",
+        "type": "crates-io"
+      }
+    }
+  }
+}

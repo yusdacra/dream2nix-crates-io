@@ -1,0 +1,126 @@
+{
+  "_generic": {
+    "defaultPackage": "cargo-platform",
+    "location": "",
+    "packages": {
+      "cargo-platform": "0.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cargo-platform": {
+      "0.1.2": [
+        [
+          "serde",
+          "1.0.127"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.28": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.9": [
+        [
+          "proc-macro2",
+          "1.0.28"
+        ]
+      ]
+    },
+    "serde": {
+      "1.0.127": [
+        [
+          "serde_derive",
+          "1.0.127"
+        ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.127": [
+        [
+          "proc-macro2",
+          "1.0.28"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ],
+        [
+          "syn",
+          "1.0.74"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.74": [
+        [
+          "proc-macro2",
+          "1.0.28"
+        ],
+        [
+          "quote",
+          "1.0.9"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cargo-platform": {
+      "0.1.2": {
+        "hash": "cbdb825da8a5df079a43676dbe042702f1707b1109f713a01420fbb4cc71fa27",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.28": {
+        "hash": "5c7ed8b8c7b886ea3ed7dde405212185f423ab44682667c8c6dd14aa1d9f6612",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.9": {
+        "hash": "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.127": {
+        "hash": "f03b9878abf6d14e6779d3f24f07b2cfa90352cfec4acc5aab8f1ac7f146fae8",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.127": {
+        "hash": "a024926d3432516606328597e0f224a51355a493b49fdd67e9209187cbe55ecc",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.74": {
+        "hash": "1873d832550d4588c3dbc20f01361ab00bfe741048f71e3fecf145a7cc18b29c",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

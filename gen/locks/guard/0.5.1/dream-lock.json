@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "guard",
+    "location": "",
+    "packages": {
+      "guard": "0.5.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "guard": {
+      "0.5.1": {
+        "hash": "ff893cc51ea04f8a3b73fbaf4376c06ebc5a0ccbe86d460896f805d9417c93ea",
+        "type": "crates-io"
+      }
+    }
+  }
+}

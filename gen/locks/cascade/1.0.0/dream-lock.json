@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "cascade",
+    "location": "",
+    "packages": {
+      "cascade": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "cascade": {
+      "1.0.0": {
+        "hash": "f18c6a921baae2d947e4cf96f6ef1b5774b3056ae8edbdf5c5cfce4f33260921",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "blobby",
+    "location": "",
+    "packages": {
+      "blobby": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "blobby": {
+      "0.3.1": [
+        [
+          "hex",
+          "0.4.3"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "blobby": {
+      "0.3.1": {
+        "hash": "847495c209977a90e8aad588b959d0ca9f5dc228096d29a6bd3defd53f35eaec",
+        "type": "crates-io"
+      }
+    },
+    "hex": {
+      "0.4.3": {
+        "hash": "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70",
+        "type": "crates-io"
+      }
+    }
+  }
+}

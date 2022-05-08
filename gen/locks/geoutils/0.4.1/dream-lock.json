@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "geoutils",
+    "location": "",
+    "packages": {
+      "geoutils": "0.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "geoutils": {
+      "0.4.1": {
+        "hash": "9e006f616a407d396ace1d2ebb3f43ed73189db8b098079bd129928d7645dd1e",
+        "type": "crates-io"
+      }
+    }
+  }
+}

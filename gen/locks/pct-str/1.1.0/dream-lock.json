@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "pct-str",
+    "location": "",
+    "packages": {
+      "pct-str": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "pct-str": {
+      "1.1.0": {
+        "hash": "1240e3e7bfdde5660ba0fc3e9e3565d3b30c2ae1973e218e93b869da771ff2e9",
+        "type": "crates-io"
+      }
+    }
+  }
+}

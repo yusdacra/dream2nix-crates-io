@@ -1,0 +1,272 @@
+{
+  "_generic": {
+    "defaultPackage": "readings-probe",
+    "location": "",
+    "packages": {
+      "readings-probe": "0.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hermit-abi": {
+      "0.1.19": [
+        [
+          "libc",
+          "0.2.108"
+        ]
+      ]
+    },
+    "jemalloc-sys": {
+      "0.3.2": [
+        [
+          "cc",
+          "1.0.72"
+        ],
+        [
+          "fs_extra",
+          "1.2.0"
+        ],
+        [
+          "libc",
+          "0.2.108"
+        ]
+      ]
+    },
+    "jemallocator": {
+      "0.3.2": [
+        [
+          "jemalloc-sys",
+          "0.3.2"
+        ],
+        [
+          "libc",
+          "0.2.108"
+        ]
+      ]
+    },
+    "num_cpus": {
+      "1.13.0": [
+        [
+          "hermit-abi",
+          "0.1.19"
+        ],
+        [
+          "libc",
+          "0.2.108"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.32": [
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.10": [
+        [
+          "proc-macro2",
+          "1.0.32"
+        ]
+      ]
+    },
+    "readings-probe": {
+      "0.1.4": [
+        [
+          "jemallocator",
+          "0.3.2"
+        ],
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "libc",
+          "0.2.108"
+        ],
+        [
+          "num_cpus",
+          "1.13.0"
+        ],
+        [
+          "thiserror",
+          "1.0.30"
+        ],
+        [
+          "winapi",
+          "0.3.9"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.82": [
+        [
+          "proc-macro2",
+          "1.0.32"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "unicode-xid",
+          "0.2.2"
+        ]
+      ]
+    },
+    "thiserror": {
+      "1.0.30": [
+        [
+          "thiserror-impl",
+          "1.0.30"
+        ]
+      ]
+    },
+    "thiserror-impl": {
+      "1.0.30": [
+        [
+          "proc-macro2",
+          "1.0.32"
+        ],
+        [
+          "quote",
+          "1.0.10"
+        ],
+        [
+          "syn",
+          "1.0.82"
+        ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [
+          "winapi-i686-pc-windows-gnu",
+          "0.4.0"
+        ],
+        [
+          "winapi-x86_64-pc-windows-gnu",
+          "0.4.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.72": {
+        "hash": "22a9137b95ea06864e018375b72adfb7db6e6f68cfc8df5a04d00288050485ee",
+        "type": "crates-io"
+      }
+    },
+    "fs_extra": {
+      "1.2.0": {
+        "hash": "2022715d62ab30faffd124d40b76f4134a550a87792276512b18d63272333394",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "type": "crates-io"
+      }
+    },
+    "jemalloc-sys": {
+      "0.3.2": {
+        "hash": "0d3b9f3f5c9b31aa0f5ed3260385ac205db665baa41d49bb8338008ae94ede45",
+        "type": "crates-io"
+      }
+    },
+    "jemallocator": {
+      "0.3.2": {
+        "hash": "43ae63fcfc45e99ab3d1b29a46782ad679e98436c3169d15a167a1108a724b69",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.108": {
+        "hash": "8521a1b57e76b1ec69af7599e75e38e7b7fad6610f037db8c79b127201b5d119",
+        "type": "crates-io"
+      }
+    },
+    "num_cpus": {
+      "1.13.0": {
+        "hash": "05499f3756671c15885fee9034446956fff3f243d6077b91e5767df161f766b3",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.32": {
+        "hash": "ba508cc11742c0dc5c1659771673afbab7a0efab23aa17e854cbab0837ed0b43",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.10": {
+        "hash": "38bc8cc6a5f2e3655e0899c1b848643b2562f853f114bfec7be120678e3ace05",
+        "type": "crates-io"
+      }
+    },
+    "readings-probe": {
+      "0.1.4": {
+        "hash": "49ebc29b4383b314b8a69a8aa058cf08f96e0d998799695ec533a2fb5766b28d",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.82": {
+        "hash": "8daf5dd0bb60cbd4137b1b587d2fc0ae729bc07cf01cd70b36a1ed5ade3b9d59",
+        "type": "crates-io"
+      }
+    },
+    "thiserror": {
+      "1.0.30": {
+        "hash": "854babe52e4df1653706b98fcfc05843010039b406875930a70e4d9644e5c417",
+        "type": "crates-io"
+      }
+    },
+    "thiserror-impl": {
+      "1.0.30": {
+        "hash": "aa32fd3f627f367fe16f893e2597ae3c05020f8bba2666a4e6ea73d377e5714b",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.2": {
+        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

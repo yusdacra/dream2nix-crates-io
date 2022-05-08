@@ -1,0 +1,122 @@
+{
+  "_generic": {
+    "defaultPackage": "minicbor",
+    "location": "",
+    "packages": {
+      "minicbor": "0.16.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "minicbor": {
+      "0.16.0": [
+        [
+          "half",
+          "1.8.2"
+        ],
+        [
+          "minicbor-derive",
+          "0.10.0"
+        ]
+      ]
+    },
+    "minicbor-derive": {
+      "0.10.0": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.92"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.38": [
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.18": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.92": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "half": {
+      "1.8.2": {
+        "hash": "eabb4a44450da02c90444cf74558da904edde8fb4e9035a9a6a4e15445af0bd7",
+        "type": "crates-io"
+      }
+    },
+    "minicbor": {
+      "0.16.0": {
+        "hash": "08de72a57f15d959ab3a3b73fc94572eb954bfcfeb3809cf83cc1bd7d0aa774b",
+        "type": "crates-io"
+      }
+    },
+    "minicbor-derive": {
+      "0.10.0": {
+        "hash": "66dd6ff7dbe1a10938f8b72c6d0dd81c28fc68283aa79d7ba97c99a96a8e5823",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.38": {
+        "hash": "9027b48e9d4c9175fa2218adf3557f91c1137021739951d4932f5f8268ac48aa",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.18": {
+        "hash": "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.92": {
+        "hash": "7ff7c592601f11445996a06f8ad0c27f094a58857c2f89e97974ab9235b92c52",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.3": {
+        "hash": "957e51f3646910546462e67d5f7599b9e4fb8acdd304b087a6494730f9eebf04",
+        "type": "crates-io"
+      }
+    }
+  }
+}

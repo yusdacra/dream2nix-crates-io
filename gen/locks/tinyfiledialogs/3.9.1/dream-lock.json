@@ -1,0 +1,50 @@
+{
+  "_generic": {
+    "defaultPackage": "tinyfiledialogs",
+    "location": "",
+    "packages": {
+      "tinyfiledialogs": "3.9.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tinyfiledialogs": {
+      "3.9.1": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "libc",
+          "0.2.121"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.121": {
+        "hash": "efaa7b300f3b5fe8eb6bf21ce3895e1751d9665086af2d64b42f19701015ff4f",
+        "type": "crates-io"
+      }
+    },
+    "tinyfiledialogs": {
+      "3.9.1": {
+        "hash": "e25fa0bc43a6566e2cc6d7ac96df3fa5a57beba34445bead1b368ba8fe9ca568",
+        "type": "crates-io"
+      }
+    }
+  }
+}
