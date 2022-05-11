@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     dream2nix = {
-      url = "github:nix-community/dream2nix/main";
+      url = "github:yusdacra/dream2nix/feat/cargo-toml-translator";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     ilib = {
@@ -35,6 +35,7 @@
         fetcherName = "crates-io";
         translatorForPath = {
           "Cargo.lock" = "cargo-lock";
+          __default = "cargo-toml";
         };
       };
 
@@ -102,6 +103,10 @@
         };
         index-top-1k-downloads = mkIndexApp {
           max_pages = 10;
+          sort_by = "downloads";
+        };
+        index-top-500-downloads = mkIndexApp {
+          max_pages = 5;
           sort_by = "downloads";
         };
         index-top-100-downloads = mkIndexApp {
