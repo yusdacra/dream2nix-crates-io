@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "inotify-sys",
+    "location": "",
+    "packages": {
+      "inotify-sys": "0.1.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "inotify-sys": {
+      "0.1.5": [
+        [
+          "libc",
+          "0.2.125"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "inotify-sys": {
+      "0.1.5": {
+        "hash": "e05c02b5e89bff3b946cedeca278abc628fe811e604f027c45a8aa3cf793d0eb",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.125": {
+        "hash": "5916d2ae698f6de9bfb891ad7a8d65c09d232dc58cc4ac433c7da3b2fd84bc2b",
+        "type": "crates-io"
+      }
+    }
+  }
+}

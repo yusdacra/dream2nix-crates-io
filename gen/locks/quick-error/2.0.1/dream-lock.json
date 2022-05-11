@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "quick-error",
+    "location": "",
+    "packages": {
+      "quick-error": "2.0.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "quick-error": {
+      "2.0.1": {
+        "hash": "a993555f31e5a609f617c12db6250dedcac1b0a85076912c436e6fc9b2c8e6a3",
+        "type": "crates-io"
+      }
+    }
+  }
+}

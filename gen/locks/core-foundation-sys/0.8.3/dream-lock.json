@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "core-foundation-sys",
+    "location": "",
+    "packages": {
+      "core-foundation-sys": "0.8.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "core-foundation-sys": {
+      "0.8.3": {
+        "hash": "5827cebf4670468b8772dd191856768aedcb1b0278a04f989f7766351917b9dc",
+        "type": "crates-io"
+      }
+    }
+  }
+}

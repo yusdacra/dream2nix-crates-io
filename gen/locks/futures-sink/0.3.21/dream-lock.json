@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "futures-sink",
+    "location": "",
+    "packages": {
+      "futures-sink": "0.3.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "futures-sink": {
+      "0.3.21": {
+        "hash": "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868",
+        "type": "crates-io"
+      }
+    }
+  }
+}

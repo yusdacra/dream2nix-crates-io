@@ -1,0 +1,298 @@
+{
+  "_generic": {
+    "defaultPackage": "log",
+    "location": "",
+    "packages": {
+      "log": "0.4.17"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ctor": {
+      "0.1.22": [
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.93"
+        ]
+      ]
+    },
+    "erased-serde": {
+      "0.3.20": [
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    },
+    "log": {
+      "0.4.17": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "rustversion",
+          "1.0.6"
+        ],
+        [
+          "serde",
+          "1.0.137"
+        ],
+        [
+          "serde_test",
+          "1.0.137"
+        ],
+        [
+          "sval",
+          "1.0.0-alpha.5"
+        ],
+        [
+          "value-bag",
+          "1.0.0-alpha.9"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.38": [
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.18": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ]
+      ]
+    },
+    "serde": {
+      "1.0.137": [
+        [
+          "serde_derive",
+          "1.0.137"
+        ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.137": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.93"
+        ]
+      ]
+    },
+    "serde_fmt": {
+      "1.0.1": [
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    },
+    "serde_test": {
+      "1.0.137": [
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    },
+    "sval": {
+      "1.0.0-alpha.5": [
+        [
+          "serde",
+          "1.0.137"
+        ],
+        [
+          "sval_derive",
+          "1.0.0-alpha.5"
+        ]
+      ]
+    },
+    "sval_derive": {
+      "1.0.0-alpha.5": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.93"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.93": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "value-bag": {
+      "1.0.0-alpha.9": [
+        [
+          "ctor",
+          "0.1.22"
+        ],
+        [
+          "erased-serde",
+          "0.3.20"
+        ],
+        [
+          "serde",
+          "1.0.137"
+        ],
+        [
+          "serde_fmt",
+          "1.0.1"
+        ],
+        [
+          "sval",
+          "1.0.0-alpha.5"
+        ],
+        [
+          "version_check",
+          "0.9.4"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "ctor": {
+      "0.1.22": {
+        "hash": "f877be4f7c9f246b183111634f75baa039715e3f46ce860677d3b19a69fb229c",
+        "type": "crates-io"
+      }
+    },
+    "erased-serde": {
+      "0.3.20": {
+        "hash": "ad132dd8d0d0b546348d7d86cb3191aad14b34e5f979781fc005c80d4ac67ffd",
+        "type": "crates-io"
+      }
+    },
+    "log": {
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.38": {
+        "hash": "9027b48e9d4c9175fa2218adf3557f91c1137021739951d4932f5f8268ac48aa",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.18": {
+        "hash": "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1",
+        "type": "crates-io"
+      }
+    },
+    "rustversion": {
+      "1.0.6": {
+        "hash": "f2cc38e8fa666e2de3c4aba7edeb5ffc5246c1c2ed0e3d17e560aeeba736b23f",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.137": {
+        "hash": "61ea8d54c77f8315140a05f4c7237403bf38b72704d031543aa1d16abbf517d1",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.137": {
+        "hash": "1f26faba0c3959972377d3b2d306ee9f71faee9714294e41bb777f83f88578be",
+        "type": "crates-io"
+      }
+    },
+    "serde_fmt": {
+      "1.0.1": {
+        "hash": "2963a69a2b3918c1dc75a45a18bd3fcd1120e31d3f59deb1b2f9b5d5ffb8baa4",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.137": {
+        "hash": "fe196827aea34242c314d2f0dd49ed00a129225e80dda71b0dbf65d54d25628d",
+        "type": "crates-io"
+      }
+    },
+    "sval": {
+      "1.0.0-alpha.5": {
+        "hash": "45f6ee7c7b87caf59549e9fe45d6a69c75c8019e79e212a835c5da0e92f0ba08",
+        "type": "crates-io"
+      }
+    },
+    "sval_derive": {
+      "1.0.0-alpha.5": {
+        "hash": "774208d8ecc53864db9e1da50bd2657750936da1e05c1385728e76ecd0ca8ab2",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.93": {
+        "hash": "04066589568b72ec65f42d65a1a52436e954b168773148893c020269563decf2",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.3": {
+        "hash": "957e51f3646910546462e67d5f7599b9e4fb8acdd304b087a6494730f9eebf04",
+        "type": "crates-io"
+      }
+    },
+    "value-bag": {
+      "1.0.0-alpha.9": {
+        "hash": "2209b78d1249f7e6f3293657c9779fe31ced465df091bbd433a1cf88e916ec55",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "rand_hc",
+    "location": "",
+    "packages": {
+      "rand_hc": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rand_hc": {
+      "0.3.1": [
+        [
+          "rand_core",
+          "0.6.3"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "rand_core": {
+      "0.6.3": {
+        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
+        "type": "crates-io"
+      }
+    },
+    "rand_hc": {
+      "0.3.1": {
+        "hash": "d51e9f596de227fda2ea6c84607f5558e196eeaf43c986b724ba4fb8fdf497e7",
+        "type": "crates-io"
+      }
+    }
+  }
+}

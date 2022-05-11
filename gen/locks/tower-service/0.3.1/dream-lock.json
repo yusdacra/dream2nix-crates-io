@@ -1,0 +1,360 @@
+{
+  "_generic": {
+    "defaultPackage": "tower-service",
+    "location": "",
+    "packages": {
+      "tower-service": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "futures": {
+      "0.3.21": [
+        [
+          "futures-channel",
+          "0.3.21"
+        ],
+        [
+          "futures-core",
+          "0.3.21"
+        ],
+        [
+          "futures-executor",
+          "0.3.21"
+        ],
+        [
+          "futures-io",
+          "0.3.21"
+        ],
+        [
+          "futures-sink",
+          "0.3.21"
+        ],
+        [
+          "futures-task",
+          "0.3.21"
+        ],
+        [
+          "futures-util",
+          "0.3.21"
+        ]
+      ]
+    },
+    "futures-channel": {
+      "0.3.21": [
+        [
+          "futures-core",
+          "0.3.21"
+        ],
+        [
+          "futures-sink",
+          "0.3.21"
+        ]
+      ]
+    },
+    "futures-executor": {
+      "0.3.21": [
+        [
+          "futures-core",
+          "0.3.21"
+        ],
+        [
+          "futures-task",
+          "0.3.21"
+        ],
+        [
+          "futures-util",
+          "0.3.21"
+        ]
+      ]
+    },
+    "futures-macro": {
+      "0.3.21": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.93"
+        ]
+      ]
+    },
+    "futures-util": {
+      "0.3.21": [
+        [
+          "futures-channel",
+          "0.3.21"
+        ],
+        [
+          "futures-core",
+          "0.3.21"
+        ],
+        [
+          "futures-io",
+          "0.3.21"
+        ],
+        [
+          "futures-macro",
+          "0.3.21"
+        ],
+        [
+          "futures-sink",
+          "0.3.21"
+        ],
+        [
+          "futures-task",
+          "0.3.21"
+        ],
+        [
+          "memchr",
+          "2.5.0"
+        ],
+        [
+          "pin-project-lite",
+          "0.2.9"
+        ],
+        [
+          "pin-utils",
+          "0.1.0"
+        ],
+        [
+          "slab",
+          "0.4.6"
+        ]
+      ]
+    },
+    "http": {
+      "0.2.7": [
+        [
+          "bytes",
+          "1.1.0"
+        ],
+        [
+          "fnv",
+          "1.0.7"
+        ],
+        [
+          "itoa",
+          "1.0.1"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.38": [
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.18": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.93": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "tokio": {
+      "1.18.2": [
+        [
+          "pin-project-lite",
+          "0.2.9"
+        ]
+      ]
+    },
+    "tower-service": {
+      "0.3.1": [
+        [
+          "futures",
+          "0.3.21"
+        ],
+        [
+          "http",
+          "0.2.7"
+        ],
+        [
+          "tokio",
+          "1.18.2"
+        ],
+        [
+          "tower-layer",
+          "0.3.1"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "bytes": {
+      "1.1.0": {
+        "hash": "c4872d67bab6358e59559027aa3b9157c53d9358c51423c17554809a8858e0f8",
+        "type": "crates-io"
+      }
+    },
+    "fnv": {
+      "1.0.7": {
+        "hash": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
+        "type": "crates-io"
+      }
+    },
+    "futures": {
+      "0.3.21": {
+        "hash": "f73fe65f54d1e12b726f517d3e2135ca3125a437b6d998caf1962961f7172d9e",
+        "type": "crates-io"
+      }
+    },
+    "futures-channel": {
+      "0.3.21": {
+        "hash": "c3083ce4b914124575708913bca19bfe887522d6e2e6d0952943f5eac4a74010",
+        "type": "crates-io"
+      }
+    },
+    "futures-core": {
+      "0.3.21": {
+        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+        "type": "crates-io"
+      }
+    },
+    "futures-executor": {
+      "0.3.21": {
+        "hash": "9420b90cfa29e327d0429f19be13e7ddb68fa1cccb09d65e5706b8c7a749b8a6",
+        "type": "crates-io"
+      }
+    },
+    "futures-io": {
+      "0.3.21": {
+        "hash": "fc4045962a5a5e935ee2fdedaa4e08284547402885ab326734432bed5d12966b",
+        "type": "crates-io"
+      }
+    },
+    "futures-macro": {
+      "0.3.21": {
+        "hash": "33c1e13800337f4d4d7a316bf45a567dbcb6ffe087f16424852d97e97a91f512",
+        "type": "crates-io"
+      }
+    },
+    "futures-sink": {
+      "0.3.21": {
+        "hash": "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868",
+        "type": "crates-io"
+      }
+    },
+    "futures-task": {
+      "0.3.21": {
+        "hash": "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a",
+        "type": "crates-io"
+      }
+    },
+    "futures-util": {
+      "0.3.21": {
+        "hash": "d8b7abd5d659d9b90c8cba917f6ec750a74e2dc23902ef9cd4cc8c8b22e6036a",
+        "type": "crates-io"
+      }
+    },
+    "http": {
+      "0.2.7": {
+        "hash": "ff8670570af52249509a86f5e3e18a08c60b177071826898fde8997cf5f6bfbb",
+        "type": "crates-io"
+      }
+    },
+    "itoa": {
+      "1.0.1": {
+        "hash": "1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "pin-project-lite": {
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+        "type": "crates-io"
+      }
+    },
+    "pin-utils": {
+      "0.1.0": {
+        "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.38": {
+        "hash": "9027b48e9d4c9175fa2218adf3557f91c1137021739951d4932f5f8268ac48aa",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.18": {
+        "hash": "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1",
+        "type": "crates-io"
+      }
+    },
+    "slab": {
+      "0.4.6": {
+        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.93": {
+        "hash": "04066589568b72ec65f42d65a1a52436e954b168773148893c020269563decf2",
+        "type": "crates-io"
+      }
+    },
+    "tokio": {
+      "1.18.2": {
+        "hash": "4903bf0427cf68dddd5aa6a93220756f8be0c34fcfa9f5e6191e103e15a31395",
+        "type": "crates-io"
+      }
+    },
+    "tower-layer": {
+      "0.3.1": {
+        "hash": "343bc9466d3fe6b0f960ef45960509f84480bf4fd96f92901afe7ff3df9d3a62",
+        "type": "crates-io"
+      }
+    },
+    "tower-service": {
+      "0.3.1": {
+        "hash": "360dfd1d6d30e05fda32ace2c8c70e9c0a9da713275777f5a4dbb8a1893930c6",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.3": {
+        "hash": "957e51f3646910546462e67d5f7599b9e4fb8acdd304b087a6494730f9eebf04",
+        "type": "crates-io"
+      }
+    }
+  }
+}

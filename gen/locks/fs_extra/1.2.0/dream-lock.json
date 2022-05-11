@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "fs_extra",
+    "location": "",
+    "packages": {
+      "fs_extra": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "fs_extra": {
+      "1.2.0": {
+        "hash": "2022715d62ab30faffd124d40b76f4134a550a87792276512b18d63272333394",
+        "type": "crates-io"
+      }
+    }
+  }
+}

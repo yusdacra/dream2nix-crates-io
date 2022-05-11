@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "take_mut",
+    "location": "",
+    "packages": {
+      "take_mut": "0.2.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "take_mut": {
+      "0.2.2": {
+        "hash": "f764005d11ee5f36500a149ace24e00e3da98b0158b3e2d53a7495660d3f4d60",
+        "type": "crates-io"
+      }
+    }
+  }
+}

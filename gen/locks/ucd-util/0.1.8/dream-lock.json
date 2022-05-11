@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "ucd-util",
+    "location": "",
+    "packages": {
+      "ucd-util": "0.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "ucd-util": {
+      "0.1.8": {
+        "hash": "c85f514e095d348c279b1e5cd76795082cf15bd59b93207832abe0b1d8fed236",
+        "type": "crates-io"
+      }
+    }
+  }
+}

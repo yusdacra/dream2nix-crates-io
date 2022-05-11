@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "maybe-uninit",
+    "location": "",
+    "packages": {
+      "maybe-uninit": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "maybe-uninit": {
+      "2.0.0": {
+        "hash": "60302e4db3a61da70c0cb7991976248362f30319e88850c487b9b95bbf059e00",
+        "type": "crates-io"
+      }
+    }
+  }
+}

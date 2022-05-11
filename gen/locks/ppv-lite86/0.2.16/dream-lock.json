@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "ppv-lite86",
+    "location": "",
+    "packages": {
+      "ppv-lite86": "0.2.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "ppv-lite86": {
+      "0.2.16": {
+        "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
+        "type": "crates-io"
+      }
+    }
+  }
+}

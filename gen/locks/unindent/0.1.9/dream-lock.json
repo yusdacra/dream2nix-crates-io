@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "unindent",
+    "location": "",
+    "packages": {
+      "unindent": "0.1.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "unindent": {
+      "0.1.9": {
+        "hash": "52fee519a3e570f7df377a06a1a7775cdbfb7aa460be7e08de2b1f0e69973a44",
+        "type": "crates-io"
+      }
+    }
+  }
+}

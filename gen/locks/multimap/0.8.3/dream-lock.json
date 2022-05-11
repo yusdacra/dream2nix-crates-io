@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "multimap",
+    "location": "",
+    "packages": {
+      "multimap": "0.8.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "multimap": {
+      "0.8.3": [
+        [
+          "serde",
+          "1.0.137"
+        ],
+        [
+          "serde_test",
+          "1.0.137"
+        ]
+      ]
+    },
+    "serde_test": {
+      "1.0.137": [
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "multimap": {
+      "0.8.3": {
+        "hash": "e5ce46fe64a9d73be07dcbe690a38ce1b293be448fd8ce1e6c1b8062c9f72c6a",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.137": {
+        "hash": "61ea8d54c77f8315140a05f4c7237403bf38b72704d031543aa1d16abbf517d1",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.137": {
+        "hash": "fe196827aea34242c314d2f0dd49ed00a129225e80dda71b0dbf65d54d25628d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

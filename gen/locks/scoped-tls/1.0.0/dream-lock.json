@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "scoped-tls",
+    "location": "",
+    "packages": {
+      "scoped-tls": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "scoped-tls": {
+      "1.0.0": {
+        "hash": "ea6a9290e3c9cf0f18145ef7ffa62d68ee0bf5fcd651017e586dc7fd5da448c2",
+        "type": "crates-io"
+      }
+    }
+  }
+}

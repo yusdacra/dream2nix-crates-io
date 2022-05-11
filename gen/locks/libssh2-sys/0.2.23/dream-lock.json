@@ -1,0 +1,176 @@
+{
+  "_generic": {
+    "defaultPackage": "libssh2-sys",
+    "location": "",
+    "packages": {
+      "libssh2-sys": "0.2.23"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cmake": {
+      "0.1.48": [
+        [
+          "cc",
+          "1.0.73"
+        ]
+      ]
+    },
+    "libssh2-sys": {
+      "0.2.23": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "libc",
+          "0.2.125"
+        ],
+        [
+          "libz-sys",
+          "1.1.6"
+        ],
+        [
+          "openssl-sys",
+          "0.9.73"
+        ],
+        [
+          "pkg-config",
+          "0.3.25"
+        ],
+        [
+          "vcpkg",
+          "0.2.15"
+        ]
+      ]
+    },
+    "libz-sys": {
+      "1.1.6": [
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "cmake",
+          "0.1.48"
+        ],
+        [
+          "libc",
+          "0.2.125"
+        ],
+        [
+          "pkg-config",
+          "0.3.25"
+        ],
+        [
+          "vcpkg",
+          "0.2.15"
+        ]
+      ]
+    },
+    "openssl-src": {
+      "111.18.0+1.1.1n": [
+        [
+          "cc",
+          "1.0.73"
+        ]
+      ]
+    },
+    "openssl-sys": {
+      "0.9.73": [
+        [
+          "autocfg",
+          "1.1.0"
+        ],
+        [
+          "cc",
+          "1.0.73"
+        ],
+        [
+          "libc",
+          "0.2.125"
+        ],
+        [
+          "openssl-src",
+          "111.18.0+1.1.1n"
+        ],
+        [
+          "pkg-config",
+          "0.3.25"
+        ],
+        [
+          "vcpkg",
+          "0.2.15"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.48": {
+        "hash": "e8ad8cef104ac57b68b89df3208164d228503abbdce70f6880ffa3d970e7443a",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.125": {
+        "hash": "5916d2ae698f6de9bfb891ad7a8d65c09d232dc58cc4ac433c7da3b2fd84bc2b",
+        "type": "crates-io"
+      }
+    },
+    "libssh2-sys": {
+      "0.2.23": {
+        "hash": "b094a36eb4b8b8c8a7b4b8ae43b2944502be3e59cd87687595cf6b0a71b3f4ca",
+        "type": "crates-io"
+      }
+    },
+    "libz-sys": {
+      "1.1.6": {
+        "hash": "92e7e15d7610cce1d9752e137625f14e61a28cd45929b6e12e47b50fe154ee2e",
+        "type": "crates-io"
+      }
+    },
+    "openssl-src": {
+      "111.18.0+1.1.1n": {
+        "hash": "7897a926e1e8d00219127dc020130eca4292e5ca666dd592480d72c3eca2ff6c",
+        "type": "crates-io"
+      }
+    },
+    "openssl-sys": {
+      "0.9.73": {
+        "hash": "9d5fd19fb3e0a8191c1e34935718976a3e70c112ab9a24af6d7cadccd9d90bc0",
+        "type": "crates-io"
+      }
+    },
+    "pkg-config": {
+      "0.3.25": {
+        "hash": "1df8c4ec4b0627e53bdf214615ad287367e482558cf84b109250b37464dc03ae",
+        "type": "crates-io"
+      }
+    },
+    "vcpkg": {
+      "0.2.15": {
+        "hash": "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426",
+        "type": "crates-io"
+      }
+    }
+  }
+}

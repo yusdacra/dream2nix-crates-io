@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "peeking_take_while",
+    "location": "",
+    "packages": {
+      "peeking_take_while": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "peeking_take_while": {
+      "1.0.0": {
+        "hash": "9e9ed2178b0575fff8e1b83b58ba6f75e727aafac2e1b6c795169ad3b17eb518",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "precomputed-hash",
+    "location": "",
+    "packages": {
+      "precomputed-hash": "0.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "precomputed-hash": {
+      "0.1.1": {
+        "hash": "925383efa346730478fb4838dbe9137d2a47675ad789c546d150a6e1dd4ab31c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

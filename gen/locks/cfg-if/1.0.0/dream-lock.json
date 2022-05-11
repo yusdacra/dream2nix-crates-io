@@ -1,0 +1,50 @@
+{
+  "_generic": {
+    "defaultPackage": "cfg-if",
+    "location": "",
+    "packages": {
+      "cfg-if": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cfg-if": {
+      "1.0.0": [
+        [
+          "compiler_builtins",
+          "0.1.72"
+        ],
+        [
+          "rustc-std-workspace-core",
+          "1.0.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "compiler_builtins": {
+      "0.1.72": {
+        "hash": "afdbb35d279238cf77f0c9e8d90ad50d6c7bff476ab342baafa29440f0f10bff",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

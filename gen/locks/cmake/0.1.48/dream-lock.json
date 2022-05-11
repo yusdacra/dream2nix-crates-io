@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "cmake",
+    "location": "",
+    "packages": {
+      "cmake": "0.1.48"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cmake": {
+      "0.1.48": [
+        [
+          "cc",
+          "1.0.73"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.48": {
+        "hash": "e8ad8cef104ac57b68b89df3208164d228503abbdce70f6880ffa3d970e7443a",
+        "type": "crates-io"
+      }
+    }
+  }
+}

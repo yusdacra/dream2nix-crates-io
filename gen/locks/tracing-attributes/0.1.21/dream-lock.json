@@ -1,0 +1,268 @@
+{
+  "_generic": {
+    "defaultPackage": "tracing-attributes",
+    "location": "",
+    "packages": {
+      "tracing-attributes": "0.1.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "async-trait": {
+      "0.1.53": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.93"
+        ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.38": [
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "quote": {
+      "1.0.18": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ]
+      ]
+    },
+    "syn": {
+      "1.0.93": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "unicode-xid",
+          "0.2.3"
+        ]
+      ]
+    },
+    "tokio": {
+      "0.2.25": [
+        [
+          "bytes",
+          "0.5.6"
+        ],
+        [
+          "fnv",
+          "1.0.7"
+        ],
+        [
+          "futures-core",
+          "0.3.21"
+        ],
+        [
+          "pin-project-lite",
+          "0.1.12"
+        ],
+        [
+          "slab",
+          "0.4.6"
+        ]
+      ]
+    },
+    "tokio-test": {
+      "0.2.1": [
+        [
+          "bytes",
+          "0.5.6"
+        ],
+        [
+          "futures-core",
+          "0.3.21"
+        ],
+        [
+          "tokio",
+          "0.2.25"
+        ]
+      ]
+    },
+    "tracing": {
+      "0.1.34": [
+        [
+          "cfg-if",
+          "1.0.0"
+        ],
+        [
+          "pin-project-lite",
+          "0.2.9"
+        ],
+        [
+          "tracing-attributes",
+          "0.1.21"
+        ],
+        [
+          "tracing-core",
+          "0.1.26"
+        ]
+      ]
+    },
+    "tracing-attributes": {
+      "0.1.21": [
+        [
+          "proc-macro2",
+          "1.0.38"
+        ],
+        [
+          "quote",
+          "1.0.18"
+        ],
+        [
+          "syn",
+          "1.0.93"
+        ]
+      ]
+    },
+    "tracing-core": {
+      "0.1.26": [
+        [
+          "lazy_static",
+          "1.4.0"
+        ],
+        [
+          "valuable",
+          "0.1.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "async-trait": {
+      "0.1.53": {
+        "hash": "ed6aa3524a2dfcf9fe180c51eae2b58738348d819517ceadf95789c51fff7600",
+        "type": "crates-io"
+      }
+    },
+    "bytes": {
+      "0.5.6": {
+        "hash": "0e4cec68f03f32e44924783795810fa50a7035d8c8ebe78580ad7e6c703fba38",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "fnv": {
+      "1.0.7": {
+        "hash": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
+        "type": "crates-io"
+      }
+    },
+    "futures-core": {
+      "0.3.21": {
+        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "pin-project-lite": {
+      "0.1.12": {
+        "hash": "257b64915a082f7811703966789728173279bdebb956b143dbcd23f6f970a777",
+        "type": "crates-io"
+      },
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.38": {
+        "hash": "9027b48e9d4c9175fa2218adf3557f91c1137021739951d4932f5f8268ac48aa",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.18": {
+        "hash": "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1",
+        "type": "crates-io"
+      }
+    },
+    "slab": {
+      "0.4.6": {
+        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.93": {
+        "hash": "04066589568b72ec65f42d65a1a52436e954b168773148893c020269563decf2",
+        "type": "crates-io"
+      }
+    },
+    "tokio": {
+      "0.2.25": {
+        "hash": "6703a273949a90131b290be1fe7b039d0fc884aa1935860dfcbe056f28cd8092",
+        "type": "crates-io"
+      }
+    },
+    "tokio-test": {
+      "0.2.1": {
+        "hash": "ed0049c119b6d505c4447f5c64873636c7af6c75ab0d45fd9f618d82acb8016d",
+        "type": "crates-io"
+      }
+    },
+    "tracing": {
+      "0.1.34": {
+        "hash": "5d0ecdcb44a79f0fe9844f0c4f33a342cbcbb5117de8001e6ba0dc2351327d09",
+        "type": "crates-io"
+      }
+    },
+    "tracing-attributes": {
+      "0.1.21": {
+        "hash": "cc6b8ad3567499f98a1db7a752b07a7c8c7c7c34c332ec00effb2b0027974b7c",
+        "type": "crates-io"
+      }
+    },
+    "tracing-core": {
+      "0.1.26": {
+        "hash": "f54c8ca710e81886d498c2fd3331b56c93aa248d49de2222ad2742247c60072f",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.3": {
+        "hash": "957e51f3646910546462e67d5f7599b9e4fb8acdd304b087a6494730f9eebf04",
+        "type": "crates-io"
+      }
+    },
+    "valuable": {
+      "0.1.0": {
+        "hash": "830b7e5d4d90034032940e4ace0d9a9a057e7a45cd94e6c007832e39edb82f6d",
+        "type": "crates-io"
+      }
+    }
+  }
+}
