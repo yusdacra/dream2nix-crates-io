@@ -26,9 +26,7 @@ jobs:
       run: nix run .#index-top-500-downloads
     - name: Translate locks
       continue-on-error: true
-      run: |
-        rm -rf ./gen/locks
-        JOBS=20 nix run .#translate
+      run: JOBS=20 nix run .#translate
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
