@@ -39,12 +39,6 @@
         };
       };
 
-      genTree = dream2nix.lib.dlib.prepareSourceTree {source = ./gen;};
-
-      index = genTree.files."index.json".jsonContent;
-      fetchedIndex = ilib.fetchIndex index;
-      translatedIndex = ilib.translateIndex fetchedIndex;
-
       crates =
         (d2n.makeFlakeOutputs {
           source = ./crates;
@@ -79,23 +73,9 @@
         program = toString script;
       };
 
-      translateScript = let
-        pkgsUnflattened =
-          l.mapAttrsToList
-          (
-            name: versions:
-              l.mapAttrsToList
-              (version: hash: {inherit name version hash;})
-              versions
-          )
-          index;
-      in
-        ilib.translateBin {
-          pkgs = l.flatten pkgsUnflattened;
-          locksTree = genTree.directories."locks";
-        };
-
-      lockOutputs = ilib.mkLocksOutputs {tree = genTree;};
+      indexTree = ilib.utils.prepareIndexTree {path = ./gen;};
+      translateScript = ilib.mkTranslateIndexScript {inherit indexTree;};
+      lockOutputs = ilib.mkLocksOutputs {inherit indexTree;};
     in {
       hydraJobs = l.mapAttrs (_: pkg: {${system} = pkg;}) lockOutputs;
       packages.${system} = lockOutputs // crates;
@@ -137,14 +117,11 @@
             nativeBuildInputs = [pkg-config cargo rustfmt];
           };
       };
-      lib.${system} = {
-        inherit
-          ilib
-          index
-          fetchedIndex
-          translatedIndex
-          translateScript
-          ;
+      lib.${system} = rec {
+        inherit ilib;
+        index = indexTree.files."index.json".jsonContent;
+        fetchedIndex = ilib.fetchIndex index;
+        translatedIndex = ilib.translateIndex fetchedIndex;
       };
     };
   in
