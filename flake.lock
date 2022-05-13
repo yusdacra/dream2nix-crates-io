@@ -53,11 +53,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1652232206,
-        "narHash": "sha256-wxQpUK/0WfMVbWfd+WNYt/9+VfFV7wFgO7ICGslxhl4=",
+        "lastModified": 1652331291,
+        "narHash": "sha256-lmk9cqQiRdvfqKVLRhR4LOnrkSzwTFhiXYg4z1sxxXo=",
         "owner": "yusdacra",
         "repo": "dream2nix",
-        "rev": "e325857a2a756e680917dad5a2b2e6697a6426ec",
+        "rev": "5a789068dfadd2c414431fb32a82b99a8b4eaff8",
         "type": "github"
       },
       "original": {
@@ -124,11 +124,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1652459751,
-        "narHash": "sha256-dNrqC6MRGHmzc+MJWXgsj7zyG8VIwE+sPedKDStShNA=",
+        "lastModified": 1652471221,
+        "narHash": "sha256-p1tube9hWyEf3gR2DuZbklH3Ktg8RD0zH50qkMNO9vk=",
         "owner": "yusdacra",
         "repo": "dream2nix-index-lib",
-        "rev": "498b206928a184b70ef3b15e29f3816ca2bb60ea",
+        "rev": "44f01bd757438f35563af8468b76bf285fc2dfb7",
         "type": "github"
       },
       "original": {
@@ -154,11 +154,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1651804312,
-        "narHash": "sha256-DJxOGlxwQccuuwXUS0oRRkcNJbW5UP4fpsL5ga9ZwYw=",
+        "lastModified": 1652252629,
+        "narHash": "sha256-SvT64apetqc8P5nYp1/fOZvUmHUPdPFUZbhSpKy+1aI=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "d59dd43e49f24b58fe8d5ded38cbdf00c3da4dc2",
+        "rev": "d2fc6856824cb87742177eefc8dd534bdb6c3439",
         "type": "github"
       },
       "original": {
