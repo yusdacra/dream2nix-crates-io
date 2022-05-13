@@ -29,7 +29,7 @@
         systems = [system];
         config.projectRoot = ./.;
       };
-      ilib = inputs.ilib.lib.mkLib {
+      ilib = inputs.ilib.lib.mkIndexPlatform {
         inherit system;
         subsystem = "rust";
         fetcherName = "crates-io";
