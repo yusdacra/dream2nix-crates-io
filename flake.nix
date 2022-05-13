@@ -90,7 +90,10 @@
           )
           index;
       in
-        ilib.translateBin (l.flatten pkgsUnflattened);
+        ilib.translateBin {
+          pkgs = l.flatten pkgsUnflattened;
+          locksTree = genTree.directories."locks";
+        };
 
       lockOutputs = ilib.mkLocksOutputs {tree = genTree;};
     in {
