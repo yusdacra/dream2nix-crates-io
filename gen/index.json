@@ -464,9 +464,6 @@
   "getrandom": {
     "0.2.6": "9be70c98951c83b8d2f8f60d7065fa6d5146873094452a1008da8c2f1e4205ad"
   },
-  "ghash": {
-    "0.4.4": "1583cc1656d7839fd3732b80cf4f38850336cdb9b8ded1cd399ca62958de3c99"
-  },
   "gimli": {
     "0.26.1": "78cc372d058dcf6d5ecd98510e7fbc9e5aec4d21de70f65fea8fecebcd881bd4"
   },
@@ -676,6 +673,9 @@
   },
   "mime_guess": {
     "2.0.4": "4192263c238a5f0d0c6bfd21f336a313a4ce1c450542449ca191bb657b4642ef"
+  },
+  "minimal-lexical": {
+    "0.2.1": "68354c5c6bd36d73ff3feceb05efa59b6acb7626617f4962be322a825e61f79a"
   },
   "miniz_oxide": {
     "0.5.1": "d2b29bd4bc3f33391105ebee3589c19197c4271e3e5a9ec9bfe8127eeff8f082"
@@ -960,7 +960,7 @@
     "0.6.0": "6f97cdb2a36ed4183de61b2f824cc45c9f1037f28afe0a322e9fff4c108b5aaa"
   },
   "rayon": {
-    "1.5.2": "fd249e82c21598a9a426a4e00dd7adc1d640b22445ec8545feef801d1a74c221"
+    "1.5.3": "bd99e5772ead8baa5215278c9b15bf92087709e9c1b2d1f97cdb5a183c933a7d"
   },
   "rayon-core": {
     "1.9.3": "258bcdb5ac6dad48491bb2992db6b7cf74878b0384908af124823d118c99683f"
