@@ -780,7 +780,7 @@
     "3.0.0": "96bcbab4bfea7a59c2c0fe47211a1ac4e3e96bea6eb446d704f310bc5c732ae2"
   },
   "os_str_bytes": {
-    "6.0.0": "8e22443d1643a904602595ba1cd8f7d896afe56d26712531c5ff73a15b2fbf64"
+    "6.0.1": "029d8d0b2f198229de29dca79676f2738ff952edf3fde542eb8bf94d8c21b435"
   },
   "owning_ref": {
     "0.4.1": "6ff55baddef9e4ad00f88b6c743a2a8062d4c6ade126c2a528644b8e444d52ce"
@@ -1008,7 +1008,7 @@
     "0.4.0": "bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366"
   },
   "rustls": {
-    "0.20.4": "4fbfeb8d0ddb84706bc597a5574ab8912817c52a397f819e5b614e2265206921"
+    "0.20.5": "a024a432ae760ab3bff924ad91ce1cfa52cb57ed16e1ef32d0d249cfee1a6c13"
   },
   "rustls-native-certs": {
     "0.6.2": "0167bac7a9f490495f3c33013e7722b53cb087ecbe082fb0c6387c96f634ea50"
