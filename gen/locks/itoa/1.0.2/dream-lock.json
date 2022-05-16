@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "itoa",
+    "location": "",
+    "packages": {
+      "itoa": "1.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "itoa": {
+      "1.0.2": {
+        "hash": "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d",
+        "type": "crates-io"
+      }
+    }
+  }
+}
