@@ -464,6 +464,9 @@
   "getrandom": {
     "0.2.6": "9be70c98951c83b8d2f8f60d7065fa6d5146873094452a1008da8c2f1e4205ad"
   },
+  "ghash": {
+    "0.4.4": "1583cc1656d7839fd3732b80cf4f38850336cdb9b8ded1cd399ca62958de3c99"
+  },
   "gimli": {
     "0.26.1": "78cc372d058dcf6d5ecd98510e7fbc9e5aec4d21de70f65fea8fecebcd881bd4"
   },
@@ -603,7 +606,7 @@
     "1.3.0": "830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55"
   },
   "lexical-core": {
-    "0.8.3": "92912c4af2e7d9075be3e5e3122c4d7263855fa6cce34fbece4dd08e5884624d"
+    "0.8.5": "2cde5de06e8d4c2faabc400238f9ae1c74d5412d03a7bd067645ccbc47070e46"
   },
   "libc": {
     "0.2.126": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836"
@@ -914,9 +917,6 @@
   "pulldown-cmark": {
     "0.9.1": "34f197a544b0c9ab3ae46c359a7ec9cbbb5c7bf97054266fecb7ead794a181d6"
   },
-  "pyo3": {
-    "0.16.5": "1e6302e85060011447471887705bb7838f14aba43fcb06957d823739a496b3dc"
-  },
   "quick-error": {
     "2.0.1": "a993555f31e5a609f617c12db6250dedcac1b0a85076912c436e6fc9b2c8e6a3"
   },
@@ -1008,7 +1008,7 @@
     "0.4.0": "bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366"
   },
   "rustls": {
-    "0.20.5": "a024a432ae760ab3bff924ad91ce1cfa52cb57ed16e1ef32d0d249cfee1a6c13"
+    "0.20.6": "5aab8ee6c7097ed6057f43c187a62418d0c05a4bd5f18b3571db50ee0f9ce033"
   },
   "rustls-native-certs": {
     "0.6.2": "0167bac7a9f490495f3c33013e7722b53cb087ecbe082fb0c6387c96f634ea50"
