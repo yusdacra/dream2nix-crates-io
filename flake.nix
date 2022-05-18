@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     dream2nix = {
-      url = "github:yusdacra/dream2nix/feat/cargo-toml-translator";
+      url = "github:nix-community/dream2nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     ilib = {
