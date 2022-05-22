@@ -269,6 +269,9 @@
   "ctor": {
     "0.1.22": "f877be4f7c9f246b183111634f75baa039715e3f46ce860677d3b19a69fb229c"
   },
+  "ctr": {
+    "0.9.1": "0d14f329cfbaf5d0e06b5e87fff7e265d2673c5ea7d2c27691a2c107db1442a0"
+  },
   "curl": {
     "0.4.43": "37d855aeef205b43f65a5001e0997d81f8efca7badad4fad7d897aa7f0d0651f"
   },
@@ -955,9 +958,6 @@
   },
   "rand_xorshift": {
     "0.3.0": "d25bf25ec5ae4a3f1b92f929810509a2f53d7dca2f50b794ff57e3face536c8f"
-  },
-  "rand_xoshiro": {
-    "0.6.0": "6f97cdb2a36ed4183de61b2f824cc45c9f1037f28afe0a322e9fff4c108b5aaa"
   },
   "rayon": {
     "1.5.3": "bd99e5772ead8baa5215278c9b15bf92087709e9c1b2d1f97cdb5a183c933a7d"
