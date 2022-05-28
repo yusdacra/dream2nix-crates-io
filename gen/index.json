@@ -534,7 +534,7 @@
     "2.1.0": "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4"
   },
   "hyper": {
-    "0.14.18": "b26ae0a80afebe130861d90abf98e3814a4f28a4c6ffeb5ab8ebb2be311e0ef2"
+    "0.14.19": "42dc3c131584288d375f2d07f822b0cb012d8c6fb899a5b9fdb3cb7eb9b6004f"
   },
   "hyper-rustls": {
     "0.23.0": "d87c48c02e0dc5e3b849a2041db3029fd066650f8f717c07bf8ed78ccb895cac"
@@ -555,7 +555,7 @@
     "0.24.2": "28edd9d7bc256be2502e325ac0628bde30b7001b9b52e0abe31a1a9dc2701212"
   },
   "indexmap": {
-    "1.8.1": "0f647032dfaa1f8b6dc29bd3edb7bbef4861b8b8007ebb118d6db284fd59f6ee"
+    "1.8.2": "e6012d540c5baa3589337a98ce73408de9b5a25ec9fc2c6fd6be8f0d39e0ca5a"
   },
   "indoc": {
     "1.0.6": "05a0bd019339e5d968b37855180087b7b9d512c5046fbd244cf8c95687927d6e"
@@ -620,11 +620,8 @@
   "libm": {
     "0.2.2": "33a33a362ce288760ec6a508b94caaec573ae7d3bbbd91b87aa0bad4456839db"
   },
-  "libssh2-sys": {
-    "0.2.23": "b094a36eb4b8b8c8a7b4b8ae43b2944502be3e59cd87687595cf6b0a71b3f4ca"
-  },
   "libz-sys": {
-    "1.1.6": "92e7e15d7610cce1d9752e137625f14e61a28cd45929b6e12e47b50fe154ee2e"
+    "1.1.8": "9702761c3935f8cc2f101793272e202c72b99da8f4224a19ddcf1279a6450bbf"
   },
   "linked-hash-map": {
     "0.5.4": "7fb9b38af92608140b86b693604b9ffcc5824240a484d1ecd4795bacb2fe88f3"
@@ -859,6 +856,9 @@
   },
   "plotters": {
     "0.3.1": "32a3fd9ec30b9749ce28cd91f255d569591cdf937fe280c312143e3c4bad6f2a"
+  },
+  "plotters-backend": {
+    "0.3.2": "d88417318da0eaf0fdcdb51a0ee6c3bed624333bff8f946733049380be67ac1c"
   },
   "png": {
     "0.17.5": "dc38c0ad57efb786dd57b9864e5b18bae478c00c824dc55a38bbc9da95dde3ba"
