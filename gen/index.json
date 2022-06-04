@@ -1221,7 +1221,7 @@
     "0.1.0": "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
   },
   "tokio": {
-    "1.18.2": "4903bf0427cf68dddd5aa6a93220756f8be0c34fcfa9f5e6191e103e15a31395"
+    "1.19.0": "0f392c8f16bda3456c0b00c6de39cb100449b98de55ac41c6cdd2bfcf53a1245"
   },
   "tokio-codec": {
     "0.1.2": "25b2998660ba0e70d18684de5d06b70b70a3a747469af9dea7618cc59e75976b"
@@ -1395,7 +1395,7 @@
     "1.0.2": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
   },
   "vsdb": {
-    "0.35.3": "2dd8631f1a7427fbf67d539d30c3cc82ebebd70a2e6523f0bc0a17e57f902b30"
+    "0.36.0": "330fe0c9da1929315bd8e9ffa4e906ad7738ac9ad9ce4621d3acc210ac07a7b7"
   },
   "vsdb_derive": {
     "0.35.3": "8ea15c6368384b01bb0a2329c5fbf01f08bf15b31853325c52b0a9e6286ba16a"
