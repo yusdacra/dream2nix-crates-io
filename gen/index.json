@@ -71,9 +71,6 @@
   "async-trait": {
     "0.1.56": "96cf8829f67d2eab0b2dfa42c5d0ef737e0724e4a82b01b3e292456202b19716"
   },
-  "atomic-waker": {
-    "1.0.0": "065374052e7df7ee4047b1160cca5e1467a12351a40b3da123c870ba0b8eda2a"
-  },
   "atty": {
     "0.2.14": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8"
   },
@@ -860,6 +857,9 @@
   "plotters-backend": {
     "0.3.2": "d88417318da0eaf0fdcdb51a0ee6c3bed624333bff8f946733049380be67ac1c"
   },
+  "plotters-svg": {
+    "0.3.1": "521fa9638fa597e1dc53e9412a4f9cefb01187ee1f7413076f9e6749e2885ba9"
+  },
   "png": {
     "0.17.5": "dc38c0ad57efb786dd57b9864e5b18bae478c00c824dc55a38bbc9da95dde3ba"
   },
@@ -1293,7 +1293,7 @@
     "0.3.1": "360dfd1d6d30e05fda32ace2c8c70e9c0a9da713275777f5a4dbb8a1893930c6"
   },
   "tracing": {
-    "0.1.34": "5d0ecdcb44a79f0fe9844f0c4f33a342cbcbb5117de8001e6ba0dc2351327d09"
+    "0.1.35": "a400e31aa60b9d44a52a8ee0343b5b18566b03a8321e0d321f695cf56e940160"
   },
   "tracing-attributes": {
     "0.1.21": "cc6b8ad3567499f98a1db7a752b07a7c8c7c7c34c332ec00effb2b0027974b7c"
@@ -1395,10 +1395,10 @@
     "1.0.2": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
   },
   "vsdb": {
-    "0.38.0": "15ffce7b8857576b42bf05e8eaebc1bf1783c189fada84039a41034edbd9258e"
+    "0.39.0": "5545bddadd16ed7844e47e70d7ecbcb41abab2cd75ef42a1e9f192162f351016"
   },
   "vsdb_derive": {
-    "0.37.1": "33672a026cf57fd44ee1f99dc2cf583894c0528630bb266fcf41ddb324a728b6"
+    "0.40.0": "ba047c15b9d72ad35196cd3b5674f89d2bb55c4af2eb5f91e4f540ab1b2bcd96"
   },
   "wait-timeout": {
     "0.2.0": "9f200f5b12eb75f8c1ed65abd4b2db8a6e1b138a20de009dacee265a2498f3f6"
