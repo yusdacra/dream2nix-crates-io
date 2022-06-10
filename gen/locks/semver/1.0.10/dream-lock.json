@@ -1,0 +1,40 @@
+{
+  "_generic": {
+    "defaultPackage": "semver",
+    "location": "",
+    "packages": {
+      "semver": "1.0.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "semver": {
+      "1.0.10": [
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "semver": {
+      "1.0.10": {
+        "hash": "a41d061efea015927ac527063765e73601444cdc344ba855bc7bd44578b25e1c",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.137": {
+        "hash": "61ea8d54c77f8315140a05f4c7237403bf38b72704d031543aa1d16abbf517d1",
+        "type": "crates-io"
+      }
+    }
+  }
+}

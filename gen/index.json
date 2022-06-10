@@ -486,7 +486,7 @@
     "1.8.2": "eabb4a44450da02c90444cf74558da904edde8fb4e9035a9a6a4e15445af0bd7"
   },
   "handlebars": {
-    "4.3.0": "d113a9853e5accd30f43003560b5563ffbb007e3f325e8b103fa0d0029c6e6df"
+    "4.3.1": "b66d0c1b6e3abfd1e72818798925e16e02ed77e1b47f6c25a95a23b377ee4299"
   },
   "hashbrown": {
     "0.12.1": "db0d4cf898abf0081f964436dc980e96670a0f36863e4b83aaacdb65c9d7ccc3"
@@ -1044,7 +1044,7 @@
     "2.6.1": "0160a13a177a45bfb43ce71c01580998474f556ad854dcbca936dd2841a5c556"
   },
   "semver": {
-    "1.0.9": "8cb243bdfdb5936c8dc3c45762a19d12ab4550cdc753bc247637d4ec35a040fd"
+    "1.0.10": "a41d061efea015927ac527063765e73601444cdc344ba855bc7bd44578b25e1c"
   },
   "semver-parser": {
     "0.10.2": "00b0bef5b7f9e0df16536d3961cfb6e84331c065b4066afb39768d0e319411f7"
@@ -1395,7 +1395,7 @@
     "1.0.2": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
   },
   "vsdb": {
-    "0.39.0": "5545bddadd16ed7844e47e70d7ecbcb41abab2cd75ef42a1e9f192162f351016"
+    "0.41.1": "a593540308a9c9e3bd5f62aa2eb151cf9092661fcf05eb56b4a630fe87df7a99"
   },
   "vsdb_derive": {
     "0.40.0": "ba047c15b9d72ad35196cd3b5674f89d2bb55c4af2eb5f91e4f540ab1b2bcd96"
