@@ -71,6 +71,9 @@
   "async-trait": {
     "0.1.56": "96cf8829f67d2eab0b2dfa42c5d0ef737e0724e4a82b01b3e292456202b19716"
   },
+  "atomic-waker": {
+    "1.0.0": "065374052e7df7ee4047b1160cca5e1467a12351a40b3da123c870ba0b8eda2a"
+  },
   "atty": {
     "0.2.14": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8"
   },
@@ -501,7 +504,7 @@
     "0.4.0": "2540771e65fc8cb83cd6e8a237f70c319bd5c29f78ed1084ba5d50eeac86f7f9"
   },
   "hermit-abi": {
-    "0.2.0": "1ab7905ea95c6d9af62940f9d7dd9596d54c334ae2c15300c482051292d5637f"
+    "0.2.1": "c71a9c6ee0d06d82b89ae2674096d2ba1b832a5ee0b1c9a5a6b013deeab5b11f"
   },
   "hex": {
     "0.4.3": "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
@@ -913,9 +916,6 @@
   },
   "protobuf": {
     "3.0.3": "5d644aefa452a3188ce8fd92e71944ad082feca2016eb41d4b9c55ceba9e5f38"
-  },
-  "publicsuffix": {
-    "2.1.1": "292972edad6bbecc137ab84c5e36421a4a6c979ea31d3cc73540dd04315b33e1"
   },
   "pulldown-cmark": {
     "0.9.1": "34f197a544b0c9ab3ae46c359a7ec9cbbb5c7bf97054266fecb7ead794a181d6"

@@ -1,0 +1,86 @@
+{
+  "_generic": {
+    "defaultPackage": "hermit-abi",
+    "location": "",
+    "packages": {
+      "hermit-abi": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "compiler_builtins": {
+      "0.1.75": [
+        [
+          "rustc-std-workspace-core",
+          "1.0.0"
+        ]
+      ]
+    },
+    "hermit-abi": {
+      "0.2.1": [
+        [
+          "compiler_builtins",
+          "0.1.75"
+        ],
+        [
+          "libc",
+          "0.2.126"
+        ],
+        [
+          "rustc-std-workspace-alloc",
+          "1.0.0"
+        ],
+        [
+          "rustc-std-workspace-core",
+          "1.0.0"
+        ]
+      ]
+    },
+    "libc": {
+      "0.2.126": [
+        [
+          "rustc-std-workspace-core",
+          "1.0.0"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "compiler_builtins": {
+      "0.1.75": {
+        "hash": "c6e3183e88f659a862835db8f4b67dbeed3d93e44dd4927eef78edb1c149d784",
+        "type": "crates-io"
+      }
+    },
+    "hermit-abi": {
+      "0.2.1": {
+        "hash": "c71a9c6ee0d06d82b89ae2674096d2ba1b832a5ee0b1c9a5a6b013deeab5b11f",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-alloc": {
+      "1.0.0": {
+        "hash": "ff66d57013a5686e1917ed6a025d54dd591fcda71a41fe07edf4d16726aefa86",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    }
+  }
+}
