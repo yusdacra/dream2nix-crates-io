@@ -1,0 +1,25 @@
+{
+  "_generic": {
+    "defaultPackage": "wasm-bindgen-shared",
+    "location": "",
+    "packages": {
+      "wasm-bindgen-shared": "0.2.81"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "wasm-bindgen-shared": {
+      "0.2.81": {
+        "hash": "6a89911bd99e5f3659ec4acf9c4d93b0a90fe4a2a11f15328472058edc5261be",
+        "type": "crates-io"
+      }
+    }
+  }
+}
