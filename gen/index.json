@@ -557,6 +557,9 @@
   "indexmap": {
     "1.9.0": "6c6392766afd7964e2531940894cffe4bd8d7d17dbc3c1c4857040fd4b33bdb3"
   },
+  "indicatif": {
+    "0.16.2": "2d207dc617c7a380ab07ff572a6e52fa202a2a8f355860ac9c38e23f8196be1b"
+  },
   "indoc": {
     "1.0.6": "05a0bd019339e5d968b37855180087b7b9d512c5046fbd244cf8c95687927d6e"
   },
@@ -1102,9 +1105,6 @@
   },
   "slab": {
     "0.4.6": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32"
-  },
-  "slog": {
-    "2.7.0": "8347046d4ebd943127157b94d63abb990fcf729dc4e9978927fdf4ac3c998d06"
   },
   "smallvec": {
     "1.8.0": "f2dd574626839106c320a323308629dcb1acfc96e32a8cba364ddc61ac23ee83"
