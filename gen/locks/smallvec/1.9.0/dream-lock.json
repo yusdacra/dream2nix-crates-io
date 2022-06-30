@@ -1,0 +1,68 @@
+{
+  "_generic": {
+    "defaultPackage": "smallvec",
+    "location": "",
+    "packages": {
+      "smallvec": "1.9.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {}
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bincode": {
+      "1.3.3": [
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    },
+    "smallvec": {
+      "1.9.0": [
+        [
+          "arbitrary",
+          "1.1.3"
+        ],
+        [
+          "bincode",
+          "1.3.3"
+        ],
+        [
+          "serde",
+          "1.0.137"
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "arbitrary": {
+      "1.1.3": {
+        "hash": "5a7924531f38b1970ff630f03eb20a2fde69db5c590c93b0f3482e95dcc5fd60",
+        "type": "crates-io"
+      }
+    },
+    "bincode": {
+      "1.3.3": {
+        "hash": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.137": {
+        "hash": "61ea8d54c77f8315140a05f4c7237403bf38b72704d031543aa1d16abbf517d1",
+        "type": "crates-io"
+      }
+    },
+    "smallvec": {
+      "1.9.0": {
+        "hash": "2fd0db749597d91ff862fd1d55ea87f7855a744a8425a64695b6fca237d1dad1",
+        "type": "crates-io"
+      }
+    }
+  }
+}
