@@ -24,9 +24,10 @@
           // {
             index-crates-io-top-500-downloads = mkIndexApp {
               name = "crates-io";
+              indexerName = "crates-io-simple";
               input = {
-                max_pages = 5;
-                sort_by = "downloads";
+                maxPages = 5;
+                sortBy = "downloads";
               };
             };
           };
