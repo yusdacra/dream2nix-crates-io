@@ -66,7 +66,7 @@
     "0.3.3": "10f203db73a71dfa2fb6dd22763990fa26f3d2625a6da2da900d23b87d26be27"
   },
   "async-task": {
-    "4.2.0": "30696a84d817107fc028e049980e09d5e140e8da8f1caeb17e8e950658a3cea9"
+    "4.3.0": "7a40729d2133846d9ed0ea60a8b9541bccddab49cd30f0715a1da672fe9a2524"
   },
   "async-trait": {
     "0.1.56": "96cf8829f67d2eab0b2dfa42c5d0ef737e0724e4a82b01b3e292456202b19716"
@@ -81,7 +81,7 @@
     "1.1.0": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
   },
   "backtrace": {
-    "0.3.65": "11a17d453482a265fd5f8479f2a3f405566e6ca627837aaddb85af8b1ab8ef61"
+    "0.3.66": "cab84319d616cfb654d03394f38ab7e6f0919e181b1b57e1fd15e7fb4077d9a7"
   },
   "backtrace-sys": {
     "0.1.37": "18fbebbe1c9d1f383a9cc7e8ccdb471b91c8d024ee9c2ca5b5346121fe8b4399"
@@ -534,7 +534,7 @@
     "2.1.0": "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4"
   },
   "hyper": {
-    "0.14.19": "42dc3c131584288d375f2d07f822b0cb012d8c6fb899a5b9fdb3cb7eb9b6004f"
+    "0.14.20": "02c929dc5c39e335a03c405292728118860721b10190d98c2a0f0efd5baafbac"
   },
   "hyper-rustls": {
     "0.23.0": "d87c48c02e0dc5e3b849a2041db3029fd066650f8f717c07bf8ed78ccb895cac"
@@ -1395,7 +1395,7 @@
     "1.0.2": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d"
   },
   "vsdb": {
-    "0.45.1": "45dc86a758b7a1bb0318d99d133d1b76eb6266eb87e115343038daee9f5a576d"
+    "0.45.2": "4a16ab882dca0575a4f751ed5c2907e6f763f880ce8d788bcb6cf539e851ab2c"
   },
   "vsdb_derive": {
     "0.45.0": "1cd13d1e9d13124f6bfe0d5814940af0f8c29c890ea9ed5de45e6d4c2805879c"
