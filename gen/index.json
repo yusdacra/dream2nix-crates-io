@@ -1050,7 +1050,7 @@
     "0.10.2": "00b0bef5b7f9e0df16536d3961cfb6e84331c065b4066afb39768d0e319411f7"
   },
   "serde": {
-    "1.0.138": "1578c6245786b9d168c5447eeacfb96856573ca56c9d68fdcf394be134882a47"
+    "1.0.139": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6"
   },
   "serde_bytes": {
     "0.11.6": "212e73464ebcde48d723aa02eb270ba62eff38a9b732df31f33f1b4e145f3a54"
@@ -1059,7 +1059,7 @@
     "0.11.2": "2bef2ebfde456fb76bbcf9f59315333decc4fda0b2b44b420243c11e0f5ec1f5"
   },
   "serde_derive": {
-    "1.0.138": "023e9b1467aef8a10fb88f25611870ada9800ef7e22afce356bb0d2387b6f27c"
+    "1.0.139": "dc1d3230c1de7932af58ad8ffbe1d784bd55efd5a9d84ac24f69c72d83543dfb"
   },
   "serde_json": {
     "1.0.82": "82c2c1fdcd807d1098552c5b9a36e425e42e9fbd7c6a37a8425f390f781f7fa7"
