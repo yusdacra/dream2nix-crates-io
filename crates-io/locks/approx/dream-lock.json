@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "approx",
+    "invalidationHash": "7824a6c52c1fbe1f16e2a9649b39cabcb5a825c3e13041560afe26da93106d0d",
+    "location": "",
+    "packages": {
+      "approx": "0.5.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "approx": {
+        "0.5.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "approx": {
+      "0.5.1": [
+        [ "num-complex", "0.4.2" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-complex": {
+      "0.4.2": [
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "approx": {
+      "0.5.1": {
+        "hash": "sha256-yrES8KhtVo6g5ifMHWvnSh6c1VIUaE21VhmV9trYl8Y=",
+        "pname": "approx",
+        "type": "crates-io",
+        "version": "0.5.1"
+      }
+    },
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "num-complex": {
+      "0.4.2": {
+        "hash": "7ae39348c8bc5fbd7f40c727a9925f03517afd2ab27d46702108b6a7e5414c19",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    }
+  }
+}

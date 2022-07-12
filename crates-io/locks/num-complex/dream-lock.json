@@ -1,0 +1,94 @@
+{
+  "_generic": {
+    "defaultPackage": "num-complex",
+    "invalidationHash": "96c4002aa69bdd26c3551c45eefe35dd25281a62f944df4f68f683bf9815b20c",
+    "location": "",
+    "packages": {
+      "num-complex": "0.4.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "num-complex": {
+        "0.4.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "num-complex": {
+      "0.4.2": [
+        [ "bytemuck", "1.10.0" ],
+        [ "num-traits", "0.2.15" ],
+        [ "rand", "0.8.5" ],
+        [ "serde", "1.0.139" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ],
+        [ "libm", "0.2.2" ]
+      ]
+    },
+    "rand": {
+      "0.8.5": [
+        [ "rand_core", "0.6.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "bytemuck": {
+      "1.10.0": {
+        "hash": "c53dfa917ec274df8ed3c572698f381a24eef2efba9492d797301b72b6db408a",
+        "type": "crates-io"
+      }
+    },
+    "libm": {
+      "0.2.2": {
+        "hash": "33a33a362ce288760ec6a508b94caaec573ae7d3bbbd91b87aa0bad4456839db",
+        "type": "crates-io"
+      }
+    },
+    "num-complex": {
+      "0.4.2": {
+        "hash": "sha256-euOTSMi8X71/QMcnqZJfA1F6/SqyfUZwIQi2p+VBTBk=",
+        "pname": "num-complex",
+        "type": "crates-io",
+        "version": "0.4.2"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.3": {
+        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.139": {
+        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+        "type": "crates-io"
+      }
+    }
+  }
+}

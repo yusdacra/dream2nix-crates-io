@@ -1,0 +1,96 @@
+{
+  "_generic": {
+    "defaultPackage": "generic-array",
+    "invalidationHash": "ea576ad5da91c4f82f945ffad67bf9a05e7fd844a8982ddb1076064e0eecd1ca",
+    "location": "",
+    "packages": {
+      "generic-array": "0.14.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "generic-array": {
+        "0.14.5": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "bincode": {
+      "1.3.3": [
+        [ "serde", "1.0.139" ]
+      ]
+    },
+    "generic-array": {
+      "0.14.5": [
+        [ "bincode", "1.3.3" ],
+        [ "serde", "1.0.139" ],
+        [ "serde_json", "1.0.82" ],
+        [ "typenum", "1.15.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.82": [
+        [ "itoa", "1.0.2" ],
+        [ "ryu", "1.0.10" ],
+        [ "serde", "1.0.139" ]
+      ]
+    }
+  },
+  "sources": {
+    "bincode": {
+      "1.3.3": {
+        "hash": "b1f45e9417d87227c7a56d22e471c6206462cba514c7590c09aff4cf6d1ddcad",
+        "type": "crates-io"
+      }
+    },
+    "generic-array": {
+      "0.14.5": {
+        "hash": "sha256-/UjTPsfwX7+hUjAP2tdkdXy97TQ8GqHP8vuvQTSFGAM=",
+        "pname": "generic-array",
+        "type": "crates-io",
+        "version": "0.14.5"
+      }
+    },
+    "itoa": {
+      "1.0.2": {
+        "hash": "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.10": {
+        "hash": "f3f6f92acf49d1b98f7a81226834412ada05458b7364277387724a237f062695",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.139": {
+        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.82": {
+        "hash": "82c2c1fdcd807d1098552c5b9a36e425e42e9fbd7c6a37a8425f390f781f7fa7",
+        "type": "crates-io"
+      }
+    },
+    "typenum": {
+      "1.15.0": {
+        "hash": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

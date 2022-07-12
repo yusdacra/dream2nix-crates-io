@@ -1,0 +1,131 @@
+{
+  "_generic": {
+    "defaultPackage": "crc32fast",
+    "invalidationHash": "43068eae9c2c1f69f3d6f9d8fe787f74a7b93c234234200f431ef568d6368563",
+    "location": "",
+    "packages": {
+      "crc32fast": "1.3.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "crc32fast": {
+        "1.3.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "crc32fast": {
+      "1.3.2": [
+        [ "bencher", "0.1.5" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "quickcheck", "1.0.3" ],
+        [ "rand", "0.8.5" ]
+      ]
+    },
+    "getrandom": {
+      "0.2.7": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.126" ],
+        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
+      ]
+    },
+    "quickcheck": {
+      "1.0.3": [
+        [ "rand", "0.8.5" ]
+      ]
+    },
+    "rand": {
+      "0.8.5": [
+        [ "libc", "0.2.126" ],
+        [ "rand_chacha", "0.3.1" ],
+        [ "rand_core", "0.6.3" ]
+      ]
+    },
+    "rand_chacha": {
+      "0.3.1": [
+        [ "ppv-lite86", "0.2.16" ],
+        [ "rand_core", "0.6.3" ]
+      ]
+    },
+    "rand_core": {
+      "0.6.3": [
+        [ "getrandom", "0.2.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "bencher": {
+      "0.1.5": {
+        "hash": "7dfdb4953a096c551ce9ace855a604d702e6e62d77fac690575ae347571717f5",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "crc32fast": {
+      "1.3.2": {
+        "hash": "sha256-tUC9i8gQ04hcbqkeIBgwL2i6uiEpqz6I8yOJ7pNwiA0=",
+        "pname": "crc32fast",
+        "type": "crates-io",
+        "version": "1.3.2"
+      }
+    },
+    "getrandom": {
+      "0.2.7": {
+        "hash": "4eb1a864a501629691edf6c15a593b7a51eebaa1e8468e9ddc623de7c9b58ec6",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "ppv-lite86": {
+      "0.2.16": {
+        "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
+        "type": "crates-io"
+      }
+    },
+    "quickcheck": {
+      "1.0.3": {
+        "hash": "588f6378e4dd99458b60ec275b4477add41ce4fa9f64dcba6f15adccb19b50d6",
+        "type": "crates-io"
+      }
+    },
+    "rand": {
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_chacha": {
+      "0.3.1": {
+        "hash": "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88",
+        "type": "crates-io"
+      }
+    },
+    "rand_core": {
+      "0.6.3": {
+        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
+        "type": "crates-io"
+      }
+    },
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": {
+        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
+        "type": "crates-io"
+      }
+    }
+  }
+}

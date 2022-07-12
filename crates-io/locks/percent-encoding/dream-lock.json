@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "percent-encoding",
+    "invalidationHash": "5f23f643145efeeaec1d2e60d36c504455748d9479935b5af76d6804266dfce7",
+    "location": "",
+    "packages": {
+      "percent-encoding": "2.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "percent-encoding": {
+        "2.1.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "percent-encoding": {
+      "2.1.0": {
+        "hash": "sha256-1P1WQdAcjxiiPae2/ikpj/S1WvzM33iXOyTPMXX+4y4=",
+        "pname": "percent-encoding",
+        "type": "crates-io",
+        "version": "2.1.0"
+      }
+    }
+  }
+}

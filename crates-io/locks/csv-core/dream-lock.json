@@ -1,0 +1,62 @@
+{
+  "_generic": {
+    "defaultPackage": "csv-core",
+    "invalidationHash": "4dd3ab6275cd2d48828c82588b57280d3362047fabd5e4073d14052e180045af",
+    "location": "",
+    "packages": {
+      "csv-core": "0.1.10"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "csv-core": {
+        "0.1.10": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "csv-core": {
+      "0.1.10": [
+        [ "arrayvec", "0.5.2" ],
+        [ "memchr", "2.5.0" ]
+      ]
+    },
+    "memchr": {
+      "2.5.0": [
+        [ "libc", "0.2.126" ]
+      ]
+    }
+  },
+  "sources": {
+    "arrayvec": {
+      "0.5.2": {
+        "hash": "23b62fc65de8e4e7f52534fb52b0f3ed04746ae267519eef2a83941e8085068b",
+        "type": "crates-io"
+      }
+    },
+    "csv-core": {
+      "0.1.10": {
+        "hash": "sha256-KyRmVZ8mD0itJf5jF7PI2sd7W9tXY6x9nWEDUwZjvJA=",
+        "pname": "csv-core",
+        "type": "crates-io",
+        "version": "0.1.10"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

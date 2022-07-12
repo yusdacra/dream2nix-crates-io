@@ -1,0 +1,216 @@
+{
+  "_generic": {
+    "defaultPackage": "hmac",
+    "invalidationHash": "b238d930229ab8bcd2a61c73c6823002b923e658dbff67f72b5186497a9b752a",
+    "location": "",
+    "packages": {
+      "hmac": "0.12.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "hmac": {
+        "0.12.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "block-buffer": {
+      "0.10.2": [
+        [ "generic-array", "0.14.5" ]
+      ]
+    },
+    "cpufeatures": {
+      "0.2.2": [
+        [ "libc", "0.2.126" ]
+      ]
+    },
+    "crypto-common": {
+      "0.1.5": [
+        [ "generic-array", "0.14.5" ],
+        [ "typenum", "1.15.0" ]
+      ]
+    },
+    "digest": {
+      "0.10.3": [
+        [ "blobby", "0.3.1" ],
+        [ "block-buffer", "0.10.2" ],
+        [ "crypto-common", "0.1.5" ],
+        [ "subtle", "2.4.1" ]
+      ]
+    },
+    "generic-array": {
+      "0.14.5": [
+        [ "typenum", "1.15.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "hex-literal": {
+      "0.2.2": [
+        [ "hex-literal-impl", "0.2.3" ],
+        [ "proc-macro-hack", "0.5.19" ]
+      ]
+    },
+    "hex-literal-impl": {
+      "0.2.3": [
+        [ "proc-macro-hack", "0.5.19" ]
+      ]
+    },
+    "hmac": {
+      "0.12.1": [
+        [ "digest", "0.10.3" ],
+        [ "hex-literal", "0.2.2" ],
+        [ "md-5", "0.10.1" ],
+        [ "sha-1", "0.10.0" ],
+        [ "sha2", "0.10.2" ],
+        [ "streebog", "0.10.1" ]
+      ]
+    },
+    "md-5": {
+      "0.10.1": [
+        [ "digest", "0.10.3" ]
+      ]
+    },
+    "sha-1": {
+      "0.10.0": [
+        [ "cfg-if", "1.0.0" ],
+        [ "cpufeatures", "0.2.2" ],
+        [ "digest", "0.10.3" ]
+      ]
+    },
+    "sha2": {
+      "0.10.2": [
+        [ "cfg-if", "1.0.0" ],
+        [ "cpufeatures", "0.2.2" ],
+        [ "digest", "0.10.3" ]
+      ]
+    },
+    "streebog": {
+      "0.10.1": [
+        [ "digest", "0.10.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "blobby": {
+      "0.3.1": {
+        "hash": "847495c209977a90e8aad588b959d0ca9f5dc228096d29a6bd3defd53f35eaec",
+        "type": "crates-io"
+      }
+    },
+    "block-buffer": {
+      "0.10.2": {
+        "hash": "0bf7fe51849ea569fd452f37822f606a5cabb684dc918707a0193fd4664ff324",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "cpufeatures": {
+      "0.2.2": {
+        "hash": "59a6001667ab124aebae2a495118e11d30984c3a653e99d86d58971708cf5e4b",
+        "type": "crates-io"
+      }
+    },
+    "crypto-common": {
+      "0.1.5": {
+        "hash": "2ccfd8c0ee4cce11e45b3fd6f9d5e69e0cc62912aa6a0cb1bf4617b0eba5a12f",
+        "type": "crates-io"
+      }
+    },
+    "digest": {
+      "0.10.3": {
+        "hash": "f2fb860ca6fafa5552fb6d0e816a69c8e49f0908bf524e30a90d97c85892d506",
+        "type": "crates-io"
+      }
+    },
+    "generic-array": {
+      "0.14.5": {
+        "hash": "fd48d33ec7f05fbfa152300fdad764757cbded343c1aa1cff2fbaf4134851803",
+        "type": "crates-io"
+      }
+    },
+    "hex-literal": {
+      "0.2.2": {
+        "hash": "d70693199b3cf4552f3fa720b54163927a3ebed2aef240efaf556033ab336a11",
+        "type": "crates-io"
+      }
+    },
+    "hex-literal-impl": {
+      "0.2.3": {
+        "hash": "59448fc2f82a5fb6907f78c3d69d843e82ff5b051923313cc4438cb0c7b745a8",
+        "type": "crates-io"
+      }
+    },
+    "hmac": {
+      "0.12.1": {
+        "hash": "sha256-bEnDfAnBelPZN9+7dC6zqWHWWplOa83PN+c5nQzIq14=",
+        "pname": "hmac",
+        "type": "crates-io",
+        "version": "0.12.1"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "md-5": {
+      "0.10.1": {
+        "hash": "658646b21e0b72f7866c7038ab086d3d5e1cd6271f060fd37defb241949d0582",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro-hack": {
+      "0.5.19": {
+        "hash": "dbf0c48bc1d91375ae5c3cd81e3722dff1abcf81a30960240640d223f59fe0e5",
+        "type": "crates-io"
+      }
+    },
+    "sha-1": {
+      "0.10.0": {
+        "hash": "028f48d513f9678cda28f6e4064755b3fbb2af6acd672f2c209b62323f7aea0f",
+        "type": "crates-io"
+      }
+    },
+    "sha2": {
+      "0.10.2": {
+        "hash": "55deaec60f81eefe3cce0dc50bda92d6d8e88f2a27df7c5033b42afeb1ed2676",
+        "type": "crates-io"
+      }
+    },
+    "streebog": {
+      "0.10.1": {
+        "hash": "8d94bd56cd86f4e14c55c935baa313bfd37846284f6bb1f35fc71bc30e621241",
+        "type": "crates-io"
+      }
+    },
+    "subtle": {
+      "2.4.1": {
+        "hash": "6bdef32e8150c2a081110b42772ffe7d7c9032b606bc226c8260fd97e0976601",
+        "type": "crates-io"
+      }
+    },
+    "typenum": {
+      "1.15.0": {
+        "hash": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

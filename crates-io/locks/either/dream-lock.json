@@ -1,0 +1,129 @@
+{
+  "_generic": {
+    "defaultPackage": "either",
+    "invalidationHash": "ceb5a59eb836b055d86f2276dc8aeaf959c7cc8e0e1cbb4b4639da74daca833a",
+    "location": "",
+    "packages": {
+      "either": "1.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "either": {
+        "1.7.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "either": {
+      "1.7.0": [
+        [ "serde", "1.0.139" ],
+        [ "serde_json", "1.0.82" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.40": [
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "quote": {
+      "1.0.20": [
+        [ "proc-macro2", "1.0.40" ]
+      ]
+    },
+    "serde": {
+      "1.0.139": [
+        [ "serde_derive", "1.0.139" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.139": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ]
+      ]
+    },
+    "serde_json": {
+      "1.0.82": [
+        [ "itoa", "1.0.2" ],
+        [ "ryu", "1.0.10" ],
+        [ "serde", "1.0.139" ]
+      ]
+    },
+    "syn": {
+      "1.0.98": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "either": {
+      "1.7.0": {
+        "hash": "sha256-PxB7h7avwqZP0TysVf4G1siFnxLUsUy83Sxn0Jdngb4=",
+        "pname": "either",
+        "type": "crates-io",
+        "version": "1.7.0"
+      }
+    },
+    "itoa": {
+      "1.0.2": {
+        "hash": "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.40": {
+        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.20": {
+        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "ryu": {
+      "1.0.10": {
+        "hash": "f3f6f92acf49d1b98f7a81226834412ada05458b7364277387724a237f062695",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.139": {
+        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.139": {
+        "hash": "dc1d3230c1de7932af58ad8ffbe1d784bd55efd5a9d84ac24f69c72d83543dfb",
+        "type": "crates-io"
+      }
+    },
+    "serde_json": {
+      "1.0.82": {
+        "hash": "82c2c1fdcd807d1098552c5b9a36e425e42e9fbd7c6a37a8425f390f781f7fa7",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.98": {
+        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.1": {
+        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+        "type": "crates-io"
+      }
+    }
+  }
+}

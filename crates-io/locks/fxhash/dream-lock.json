@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "fxhash",
+    "invalidationHash": "0e3295863bbdab4dc2366c21bc85e965fc70802ca9efb4d49cac2ca7c7b61565",
+    "location": "",
+    "packages": {
+      "fxhash": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "fxhash": {
+        "0.2.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "fxhash": {
+      "0.2.1": [
+        [ "byteorder", "1.4.3" ],
+        [ "fnv", "1.0.7" ],
+        [ "seahash", "3.0.7" ]
+      ]
+    }
+  },
+  "sources": {
+    "byteorder": {
+      "1.4.3": {
+        "hash": "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610",
+        "type": "crates-io"
+      }
+    },
+    "fnv": {
+      "1.0.7": {
+        "hash": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
+        "type": "crates-io"
+      }
+    },
+    "fxhash": {
+      "0.2.1": {
+        "hash": "sha256-wxttdRrix/ETIEAtNOQTSd0QFvjV1F5IxDEryGJa9Qw=",
+        "pname": "fxhash",
+        "type": "crates-io",
+        "version": "0.2.1"
+      }
+    },
+    "seahash": {
+      "3.0.7": {
+        "hash": "58f57ca1d128a43733fd71d583e837b1f22239a37ebea09cde11d8d9a9080f47",
+        "type": "crates-io"
+      }
+    }
+  }
+}

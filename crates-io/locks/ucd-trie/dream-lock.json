@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "ucd-trie",
+    "invalidationHash": "4cd92894ac23404cfe9835a0577a533cdc0dca94186ef18c3b9c022d83eeaf3f",
+    "location": "",
+    "packages": {
+      "ucd-trie": "0.1.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "ucd-trie": {
+        "0.1.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "ucd-trie": {
+      "0.1.4": [
+        [ "lazy_static", "1.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "ucd-trie": {
+      "0.1.4": {
+        "hash": "sha256-iVcFmcT+VYXeKziKq0fpn3+k6SOKE5n3B6AuNWBYFBw=",
+        "pname": "ucd-trie",
+        "type": "crates-io",
+        "version": "0.1.4"
+      }
+    }
+  }
+}

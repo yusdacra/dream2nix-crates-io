@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "rand_hc",
+    "invalidationHash": "36547344170624b0403f55b9c9a4e4c109893d55ee306daba1ba9465184bb940",
+    "location": "",
+    "packages": {
+      "rand_hc": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "rand_hc": {
+        "0.3.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "rand_hc": {
+      "0.3.1": [
+        [ "rand_core", "0.6.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "rand_core": {
+      "0.6.3": {
+        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
+        "type": "crates-io"
+      }
+    },
+    "rand_hc": {
+      "0.3.1": {
+        "hash": "sha256-1R6fWW3iJ/2i6myEYH9VWOGW7q9DyYa3JLpPuP30l+c=",
+        "pname": "rand_hc",
+        "type": "crates-io",
+        "version": "0.3.1"
+      }
+    }
+  }
+}

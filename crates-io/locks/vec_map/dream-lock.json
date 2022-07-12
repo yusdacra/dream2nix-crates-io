@@ -1,0 +1,103 @@
+{
+  "_generic": {
+    "defaultPackage": "vec_map",
+    "invalidationHash": "52d88efa824d9db9ab2bbed14ab7fc3c206272e89906b49e30dfe9af3f1988ae",
+    "location": "",
+    "packages": {
+      "vec_map": "0.8.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "vec_map": {
+        "0.8.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro2": {
+      "1.0.40": [
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "quote": {
+      "1.0.20": [
+        [ "proc-macro2", "1.0.40" ]
+      ]
+    },
+    "serde": {
+      "1.0.139": [
+        [ "serde_derive", "1.0.139" ]
+      ]
+    },
+    "serde_derive": {
+      "1.0.139": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ]
+      ]
+    },
+    "syn": {
+      "1.0.98": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "vec_map": {
+      "0.8.2": [
+        [ "serde", "1.0.139" ]
+      ]
+    }
+  },
+  "sources": {
+    "proc-macro2": {
+      "1.0.40": {
+        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.20": {
+        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.139": {
+        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+        "type": "crates-io"
+      }
+    },
+    "serde_derive": {
+      "1.0.139": {
+        "hash": "dc1d3230c1de7932af58ad8ffbe1d784bd55efd5a9d84ac24f69c72d83543dfb",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.98": {
+        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.1": {
+        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+        "type": "crates-io"
+      }
+    },
+    "vec_map": {
+      "0.8.2": {
+        "hash": "sha256-8b3fEYe+aS55xf/quJETLfsPI27TakPH7TnxFl7iAZE=",
+        "pname": "vec_map",
+        "type": "crates-io",
+        "version": "0.8.2"
+      }
+    }
+  }
+}

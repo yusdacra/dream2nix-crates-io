@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "wait-timeout",
+    "invalidationHash": "ea1641137f96a21e39da835d66127f049d707cab392ed8dc37d6c3d58185762e",
+    "location": "",
+    "packages": {
+      "wait-timeout": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "wait-timeout": {
+        "0.2.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "wait-timeout": {
+      "0.2.0": [
+        [ "libc", "0.2.126" ]
+      ]
+    }
+  },
+  "sources": {
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "wait-timeout": {
+      "0.2.0": {
+        "hash": "sha256-nyAPWxLrdfjB7WWr1LLbim4bE4og3gCdrO4mWiSY8/Y=",
+        "pname": "wait-timeout",
+        "type": "crates-io",
+        "version": "0.2.0"
+      }
+    }
+  }
+}

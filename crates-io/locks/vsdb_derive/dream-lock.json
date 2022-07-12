@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "vsdb_derive",
+    "invalidationHash": "4a023d32fbd52fe34d68f21a874cd24606c0fcc537e688523a0fc9dd6bdf8493",
+    "location": "",
+    "packages": {
+      "vsdb_derive": "0.45.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "vsdb_derive": {
+        "0.45.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "proc-macro2": {
+      "1.0.40": [
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "quote": {
+      "1.0.20": [
+        [ "proc-macro2", "1.0.40" ]
+      ]
+    },
+    "syn": {
+      "1.0.98": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "vsdb_derive": {
+      "0.45.0": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ]
+      ]
+    }
+  },
+  "sources": {
+    "proc-macro2": {
+      "1.0.40": {
+        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.20": {
+        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.98": {
+        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.1": {
+        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+        "type": "crates-io"
+      }
+    },
+    "vsdb_derive": {
+      "0.45.0": {
+        "hash": "sha256-HNE9Hp0TEk9r/g1YFJQK8PjCnIkOqe1d5F5tTCgFh5w=",
+        "pname": "vsdb_derive",
+        "type": "crates-io",
+        "version": "0.45.0"
+      }
+    }
+  }
+}

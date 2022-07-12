@@ -1,0 +1,89 @@
+{
+  "_generic": {
+    "defaultPackage": "getopts",
+    "invalidationHash": "b0470f225add7f54927edf56d98a9fa0522946f426cbffb9173070eded03df7d",
+    "location": "",
+    "packages": {
+      "getopts": "0.2.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "getopts": {
+        "0.2.21": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "getopts": {
+      "0.2.21": [
+        [ "log", "0.4.17" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "rustc-std-workspace-std", "1.0.1" ],
+        [ "unicode-width", "0.1.9" ]
+      ]
+    },
+    "log": {
+      "0.4.17": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "unicode-width": {
+      "0.1.9": [
+        [ "compiler_builtins", "0.1.75" ],
+        [ "rustc-std-workspace-core", "1.0.0" ],
+        [ "rustc-std-workspace-std", "1.0.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "compiler_builtins": {
+      "0.1.75": {
+        "hash": "c6e3183e88f659a862835db8f4b67dbeed3d93e44dd4927eef78edb1c149d784",
+        "type": "crates-io"
+      }
+    },
+    "getopts": {
+      "0.2.21": {
+        "hash": "sha256-FNu/1ccdcCQez55vE3N/e1zoI4IQYxiNfkbEHTce69U=",
+        "pname": "getopts",
+        "type": "crates-io",
+        "version": "0.2.21"
+      }
+    },
+    "log": {
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-core": {
+      "1.0.0": {
+        "hash": "1956f5517128a2b6f23ab2dadf1a976f4f5b27962e7724c2bf3d45e539ec098c",
+        "type": "crates-io"
+      }
+    },
+    "rustc-std-workspace-std": {
+      "1.0.1": {
+        "hash": "aba676a20abe46e5b0f1b0deae474aaaf31407e6c71147159890574599da04ef",
+        "type": "crates-io"
+      }
+    },
+    "unicode-width": {
+      "0.1.9": {
+        "hash": "3ed742d4ea2bd1176e236172c8429aaf54486e7ac098db29ffe6529e0ce50973",
+        "type": "crates-io"
+      }
+    }
+  }
+}

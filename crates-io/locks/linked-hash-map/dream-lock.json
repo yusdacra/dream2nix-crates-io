@@ -1,0 +1,92 @@
+{
+  "_generic": {
+    "defaultPackage": "linked-hash-map",
+    "invalidationHash": "15ab03feb26ef80be27dd72e23a125a2c481695e352b27eeaab97bc5a1cfd3a5",
+    "location": "",
+    "packages": {
+      "linked-hash-map": "0.5.6"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "linked-hash-map": {
+        "0.5.6": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "heapsize": {
+      "0.4.2": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "linked-hash-map": {
+      "0.5.6": [
+        [ "heapsize", "0.4.2" ],
+        [ "serde", "1.0.139" ],
+        [ "serde_test", "1.0.139" ]
+      ]
+    },
+    "serde_test": {
+      "1.0.139": [
+        [ "serde", "1.0.139" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "heapsize": {
+      "0.4.2": {
+        "hash": "1679e6ea370dee694f91f1dc469bf94cf8f52051d147aec3e1f9497c6fc22461",
+        "type": "crates-io"
+      }
+    },
+    "linked-hash-map": {
+      "0.5.6": {
+        "hash": "sha256-BxfO8byLY2xuHBu978CeYyLaipMhlm6JKO+A0g9/dw8=",
+        "pname": "linked-hash-map",
+        "type": "crates-io",
+        "version": "0.5.6"
+      }
+    },
+    "serde": {
+      "1.0.139": {
+        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.139": {
+        "hash": "cc933653ac6800dd970d54829f0646dcfd078bcaae7fbd19c6e58a584564a5de",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

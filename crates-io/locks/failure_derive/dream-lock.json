@@ -1,0 +1,213 @@
+{
+  "_generic": {
+    "defaultPackage": "failure_derive",
+    "invalidationHash": "e3e1f761eab44a662ba4f9a67e16a3e73939dd8dbdf0fc2ee548ce4745c1d24e",
+    "location": "",
+    "packages": {
+      "failure_derive": "0.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "failure_derive": {
+        "0.1.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {
+    "failure": {
+      "0.1.8": [
+        [ "failure_derive", "0.1.8" ]
+      ]
+    }
+  },
+  "dependencies": {
+    "addr2line": {
+      "0.17.0": [
+        [ "gimli", "0.26.1" ]
+      ]
+    },
+    "backtrace": {
+      "0.3.66": [
+        [ "addr2line", "0.17.0" ],
+        [ "cc", "1.0.73" ],
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.126" ],
+        [ "miniz_oxide", "0.5.3" ],
+        [ "object", "0.29.0" ],
+        [ "rustc-demangle", "0.1.21" ]
+      ]
+    },
+    "failure": {
+      "0.1.8": [
+        [ "backtrace", "0.3.66" ],
+        [ "failure_derive", "0.1.8" ]
+      ]
+    },
+    "failure_derive": {
+      "0.1.8": [
+        [ "failure", "0.1.8" ],
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ],
+        [ "synstructure", "0.12.6" ]
+      ]
+    },
+    "miniz_oxide": {
+      "0.5.3": [
+        [ "adler", "1.0.2" ]
+      ]
+    },
+    "object": {
+      "0.29.0": [
+        [ "memchr", "2.5.0" ]
+      ]
+    },
+    "proc-macro2": {
+      "1.0.40": [
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "quote": {
+      "1.0.20": [
+        [ "proc-macro2", "1.0.40" ]
+      ]
+    },
+    "syn": {
+      "1.0.98": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "unicode-ident", "1.0.1" ]
+      ]
+    },
+    "synstructure": {
+      "0.12.6": [
+        [ "proc-macro2", "1.0.40" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ],
+        [ "unicode-xid", "0.2.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "addr2line": {
+      "0.17.0": {
+        "hash": "b9ecd88a8c8378ca913a680cd98f0f13ac67383d35993f86c90a70e3f137816b",
+        "type": "crates-io"
+      }
+    },
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "type": "crates-io"
+      }
+    },
+    "backtrace": {
+      "0.3.66": {
+        "hash": "cab84319d616cfb654d03394f38ab7e6f0919e181b1b57e1fd15e7fb4077d9a7",
+        "type": "crates-io"
+      }
+    },
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "failure": {
+      "0.1.8": {
+        "hash": "d32e9bd16cc02eae7db7ef620b392808b89f6a5e16bb3497d159c6b92a0f4f86",
+        "type": "crates-io"
+      }
+    },
+    "failure_derive": {
+      "0.1.8": {
+        "hash": "sha256-qk2jx2bNeg24JC4ybp5OCB7dVnByiT7TIACBiXFTZqQ=",
+        "pname": "failure_derive",
+        "type": "crates-io",
+        "version": "0.1.8"
+      }
+    },
+    "gimli": {
+      "0.26.1": {
+        "hash": "78cc372d058dcf6d5ecd98510e7fbc9e5aec4d21de70f65fea8fecebcd881bd4",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "miniz_oxide": {
+      "0.5.3": {
+        "hash": "6f5c75688da582b8ffc1f1799e9db273f32133c49e048f614d22ec3256773ccc",
+        "type": "crates-io"
+      }
+    },
+    "object": {
+      "0.29.0": {
+        "hash": "21158b2c33aa6d4561f1c0a6ea283ca92bc54802a93b263e910746d679a7eb53",
+        "type": "crates-io"
+      }
+    },
+    "proc-macro2": {
+      "1.0.40": {
+        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+        "type": "crates-io"
+      }
+    },
+    "quote": {
+      "1.0.20": {
+        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "rustc-demangle": {
+      "0.1.21": {
+        "hash": "7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342",
+        "type": "crates-io"
+      }
+    },
+    "syn": {
+      "1.0.98": {
+        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+        "type": "crates-io"
+      }
+    },
+    "synstructure": {
+      "0.12.6": {
+        "hash": "f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f",
+        "type": "crates-io"
+      }
+    },
+    "unicode-ident": {
+      "1.0.1": {
+        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+        "type": "crates-io"
+      }
+    },
+    "unicode-xid": {
+      "0.2.3": {
+        "hash": "957e51f3646910546462e67d5f7599b9e4fb8acdd304b087a6494730f9eebf04",
+        "type": "crates-io"
+      }
+    }
+  }
+}

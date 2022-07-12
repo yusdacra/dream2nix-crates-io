@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "unreachable",
+    "invalidationHash": "2655f8ce30ed0a2714fd4fbffbe789f01083c7fedd8f9fed551faf012561127a",
+    "location": "",
+    "packages": {
+      "unreachable": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "unreachable": {
+        "1.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "unreachable": {
+      "1.0.0": [
+        [ "void", "1.0.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "unreachable": {
+      "1.0.0": {
+        "hash": "sha256-OCgQh3/kSJkd/H8N1uOuXVgIj9DqXjUYllX4TmgU+lY=",
+        "pname": "unreachable",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    },
+    "void": {
+      "1.0.2": {
+        "hash": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d",
+        "type": "crates-io"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "funty",
+    "invalidationHash": "67c584732115a92c16b77f65813888df745bf895d5543104c84ac6bb29be29ff",
+    "location": "",
+    "packages": {
+      "funty": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "funty": {
+        "2.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "funty": {
+      "2.0.0": [
+        [ "static_assertions", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "funty": {
+      "2.0.0": {
+        "hash": "sha256-5tWjKBWuPzMwLZX9yyzheGL4xlNj3P0pNgSAuhAB/Jw=",
+        "pname": "funty",
+        "type": "crates-io",
+        "version": "2.0.0"
+      }
+    },
+    "static_assertions": {
+      "1.1.0": {
+        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

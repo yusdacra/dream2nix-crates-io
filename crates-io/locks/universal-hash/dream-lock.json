@@ -1,0 +1,69 @@
+{
+  "_generic": {
+    "defaultPackage": "universal-hash",
+    "invalidationHash": "534789023aed33dba2ef25a9f2d34b77940ae3fd425a1f00513bb07d4857e592",
+    "location": "",
+    "packages": {
+      "universal-hash": "0.4.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "universal-hash": {
+        "0.4.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "generic-array": {
+      "0.14.5": [
+        [ "typenum", "1.15.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    },
+    "universal-hash": {
+      "0.4.1": [
+        [ "generic-array", "0.14.5" ],
+        [ "subtle", "2.4.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "generic-array": {
+      "0.14.5": {
+        "hash": "fd48d33ec7f05fbfa152300fdad764757cbded343c1aa1cff2fbaf4134851803",
+        "type": "crates-io"
+      }
+    },
+    "subtle": {
+      "2.4.1": {
+        "hash": "6bdef32e8150c2a081110b42772ffe7d7c9032b606bc226c8260fd97e0976601",
+        "type": "crates-io"
+      }
+    },
+    "typenum": {
+      "1.15.0": {
+        "hash": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "type": "crates-io"
+      }
+    },
+    "universal-hash": {
+      "0.4.1": {
+        "hash": "sha256-nyFOj2l+klAB5m7CxuN6Tvk/D3jC7teBQ5ThDGICWwU=",
+        "pname": "universal-hash",
+        "type": "crates-io",
+        "version": "0.4.1"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

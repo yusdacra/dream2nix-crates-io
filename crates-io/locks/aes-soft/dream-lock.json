@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "aes-soft",
+    "invalidationHash": "bbfa144b59f5c342cf2c785082bd3576a865c08fced283cc51d17c8648394e78",
+    "location": "",
+    "packages": {
+      "aes-soft": "0.99.99"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "aes-soft": {
+        "0.99.99": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "aes-soft": {
+      "0.99.99": {
+        "hash": "sha256-mL+1bQaslL4Ll9O/FC6KZwZeQQdVKhuoJDrterTdmxc=",
+        "pname": "aes-soft",
+        "type": "crates-io",
+        "version": "0.99.99"
+      }
+    }
+  }
+}

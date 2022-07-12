@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "paste-impl",
+    "invalidationHash": "3a14828132c7699cad3e52365959e194503fa190f4baba5d791d85a91c3a97af",
+    "location": "",
+    "packages": {
+      "paste-impl": "0.1.18"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "paste-impl": {
+        "0.1.18": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "paste-impl": {
+      "0.1.18": [
+        [ "proc-macro-hack", "0.5.19" ]
+      ]
+    }
+  },
+  "sources": {
+    "paste-impl": {
+      "0.1.18": {
+        "hash": "sha256-2Vp9sgC5fvNwyObeAIglL34N//fQR6KFKOR0VsD8mLY=",
+        "pname": "paste-impl",
+        "type": "crates-io",
+        "version": "0.1.18"
+      }
+    },
+    "proc-macro-hack": {
+      "0.5.19": {
+        "hash": "dbf0c48bc1d91375ae5c3cd81e3722dff1abcf81a30960240640d223f59fe0e5",
+        "type": "crates-io"
+      }
+    }
+  }
+}

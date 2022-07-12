@@ -1,0 +1,18 @@
+{
+  "_generic": {
+    "defaultPackage": "protobuf_distutils",
+    "invalidationHash": "54d0750c5665966175a467b4502b16ef4cf1f9a6acde1a258c850252754c4fb4",
+    "location": "",
+    "packages": {
+      "protobuf_distutils": "1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "python"
+  },
+  "_subsystem": {
+    "application": false,
+    "pythonAttr": "python310",
+    "sourceFormats": {}
+  },
+  "sources": {}
+}

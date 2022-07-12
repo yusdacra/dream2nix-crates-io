@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "parking",
+    "invalidationHash": "19552f6bdd8ac05d44f19814e48ee0ee4368f26d6f1a402c588c5049e3d3c775",
+    "location": "",
+    "packages": {
+      "parking": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "parking": {
+        "2.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "parking": {
+      "2.0.0": [
+        [ "easy-parallel", "3.2.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "easy-parallel": {
+      "3.2.0": {
+        "hash": "6907e25393cdcc1f4f3f513d9aac1e840eb1cc341a0fccb01171f7d14d10b946",
+        "type": "crates-io"
+      }
+    },
+    "parking": {
+      "2.0.0": {
+        "hash": "sha256-Qnw4kvnng9kcwSgoUofnClniBspFJ3Ds6Ip296Pt3XI=",
+        "pname": "parking",
+        "type": "crates-io",
+        "version": "2.0.0"
+      }
+    }
+  }
+}

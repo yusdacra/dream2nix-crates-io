@@ -1,0 +1,133 @@
+{
+  "_generic": {
+    "defaultPackage": "console",
+    "invalidationHash": "259cca479c1a56ef975d5bdc22feb87605de6e942bd496fd6dac171b5f1ca4c9",
+    "location": "",
+    "packages": {
+      "console": "0.15.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "console": {
+        "0.15.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "console": {
+      "0.15.0": [
+        [ "encode_unicode", "0.3.6" ],
+        [ "libc", "0.2.69" ],
+        [ "once_cell", "1.8.0" ],
+        [ "regex", "1.4.5" ],
+        [ "terminal_size", "0.1.15" ],
+        [ "unicode-width", "0.1.7" ],
+        [ "winapi", "0.3.8" ],
+        [ "winapi-util", "0.1.5" ]
+      ]
+    },
+    "regex": {
+      "1.4.5": [
+        [ "regex-syntax", "0.6.23" ]
+      ]
+    },
+    "terminal_size": {
+      "0.1.15": [
+        [ "libc", "0.2.69" ],
+        [ "winapi", "0.3.8" ]
+      ]
+    },
+    "winapi": {
+      "0.3.8": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "winapi-util": {
+      "0.1.5": [
+        [ "winapi", "0.3.8" ]
+      ]
+    }
+  },
+  "sources": {
+    "console": {
+      "0.15.0": {
+        "hash": "sha256-oosy0yykS3DD5KzX2xur9VX6Am44X7lfGAKPiISLPDE=",
+        "pname": "console",
+        "type": "crates-io",
+        "version": "0.15.0"
+      }
+    },
+    "encode_unicode": {
+      "0.3.6": {
+        "hash": "a357d28ed41a50f9c765dbfe56cbc04a64e53e5fc58ba79fbc34c10ef3df831f",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.69": {
+        "hash": "99e85c08494b21a9054e7fe1374a732aeadaff3980b6990b94bfd3a70f690005",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.8.0": {
+        "hash": "692fcb63b64b1758029e0a96ee63e049ce8c5948587f2f7208df04625e5f6b56",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.4.5": {
+        "hash": "957056ecddbeba1b26965114e191d2e8589ce74db242b6ea25fc4062427a5c19",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.23": {
+        "hash": "24d5f089152e60f62d28b835fbff2cd2e8dc0baf1ac13343bef92ab7eed84548",
+        "type": "crates-io"
+      }
+    },
+    "terminal_size": {
+      "0.1.15": {
+        "hash": "4bd2d183bd3fac5f5fe38ddbeb4dc9aec4a39a9d7d59e7491d900302da01cbe1",
+        "type": "crates-io"
+      }
+    },
+    "unicode-width": {
+      "0.1.7": {
+        "hash": "caaa9d531767d1ff2150b9332433f32a24622147e5ebb1f26409d5da67afd479",
+        "type": "crates-io"
+      }
+    },
+    "winapi": {
+      "0.3.8": {
+        "hash": "8093091eeb260906a183e6ae1abdba2ef5ef2257a21801128899c3fc699229c6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-util": {
+      "0.1.5": {
+        "hash": "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

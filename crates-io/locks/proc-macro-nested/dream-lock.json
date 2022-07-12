@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "proc-macro-nested",
+    "invalidationHash": "cbc170e264052cfa5c2d1f4516ba8137d94c69adee71b7103c3ef4126f123ae2",
+    "location": "",
+    "packages": {
+      "proc-macro-nested": "0.1.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "proc-macro-nested": {
+        "0.1.7": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "proc-macro-nested": {
+      "0.1.7": {
+        "hash": "sha256-vIgbLCJoE3DGp4DkevmEDvhBg3vJgRhDHU4YaL0MEIY=",
+        "pname": "proc-macro-nested",
+        "type": "crates-io",
+        "version": "0.1.7"
+      }
+    }
+  }
+}

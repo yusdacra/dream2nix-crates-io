@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "minimal-lexical",
+    "invalidationHash": "d14e2e8c836153d9430d971be7ad21301c391755e1f015176d1c3f5f7039ee92",
+    "location": "",
+    "packages": {
+      "minimal-lexical": "0.2.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "minimal-lexical": {
+        "0.2.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "minimal-lexical": {
+      "0.2.1": {
+        "hash": "sha256-aDVMXGvTbXP/P+zrBe+lm2rLdiZhf0livjIqgl5h95o=",
+        "pname": "minimal-lexical",
+        "type": "crates-io",
+        "version": "0.2.1"
+      }
+    }
+  }
+}

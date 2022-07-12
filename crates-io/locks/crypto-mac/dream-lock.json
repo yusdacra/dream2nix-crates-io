@@ -1,0 +1,88 @@
+{
+  "_generic": {
+    "defaultPackage": "crypto-mac",
+    "invalidationHash": "1da70e09b710d44aeb2ebdcf219b802bf0a2c02124c6bf2d1c1c6457f5a52433",
+    "location": "",
+    "packages": {
+      "crypto-mac": "0.11.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "crypto-mac": {
+        "0.11.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cipher": {
+      "0.3.0": [
+        [ "generic-array", "0.14.5" ]
+      ]
+    },
+    "crypto-mac": {
+      "0.11.1": [
+        [ "blobby", "0.3.1" ],
+        [ "cipher", "0.3.0" ],
+        [ "generic-array", "0.14.5" ],
+        [ "subtle", "2.4.1" ]
+      ]
+    },
+    "generic-array": {
+      "0.14.5": [
+        [ "typenum", "1.15.0" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "blobby": {
+      "0.3.1": {
+        "hash": "847495c209977a90e8aad588b959d0ca9f5dc228096d29a6bd3defd53f35eaec",
+        "type": "crates-io"
+      }
+    },
+    "cipher": {
+      "0.3.0": {
+        "hash": "7ee52072ec15386f770805afd189a01c8841be8696bed250fa2f13c4c0d6dfb7",
+        "type": "crates-io"
+      }
+    },
+    "crypto-mac": {
+      "0.11.1": {
+        "hash": "sha256-sdGob0kjbCFfJx1AiS1fyVBJBVFACwLvNgaSwpgVxxQ=",
+        "pname": "crypto-mac",
+        "type": "crates-io",
+        "version": "0.11.1"
+      }
+    },
+    "generic-array": {
+      "0.14.5": {
+        "hash": "fd48d33ec7f05fbfa152300fdad764757cbded343c1aa1cff2fbaf4134851803",
+        "type": "crates-io"
+      }
+    },
+    "subtle": {
+      "2.4.1": {
+        "hash": "6bdef32e8150c2a081110b42772ffe7d7c9032b606bc226c8260fd97e0976601",
+        "type": "crates-io"
+      }
+    },
+    "typenum": {
+      "1.15.0": {
+        "hash": "dcf81ac59edc17cc8697ff311e8f5ef2d99fcbd9817b34cec66f90b6c3dfd987",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

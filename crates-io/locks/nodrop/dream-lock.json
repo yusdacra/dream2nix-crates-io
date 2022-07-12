@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "nodrop",
+    "invalidationHash": "7a350fe6beb534d245ffe2b9c28a3951139f6ec908e57d3dbbefe84ef00975ad",
+    "location": "",
+    "packages": {
+      "nodrop": "0.1.14"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "nodrop": {
+        "0.1.14": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "nodrop": {
+      "0.1.14": [
+        [ "nodrop-union", "0.1.11" ]
+      ]
+    }
+  },
+  "sources": {
+    "nodrop": {
+      "0.1.14": {
+        "hash": "sha256-cu9KVohMpVjl3bBaHR5+G/2aaNntAkwhcEzJiHLa4bs=",
+        "pname": "nodrop",
+        "type": "crates-io",
+        "version": "0.1.14"
+      }
+    },
+    "nodrop-union": {
+      "0.1.11": {
+        "hash": "6cf66f80e9b8d448ad2e5bc23f7afb951f3dcebba845c5b0b7aae714e0bda9c0",
+        "type": "crates-io"
+      }
+    }
+  }
+}

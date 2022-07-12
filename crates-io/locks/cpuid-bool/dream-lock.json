@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "cpuid-bool",
+    "invalidationHash": "aef7ee8ef2e0936270bd7bc211234f3c84355a6f7510e28c674bf4b1ffb2994e",
+    "location": "",
+    "packages": {
+      "cpuid-bool": "0.99.99"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "cpuid-bool": {
+        "0.99.99": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "cpuid-bool": {
+      "0.99.99": {
+        "hash": "sha256-tq3UloKFR+oLcnkO6RMhXGBacKlIuOne3xhCBU6e7Xg=",
+        "pname": "cpuid-bool",
+        "type": "crates-io",
+        "version": "0.99.99"
+      }
+    }
+  }
+}

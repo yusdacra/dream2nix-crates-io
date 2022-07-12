@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "fuchsia-cprng",
+    "invalidationHash": "c5b9c1ac4058ed30d97443ac192d575325a1f50afbc0d79aad99dceccd26e8a3",
+    "location": "",
+    "packages": {
+      "fuchsia-cprng": "0.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "fuchsia-cprng": {
+        "0.1.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "fuchsia-cprng": {
+      "0.1.1": {
+        "hash": "sha256-oG931SbBpgG3xM3Zj1S16qv/wU1fLwKW/r3H81fG07o=",
+        "pname": "fuchsia-cprng",
+        "type": "crates-io",
+        "version": "0.1.1"
+      }
+    }
+  }
+}

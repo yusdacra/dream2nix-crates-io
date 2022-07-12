@@ -1,0 +1,81 @@
+{
+  "_generic": {
+    "defaultPackage": "Inflector",
+    "invalidationHash": "f2a14877d65be8650ea39a0585425fc13eb2fd90adec15814f3c5110156aba26",
+    "location": "",
+    "packages": {
+      "Inflector": "0.11.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "Inflector": {
+        "0.11.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "Inflector": {
+      "0.11.4": [
+        [ "lazy_static", "1.4.0" ],
+        [ "regex", "1.6.0" ]
+      ]
+    },
+    "aho-corasick": {
+      "0.7.18": [
+        [ "memchr", "2.5.0" ]
+      ]
+    },
+    "regex": {
+      "1.6.0": [
+        [ "aho-corasick", "0.7.18" ],
+        [ "memchr", "2.5.0" ],
+        [ "regex-syntax", "0.6.27" ]
+      ]
+    }
+  },
+  "sources": {
+    "Inflector": {
+      "0.11.4": {
+        "hash": "sha256-/kOMY0WHBuA0eUQnQ7qubIglZJjmQxcI9t/FIKJlFdM=",
+        "pname": "Inflector",
+        "type": "crates-io",
+        "version": "0.11.4"
+      }
+    },
+    "aho-corasick": {
+      "0.7.18": {
+        "hash": "1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f",
+        "type": "crates-io"
+      }
+    },
+    "lazy_static": {
+      "1.4.0": {
+        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
+        "type": "crates-io"
+      }
+    },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
+    "regex": {
+      "1.6.0": {
+        "hash": "4c4eb3267174b8c6c2f654116623910a0fef09c4753f8dd83db29c48a0df988b",
+        "type": "crates-io"
+      }
+    },
+    "regex-syntax": {
+      "0.6.27": {
+        "hash": "a3f87b73ce11b1619a3c6332f45341e0047173771e8b8b73f87bfeefb7b56244",
+        "type": "crates-io"
+      }
+    }
+  }
+}

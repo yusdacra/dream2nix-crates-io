@@ -1,0 +1,67 @@
+{
+  "_generic": {
+    "defaultPackage": "threadpool",
+    "invalidationHash": "93905f886955a1957eacf18ba982777880384f70c91a82a580fe00f39e1c064d",
+    "location": "",
+    "packages": {
+      "threadpool": "1.8.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "threadpool": {
+        "1.8.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "hermit-abi": {
+      "0.1.19": [
+        [ "libc", "0.2.126" ]
+      ]
+    },
+    "num_cpus": {
+      "1.13.1": [
+        [ "hermit-abi", "0.1.19" ],
+        [ "libc", "0.2.126" ]
+      ]
+    },
+    "threadpool": {
+      "1.8.1": [
+        [ "num_cpus", "1.13.1" ]
+      ]
+    }
+  },
+  "sources": {
+    "hermit-abi": {
+      "0.1.19": {
+        "hash": "62b467343b94ba476dcb2500d242dadbb39557df889310ac77c5d99100aaac33",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "num_cpus": {
+      "1.13.1": {
+        "hash": "19e64526ebdee182341572e50e9ad03965aa510cd94427a4549448f285e957a1",
+        "type": "crates-io"
+      }
+    },
+    "threadpool": {
+      "1.8.1": {
+        "hash": "sha256-0FDmCzPUHBkQizLOoyFkAzqQE/47RsvURXVZv793r6o=",
+        "pname": "threadpool",
+        "type": "crates-io",
+        "version": "1.8.1"
+      }
+    }
+  }
+}

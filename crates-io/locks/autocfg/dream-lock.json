@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "autocfg",
+    "invalidationHash": "38be3c91e8e001767e7e99a21f81d4383874e26c22f5d2997a076232c1ff6926",
+    "location": "",
+    "packages": {
+      "autocfg": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "autocfg": {
+        "1.1.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "sha256-1GiAK6sXy8DMV16bBT9B5yqja/prf1XjUp/6QxYbl/o=",
+        "pname": "autocfg",
+        "type": "crates-io",
+        "version": "1.1.0"
+      }
+    }
+  }
+}

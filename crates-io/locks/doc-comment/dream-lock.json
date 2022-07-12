@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "doc-comment",
+    "invalidationHash": "37633e14e3aedfa4f0b2901aab581eeb308ffeacc9cf1ac62429ea1f44346592",
+    "location": "",
+    "packages": {
+      "doc-comment": "0.3.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "doc-comment": {
+        "0.3.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "sha256-/qQbujLZabUTmXdSc1YFBUvA36krTFa/EYny4XS+ehA=",
+        "pname": "doc-comment",
+        "type": "crates-io",
+        "version": "0.3.3"
+      }
+    }
+  }
+}

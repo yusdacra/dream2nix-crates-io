@@ -1,0 +1,58 @@
+{
+  "_generic": {
+    "defaultPackage": "standback",
+    "invalidationHash": "d118b2ee22bb7f1d704fb6c2ba19c9f66907a3e3a615d259c622dff79115c08e",
+    "location": "",
+    "packages": {
+      "standback": "0.4.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "standback": {
+        "0.4.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "standback": {
+      "0.4.4": [
+        [ "easy-ext", "1.0.0" ],
+        [ "libc", "0.2.126" ],
+        [ "version_check", "0.9.4" ]
+      ]
+    }
+  },
+  "sources": {
+    "easy-ext": {
+      "1.0.0": {
+        "hash": "ed2ddb5d6d3904e83114add6bbadf2b8307b4ae9fb4b2202afde1fe7bf3b56c0",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "standback": {
+      "0.4.4": {
+        "hash": "sha256-ZYMPwvXlPpBKXi/8dcWmWCAZVju7oQMUXU3sraiME+8=",
+        "pname": "standback",
+        "type": "crates-io",
+        "version": "0.4.4"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

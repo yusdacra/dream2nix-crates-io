@@ -1,0 +1,77 @@
+{
+  "_generic": {
+    "defaultPackage": "libz-sys",
+    "invalidationHash": "c1906ca401b7fa09d9c33448c996de2c6b50d4ff9f90419641176f3c376c6a7b",
+    "location": "",
+    "packages": {
+      "libz-sys": "1.1.8"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "libz-sys": {
+        "1.1.8": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "cmake": {
+      "0.1.48": [
+        [ "cc", "1.0.73" ]
+      ]
+    },
+    "libz-sys": {
+      "1.1.8": [
+        [ "cc", "1.0.73" ],
+        [ "cmake", "0.1.48" ],
+        [ "libc", "0.2.126" ],
+        [ "pkg-config", "0.3.25" ],
+        [ "vcpkg", "0.2.15" ]
+      ]
+    }
+  },
+  "sources": {
+    "cc": {
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "cmake": {
+      "0.1.48": {
+        "hash": "e8ad8cef104ac57b68b89df3208164d228503abbdce70f6880ffa3d970e7443a",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "libz-sys": {
+      "1.1.8": {
+        "hash": "sha256-lwJ2HDk1+MwvEBeTJy4gLHK5naj0IkoZ3c8SeaZFC78=",
+        "pname": "libz-sys",
+        "type": "crates-io",
+        "version": "1.1.8"
+      }
+    },
+    "pkg-config": {
+      "0.3.25": {
+        "hash": "1df8c4ec4b0627e53bdf214615ad287367e482558cf84b109250b37464dc03ae",
+        "type": "crates-io"
+      }
+    },
+    "vcpkg": {
+      "0.2.15": {
+        "hash": "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426",
+        "type": "crates-io"
+      }
+    }
+  }
+}

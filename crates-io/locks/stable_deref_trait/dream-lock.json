@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "stable_deref_trait",
+    "invalidationHash": "a80cc8ac27e29cd8f3d7f410f62b67fb4dfa1c9cbc5f2dd987e11af6fb221e48",
+    "location": "",
+    "packages": {
+      "stable_deref_trait": "1.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "stable_deref_trait": {
+        "1.2.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "stable_deref_trait": {
+      "1.2.0": {
+        "hash": "sha256-qPEScpUS+ORC2B+VqKfd8rfGuKGm9QmpWGQUKzDKstM=",
+        "pname": "stable_deref_trait",
+        "type": "crates-io",
+        "version": "1.2.0"
+      }
+    }
+  }
+}

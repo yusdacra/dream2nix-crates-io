@@ -1,0 +1,18 @@
+{
+  "_generic": {
+    "defaultPackage": "python",
+    "invalidationHash": "47a5a1e907a56d68debf6e293635812c7bd7eff52b85a1ff8cd3bdffc3fdbb3b",
+    "location": "",
+    "packages": {
+      "python": "3.19.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "python"
+  },
+  "_subsystem": {
+    "application": false,
+    "pythonAttr": "python310",
+    "sourceFormats": {}
+  },
+  "sources": {}
+}

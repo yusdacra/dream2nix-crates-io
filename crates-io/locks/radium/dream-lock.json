@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "radium",
+    "invalidationHash": "01405aecc8dcc10c6c0bfdcc7e8a8ea35037be3f98965dc7cf2be8a69fcf8529",
+    "location": "",
+    "packages": {
+      "radium": "0.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "radium": {
+        "0.7.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "radium": {
+      "0.7.0": [
+        [ "static_assertions", "1.1.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "radium": {
+      "0.7.0": {
+        "hash": "sha256-3DP/LUlz1RjYI9YaojkBSDHlIcddpY499IQNP0d0nQk=",
+        "pname": "radium",
+        "type": "crates-io",
+        "version": "0.7.0"
+      }
+    },
+    "static_assertions": {
+      "1.1.0": {
+        "hash": "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

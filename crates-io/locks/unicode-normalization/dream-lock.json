@@ -1,0 +1,55 @@
+{
+  "_generic": {
+    "defaultPackage": "unicode-normalization",
+    "invalidationHash": "35c702bdab74e63ef6fad53cb213dedea3cfebb95ce7d6323ac45b3b34796b67",
+    "location": "",
+    "packages": {
+      "unicode-normalization": "0.1.21"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "unicode-normalization": {
+        "0.1.21": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tinyvec": {
+      "1.6.0": [
+        [ "tinyvec_macros", "0.1.0" ]
+      ]
+    },
+    "unicode-normalization": {
+      "0.1.21": [
+        [ "tinyvec", "1.6.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "tinyvec": {
+      "1.6.0": {
+        "hash": "87cc5ceb3875bb20c2890005a4e226a4651264a5c75edb2421b52861a0a0cb50",
+        "type": "crates-io"
+      }
+    },
+    "tinyvec_macros": {
+      "0.1.0": {
+        "hash": "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c",
+        "type": "crates-io"
+      }
+    },
+    "unicode-normalization": {
+      "0.1.21": {
+        "hash": "sha256-hUy9xPe8auGcgg1Eq9wyd6w+GyuT2yCmNoJdkyL7YOY=",
+        "pname": "unicode-normalization",
+        "type": "crates-io",
+        "version": "0.1.21"
+      }
+    }
+  }
+}

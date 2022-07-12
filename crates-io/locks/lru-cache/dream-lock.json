@@ -1,0 +1,85 @@
+{
+  "_generic": {
+    "defaultPackage": "lru-cache",
+    "invalidationHash": "c1be3089aa7fbb8dd32ac45b6708ffe16ba6fab52727838e496f62561199457a",
+    "location": "",
+    "packages": {
+      "lru-cache": "0.1.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "lru-cache": {
+        "0.1.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "heapsize": {
+      "0.4.2": [
+        [ "winapi", "0.3.9" ]
+      ]
+    },
+    "linked-hash-map": {
+      "0.5.6": [
+        [ "heapsize", "0.4.2" ]
+      ]
+    },
+    "lru-cache": {
+      "0.1.2": [
+        [ "heapsize", "0.4.2" ],
+        [ "linked-hash-map", "0.5.6" ]
+      ]
+    },
+    "winapi": {
+      "0.3.9": [
+        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
+        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "heapsize": {
+      "0.4.2": {
+        "hash": "1679e6ea370dee694f91f1dc469bf94cf8f52051d147aec3e1f9497c6fc22461",
+        "type": "crates-io"
+      }
+    },
+    "linked-hash-map": {
+      "0.5.6": {
+        "hash": "0717cef1bc8b636c6e1c1bbdefc09e6322da8a9321966e8928ef80d20f7f770f",
+        "type": "crates-io"
+      }
+    },
+    "lru-cache": {
+      "0.1.2": {
+        "hash": "sha256-MeJPGtgyHKDooeCsE/I8tmjm9UZsLFcxn2pc8cyOOxw=",
+        "pname": "lru-cache",
+        "type": "crates-io",
+        "version": "0.1.2"
+      }
+    },
+    "winapi": {
+      "0.3.9": {
+        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
+        "type": "crates-io"
+      }
+    },
+    "winapi-i686-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+        "type": "crates-io"
+      }
+    },
+    "winapi-x86_64-pc-windows-gnu": {
+      "0.4.0": {
+        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    }
+  }
+}

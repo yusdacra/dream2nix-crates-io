@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "mime",
+    "invalidationHash": "75dd272aa7c387fcc6b0335e1de7b744a0f1f0e2da43a17100132cefe59ba25e",
+    "location": "",
+    "packages": {
+      "mime": "0.3.16"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "mime": {
+        "0.3.16": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "mime": {
+      "0.3.16": {
+        "hash": "sha256-KmDHzlAcceA6nJwNNbhhQTrpJb2XnMek4w0GAGmqrI0=",
+        "pname": "mime",
+        "type": "crates-io",
+        "version": "0.3.16"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "tiny-keccak",
+    "invalidationHash": "d8102937f8c3669d5a5d832804255448bf3acb6ea63d56b3449c07fefc07e829",
+    "location": "",
+    "packages": {
+      "tiny-keccak": "2.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "tiny-keccak": {
+        "2.0.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "tiny-keccak": {
+      "2.0.2": [
+        [ "crunchy", "0.2.2" ]
+      ]
+    }
+  },
+  "sources": {
+    "crunchy": {
+      "0.2.2": {
+        "hash": "7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7",
+        "type": "crates-io"
+      }
+    },
+    "tiny-keccak": {
+      "2.0.2": {
+        "hash": "sha256-LJ03k0AKRflUxS5z0GgxbXa29ONpd+P867E6JyHoAjc=",
+        "pname": "tiny-keccak",
+        "type": "crates-io",
+        "version": "2.0.2"
+      }
+    }
+  }
+}

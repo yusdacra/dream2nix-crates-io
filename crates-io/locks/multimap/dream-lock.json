@@ -1,0 +1,56 @@
+{
+  "_generic": {
+    "defaultPackage": "multimap",
+    "invalidationHash": "b9b6a89d3c31b97b9b75b84aa073705e62d48c15d5eb9e0bb13bd96c8b43e2f9",
+    "location": "",
+    "packages": {
+      "multimap": "0.8.3"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "multimap": {
+        "0.8.3": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "multimap": {
+      "0.8.3": [
+        [ "serde", "1.0.139" ],
+        [ "serde_test", "1.0.139" ]
+      ]
+    },
+    "serde_test": {
+      "1.0.139": [
+        [ "serde", "1.0.139" ]
+      ]
+    }
+  },
+  "sources": {
+    "multimap": {
+      "0.8.3": {
+        "hash": "sha256-5c5G/mSp1zvgfcvmkKOM4bKTvkSP2M4ebBuAYsn3LGo=",
+        "pname": "multimap",
+        "type": "crates-io",
+        "version": "0.8.3"
+      }
+    },
+    "serde": {
+      "1.0.139": {
+        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+        "type": "crates-io"
+      }
+    },
+    "serde_test": {
+      "1.0.139": {
+        "hash": "cc933653ac6800dd970d54829f0646dcfd078bcaae7fbd19c6e58a584564a5de",
+        "type": "crates-io"
+      }
+    }
+  }
+}

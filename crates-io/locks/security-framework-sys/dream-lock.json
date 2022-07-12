@@ -1,0 +1,51 @@
+{
+  "_generic": {
+    "defaultPackage": "security-framework-sys",
+    "invalidationHash": "e782c05fab17948de7ebf995cd6942fa4e21c1b8a13fd490ac3f705c8c978dba",
+    "location": "",
+    "packages": {
+      "security-framework-sys": "2.6.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "security-framework-sys": {
+        "2.6.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "security-framework-sys": {
+      "2.6.1": [
+        [ "core-foundation-sys", "0.8.3" ],
+        [ "libc", "0.2.126" ]
+      ]
+    }
+  },
+  "sources": {
+    "core-foundation-sys": {
+      "0.8.3": {
+        "hash": "5827cebf4670468b8772dd191856768aedcb1b0278a04f989f7766351917b9dc",
+        "type": "crates-io"
+      }
+    },
+    "libc": {
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+        "type": "crates-io"
+      }
+    },
+    "security-framework-sys": {
+      "2.6.1": {
+        "hash": "sha256-AWChOhd6Rb+0POccAVgJmEdPVWrYVNy8qTbdKEGlxVY=",
+        "pname": "security-framework-sys",
+        "type": "crates-io",
+        "version": "2.6.1"
+      }
+    }
+  }
+}

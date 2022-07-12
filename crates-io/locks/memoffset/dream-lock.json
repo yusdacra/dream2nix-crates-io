@@ -1,0 +1,51 @@
+{
+  "_generic": {
+    "defaultPackage": "memoffset",
+    "invalidationHash": "8c3f90e2559ca8ba45d07b24fc79a9ab225b2c1b02f3df4759b99da4432a5b8d",
+    "location": "",
+    "packages": {
+      "memoffset": "0.6.5"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "memoffset": {
+        "0.6.5": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "memoffset": {
+      "0.6.5": [
+        [ "autocfg", "1.1.0" ],
+        [ "doc-comment", "0.3.3" ]
+      ]
+    }
+  },
+  "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "doc-comment": {
+      "0.3.3": {
+        "hash": "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10",
+        "type": "crates-io"
+      }
+    },
+    "memoffset": {
+      "0.6.5": {
+        "hash": "sha256-WqNh1Prqk2AwZKAnQV8HvY4dXIjJ+/aL9WooVCj9ec4=",
+        "pname": "memoffset",
+        "type": "crates-io",
+        "version": "0.6.5"
+      }
+    }
+  }
+}

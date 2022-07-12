@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "heck",
+    "invalidationHash": "3e9b642cdcc07602051e768b27166c1b02b68962bcefeb796e9dc1027778cefe",
+    "location": "",
+    "packages": {
+      "heck": "0.4.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "heck": {
+        "0.4.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "heck": {
+      "0.4.0": [
+        [ "unicode-segmentation", "1.9.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "heck": {
+      "0.4.0": {
+        "hash": "sha256-JUB3HmX8jLg81uiiN/cMMZvVwp947RCEul1Q7qyG9/k=",
+        "pname": "heck",
+        "type": "crates-io",
+        "version": "0.4.0"
+      }
+    },
+    "unicode-segmentation": {
+      "1.9.0": {
+        "hash": "7e8820f5d777f6224dc4be3632222971ac30164d4a258d595640799554ebfd99",
+        "type": "crates-io"
+      }
+    }
+  }
+}

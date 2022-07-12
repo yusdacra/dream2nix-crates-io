@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "fallible-iterator",
+    "invalidationHash": "988a8458c6ab526e0ef78de3b02d68abca2ef906d14058864dc883e0552f915f",
+    "location": "",
+    "packages": {
+      "fallible-iterator": "0.2.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "fallible-iterator": {
+        "0.2.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "fallible-iterator": {
+      "0.2.0": {
+        "hash": "sha256-REMXap8sFiaSvT01LXRe+UE+7FeCqA2P1vihrGkqB/c=",
+        "pname": "fallible-iterator",
+        "type": "crates-io",
+        "version": "0.2.0"
+      }
+    }
+  }
+}
