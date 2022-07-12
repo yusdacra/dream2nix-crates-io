@@ -9,8 +9,9 @@
     };
   };
 
-  outputs = inp:
-    inp.dream2nix.lib.makeFlakeOutputsForIndexes {
+  outputs = inp: let
+    l = inp.nixpkgs.lib // builtins;
+    outputs = inp.dream2nix.lib.makeFlakeOutputsForIndexes {
       source = ./.;
       systems = ["x86_64-linux"];
       indexNames = ["crates-io"];
@@ -32,5 +33,23 @@
             };
           };
       };
+    };
+  in
+    outputs
+    // {
+      hydraJobs =
+        l.foldl'
+        l.recursiveUpdate
+        {}
+        (
+          l.mapAttrsToList
+          (
+            system: packages:
+              l.mapAttrs
+              (name: package: {${system} = package;})
+              packages
+          )
+          outputs.packages
+        );
     };
 }
