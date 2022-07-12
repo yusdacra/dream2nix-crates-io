@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "md5",
+    "invalidationHash": "fc499b6f1c0f754b44fc94ad73ae264a2883c42b1a5cd5622c75d7c37ccfdbc7",
+    "location": "",
+    "packages": {
+      "md5": "0.7.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "md5": {
+        "0.7.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "md5": {
+      "0.7.0": {
+        "hash": "sha256-SQzESAQ/lHuuPL7pwgM1jWLb7g2xIQenS+XDDM/Ql3E=",
+        "pname": "md5",
+        "type": "crates-io",
+        "version": "0.7.0"
+      }
+    }
+  }
+}

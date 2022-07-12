@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "traitobject",
+    "invalidationHash": "ca5af9a36d84b427f2e5372a8e41bf0ddb33ef4c4a7c20141f76ab11d047703d",
+    "location": "",
+    "packages": {
+      "traitobject": "0.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "traitobject": {
+        "0.1.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "traitobject": {
+      "0.1.0": {
+        "hash": "sha256-79H4LFY0D98W8qlT172k+P3/uhPZOwCETCVXIRCyYHk=",
+        "pname": "traitobject",
+        "type": "crates-io",
+        "version": "0.1.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "scopeguard",
+    "invalidationHash": "b702f3d9678592aa47cae6963489d789dbfcd422c287191f57b15979185a7242",
+    "location": "",
+    "packages": {
+      "scopeguard": "1.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "scopeguard": {
+        "1.1.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "scopeguard": {
+      "1.1.0": {
+        "hash": "sha256-0pqwxtP8Dukv5m4tmfcA6rF6jVfRwdO3SDgPsguqeM0=",
+        "pname": "scopeguard",
+        "type": "crates-io",
+        "version": "1.1.0"
+      }
+    }
+  }
+}

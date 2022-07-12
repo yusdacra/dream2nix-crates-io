@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "ucd-util",
+    "invalidationHash": "41182208daf16a0be22d27f363f064c6f1f3c783ec1dda70e16a09399f64eaa0",
+    "location": "",
+    "packages": {
+      "ucd-util": "0.1.9"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "ucd-util": {
+        "0.1.9": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "ucd-util": {
+      "0.1.9": {
+        "hash": "sha256-Zb/L9hGxIvLBDrG7YXL7xMLiXfmXAzDk11zitSAcm/w=",
+        "pname": "ucd-util",
+        "type": "crates-io",
+        "version": "0.1.9"
+      }
+    }
+  }
+}

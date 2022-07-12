@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "pin-utils",
+    "invalidationHash": "a264dfaf96a6600d079cb54551a84fa689050bfc284ff02ba261a85616ebd48f",
+    "location": "",
+    "packages": {
+      "pin-utils": "0.1.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "pin-utils": {
+        "0.1.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "pin-utils": {
+      "0.1.0": {
+        "hash": "sha256-i4cNjBUbby+5PoShMUYTjwXQLtEcfnxU+IJqqvfJ8YQ=",
+        "pname": "pin-utils",
+        "type": "crates-io",
+        "version": "0.1.0"
+      }
+    }
+  }
+}

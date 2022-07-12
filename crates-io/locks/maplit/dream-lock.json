@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "maplit",
+    "invalidationHash": "8d03e99b8b069b0ec8cb7f2c0c0c93587fc7199d99270b604f327174e558d3ae",
+    "location": "",
+    "packages": {
+      "maplit": "1.0.2"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "maplit": {
+        "1.0.2": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "maplit": {
+      "1.0.2": {
+        "hash": "sha256-Pi5loaLkPPy0eolcTIsQ0fSmEJf58lTxg67mDK2cZR0=",
+        "pname": "maplit",
+        "type": "crates-io",
+        "version": "1.0.2"
+      }
+    }
+  }
+}

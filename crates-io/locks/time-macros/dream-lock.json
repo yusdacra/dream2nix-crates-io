@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "time-macros",
+    "invalidationHash": "b1c199f7fec514cc043c1565bd36aab06b51e5ff9211cdb09d0802a03f542c9f",
+    "location": "",
+    "packages": {
+      "time-macros": "0.2.4"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "time-macros": {
+        "0.2.4": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "time-macros": {
+      "0.2.4": {
+        "hash": "sha256-QmV7Gm9NgXzajnoKziYf4MyUbPOoAxQ5CyLMYa4IB5I=",
+        "pname": "time-macros",
+        "type": "crates-io",
+        "version": "0.2.4"
+      }
+    }
+  }
+}

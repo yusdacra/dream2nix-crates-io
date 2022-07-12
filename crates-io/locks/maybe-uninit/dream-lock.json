@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "maybe-uninit",
+    "invalidationHash": "4fedb43f4c00984114f6a62856e4f05bb0a3f141d6210473236b8ddfc822ea3e",
+    "location": "",
+    "packages": {
+      "maybe-uninit": "2.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "maybe-uninit": {
+        "2.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "maybe-uninit": {
+      "2.0.0": {
+        "hash": "sha256-YDAuTbOmHacMDLeZGXYkg2LzAxnoiFDEh7m5W78FngA=",
+        "pname": "maybe-uninit",
+        "type": "crates-io",
+        "version": "2.0.0"
+      }
+    }
+  }
+}

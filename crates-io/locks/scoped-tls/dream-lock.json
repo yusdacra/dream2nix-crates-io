@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "scoped-tls",
+    "invalidationHash": "6527a8cf4e550113e1e8d2fc874af55bd90feb7bc78613679f1d03536d2ae6dc",
+    "location": "",
+    "packages": {
+      "scoped-tls": "1.0.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "scoped-tls": {
+        "1.0.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "scoped-tls": {
+      "1.0.0": {
+        "hash": "sha256-6mqSkOPJzw8YFF73/6YtaO4L9fzWUQF+WG3H/V2kSMI=",
+        "pname": "scoped-tls",
+        "type": "crates-io",
+        "version": "1.0.0"
+      }
+    }
+  }
+}

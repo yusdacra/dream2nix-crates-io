@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "fnv",
+    "invalidationHash": "a5ac2985a1a85806c5132c547e9f63b9520753e03a7e2b784d1f182eaef35139",
+    "location": "",
+    "packages": {
+      "fnv": "1.0.7"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "fnv": {
+        "1.0.7": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "fnv": {
+      "1.0.7": {
+        "hash": "sha256-P57skY0/JAad7LmvFVTK18iA4tokqa/YisoABTGrgsE=",
+        "pname": "fnv",
+        "type": "crates-io",
+        "version": "1.0.7"
+      }
+    }
+  }
+}

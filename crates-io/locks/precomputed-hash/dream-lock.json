@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "precomputed-hash",
+    "invalidationHash": "29c302d620dcd4aabb77593313c85b453997755c5c733dfb6b12660b418dca01",
+    "location": "",
+    "packages": {
+      "precomputed-hash": "0.1.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "precomputed-hash": {
+        "0.1.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "precomputed-hash": {
+      "0.1.1": {
+        "hash": "sha256-klOD76NGcwR4+0g42+kTfSpHZ1rXicVG0VCm4d1Ksxw=",
+        "pname": "precomputed-hash",
+        "type": "crates-io",
+        "version": "0.1.1"
+      }
+    }
+  }
+}

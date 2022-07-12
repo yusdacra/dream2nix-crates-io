@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "foreign-types-shared",
+    "invalidationHash": "67315ff9a51273f0e8e90265db52178137d6b71eccf7af27ad31262357c6d14d",
+    "location": "",
+    "packages": {
+      "foreign-types-shared": "0.3.1"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "foreign-types-shared": {
+        "0.3.1": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "foreign-types-shared": {
+      "0.3.1": {
+        "hash": "sha256-qpoZy7Vd9Ydh30myNRaobUMoOa3Ur2D8JW2oQPZu01s=",
+        "pname": "foreign-types-shared",
+        "type": "crates-io",
+        "version": "0.3.1"
+      }
+    }
+  }
+}
