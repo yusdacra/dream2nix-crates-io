@@ -23,7 +23,7 @@ jobs:
         name: dream2nix-crates-io
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
     - name: Index 500 most downloaded packages
-      run: nix run .#index-top-500-downloads
+      run: nix run .#index-crates-io-top-500-downloads
     - name: Translate locks
       continue-on-error: true
       run: JOBS=20 nix run .#translate
