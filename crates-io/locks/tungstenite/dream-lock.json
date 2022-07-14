@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tungstenite",
-    "invalidationHash": "e9065f5a1869feb99c93deb97a029ba7de4794589bf6500f3c92bd8dbade2282",
+    "invalidationHash": "fa9c2efa14b5f4abe2280a25df227f262b77af9d8adf149e00a63ec242057208",
     "location": "",
     "packages": {
-      "tungstenite": "0.17.2"
+      "tungstenite": "0.17.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "tungstenite": {
-        "0.17.2": {}
+        "0.17.3": {}
       }
     }
   },
@@ -516,7 +516,7 @@
       ]
     },
     "tungstenite": {
-      "0.17.2": [
+      "0.17.3": [
         [ "base64", "0.13.0" ],
         [ "byteorder", "1.4.3" ],
         [ "bytes", "1.1.0" ],
@@ -1284,11 +1284,11 @@
       }
     },
     "tungstenite": {
-      "0.17.2": {
-        "hash": "sha256-2Wot6kDnVwSC8o61evvkLZdVGQXaapQArMXDKNJABPU=",
+      "0.17.3": {
+        "hash": "sha256-4nmS/WqMKe5+7yj8eDSaokQTThCtRHzjufCsDtD6TOA=",
         "pname": "tungstenite",
         "type": "crates-io",
-        "version": "0.17.2"
+        "version": "0.17.3"
       }
     },
     "typenum": {

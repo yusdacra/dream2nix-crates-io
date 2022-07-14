@@ -48,7 +48,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "3.0.5" ],
-        [ "@types/node", "18.0.3" ]
+        [ "@types/node", "18.0.4" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -238,9 +238,9 @@
       ]
     },
     "browserslist": {
-      "4.21.1": [
+      "4.21.2": [
         [ "caniuse-lite", "1.0.30001366" ],
-        [ "electron-to-chromium", "1.4.187" ],
+        [ "electron-to-chromium", "1.4.189" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.4" ]
       ]
@@ -302,7 +302,7 @@
       ]
     },
     "clean-css": {
-      "5.3.0": [
+      "5.3.1": [
         [ "source-map", "0.6.1" ]
       ]
     },
@@ -713,12 +713,12 @@
     "html-minifier-terser": {
       "6.1.0": [
         [ "camel-case", "4.1.2" ],
-        [ "clean-css", "5.3.0" ],
+        [ "clean-css", "5.3.1" ],
         [ "commander", "8.3.0" ],
         [ "he", "1.2.0" ],
         [ "param-case", "3.0.4" ],
         [ "relateurl", "0.2.7" ],
-        [ "terser", "5.14.1" ]
+        [ "terser", "5.14.2" ]
       ]
     },
     "html-webpack-plugin": {
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.0.3" ],
+        [ "@types/node", "18.0.4" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1413,7 +1413,7 @@
       ]
     },
     "terser": {
-      "5.14.1": [
+      "5.14.2": [
         [ "@jridgewell/source-map", "0.3.2" ],
         [ "acorn", "8.7.1" ],
         [ "commander", "2.20.3" ],
@@ -1426,7 +1426,7 @@
         [ "jest-worker", "27.5.1" ],
         [ "schema-utils", "3.1.1" ],
         [ "serialize-javascript", "6.0.0" ],
-        [ "terser", "5.14.1" ]
+        [ "terser", "5.14.2" ]
       ]
     },
     "to-object-path": {
@@ -1511,7 +1511,7 @@
         [ "@webassemblyjs/wasm-parser", "1.11.1" ],
         [ "acorn", "8.7.1" ],
         [ "acorn-import-assertions", "1.8.0" ],
-        [ "browserslist", "4.21.1" ],
+        [ "browserslist", "4.21.2" ],
         [ "chrome-trace-event", "1.0.3" ],
         [ "enhanced-resolve", "5.10.0" ],
         [ "es-module-lexer", "0.9.3" ],
@@ -1752,10 +1752,10 @@
       }
     },
     "@types/node": {
-      "18.0.3": {
-        "hash": "sha512-HzNRZtp4eepNitP+BD6k2L6DROIDG4Q0fm4x+dwfsr6LGmROENnok75VGw40628xf+iR24WeMFcHuuBDUAzzsQ==",
+      "18.0.4": {
+        "hash": "sha512-M0+G6V0Y4YV8cqzHssZpaNCqvYwlCiulmm0PwpNLF55r/+cT8Ol42CHRU1SEaYFH2rTwiiE1aYg/2g2rrtGdPA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.0.3.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.0.4.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2152,10 +2152,10 @@
       }
     },
     "browserslist": {
-      "4.21.1": {
-        "hash": "sha512-Nq8MFCSrnJXSc88yliwlzQe3qNe3VntIjhsArW9IJOEPSHNx23FalwApUVbzAWABLhYJJ7y8AynWI/XM8OdfjQ==",
+      "4.21.2": {
+        "hash": "sha512-MonuOgAtUB46uP5CezYbRaYKBNt2LxP0yX+Pmj4LkcDFGkn9Cbpi83d9sCjwQDErXsIJSzY5oKGDbgOlF/LPAA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.1.tgz"
+        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.2.tgz"
       }
     },
     "buffer-from": {
@@ -2248,10 +2248,10 @@
       }
     },
     "clean-css": {
-      "5.3.0": {
-        "hash": "sha512-YYuuxv4H/iNb1Z/5IbMRoxgrzjWGhOEFfd+groZ5dMCVkpENiMZmwspdrzBo9286JjM1gZJPAyL7ZIdzuvu2AQ==",
+      "5.3.1": {
+        "hash": "sha512-lCr8OHhiWCTw4v8POJovCoh4T7I9U11yVsPjMWWnnMmp9ZowCxyad1Pathle/9HjaDp+fdQKjO9fQydE6RHTZg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/clean-css/-/clean-css-5.3.0.tgz"
+        "url": "https://registry.npmjs.org/clean-css/-/clean-css-5.3.1.tgz"
       }
     },
     "cliui": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.187": {
-        "hash": "sha512-t3iFLHVIMhB8jGZ+8ui951nz6Bna5qKfhxezG3wzXdBJ79qFKPsE2chjjVFNqC1ewhfrPQrw9pmVeo4FFpZeQA==",
+      "1.4.189": {
+        "hash": "sha512-dQ6Zn4ll2NofGtxPXaDfY2laIa6NyCQdqXYHdwH90GJQW0LpJJib0ZU/ERtbb0XkBEmUD2eJtagbOie3pdMiPg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.187.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.189.tgz"
       }
     },
     "emoji-regex": {
@@ -4580,10 +4580,10 @@
       }
     },
     "terser": {
-      "5.14.1": {
-        "hash": "sha512-+ahUAE+iheqBTDxXhTisdA8hgvbEG1hHOQ9xmNjeUJSoi6DU/gMrKNcfZjHkyY6Alnuyc+ikYJaxxfHkT3+WuQ==",
+      "5.14.2": {
+        "hash": "sha512-oL0rGeM/WFQCUd0y2QrWxYnq7tfSuKBiqTjRPWrRgB46WD/kiwHwF8T23z78H6Q6kGCuuHcPB+KULHRdxvVGQA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/terser/-/terser-5.14.1.tgz"
+        "url": "https://registry.npmjs.org/terser/-/terser-5.14.2.tgz"
       }
     },
     "terser-webpack-plugin": {

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tokio",
-    "invalidationHash": "3351044699f230907263c4abce4784da5d3acbd751a2d49698bdbd3759558981",
+    "invalidationHash": "7ebdb43b7b67818c046194801cc404cd67601bb226bbf7c34477c301f5139dfc",
     "location": "",
     "packages": {
-      "tokio": "1.19.2"
+      "tokio": "1.20.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,19 +13,19 @@
     "gitSources": [],
     "relPathReplacements": {
       "tokio": {
-        "1.19.2": {}
+        "1.20.0": {}
       }
     }
   },
   "cyclicDependencies": {
     "tokio-stream": {
       "0.1.9": [
-        [ "tokio", "1.19.2" ]
+        [ "tokio", "1.20.0" ]
       ]
     },
     "tokio-test": {
       "0.4.2": [
-        [ "tokio", "1.19.2" ]
+        [ "tokio", "1.20.0" ]
       ]
     }
   },
@@ -432,8 +432,9 @@
       ]
     },
     "tokio": {
-      "1.19.2": [
+      "1.20.0": [
         [ "async-stream", "0.3.3" ],
+        [ "autocfg", "1.1.0" ],
         [ "bytes", "1.1.0" ],
         [ "futures", "0.3.21" ],
         [ "libc", "0.2.126" ],
@@ -472,7 +473,7 @@
       "0.1.9": [
         [ "futures-core", "0.3.21" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.19.2" ]
+        [ "tokio", "1.20.0" ]
       ]
     },
     "tokio-test": {
@@ -480,7 +481,7 @@
         [ "async-stream", "0.3.3" ],
         [ "bytes", "1.1.0" ],
         [ "futures-core", "0.3.21" ],
-        [ "tokio", "1.19.2" ],
+        [ "tokio", "1.20.0" ],
         [ "tokio-stream", "0.1.9" ]
       ]
     },
@@ -1187,11 +1188,11 @@
       }
     },
     "tokio": {
-      "1.19.2": {
-        "hash": "sha256-xRpS7WaG3WLDIPm4kpnp37Rvcwx6SOY1wZ8h0RbLFDk=",
+      "1.20.0": {
+        "hash": "sha256-V67Dz6TClttyVURu+0kopr4wS0MagGIWEFVCpntsqC4=",
         "pname": "tokio",
         "type": "crates-io",
-        "version": "1.19.2"
+        "version": "1.20.0"
       }
     },
     "tokio-macros": {

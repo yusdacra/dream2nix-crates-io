@@ -323,7 +323,8 @@
       ]
     },
     "tokio": {
-      "1.19.2": [
+      "1.20.0": [
+        [ "autocfg", "1.1.0" ],
         [ "once_cell", "1.13.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio-macros", "1.8.0" ]
@@ -393,7 +394,7 @@
         [ "smallvec", "1.9.0" ],
         [ "thread_local", "1.1.4" ],
         [ "time", "0.3.11" ],
-        [ "tokio", "1.19.2" ],
+        [ "tokio", "1.20.0" ],
         [ "tracing", "0.1.35" ],
         [ "tracing-core", "0.1.28" ],
         [ "tracing-futures", "0.2.5" ],
@@ -893,8 +894,8 @@
       }
     },
     "tokio": {
-      "1.19.2": {
-        "hash": "c51a52ed6686dd62c320f9b89299e9dfb46f730c7a48e635c19f21d116cb1439",
+      "1.20.0": {
+        "hash": "57aec3cfa4c296db7255446efb4928a6be304b431a806216105542a67b6ca82e",
         "type": "crates-io"
       }
     },

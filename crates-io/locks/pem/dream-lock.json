@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "pem",
-    "invalidationHash": "e4da56d2a045f2189686a010c30adbc797c6697413b38df1dfeb952389cf6437",
+    "invalidationHash": "7412e19be732d01fb57927beea834730e49602d4587255e0eb94354dc42847d1",
     "location": "",
     "packages": {
-      "pem": "1.0.2"
+      "pem": "1.1.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "pem": {
-        "1.0.2": {}
+        "1.1.0": {}
       }
     }
   },
@@ -154,9 +154,11 @@
       ]
     },
     "pem": {
-      "1.0.2": [
+      "1.1.0": [
         [ "base64", "0.13.0" ],
-        [ "criterion", "0.3.6" ]
+        [ "criterion", "0.3.6" ],
+        [ "serde", "1.0.139" ],
+        [ "serde_json", "1.0.82" ]
       ]
     },
     "plotters": {
@@ -212,6 +214,11 @@
     "same-file": {
       "1.0.6": [
         [ "winapi-util", "0.1.5" ]
+      ]
+    },
+    "serde": {
+      "1.0.139": [
+        [ "serde_derive", "1.0.139" ]
       ]
     },
     "serde_cbor": {
@@ -511,11 +518,11 @@
       }
     },
     "pem": {
-      "1.0.2": {
-        "hash": "sha256-6aOwmiDjdFWFgKSRTTt9ib1huVSlpeHcvqmHU63bGUc=",
+      "1.1.0": {
+        "hash": "sha256-A8ZJMaGiEjSOxPO0NiWF7KcVnQ0Jy99Kf3TwIXNZb9Q=",
         "pname": "pem",
         "type": "crates-io",
-        "version": "1.0.2"
+        "version": "1.1.0"
       }
     },
     "plotters": {
