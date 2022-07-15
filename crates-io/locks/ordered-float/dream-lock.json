@@ -153,7 +153,7 @@
     },
     "schemars": {
       "0.8.10": [
-        [ "dyn-clone", "1.0.6" ],
+        [ "dyn-clone", "1.0.7" ],
         [ "schemars_derive", "0.8.10" ],
         [ "serde", "1.0.139" ],
         [ "serde_json", "1.0.82" ]
@@ -271,8 +271,8 @@
       }
     },
     "dyn-clone": {
-      "1.0.6": {
-        "hash": "140206b78fb2bc3edbcfc9b5ccbd0b30699cfe8d348b8b31b330e47df5291a5a",
+      "1.0.7": {
+        "hash": "435217f1b2d06f00513185fb991cd426271d9e4c3a9d9b25b919b8e5a03b282d",
         "type": "crates-io"
       }
     },

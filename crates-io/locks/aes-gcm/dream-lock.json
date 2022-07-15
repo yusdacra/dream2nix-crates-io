@@ -128,7 +128,7 @@
         [ "atomic-polyfill", "0.1.8" ],
         [ "hash32", "0.2.1" ],
         [ "rustc_version", "0.4.0" ],
-        [ "spin", "0.9.3" ],
+        [ "spin", "0.9.4" ],
         [ "stable_deref_trait", "1.2.0" ]
       ]
     },
@@ -190,7 +190,7 @@
       ]
     },
     "spin": {
-      "0.9.3": [
+      "0.9.4": [
         [ "lock_api", "0.4.7" ]
       ]
     },
@@ -466,8 +466,8 @@
       }
     },
     "spin": {
-      "0.9.3": {
-        "hash": "c530c2b0d0bf8b69304b39fe2001993e267461948b890cd037d8ad4293fa1a0d",
+      "0.9.4": {
+        "hash": "7f6002a767bff9e83f8eeecf883ecb8011875a21ae8da43bffb817a57e78cc09",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "spin",
-    "invalidationHash": "ec31b6bd0b3a63dffd4d442b96b4ab465fac2b8e9d6b714496cbef93aa1646d2",
+    "invalidationHash": "1825d1e8161d1469823b924639fb0f3854aa32a6df9c48dfda58f9d73c5a9b6b",
     "location": "",
     "packages": {
-      "spin": "0.9.3"
+      "spin": "0.9.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "spin": {
-        "0.9.3": {}
+        "0.9.4": {}
       }
     }
   },
@@ -25,8 +25,9 @@
       ]
     },
     "spin": {
-      "0.9.3": [
-        [ "lock_api", "0.4.1" ]
+      "0.9.4": [
+        [ "lock_api", "0.4.1" ],
+        [ "portable-atomic", "0.3.4" ]
       ]
     }
   },
@@ -37,6 +38,12 @@
         "type": "crates-io"
       }
     },
+    "portable-atomic": {
+      "0.3.4": {
+        "hash": "763095e04dcbeb889b2ab35296ecb18a20fe16b4e9877ce64aab73d8fd05a8c3",
+        "type": "crates-io"
+      }
+    },
     "scopeguard": {
       "1.1.0": {
         "hash": "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd",
@@ -44,11 +51,11 @@
       }
     },
     "spin": {
-      "0.9.3": {
-        "hash": "sha256-xTDCsNC/i2kwSzn+IAGZPiZ0YZSLiQzQN9itQpP6Gg0=",
+      "0.9.4": {
+        "hash": "sha256-f2ACp2e/+eg/ju7PiD7LgBGHWiGujaQ7/7gXpX54zAk=",
         "pname": "spin",
         "type": "crates-io",
-        "version": "0.9.3"
+        "version": "0.9.4"
       }
     }
   }

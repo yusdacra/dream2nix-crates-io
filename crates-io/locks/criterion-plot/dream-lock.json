@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "criterion-plot",
-    "invalidationHash": "1d32af5246558728921c6f79531dce8cc62dd264369c6b95e3a2e239194dbc8a",
+    "invalidationHash": "d799d8ecd54f67598db724777a0acbad57fd4577a33c1edbeb4a109da887d598",
     "location": "",
     "packages": {
-      "criterion-plot": "0.4.4"
+      "criterion-plot": "0.4.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,24 +13,26 @@
     "gitSources": [],
     "relPathReplacements": {
       "criterion-plot": {
-        "0.4.4": {}
+        "0.4.5": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "cast": {
-      "0.2.7": [
-        [ "rustc_version", "0.4.0" ]
-      ]
-    },
     "criterion-plot": {
-      "0.4.4": [
-        [ "cast", "0.2.7" ],
+      "0.4.5": [
+        [ "cast", "0.3.0" ],
         [ "itertools", "0.10.3" ],
         [ "itertools-num", "0.1.3" ],
-        [ "num-complex", "0.2.4" ],
-        [ "rand", "0.4.6" ]
+        [ "num-complex", "0.4.2" ],
+        [ "rand", "0.8.5" ]
+      ]
+    },
+    "getrandom": {
+      "0.2.7": [
+        [ "cfg-if", "1.0.0" ],
+        [ "libc", "0.2.126" ],
+        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
     "itertools": {
@@ -44,8 +46,7 @@
       ]
     },
     "num-complex": {
-      "0.2.4": [
-        [ "autocfg", "1.1.0" ],
+      "0.4.2": [
         [ "num-traits", "0.2.15" ]
       ]
     },
@@ -55,33 +56,21 @@
       ]
     },
     "rand": {
-      "0.4.6": [
-        [ "fuchsia-cprng", "0.1.1" ],
+      "0.8.5": [
         [ "libc", "0.2.126" ],
-        [ "rand_core", "0.3.1" ],
-        [ "rdrand", "0.4.0" ],
-        [ "winapi", "0.3.9" ]
+        [ "rand_chacha", "0.3.1" ],
+        [ "rand_core", "0.6.3" ]
+      ]
+    },
+    "rand_chacha": {
+      "0.3.1": [
+        [ "ppv-lite86", "0.2.16" ],
+        [ "rand_core", "0.6.3" ]
       ]
     },
     "rand_core": {
-      "0.3.1": [
-        [ "rand_core", "0.4.2" ]
-      ]
-    },
-    "rdrand": {
-      "0.4.0": [
-        [ "rand_core", "0.3.1" ]
-      ]
-    },
-    "rustc_version": {
-      "0.4.0": [
-        [ "semver", "1.0.12" ]
-      ]
-    },
-    "winapi": {
-      "0.3.9": [
-        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
-        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      "0.6.3": [
+        [ "getrandom", "0.2.7" ]
       ]
     }
   },
@@ -93,17 +82,23 @@
       }
     },
     "cast": {
-      "0.2.7": {
-        "hash": "4c24dab4283a142afa2fdca129b80ad2c6284e073930f964c3a1293c225ee39a",
+      "0.3.0": {
+        "hash": "37b2a672a2cb129a2e41c10b1224bb368f9f37a2b16b612598138befd7b37eb5",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
         "type": "crates-io"
       }
     },
     "criterion-plot": {
-      "0.4.4": {
-        "hash": "sha256-0AmW3p8vdVn39NwoYHMZf4PpIlalntOV+arAH+cX2lc=",
+      "0.4.5": {
+        "hash": "sha256-JnPMggdANUb0X1/TGal0seaYOtGj7n5gQWUAE74EGHY=",
         "pname": "criterion-plot",
         "type": "crates-io",
-        "version": "0.4.4"
+        "version": "0.4.5"
       }
     },
     "either": {
@@ -112,9 +107,9 @@
         "type": "crates-io"
       }
     },
-    "fuchsia-cprng": {
-      "0.1.1": {
-        "hash": "a06f77d526c1a601b7c4cdd98f54b5eaabffc14d5f2f0296febdc7f357c6d3ba",
+    "getrandom": {
+      "0.2.7": {
+        "hash": "4eb1a864a501629691edf6c15a593b7a51eebaa1e8468e9ddc623de7c9b58ec6",
         "type": "crates-io"
       }
     },
@@ -137,8 +132,8 @@
       }
     },
     "num-complex": {
-      "0.2.4": {
-        "hash": "b6b19411a9719e753aff12e5187b74d60d3dc449ec3f4dc21e3989c3f554bc95",
+      "0.4.2": {
+        "hash": "7ae39348c8bc5fbd7f40c727a9925f03517afd2ab27d46702108b6a7e5414c19",
         "type": "crates-io"
       }
     },
@@ -148,55 +143,33 @@
         "type": "crates-io"
       }
     },
+    "ppv-lite86": {
+      "0.2.16": {
+        "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
+        "type": "crates-io"
+      }
+    },
     "rand": {
-      "0.4.6": {
-        "hash": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
+      "0.8.5": {
+        "hash": "34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404",
+        "type": "crates-io"
+      }
+    },
+    "rand_chacha": {
+      "0.3.1": {
+        "hash": "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88",
         "type": "crates-io"
       }
     },
     "rand_core": {
-      "0.3.1": {
-        "hash": "7a6fdeb83b075e8266dcc8762c22776f6877a63111121f5f8c7411e5be7eed4b",
-        "type": "crates-io"
-      },
-      "0.4.2": {
-        "hash": "9c33a3c44ca05fa6f1807d8e6743f3824e8509beca625669633be0acbdf509dc",
+      "0.6.3": {
+        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
         "type": "crates-io"
       }
     },
-    "rdrand": {
-      "0.4.0": {
-        "hash": "678054eb77286b51581ba43620cc911abf02758c91f93f479767aed0f90458b2",
-        "type": "crates-io"
-      }
-    },
-    "rustc_version": {
-      "0.4.0": {
-        "hash": "bfa0f585226d2e68097d4f95d113b15b83a82e819ab25717ec0590d9584ef366",
-        "type": "crates-io"
-      }
-    },
-    "semver": {
-      "1.0.12": {
-        "hash": "a2333e6df6d6598f2b1974829f853c2b4c5f4a6e503c10af918081aa6f8564e1",
-        "type": "crates-io"
-      }
-    },
-    "winapi": {
-      "0.3.9": {
-        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
-        "type": "crates-io"
-      }
-    },
-    "winapi-i686-pc-windows-gnu": {
-      "0.4.0": {
-        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
-        "type": "crates-io"
-      }
-    },
-    "winapi-x86_64-pc-windows-gnu": {
-      "0.4.0": {
-        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+    "wasi": {
+      "0.11.0+wasi-snapshot-preview1": {
+        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
         "type": "crates-io"
       }
     }
