@@ -24,7 +24,7 @@
         [ "futures", "0.3.21" ],
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "rustversion", "1.0.7" ],
+        [ "rustversion", "1.0.8" ],
         [ "syn", "1.0.98" ],
         [ "tracing", "0.1.35" ],
         [ "tracing-attributes", "0.1.22" ],
@@ -78,7 +78,7 @@
     },
     "proc-macro2": {
       "1.0.40": [
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
@@ -104,7 +104,7 @@
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "termcolor": {
@@ -285,8 +285,8 @@
       }
     },
     "rustversion": {
-      "1.0.7": {
-        "hash": "a0a5f7c728f5d284929a1cccb5bc19884422bfe6ef4d6c409da2c41838983fcf",
+      "1.0.8": {
+        "hash": "24c8ad4f0c00e1eb5bc7614d236a7f1300e3dbd76b68cac8e06fb00b015ad8d8",
         "type": "crates-io"
       }
     },
@@ -363,8 +363,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.1": {
-        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     },

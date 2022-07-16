@@ -29,7 +29,7 @@
       ]
     },
     "ref-cast-impl": {
-      "1.0.7": [
+      "1.0.8": [
         [ "syn", "1.0.98" ]
       ]
     },
@@ -244,7 +244,7 @@
         [ "once_cell", "1.13.0" ],
         [ "serde", "1.0.139" ],
         [ "serde_json", "1.0.82" ],
-        [ "serde_yaml", "0.8.25" ],
+        [ "serde_yaml", "0.8.26" ],
         [ "similar", "2.1.0" ]
       ]
     },
@@ -330,7 +330,7 @@
     },
     "proc-macro2": {
       "1.0.40": [
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
@@ -360,12 +360,12 @@
       ]
     },
     "ref-cast": {
-      "1.0.7": [
-        [ "ref-cast-impl", "1.0.7" ]
+      "1.0.8": [
+        [ "ref-cast-impl", "1.0.8" ]
       ]
     },
     "ref-cast-impl": {
-      "1.0.7": [
+      "1.0.8": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
@@ -470,7 +470,7 @@
       ]
     },
     "serde_yaml": {
-      "0.8.25": [
+      "0.8.26": [
         [ "indexmap", "1.9.1" ],
         [ "ryu", "1.0.10" ],
         [ "serde", "1.0.139" ],
@@ -492,13 +492,13 @@
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
         [ "rayon", "1.5.3" ],
-        [ "ref-cast", "1.0.7" ],
+        [ "ref-cast", "1.0.8" ],
         [ "regex", "1.6.0" ],
         [ "reqwest", "0.11.11" ],
         [ "syn-test-suite", "0.0.0+test" ],
         [ "tar", "0.4.38" ],
         [ "termcolor", "1.1.3" ],
-        [ "unicode-ident", "1.0.1" ],
+        [ "unicode-ident", "1.0.2" ],
         [ "walkdir", "2.3.2" ]
       ]
     },
@@ -1149,14 +1149,14 @@
       }
     },
     "ref-cast": {
-      "1.0.7": {
-        "hash": "685d58625b6c2b83e4cc88a27c4bf65adb7b6b16dbdc413e515c9405b47432ab",
+      "1.0.8": {
+        "hash": "776c8940430cf563f66a93f9111d1cd39306dc6c68149ecc6b934742a44a828a",
         "type": "crates-io"
       }
     },
     "ref-cast-impl": {
-      "1.0.7": {
-        "hash": "a043824e29c94169374ac5183ac0ed43f5724dc4556b19568007486bd840fa1f",
+      "1.0.8": {
+        "hash": "5f26c4704460286103bff62ea1fb78d137febc86aaf76952e6c5a2249af01f54",
         "type": "crates-io"
       }
     },
@@ -1245,8 +1245,8 @@
       }
     },
     "serde_yaml": {
-      "0.8.25": {
-        "hash": "1ec0091e1f5aa338283ce049bd9dfefd55e1f168ac233e85c1ffe0038fb48cbe",
+      "0.8.26": {
+        "hash": "578a7433b776b56a35785ed5ce9a7e777ac0598aac5a6dd1b4b18a307c7fc71b",
         "type": "crates-io"
       }
     },
@@ -1367,8 +1367,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.1": {
-        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     },

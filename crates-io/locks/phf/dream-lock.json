@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "phf",
-    "invalidationHash": "6c41cf57075645bfe826cbd8681fbe8c7f52597db6103b0775be782ba7946915",
+    "invalidationHash": "fdc6721a45f04dbb17d972de4582c7764566f9f4827bd77744f17df138584e69",
     "location": "",
     "packages": {
-      "phf": "0.10.1"
+      "phf": "0.11.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "phf": {
-        "0.10.1": {}
+        "0.11.0": {}
       }
     }
   },
@@ -27,31 +27,30 @@
       ]
     },
     "phf": {
-      "0.10.1": [
-        [ "phf_macros", "0.10.0" ],
-        [ "phf_shared", "0.10.0" ],
-        [ "proc-macro-hack", "0.5.19" ],
+      "0.11.0": [
+        [ "phf_macros", "0.11.0" ],
+        [ "phf_shared", "0.11.0" ],
         [ "serde", "1.0.139" ]
       ]
     },
     "phf_generator": {
-      "0.10.0": [
-        [ "phf_shared", "0.10.0" ],
+      "0.11.0": [
+        [ "phf_shared", "0.11.0" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "phf_macros": {
-      "0.10.0": [
-        [ "phf_generator", "0.10.0" ],
-        [ "phf_shared", "0.10.0" ],
-        [ "proc-macro-hack", "0.5.19" ],
+      "0.11.0": [
+        [ "phf_generator", "0.11.0" ],
+        [ "phf_shared", "0.11.0" ],
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "syn", "1.0.98" ]
+        [ "syn", "1.0.98" ],
+        [ "unicase", "2.6.0" ]
       ]
     },
     "phf_shared": {
-      "0.10.0": [
+      "0.11.0": [
         [ "siphasher", "0.3.10" ],
         [ "uncased", "0.9.7" ],
         [ "unicase", "2.6.0" ]
@@ -59,7 +58,7 @@
     },
     "proc-macro2": {
       "1.0.40": [
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
@@ -89,7 +88,7 @@
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "uncased": {
@@ -123,40 +122,34 @@
       }
     },
     "phf": {
-      "0.10.1": {
-        "hash": "sha256-+rvx6tilvLwg9fi5Oe4/Ww9vKBtq00aLhGVrZYtFUlk=",
+      "0.11.0": {
+        "hash": "sha256-RyT6lGyNHnzYgb09vuY84y/B6eGR41eGs9wTIKP2gTE=",
         "pname": "phf",
         "type": "crates-io",
-        "version": "0.10.1"
+        "version": "0.11.0"
       }
     },
     "phf_generator": {
-      "0.10.0": {
-        "hash": "5d5285893bb5eb82e6aaf5d59ee909a06a16737a8970984dd7746ba9283498d6",
+      "0.11.0": {
+        "hash": "5b450720b6f75cfbfabc195814bd3765f337a4f9a83186f8537297cac12f6705",
         "type": "crates-io"
       }
     },
     "phf_macros": {
-      "0.10.0": {
-        "hash": "58fdf3184dd560f160dd73922bea2d5cd6e8f064bf4b13110abd81b03697b4e0",
+      "0.11.0": {
+        "hash": "cd94351ac44e70e56b59883e15029a5135f902a8a3020f9c18d580a420e526aa",
         "type": "crates-io"
       }
     },
     "phf_shared": {
-      "0.10.0": {
-        "hash": "b6796ad771acdc0123d2a88dc428b5e38ef24456743ddb1744ed628f9815c096",
+      "0.11.0": {
+        "hash": "9dd5609d4b2df87167f908a32e1b146ce309c16cf35df76bc11f440b756048e4",
         "type": "crates-io"
       }
     },
     "ppv-lite86": {
       "0.2.16": {
         "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
-        "type": "crates-io"
-      }
-    },
-    "proc-macro-hack": {
-      "0.5.19": {
-        "hash": "dbf0c48bc1d91375ae5c3cd81e3722dff1abcf81a30960240640d223f59fe0e5",
         "type": "crates-io"
       }
     },
@@ -221,8 +214,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.1": {
-        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     },

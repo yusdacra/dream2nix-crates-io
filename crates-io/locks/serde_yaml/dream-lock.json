@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "serde_yaml",
-    "invalidationHash": "985235a7fe2acabfab8249f88e06883517eea5d4ee64654526722929c9976867",
+    "invalidationHash": "f34956ae88d714307eb6558bc4994e0124be13b1aa09c4adce2a6440dfa0a487",
     "location": "",
     "packages": {
-      "serde_yaml": "0.8.25"
+      "serde_yaml": "0.8.26"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "serde_yaml": {
-        "0.8.25": {}
+        "0.8.26": {}
       }
     }
   },
@@ -27,7 +27,7 @@
     },
     "proc-macro2": {
       "1.0.40": [
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
@@ -43,7 +43,7 @@
       ]
     },
     "serde_yaml": {
-      "0.8.25": [
+      "0.8.26": [
         [ "anyhow", "1.0.58" ],
         [ "indexmap", "1.9.1" ],
         [ "indoc", "1.0.6" ],
@@ -57,7 +57,7 @@
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "yaml-rust": {
@@ -134,11 +134,11 @@
       }
     },
     "serde_yaml": {
-      "0.8.25": {
-        "hash": "sha256-HsAJHh9aozgoPOBJvZ3+/VXh8WisIz6Fwf/gA4+0jL4=",
+      "0.8.26": {
+        "hash": "sha256-V4p0M7d2tWo1eF7Vzpp+d3rAWYqsWm3RtLGKMHx/xxs=",
         "pname": "serde_yaml",
         "type": "crates-io",
-        "version": "0.8.25"
+        "version": "0.8.26"
       }
     },
     "syn": {
@@ -148,8 +148,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.1": {
-        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "rustversion",
-    "invalidationHash": "45d3e8d99fbe6ed7c87052c065b3220e301c6a280293f82f37a2459ac4c9c019",
+    "invalidationHash": "cd2309bf74a6933ea68e1c668313ec2e6daeee63d52ff7546707d538e46372ce",
     "location": "",
     "packages": {
-      "rustversion": "1.0.7"
+      "rustversion": "1.0.8"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "rustversion": {
-        "1.0.7": {}
+        "1.0.8": {}
       }
     }
   },
@@ -21,7 +21,7 @@
   "dependencies": {
     "proc-macro2": {
       "1.0.40": [
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
@@ -30,7 +30,7 @@
       ]
     },
     "rustversion": {
-      "1.0.7": [
+      "1.0.8": [
         [ "trybuild", "1.0.63" ]
       ]
     },
@@ -52,7 +52,7 @@
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "termcolor": {
@@ -127,11 +127,11 @@
       }
     },
     "rustversion": {
-      "1.0.7": {
-        "hash": "sha256-oKX3xyj10oSSmhzMtbwZiEQiv+bvTWxAnaLEGDiYP88=",
+      "1.0.8": {
+        "hash": "sha256-JMitTwwA4etbx2FNI2p/EwDj29draMrI4G+wCwFa2Ng=",
         "pname": "rustversion",
         "type": "crates-io",
-        "version": "1.0.7"
+        "version": "1.0.8"
       }
     },
     "ryu": {
@@ -183,8 +183,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.1": {
-        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     },

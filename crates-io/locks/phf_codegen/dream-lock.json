@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "phf_codegen",
-    "invalidationHash": "962273420d8aec0e23f5df47cc85377d08499cceb636a7b2907ac72a54c038ac",
+    "invalidationHash": "17153f175d362e8a650ac3c34ffe19450d3e16b3cc1048f40ee7fe0c23c6a11a",
     "location": "",
     "packages": {
-      "phf_codegen": "0.10.0"
+      "phf_codegen": "0.11.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "phf_codegen": {
-        "0.10.0": {}
+        "0.11.0": {}
       }
     }
   },
@@ -27,19 +27,19 @@
       ]
     },
     "phf_codegen": {
-      "0.10.0": [
-        [ "phf_generator", "0.10.0" ],
-        [ "phf_shared", "0.10.0" ]
+      "0.11.0": [
+        [ "phf_generator", "0.11.0" ],
+        [ "phf_shared", "0.11.0" ]
       ]
     },
     "phf_generator": {
-      "0.10.0": [
-        [ "phf_shared", "0.10.0" ],
+      "0.11.0": [
+        [ "phf_shared", "0.11.0" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "phf_shared": {
-      "0.10.0": [
+      "0.11.0": [
         [ "siphasher", "0.3.10" ]
       ]
     },
@@ -82,22 +82,22 @@
       }
     },
     "phf_codegen": {
-      "0.10.0": {
-        "hash": "sha256-T7HDqLxN1OXPzim0T/wUvt0u4pRVmilOKk1MnppqE80=",
+      "0.11.0": {
+        "hash": "sha256-MroMQ9ehtkkrKSSmIpDP2DmHgorwN7B0Ozjmqwkq7lg=",
         "pname": "phf_codegen",
         "type": "crates-io",
-        "version": "0.10.0"
+        "version": "0.11.0"
       }
     },
     "phf_generator": {
-      "0.10.0": {
-        "hash": "5d5285893bb5eb82e6aaf5d59ee909a06a16737a8970984dd7746ba9283498d6",
+      "0.11.0": {
+        "hash": "5b450720b6f75cfbfabc195814bd3765f337a4f9a83186f8537297cac12f6705",
         "type": "crates-io"
       }
     },
     "phf_shared": {
-      "0.10.0": {
-        "hash": "b6796ad771acdc0123d2a88dc428b5e38ef24456743ddb1744ed628f9815c096",
+      "0.11.0": {
+        "hash": "9dd5609d4b2df87167f908a32e1b146ce309c16cf35df76bc11f440b756048e4",
         "type": "crates-io"
       }
     },

@@ -28,7 +28,7 @@
     },
     "proc-macro2": {
       "1.0.40": [
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
@@ -38,7 +38,7 @@
     },
     "schemars": {
       "0.8.10": [
-        [ "dyn-clone", "1.0.7" ],
+        [ "dyn-clone", "1.0.8" ],
         [ "schemars_derive", "0.8.10" ],
         [ "serde", "1.0.139" ],
         [ "serde_json", "1.0.82" ]
@@ -87,14 +87,14 @@
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
-        [ "unicode-ident", "1.0.1" ]
+        [ "unicode-ident", "1.0.2" ]
       ]
     }
   },
   "sources": {
     "dyn-clone": {
-      "1.0.7": {
-        "hash": "435217f1b2d06f00513185fb991cd426271d9e4c3a9d9b25b919b8e5a03b282d",
+      "1.0.8": {
+        "hash": "9d07a982d1fb29db01e5a59b1918e03da4df7297eaeee7686ac45542fd4e59c8",
         "type": "crates-io"
       }
     },
@@ -179,8 +179,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.1": {
-        "hash": "5bd2fe26506023ed7b5e1e315add59d6f584c621d037f9368fea9cfb988f368c",
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     }
