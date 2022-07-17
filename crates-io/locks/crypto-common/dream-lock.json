@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "crypto-common",
-    "invalidationHash": "c6441773bf07cf35724231671466df39fc68ff0fa9b5e13dfe8d00d7b734ec0b",
+    "invalidationHash": "63f2c7ba075046fcc2a78d4b101f881e8624442e9c1c8d920427e55609d886ec",
     "location": "",
     "packages": {
-      "crypto-common": "0.1.5"
+      "crypto-common": "0.1.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "crypto-common": {
-        "0.1.5": {}
+        "0.1.6": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "crypto-common": {
-      "0.1.5": [
+      "0.1.6": [
         [ "generic-array", "0.14.5" ],
         [ "rand_core", "0.6.3" ],
         [ "typenum", "1.15.0" ]
@@ -53,11 +53,11 @@
       }
     },
     "crypto-common": {
-      "0.1.5": {
-        "hash": "sha256-LM/YwO5MzhHkWz/W+dXmngzGKRKqagyxv0YXsOuloS8=",
+      "0.1.6": {
+        "hash": "sha256-G/sSUC8/xGzKG7Uawo351hjYE83D0vJbn+d1o0rya7M=",
         "pname": "crypto-common",
         "type": "crates-io",
-        "version": "0.1.5"
+        "version": "0.1.6"
       }
     },
     "generic-array": {

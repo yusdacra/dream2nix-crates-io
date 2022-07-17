@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "gimli",
-    "invalidationHash": "9280ac991a2b95e6837709c0b20862e45056fc0d736d488ac0bebf97cf78475f",
+    "invalidationHash": "40f9fcc6273f51e62561c27d36516af4d6391e46b9336811c90adc1aef1dffc6",
     "location": "",
     "packages": {
-      "gimli": "0.26.1"
+      "gimli": "0.26.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "gimli": {
-        "0.26.1": {}
+        "0.26.2": {}
       }
     }
   },
@@ -87,15 +87,15 @@
       ]
     },
     "gimli": {
-      "0.26.1": [
+      "0.26.2": [
         [ "compiler_builtins", "0.1.51" ],
         [ "crossbeam", "0.8.1" ],
         [ "fallible-iterator", "0.2.0" ],
         [ "getopts", "0.2.21" ],
         [ "indexmap", "1.7.0" ],
-        [ "memmap", "0.7.0" ],
+        [ "memmap2", "0.5.5" ],
         [ "num_cpus", "1.13.0" ],
-        [ "object", "0.27.1" ],
+        [ "object", "0.29.0" ],
         [ "rayon", "1.5.1" ],
         [ "regex", "1.5.4" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
@@ -116,10 +116,9 @@
         [ "hashbrown", "0.11.2" ]
       ]
     },
-    "memmap": {
-      "0.7.0": [
-        [ "libc", "0.2.105" ],
-        [ "winapi", "0.3.9" ]
+    "memmap2": {
+      "0.5.5": [
+        [ "libc", "0.2.105" ]
       ]
     },
     "memoffset": {
@@ -140,7 +139,7 @@
       ]
     },
     "object": {
-      "0.27.1": [
+      "0.29.0": [
         [ "flate2", "1.0.22" ],
         [ "memchr", "2.4.1" ],
         [ "wasmparser", "0.57.0" ]
@@ -173,12 +172,6 @@
     "test-assembler": {
       "0.1.6": [
         [ "byteorder", "1.4.3" ]
-      ]
-    },
-    "winapi": {
-      "0.3.9": [
-        [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
-        [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
       ]
     }
   },
@@ -286,11 +279,11 @@
       }
     },
     "gimli": {
-      "0.26.1": {
-        "hash": "sha256-eMw3LQWNz21ezZhRDn+8nlrsTSHecPZf6o/s682IG9Q=",
+      "0.26.2": {
+        "hash": "sha256-IgMOLFpo7GWf3h6UmnRRJLSOb6iwRbftW9H+TMxcTl0=",
         "pname": "gimli",
         "type": "crates-io",
-        "version": "0.26.1"
+        "version": "0.26.2"
       }
     },
     "hashbrown": {
@@ -329,9 +322,9 @@
         "type": "crates-io"
       }
     },
-    "memmap": {
-      "0.7.0": {
-        "hash": "6585fd95e7bb50d6cc31e20d4cf9afb4e2ba16c5846fc76793f11218da9c475b",
+    "memmap2": {
+      "0.5.5": {
+        "hash": "3a79b39c93a7a5a27eeaf9a23b5ff43f1b9e0ad6b1cdd441140ae53c35613fc7",
         "type": "crates-io"
       }
     },
@@ -354,8 +347,8 @@
       }
     },
     "object": {
-      "0.27.1": {
-        "hash": "67ac1d3f9a1d3616fd9a60c8d74296f22406a238b6a72f5cc1e6f314df4ffbf9",
+      "0.29.0": {
+        "hash": "21158b2c33aa6d4561f1c0a6ea283ca92bc54802a93b263e910746d679a7eb53",
         "type": "crates-io"
       }
     },
@@ -428,24 +421,6 @@
     "wasmparser": {
       "0.57.0": {
         "hash": "32fddd575d477c6e9702484139cf9f23dcd554b06d185ed0f56c857dd3a47aa6",
-        "type": "crates-io"
-      }
-    },
-    "winapi": {
-      "0.3.9": {
-        "hash": "5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419",
-        "type": "crates-io"
-      }
-    },
-    "winapi-i686-pc-windows-gnu": {
-      "0.4.0": {
-        "hash": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
-        "type": "crates-io"
-      }
-    },
-    "winapi-x86_64-pc-windows-gnu": {
-      "0.4.0": {
-        "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
         "type": "crates-io"
       }
     }
