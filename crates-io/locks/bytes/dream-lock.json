@@ -32,12 +32,12 @@
       ]
     },
     "generator": {
-      "0.7.0": [
+      "0.7.1": [
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.126" ],
         [ "log", "0.4.17" ],
         [ "rustversion", "1.0.8" ],
-        [ "winapi", "0.3.9" ]
+        [ "windows", "0.32.0" ]
       ]
     },
     "log": {
@@ -48,7 +48,7 @@
     "loom": {
       "0.5.6": [
         [ "cfg-if", "1.0.0" ],
-        [ "generator", "0.7.0" ],
+        [ "generator", "0.7.1" ],
         [ "scoped-tls", "1.0.0" ],
         [ "tracing", "0.1.35" ],
         [ "tracing-subscriber", "0.3.14" ]
@@ -148,6 +148,15 @@
         [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
         [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
       ]
+    },
+    "windows": {
+      "0.32.0": [
+        [ "windows_aarch64_msvc", "0.32.0" ],
+        [ "windows_i686_gnu", "0.32.0" ],
+        [ "windows_i686_msvc", "0.32.0" ],
+        [ "windows_x86_64_gnu", "0.32.0" ],
+        [ "windows_x86_64_msvc", "0.32.0" ]
+      ]
     }
   },
   "sources": {
@@ -178,8 +187,8 @@
       }
     },
     "generator": {
-      "0.7.0": {
-        "hash": "c1d9279ca822891c1a4dae06d185612cf8fc6acfe5dff37781b41297811b12ee",
+      "0.7.1": {
+        "hash": "cc184cace1cea8335047a471cc1da80f18acf8a76f3bab2028d499e328948ec7",
         "type": "crates-io"
       }
     },
@@ -360,6 +369,42 @@
     "winapi-x86_64-pc-windows-gnu": {
       "0.4.0": {
         "hash": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+        "type": "crates-io"
+      }
+    },
+    "windows": {
+      "0.32.0": {
+        "hash": "fbedf6db9096bc2364adce0ae0aa636dcd89f3c3f2cd67947062aaf0ca2a10ec",
+        "type": "crates-io"
+      }
+    },
+    "windows_aarch64_msvc": {
+      "0.32.0": {
+        "hash": "d8e92753b1c443191654ec532f14c199742964a061be25d77d7a96f09db20bf5",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_gnu": {
+      "0.32.0": {
+        "hash": "6a711c68811799e017b6038e0922cb27a5e2f43a2ddb609fe0b6f3eeda9de615",
+        "type": "crates-io"
+      }
+    },
+    "windows_i686_msvc": {
+      "0.32.0": {
+        "hash": "146c11bb1a02615db74680b32a68e2d61f553cc24c4eb5b4ca10311740e44172",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_gnu": {
+      "0.32.0": {
+        "hash": "c912b12f7454c6620635bbff3450962753834be2a594819bd5e945af18ec64bc",
+        "type": "crates-io"
+      }
+    },
+    "windows_x86_64_msvc": {
+      "0.32.0": {
+        "hash": "504a2476202769977a040c6364301a3f65d0cc9e3fb08600b2bda150a0488316",
         "type": "crates-io"
       }
     }

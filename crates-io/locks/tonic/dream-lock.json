@@ -188,7 +188,7 @@
     "indexmap": {
       "1.9.1": [
         [ "autocfg", "1.1.0" ],
-        [ "hashbrown", "0.12.2" ]
+        [ "hashbrown", "0.12.3" ]
       ]
     },
     "itertools": {
@@ -779,8 +779,8 @@
       }
     },
     "hashbrown": {
-      "0.12.2": {
-        "hash": "607c8a29735385251a339424dd462993c0fed8fa09d378f259377df08c126022",
+      "0.12.3": {
+        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "hashbrown",
-    "invalidationHash": "04b6bb381a15e04cf707fad804f0da6bc3790e7ea7e127c700e17afeda9ddbe8",
+    "invalidationHash": "894933b35aeb8ded3a3b06a3d022c3b5b850fab483d912e3d0fb93eaed856c60",
     "location": "",
     "packages": {
-      "hashbrown": "0.12.2"
+      "hashbrown": "0.12.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "hashbrown": {
-        "0.12.2": {}
+        "0.12.3": {}
       }
     }
   },
@@ -78,7 +78,7 @@
       ]
     },
     "hashbrown": {
-      "0.12.2": [
+      "0.12.3": [
         [ "ahash", "0.7.6" ],
         [ "bumpalo", "3.10.0" ],
         [ "compiler_builtins", "0.1.75" ],
@@ -252,11 +252,11 @@
       }
     },
     "hashbrown": {
-      "0.12.2": {
-        "hash": "sha256-YHyKKXNThSUaM5Qk3UYpk8D+2PoJ03jyWTd98IwSYCI=",
+      "0.12.3": {
+        "hash": "sha256-ip7nDEOq9BfJFDlmRaD6hSYkgBsk67eueP6CcoiayIg=",
         "pname": "hashbrown",
         "type": "crates-io",
-        "version": "0.12.2"
+        "version": "0.12.3"
       }
     },
     "hermit-abi": {

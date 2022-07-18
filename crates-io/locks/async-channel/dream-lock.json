@@ -28,7 +28,7 @@
     "async-channel": {
       "1.6.1": [
         [ "blocking", "1.2.0" ],
-        [ "concurrent-queue", "1.2.2" ],
+        [ "concurrent-queue", "1.2.3" ],
         [ "easy-parallel", "3.2.0" ],
         [ "event-listener", "2.5.2" ],
         [ "futures-core", "0.3.21" ],
@@ -46,7 +46,7 @@
       ]
     },
     "concurrent-queue": {
-      "1.2.2": [
+      "1.2.3": [
         [ "cache-padded", "1.2.0" ]
       ]
     },
@@ -112,8 +112,8 @@
       }
     },
     "concurrent-queue": {
-      "1.2.2": {
-        "hash": "30ed07550be01594c6026cff2a1d7fe9c8f683caa798e12b68694ac9e88286a3",
+      "1.2.3": {
+        "hash": "83827793632c72fa4f73c2edb31e7a997527dd8ffe7077344621fc62c5478157",
         "type": "crates-io"
       }
     },

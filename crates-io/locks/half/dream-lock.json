@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "half",
-    "invalidationHash": "d17136f18da419cc41c2f75ca7060d144367b48c10b868599f4d808b76368cf2",
+    "invalidationHash": "8f2a88a6a106f8af656f383c64a1a889e2aef55bcbe14a434277206521dfbb1c",
     "location": "",
     "packages": {
-      "half": "2.0.0"
+      "half": "2.1.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "half": {
-        "2.0.0": {}
+        "2.1.0": {}
       }
     }
   },
@@ -143,9 +143,10 @@
       ]
     },
     "half": {
-      "2.0.0": [
+      "2.1.0": [
         [ "bytemuck", "1.10.0" ],
         [ "criterion", "0.3.6" ],
+        [ "crunchy", "0.2.2" ],
         [ "num-traits", "0.2.15" ],
         [ "quickcheck", "1.0.3" ],
         [ "quickcheck_macros", "1.0.0" ],
@@ -505,6 +506,12 @@
         "type": "crates-io"
       }
     },
+    "crunchy": {
+      "0.2.2": {
+        "hash": "7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7",
+        "type": "crates-io"
+      }
+    },
     "csv": {
       "1.1.6": {
         "hash": "22813a6dc45b335f9bade10bf7271dc477e81113e89eb251a0bc2a8a81c536e1",
@@ -540,11 +547,11 @@
         "hash": "eabb4a44450da02c90444cf74558da904edde8fb4e9035a9a6a4e15445af0bd7",
         "type": "crates-io"
       },
-      "2.0.0": {
-        "hash": "sha256-wgew7gI8f8552vAYKBY6r1Oh3dC+ix75VB2n1B9vpjo=",
+      "2.1.0": {
+        "hash": "sha256-rWqUWcnDCxd7klFiNR+X59lnx+qLqzuDUoBTJ9r0VVQ=",
         "pname": "half",
         "type": "crates-io",
-        "version": "2.0.0"
+        "version": "2.1.0"
       }
     },
     "hermit-abi": {

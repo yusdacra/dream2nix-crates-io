@@ -120,12 +120,12 @@
       ]
     },
     "generator": {
-      "0.7.0": [
+      "0.7.1": [
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.126" ],
         [ "log", "0.4.17" ],
         [ "rustversion", "1.0.8" ],
-        [ "winapi", "0.3.9" ]
+        [ "windows", "0.32.0" ]
       ]
     },
     "getrandom": {
@@ -169,7 +169,7 @@
     "loom": {
       "0.5.6": [
         [ "cfg-if", "1.0.0" ],
-        [ "generator", "0.7.0" ],
+        [ "generator", "0.7.1" ],
         [ "pin-utils", "0.1.0" ],
         [ "scoped-tls", "1.0.0" ],
         [ "serde", "1.0.139" ],
@@ -241,7 +241,7 @@
         [ "libc", "0.2.126" ],
         [ "memoffset", "0.6.5" ]
       ],
-      "0.24.1": [
+      "0.24.2": [
         [ "bitflags", "1.3.2" ],
         [ "cfg-if", "1.0.0" ],
         [ "libc", "0.2.126" ],
@@ -443,7 +443,7 @@
         [ "mio", "0.8.4" ],
         [ "mio-aio", "0.6.0" ],
         [ "mockall", "0.11.1" ],
-        [ "nix", "0.24.1" ],
+        [ "nix", "0.24.2" ],
         [ "ntapi", "0.3.7" ],
         [ "num_cpus", "1.13.1" ],
         [ "once_cell", "1.13.0" ],
@@ -598,6 +598,15 @@
       "0.3.9": [
         [ "winapi-i686-pc-windows-gnu", "0.4.0" ],
         [ "winapi-x86_64-pc-windows-gnu", "0.4.0" ]
+      ]
+    },
+    "windows": {
+      "0.32.0": [
+        [ "windows_aarch64_msvc", "0.32.0" ],
+        [ "windows_i686_gnu", "0.32.0" ],
+        [ "windows_i686_msvc", "0.32.0" ],
+        [ "windows_x86_64_gnu", "0.32.0" ],
+        [ "windows_x86_64_msvc", "0.32.0" ]
       ]
     },
     "windows-sys": {
@@ -792,8 +801,8 @@
       }
     },
     "generator": {
-      "0.7.0": {
-        "hash": "c1d9279ca822891c1a4dae06d185612cf8fc6acfe5dff37781b41297811b12ee",
+      "0.7.1": {
+        "hash": "cc184cace1cea8335047a471cc1da80f18acf8a76f3bab2028d499e328948ec7",
         "type": "crates-io"
       }
     },
@@ -920,8 +929,8 @@
         "hash": "e4916f159ed8e5de0082076562152a76b7a1f64a01fd9d1e0fea002c37624faf",
         "type": "crates-io"
       },
-      "0.24.1": {
-        "hash": "8f17df307904acd05aa8e32e97bb20f2a0df1728bbc2d771ae8f9a90463441e9",
+      "0.24.2": {
+        "hash": "195cdbc1741b8134346d515b3a56a1c94b0912758009cfd53f99ea0f57b065fc",
         "type": "crates-io"
       }
     },
@@ -1339,6 +1348,12 @@
         "type": "crates-io"
       }
     },
+    "windows": {
+      "0.32.0": {
+        "hash": "fbedf6db9096bc2364adce0ae0aa636dcd89f3c3f2cd67947062aaf0ca2a10ec",
+        "type": "crates-io"
+      }
+    },
     "windows-sys": {
       "0.36.1": {
         "hash": "ea04155a16a59f9eab786fe12a4a450e75cdb175f9e0d80da1e17db09f55b8d2",
@@ -1346,30 +1361,50 @@
       }
     },
     "windows_aarch64_msvc": {
+      "0.32.0": {
+        "hash": "d8e92753b1c443191654ec532f14c199742964a061be25d77d7a96f09db20bf5",
+        "type": "crates-io"
+      },
       "0.36.1": {
         "hash": "9bb8c3fd39ade2d67e9874ac4f3db21f0d710bee00fe7cab16949ec184eeaa47",
         "type": "crates-io"
       }
     },
     "windows_i686_gnu": {
+      "0.32.0": {
+        "hash": "6a711c68811799e017b6038e0922cb27a5e2f43a2ddb609fe0b6f3eeda9de615",
+        "type": "crates-io"
+      },
       "0.36.1": {
         "hash": "180e6ccf01daf4c426b846dfc66db1fc518f074baa793aa7d9b9aaeffad6a3b6",
         "type": "crates-io"
       }
     },
     "windows_i686_msvc": {
+      "0.32.0": {
+        "hash": "146c11bb1a02615db74680b32a68e2d61f553cc24c4eb5b4ca10311740e44172",
+        "type": "crates-io"
+      },
       "0.36.1": {
         "hash": "e2e7917148b2812d1eeafaeb22a97e4813dfa60a3f8f78ebe204bcc88f12f024",
         "type": "crates-io"
       }
     },
     "windows_x86_64_gnu": {
+      "0.32.0": {
+        "hash": "c912b12f7454c6620635bbff3450962753834be2a594819bd5e945af18ec64bc",
+        "type": "crates-io"
+      },
       "0.36.1": {
         "hash": "4dcd171b8776c41b97521e5da127a2d86ad280114807d0b2ab1e462bc764d9e1",
         "type": "crates-io"
       }
     },
     "windows_x86_64_msvc": {
+      "0.32.0": {
+        "hash": "504a2476202769977a040c6364301a3f65d0cc9e3fb08600b2bda150a0488316",
+        "type": "crates-io"
+      },
       "0.36.1": {
         "hash": "c811ca4a8c853ef420abd8592ba53ddbbac90410fab6903b3e79972a631f7680",
         "type": "crates-io"
