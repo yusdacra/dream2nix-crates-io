@@ -41,11 +41,11 @@
     },
     "bytemuck": {
       "1.10.0": [
-        [ "bytemuck_derive", "1.1.0" ]
+        [ "bytemuck_derive", "1.1.1" ]
       ]
     },
     "bytemuck_derive": {
-      "1.1.0": [
+      "1.1.1": [
         [ "proc-macro2", "1.0.40" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
@@ -441,8 +441,8 @@
       }
     },
     "bytemuck_derive": {
-      "1.1.0": {
-        "hash": "562e382481975bc61d11275ac5e62a19abd00b0547d99516a415336f183dcd0e",
+      "1.1.1": {
+        "hash": "cfd2f4180c5721da6335cc9e9061cce522b87a35e51cc57636d28d22a9863c80",
         "type": "crates-io"
       }
     },
