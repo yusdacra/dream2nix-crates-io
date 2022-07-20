@@ -141,7 +141,7 @@
       ]
     },
     "hashbrown": {
-      "0.11.2": [
+      "0.12.3": [
         [ "ahash", "0.7.6" ]
       ]
     },
@@ -171,8 +171,8 @@
       ]
     },
     "lru": {
-      "0.7.7": [
-        [ "hashbrown", "0.11.2" ]
+      "0.7.8": [
+        [ "hashbrown", "0.12.3" ]
       ]
     },
     "memoffset": {
@@ -314,7 +314,7 @@
         [ "env_logger", "0.7.1" ],
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
-        [ "lru", "0.7.7" ],
+        [ "lru", "0.7.8" ],
         [ "tracing", "0.1.35" ],
         [ "tracing-core", "0.1.28" ]
       ]
@@ -510,8 +510,8 @@
       }
     },
     "hashbrown": {
-      "0.11.2": {
-        "hash": "ab5ef0d4909ef3724cc8cce6ccc8572c5c817592e9285f5464f8e86f8bd3726e",
+      "0.12.3": {
+        "hash": "8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888",
         "type": "crates-io"
       }
     },
@@ -568,8 +568,8 @@
       }
     },
     "lru": {
-      "0.7.7": {
-        "hash": "c84e6fe5655adc6ce00787cf7dcaf8dc4f998a0565d23eafc207a8b08ca3349a",
+      "0.7.8": {
+        "hash": "e999beba7b6e8345721bd280141ed958096a2e4abdf74f67ff4ce49b4b54e47a",
         "type": "crates-io"
       }
     },

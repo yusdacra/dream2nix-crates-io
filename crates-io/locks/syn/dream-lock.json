@@ -159,19 +159,19 @@
         [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
-        [ "slab", "0.4.6" ]
+        [ "slab", "0.4.7" ]
       ]
     },
     "h2": {
       "0.3.13": [
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "fnv", "1.0.7" ],
         [ "futures-core", "0.3.21" ],
         [ "futures-sink", "0.3.21" ],
         [ "futures-util", "0.3.21" ],
         [ "http", "0.2.8" ],
         [ "indexmap", "1.9.1" ],
-        [ "slab", "0.4.6" ],
+        [ "slab", "0.4.7" ],
         [ "tokio", "1.20.0" ],
         [ "tokio-util", "0.7.3" ],
         [ "tracing", "0.1.35" ]
@@ -184,21 +184,21 @@
     },
     "http": {
       "0.2.8": [
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "fnv", "1.0.7" ],
         [ "itoa", "1.0.2" ]
       ]
     },
     "http-body": {
       "0.4.5": [
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "http", "0.2.8" ],
         [ "pin-project-lite", "0.2.9" ]
       ]
     },
     "hyper": {
       "0.14.20": [
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "futures-channel", "0.3.21" ],
         [ "futures-core", "0.3.21" ],
         [ "futures-util", "0.3.21" ],
@@ -218,7 +218,7 @@
     },
     "hyper-tls": {
       "0.5.0": [
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "hyper", "0.14.20" ],
         [ "native-tls", "0.2.10" ],
         [ "tokio", "1.20.0" ],
@@ -386,7 +386,7 @@
     "reqwest": {
       "0.11.11": [
         [ "base64", "0.13.0" ],
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "encoding_rs", "0.8.31" ],
         [ "futures-core", "0.3.21" ],
         [ "futures-util", "0.3.21" ],
@@ -477,6 +477,11 @@
         [ "yaml-rust", "0.4.5" ]
       ]
     },
+    "slab": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
     "socket2": {
       "0.4.4": [
         [ "libc", "0.2.126" ],
@@ -538,7 +543,7 @@
     "tokio": {
       "1.20.0": [
         [ "autocfg", "1.1.0" ],
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "libc", "0.2.126" ],
         [ "memchr", "2.5.0" ],
         [ "mio", "0.8.4" ],
@@ -557,7 +562,7 @@
     },
     "tokio-util": {
       "0.7.3": [
-        [ "bytes", "1.1.0" ],
+        [ "bytes", "1.2.0" ],
         [ "futures-core", "0.3.21" ],
         [ "futures-sink", "0.3.21" ],
         [ "pin-project-lite", "0.2.9" ],
@@ -735,8 +740,8 @@
       }
     },
     "bytes": {
-      "1.1.0": {
-        "hash": "c4872d67bab6358e59559027aa3b9157c53d9358c51423c17554809a8858e0f8",
+      "1.2.0": {
+        "hash": "f0b3de4a0c5e67e16066a0715723abd91edc2f9001d09c46e1dca929351e130e",
         "type": "crates-io"
       }
     },
@@ -1257,8 +1262,8 @@
       }
     },
     "slab": {
-      "0.4.6": {
-        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+      "0.4.7": {
+        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
         "type": "crates-io"
       }
     },

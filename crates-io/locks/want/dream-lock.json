@@ -29,12 +29,17 @@
         [ "futures-channel-preview", "0.3.0-alpha.19" ],
         [ "futures-core-preview", "0.3.0-alpha.19" ],
         [ "pin-utils", "0.1.0" ],
-        [ "slab", "0.4.6" ]
+        [ "slab", "0.4.7" ]
       ]
     },
     "log": {
       "0.4.17": [
         [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "slab": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ]
       ]
     },
     "tokio-executor": {
@@ -59,6 +64,12 @@
     }
   },
   "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
@@ -102,8 +113,8 @@
       }
     },
     "slab": {
-      "0.4.6": {
-        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+      "0.4.7": {
+        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
         "type": "crates-io"
       }
     },

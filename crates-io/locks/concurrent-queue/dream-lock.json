@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "concurrent-queue",
-    "invalidationHash": "f3736405dc759e6e0da2e8c4cc36a89e84cc661956703ef22b8c2500d7f38c22",
+    "invalidationHash": "27d1988e49bafacb7fbb4ed0548940f010622c7b56a3dd121434763c9034ca3a",
     "location": "",
     "packages": {
-      "concurrent-queue": "1.2.3"
+      "concurrent-queue": "1.2.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "concurrent-queue": {
-        "1.2.3": {}
+        "1.2.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "concurrent-queue": {
-      "1.2.3": [
+      "1.2.2": [
         [ "cache-padded", "1.2.0" ],
         [ "easy-parallel", "3.2.0" ],
         [ "fastrand", "1.7.0" ]
@@ -51,11 +51,11 @@
       }
     },
     "concurrent-queue": {
-      "1.2.3": {
-        "hash": "sha256-g4J3k2MscvpPc8Ltsx56mXUn3Y/+cHc0RiH8YsVHgVc=",
+      "1.2.2": {
+        "hash": "sha256-MO0HVQvgFZTGAmz/Kh1/6cj2g8qnmOEraGlKyeiChqM=",
         "pname": "concurrent-queue",
         "type": "crates-io",
-        "version": "1.2.3"
+        "version": "1.2.2"
       }
     },
     "easy-parallel": {

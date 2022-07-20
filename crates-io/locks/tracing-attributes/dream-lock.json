@@ -72,6 +72,11 @@
         [ "lazy_static", "1.4.0" ]
       ]
     },
+    "slab": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
     "syn": {
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
@@ -89,7 +94,7 @@
         [ "autocfg", "1.1.0" ],
         [ "futures-core", "0.3.21" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "slab", "0.4.6" ]
+        [ "slab", "0.4.7" ]
       ]
     },
     "tokio-test": {
@@ -257,8 +262,8 @@
       }
     },
     "slab": {
-      "0.4.6": {
-        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+      "0.4.7": {
+        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
         "type": "crates-io"
       }
     },

@@ -85,6 +85,11 @@
         [ "proc-macro2", "1.0.40" ]
       ]
     },
+    "slab": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
     "syn": {
       "1.0.98": [
         [ "proc-macro2", "1.0.40" ],
@@ -97,7 +102,7 @@
         [ "bytes", "0.5.6" ],
         [ "fnv", "1.0.7" ],
         [ "pin-project-lite", "0.1.12" ],
-        [ "slab", "0.4.6" ]
+        [ "slab", "0.4.7" ]
       ]
     },
     "tower": {
@@ -213,6 +218,12 @@
     }
   },
   "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
     "bytes": {
       "0.5.6": {
         "hash": "0e4cec68f03f32e44924783795810fa50a7035d8c8ebe78580ad7e6c703fba38",
@@ -302,8 +313,8 @@
       }
     },
     "slab": {
-      "0.4.6": {
-        "hash": "eb703cfe953bccee95685111adeedb76fabe4e97549a58d16f03ea7b9367bb32",
+      "0.4.7": {
+        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
         "type": "crates-io"
       }
     },

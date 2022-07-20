@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "bytes",
-    "invalidationHash": "d55a1ff8df7bbb36c01c7cc0bd6cd8043fb206252b003337074c992502e98acf",
+    "invalidationHash": "0c5055645f410497156d35653a8876fb295f51d27772e2268505991e7a1cab4d",
     "location": "",
     "packages": {
-      "bytes": "1.1.0"
+      "bytes": "1.2.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "bytes": {
-        "1.1.0": {}
+        "1.2.0": {}
       }
     }
   },
@@ -25,7 +25,7 @@
       ]
     },
     "bytes": {
-      "1.1.0": [
+      "1.2.0": [
         [ "loom", "0.5.6" ],
         [ "serde", "1.0.139" ],
         [ "serde_test", "1.0.139" ]
@@ -167,11 +167,11 @@
       }
     },
     "bytes": {
-      "1.1.0": {
-        "hash": "sha256-xIctZ7q2NY5ZVZAnqjuRV8U9k1jFFCPBdVSAmohY4Pg=",
+      "1.2.0": {
+        "hash": "sha256-8LPeSgxeZ+FgZqBxVyOr2R7cL5AB0JxG4dypKTUeEw4=",
         "pname": "bytes",
         "type": "crates-io",
-        "version": "1.1.0"
+        "version": "1.2.0"
       }
     },
     "cc": {

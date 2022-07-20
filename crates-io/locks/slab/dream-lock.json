@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "slab",
-    "invalidationHash": "4a5a466bedcde6d803d8e8319a2c27f0c39a1ae7cd510a519b751f47a44ecfad",
+    "invalidationHash": "500080dfd457409b7862808c9262d0c242d01d0f58bdd15efec19ee2267b055c",
     "location": "",
     "packages": {
-      "slab": "0.4.6"
+      "slab": "0.4.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "slab": {
-        "0.4.6": {}
+        "0.4.7": {}
       }
     }
   },
@@ -47,7 +47,9 @@
       ]
     },
     "slab": {
-      "0.4.6": [
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ],
+        [ "rustversion", "1.0.8" ],
         [ "serde", "1.0.139" ],
         [ "serde_test", "1.0.139" ]
       ]
@@ -61,6 +63,12 @@
     }
   },
   "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
     "proc-macro2": {
       "1.0.40": {
         "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
@@ -70,6 +78,12 @@
     "quote": {
       "1.0.20": {
         "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "rustversion": {
+      "1.0.8": {
+        "hash": "24c8ad4f0c00e1eb5bc7614d236a7f1300e3dbd76b68cac8e06fb00b015ad8d8",
         "type": "crates-io"
       }
     },
@@ -92,11 +106,11 @@
       }
     },
     "slab": {
-      "0.4.6": {
-        "hash": "sha256-63A8/pU7zO6VaFERre7bdvq+TpdUmljRbwPqe5NnuzI=",
+      "0.4.7": {
+        "hash": "sha256-RhSnayqL4AWMqp27r2bZiFJ9htADwRqU+9M112Ye3O8=",
         "pname": "slab",
         "type": "crates-io",
-        "version": "0.4.6"
+        "version": "0.4.7"
       }
     },
     "syn": {
