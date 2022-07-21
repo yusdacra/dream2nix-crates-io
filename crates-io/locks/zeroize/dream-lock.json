@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "zeroize",
-    "invalidationHash": "e9a74dc187f7cda517c5796f4fe3edb56036a01c73ed247441fb59d1d7bbf4b7",
+    "invalidationHash": "3cd20310cb368a79a9ed23f5fa535f7568bf44b73684b860bd42d2c1cfb6ddcf",
     "location": "",
     "packages": {
-      "zeroize": "1.5.6"
+      "zeroize": "1.5.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "zeroize": {
-        "1.5.6": {}
+        "1.5.7": {}
       }
     }
   },
@@ -45,7 +45,8 @@
       ]
     },
     "zeroize": {
-      "1.5.6": [
+      "1.5.7": [
+        [ "serde", "1.0.140" ],
         [ "zeroize_derive", "1.3.2" ]
       ]
     },
@@ -68,6 +69,12 @@
     "quote": {
       "1.0.20": {
         "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+        "type": "crates-io"
+      }
+    },
+    "serde": {
+      "1.0.140": {
+        "hash": "fc855a42c7967b7c369eb5860f7164ef1f6f81c20c7cc1141f2a604e18723b03",
         "type": "crates-io"
       }
     },
@@ -96,11 +103,11 @@
       }
     },
     "zeroize": {
-      "1.5.6": {
-        "hash": "sha256-ILV4rP/YUWpsPyob3vwew35Ue7Tg+4trAaTK/IhrREI=",
+      "1.5.7": {
+        "hash": "sha256-w5S1vQxvZp5yddnCCqkK4GTLIudaHK1U4bNAiANLFJ8=",
         "pname": "zeroize",
         "type": "crates-io",
-        "version": "1.5.6"
+        "version": "1.5.7"
       }
     },
     "zeroize_derive": {

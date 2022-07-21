@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "handlebars",
-    "invalidationHash": "fa275f3fe61b9099d907241141b74d11af0038fa623db3fb9e0df0ed75b09462",
+    "invalidationHash": "ab28f349bb4748365bec263012dbc49fcf138ac7e22c3e25f767f785bb42863d",
     "location": "",
     "packages": {
-      "handlebars": "4.3.2"
+      "handlebars": "4.3.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "handlebars": {
-        "4.3.2": {}
+        "4.3.3": {}
       }
     }
   },
@@ -239,7 +239,7 @@
       ]
     },
     "handlebars": {
-      "4.3.2": [
+      "4.3.3": [
         [ "criterion", "0.3.5" ],
         [ "env_logger", "0.9.0" ],
         [ "log", "0.4.17" ],
@@ -1110,11 +1110,11 @@
       }
     },
     "handlebars": {
-      "4.3.2": {
-        "hash": "sha256-NmQai53rYOI/ubtHrGMdZkp4CwiJCbiReaTqtWGLB2s=",
+      "4.3.3": {
+        "hash": "sha256-Ng2XQAabL2y7Y84tuqcaINMYU1DLuZDXvr65MYQV6xc=",
         "pname": "handlebars",
         "type": "crates-io",
-        "version": "4.3.2"
+        "version": "4.3.3"
       }
     },
     "hashbrown": {

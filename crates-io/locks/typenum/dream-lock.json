@@ -102,7 +102,7 @@
     },
     "toml": {
       "0.5.9": [
-        [ "serde", "1.0.139" ]
+        [ "serde", "1.0.140" ]
       ]
     },
     "typenum": {
@@ -185,8 +185,8 @@
       }
     },
     "serde": {
-      "1.0.139": {
-        "hash": "0171ebb889e45aa68b44aee0859b3eede84c6f5f5c228e6f140c0b2a0a46cad6",
+      "1.0.140": {
+        "hash": "fc855a42c7967b7c369eb5860f7164ef1f6f81c20c7cc1141f2a604e18723b03",
         "type": "crates-io"
       }
     },
