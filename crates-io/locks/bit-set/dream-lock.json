@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "bit-set",
-    "invalidationHash": "56023095fb6788994fd151098bfed91de1d2cdd27cf391dd7140a605044e6543",
+    "invalidationHash": "534ed4c5f621d97856ada662ac0cff924e8ddf1d97441854587ad5255c62522a",
     "location": "",
     "packages": {
-      "bit-set": "0.5.2"
+      "bit-set": "0.5.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "bit-set": {
-        "0.5.2": {}
+        "0.5.3": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "bit-set": {
-      "0.5.2": [
+      "0.5.3": [
         [ "bit-vec", "0.6.3" ],
         [ "rand", "0.3.23" ]
       ]
@@ -57,11 +57,11 @@
   },
   "sources": {
     "bit-set": {
-      "0.5.2": {
-        "hash": "sha256-bhHhYDXqNeTlmXs5Pqy/b2OYMYj3oq0lv7E0ZfWtWd4=",
+      "0.5.3": {
+        "hash": "sha256-BwDdq1BvM7IKA7E5luzNMJpI5f930NlZJqoCEPtOlfE=",
         "pname": "bit-set",
         "type": "crates-io",
-        "version": "0.5.2"
+        "version": "0.5.3"
       }
     },
     "bit-vec": {
