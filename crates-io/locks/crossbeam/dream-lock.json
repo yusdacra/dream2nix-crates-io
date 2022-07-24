@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "crossbeam",
-    "invalidationHash": "ec82d5bc3435543f1693f4e13c3ac319fca9183b8e21b61d18f73fcfb07562ec",
+    "invalidationHash": "702d87feb2218db41ad91cbec856bfda95d5d46095dba556f5df28ae32afee88",
     "location": "",
     "packages": {
-      "crossbeam": "0.8.1"
+      "crossbeam": "0.8.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "crossbeam": {
-        "0.8.1": {}
+        "0.8.2": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "crossbeam": {
-      "0.8.1": [
+      "0.8.2": [
         [ "cfg-if", "1.0.0" ],
         [ "crossbeam-channel", "0.5.6" ],
         [ "crossbeam-deque", "0.8.2" ],
@@ -110,11 +110,11 @@
       }
     },
     "crossbeam": {
-      "0.8.1": {
-        "hash": "sha256-SuVYj2s8PLBSOekL0RDyVyVK7NAeRjVAA5GurgdJeEU=",
+      "0.8.2": {
+        "hash": "sha256-KAGvDTZhKuWRyqlWgmH93OMs5uCKcnXqM0oGpK0CGiw=",
         "pname": "crossbeam",
         "type": "crates-io",
-        "version": "0.8.1"
+        "version": "0.8.2"
       }
     },
     "crossbeam-channel": {

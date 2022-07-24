@@ -40,7 +40,7 @@
       ]
     },
     "fastrand": {
-      "1.7.0": [
+      "1.8.0": [
         [ "instant", "0.1.12" ]
       ]
     },
@@ -155,7 +155,7 @@
     "tempfile": {
       "3.3.0": [
         [ "cfg-if", "1.0.0" ],
-        [ "fastrand", "1.7.0" ],
+        [ "fastrand", "1.8.0" ],
         [ "libc", "0.2.126" ],
         [ "redox_syscall", "0.2.15" ],
         [ "remove_dir_all", "0.5.3" ],
@@ -237,8 +237,8 @@
       }
     },
     "fastrand": {
-      "1.7.0": {
-        "hash": "c3fcf0cee53519c866c09b5de1f6c56ff9d647101f81c1964fa632e148896cdf",
+      "1.8.0": {
+        "hash": "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499",
         "type": "crates-io"
       }
     },

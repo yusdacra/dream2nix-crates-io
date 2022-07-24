@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "fastrand",
-    "invalidationHash": "9127aa50429716e99d35139181a73644801bcc45b05645f75bdadea783f26884",
+    "invalidationHash": "f6e3d343e46869850bc9977d164787e9a5fdf96fb9ecc4a4c9a2ec1c98d9c3b9",
     "location": "",
     "packages": {
-      "fastrand": "1.7.0"
+      "fastrand": "1.8.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "fastrand": {
-        "1.7.0": {}
+        "1.8.0": {}
       }
     }
   },
@@ -26,7 +26,7 @@
       ]
     },
     "fastrand": {
-      "1.7.0": [
+      "1.8.0": [
         [ "getrandom", "0.2.7" ],
         [ "instant", "0.1.12" ],
         [ "rand", "0.8.5" ],
@@ -184,11 +184,11 @@
       }
     },
     "fastrand": {
-      "1.7.0": {
-        "hash": "sha256-w/zwzuU1GchmwJtd4fbFb/nWRxAfgcGWT6Yy4UiJbN8=",
+      "1.8.0": {
+        "hash": "sha256-p6QHz6ozhcSuayPoRiPUjCeY0G4+ahh49/WfF7P4ZJk=",
         "pname": "fastrand",
         "type": "crates-io",
-        "version": "1.7.0"
+        "version": "1.8.0"
       }
     },
     "getrandom": {

@@ -36,7 +36,7 @@
       "1.4.1": [
         [ "async-task", "4.3.0" ],
         [ "concurrent-queue", "1.2.2" ],
-        [ "fastrand", "1.7.0" ],
+        [ "fastrand", "1.8.0" ],
         [ "futures-lite", "1.12.0" ],
         [ "once_cell", "1.13.0" ],
         [ "slab", "0.4.7" ]
@@ -102,7 +102,7 @@
         [ "async-channel", "1.6.1" ],
         [ "async-task", "4.3.0" ],
         [ "atomic-waker", "1.0.0" ],
-        [ "fastrand", "1.7.0" ],
+        [ "fastrand", "1.8.0" ],
         [ "futures-lite", "1.12.0" ],
         [ "once_cell", "1.13.0" ]
       ]
@@ -125,7 +125,7 @@
       ]
     },
     "fastrand": {
-      "1.7.0": [
+      "1.8.0": [
         [ "instant", "0.1.12" ]
       ]
     },
@@ -155,7 +155,7 @@
     },
     "futures-lite": {
       "1.12.0": [
-        [ "fastrand", "1.7.0" ],
+        [ "fastrand", "1.8.0" ],
         [ "futures-core", "0.3.21" ],
         [ "futures-io", "0.3.21" ],
         [ "memchr", "2.5.0" ],
@@ -450,8 +450,8 @@
       }
     },
     "fastrand": {
-      "1.7.0": {
-        "hash": "c3fcf0cee53519c866c09b5de1f6c56ff9d647101f81c1964fa632e148896cdf",
+      "1.8.0": {
+        "hash": "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499",
         "type": "crates-io"
       }
     },
