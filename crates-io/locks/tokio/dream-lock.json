@@ -48,7 +48,7 @@
     },
     "async-stream-impl": {
       "0.3.3": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -100,7 +100,7 @@
     },
     "futures-macro": {
       "0.3.21": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -215,20 +215,20 @@
       ]
     },
     "mockall": {
-      "0.11.1": [
+      "0.11.2": [
         [ "cfg-if", "1.0.0" ],
         [ "downcast", "0.11.0" ],
         [ "fragile", "1.2.1" ],
         [ "lazy_static", "1.4.0" ],
-        [ "mockall_derive", "0.11.1" ],
+        [ "mockall_derive", "0.11.2" ],
         [ "predicates", "2.1.1" ],
         [ "predicates-tree", "1.0.5" ]
       ]
     },
     "mockall_derive": {
-      "0.11.1": [
+      "0.11.2": [
         [ "cfg-if", "1.0.0" ],
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -296,7 +296,7 @@
       ]
     },
     "proc-macro2": {
-      "1.0.40": [
+      "1.0.41": [
         [ "unicode-ident", "1.0.2" ]
       ]
     },
@@ -318,7 +318,7 @@
     },
     "quote": {
       "1.0.20": [
-        [ "proc-macro2", "1.0.40" ]
+        [ "proc-macro2", "1.0.41" ]
       ]
     },
     "rand": {
@@ -381,7 +381,7 @@
     },
     "serde_derive": {
       "1.0.140": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -416,7 +416,7 @@
     },
     "syn": {
       "1.0.98": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "unicode-ident", "1.0.2" ]
       ]
@@ -447,7 +447,7 @@
         [ "memchr", "2.5.0" ],
         [ "mio", "0.8.4" ],
         [ "mio-aio", "0.6.0" ],
-        [ "mockall", "0.11.1" ],
+        [ "mockall", "0.11.2" ],
         [ "nix", "0.24.2" ],
         [ "ntapi", "0.3.7" ],
         [ "num_cpus", "1.13.1" ],
@@ -469,7 +469,7 @@
     },
     "tokio-macros": {
       "1.8.0": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -500,7 +500,7 @@
     },
     "tracing-attributes": {
       "0.1.22": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -548,7 +548,7 @@
         [ "bumpalo", "3.10.0" ],
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ],
         [ "wasm-bindgen-shared", "0.2.81" ]
@@ -570,7 +570,7 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.81": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ],
         [ "wasm-bindgen-backend", "0.2.81" ],
@@ -589,7 +589,7 @@
     },
     "wasm-bindgen-test-macro": {
       "0.3.31": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ]
       ]
     },
@@ -918,14 +918,14 @@
       }
     },
     "mockall": {
-      "0.11.1": {
-        "hash": "5641e476bbaf592a3939a7485fa079f427b4db21407d5ebfd5bba4e07a1f6f4c",
+      "0.11.2": {
+        "hash": "e2be9a9090bc1cac2930688fa9478092a64c6a92ddc6ae0692d46b37d9cab709",
         "type": "crates-io"
       }
     },
     "mockall_derive": {
-      "0.11.1": {
-        "hash": "262d56735932ee0240d515656e5a7667af3af2a5b0af4da558c4cff2b2aeb0c7",
+      "0.11.2": {
+        "hash": "86d702a0530a0141cf4ed147cf5ec7be6f2c187d4e37fcbefc39cf34116bfe8f",
         "type": "crates-io"
       }
     },
@@ -1018,8 +1018,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.40": {
-        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+      "1.0.41": {
+        "hash": "cdcc2916cde080c1876ff40292a396541241fe0072ef928cd76582e9ea5d60d2",
         "type": "crates-io"
       }
     },

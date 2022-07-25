@@ -20,19 +20,19 @@
   "cyclicDependencies": {},
   "dependencies": {
     "proc-macro2": {
-      "1.0.40": [
+      "1.0.41": [
         [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
       "1.0.20": [
-        [ "proc-macro2", "1.0.40" ]
+        [ "proc-macro2", "1.0.41" ]
       ]
     },
     "strum_macros": {
       "0.24.2": [
         [ "heck", "0.4.0" ],
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "rustversion", "1.0.8" ],
         [ "strum", "0.24.1" ],
@@ -41,7 +41,7 @@
     },
     "syn": {
       "1.0.98": [
-        [ "proc-macro2", "1.0.40" ],
+        [ "proc-macro2", "1.0.41" ],
         [ "quote", "1.0.20" ],
         [ "unicode-ident", "1.0.2" ]
       ]
@@ -55,8 +55,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.40": {
-        "hash": "dd96a1e8ed2596c337f8eae5f24924ec83f5ad5ab21ea8e455d3566c69fbcaf7",
+      "1.0.41": {
+        "hash": "cdcc2916cde080c1876ff40292a396541241fe0072ef928cd76582e9ea5d60d2",
         "type": "crates-io"
       }
     },
