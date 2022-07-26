@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "js-sys",
-    "invalidationHash": "8c33bf6ad667f8549ab70056d0207ddd339262fac4287381d229682db9bb781b",
+    "invalidationHash": "f972f0dcf8907c26f95bd9d58a91b5eb96ac0dd551f04b8d665ce03f9eb030ac",
     "location": "",
     "packages": {
-      "js-sys": "0.3.58"
+      "js-sys": "0.3.59"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,24 +13,24 @@
     "gitSources": [],
     "relPathReplacements": {
       "js-sys": {
-        "0.3.58": {}
+        "0.3.59": {}
       }
     }
   },
   "cyclicDependencies": {
     "wasm-bindgen-futures": {
-      "0.4.31": [
-        [ "js-sys", "0.3.58" ]
+      "0.4.32": [
+        [ "js-sys", "0.3.59" ]
       ]
     },
     "wasm-bindgen-test": {
-      "0.3.31": [
-        [ "js-sys", "0.3.58" ]
+      "0.3.32": [
+        [ "js-sys", "0.3.59" ]
       ]
     },
     "web-sys": {
-      "0.3.58": [
-        [ "js-sys", "0.3.58" ]
+      "0.3.59": [
+        [ "js-sys", "0.3.59" ]
       ]
     }
   },
@@ -38,15 +38,15 @@
     "console_error_panic_hook": {
       "0.1.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "wasm-bindgen", "0.2.81" ]
+        [ "wasm-bindgen", "0.2.82" ]
       ]
     },
     "js-sys": {
-      "0.3.58": [
-        [ "wasm-bindgen", "0.2.81" ],
-        [ "wasm-bindgen-futures", "0.4.31" ],
-        [ "wasm-bindgen-test", "0.3.31" ],
-        [ "web-sys", "0.3.58" ]
+      "0.3.59": [
+        [ "wasm-bindgen", "0.2.82" ],
+        [ "wasm-bindgen-futures", "0.4.32" ],
+        [ "wasm-bindgen-test", "0.3.32" ],
+        [ "web-sys", "0.3.59" ]
       ]
     },
     "log": {
@@ -55,82 +55,82 @@
       ]
     },
     "proc-macro2": {
-      "1.0.41": [
+      "1.0.42": [
         [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
       "1.0.20": [
-        [ "proc-macro2", "1.0.41" ]
+        [ "proc-macro2", "1.0.42" ]
       ]
     },
     "syn": {
       "1.0.98": [
-        [ "proc-macro2", "1.0.41" ],
+        [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "unicode-ident", "1.0.2" ]
       ]
     },
     "wasm-bindgen": {
-      "0.2.81": [
+      "0.2.82": [
         [ "cfg-if", "1.0.0" ],
-        [ "wasm-bindgen-macro", "0.2.81" ]
+        [ "wasm-bindgen-macro", "0.2.82" ]
       ]
     },
     "wasm-bindgen-backend": {
-      "0.2.81": [
+      "0.2.82": [
         [ "bumpalo", "3.10.0" ],
-        [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
-        [ "proc-macro2", "1.0.41" ],
+        [ "once_cell", "1.13.0" ],
+        [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ],
-        [ "wasm-bindgen-shared", "0.2.81" ]
+        [ "wasm-bindgen-shared", "0.2.82" ]
       ]
     },
     "wasm-bindgen-futures": {
-      "0.4.31": [
+      "0.4.32": [
         [ "cfg-if", "1.0.0" ],
-        [ "js-sys", "0.3.58" ],
-        [ "wasm-bindgen", "0.2.81" ],
-        [ "web-sys", "0.3.58" ]
+        [ "js-sys", "0.3.59" ],
+        [ "wasm-bindgen", "0.2.82" ],
+        [ "web-sys", "0.3.59" ]
       ]
     },
     "wasm-bindgen-macro": {
-      "0.2.81": [
+      "0.2.82": [
         [ "quote", "1.0.20" ],
-        [ "wasm-bindgen-macro-support", "0.2.81" ]
+        [ "wasm-bindgen-macro-support", "0.2.82" ]
       ]
     },
     "wasm-bindgen-macro-support": {
-      "0.2.81": [
-        [ "proc-macro2", "1.0.41" ],
+      "0.2.82": [
+        [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ],
-        [ "wasm-bindgen-backend", "0.2.81" ],
-        [ "wasm-bindgen-shared", "0.2.81" ]
+        [ "wasm-bindgen-backend", "0.2.82" ],
+        [ "wasm-bindgen-shared", "0.2.82" ]
       ]
     },
     "wasm-bindgen-test": {
-      "0.3.31": [
+      "0.3.32": [
         [ "console_error_panic_hook", "0.1.7" ],
-        [ "js-sys", "0.3.58" ],
+        [ "js-sys", "0.3.59" ],
         [ "scoped-tls", "1.0.0" ],
-        [ "wasm-bindgen", "0.2.81" ],
-        [ "wasm-bindgen-futures", "0.4.31" ],
-        [ "wasm-bindgen-test-macro", "0.3.31" ]
+        [ "wasm-bindgen", "0.2.82" ],
+        [ "wasm-bindgen-futures", "0.4.32" ],
+        [ "wasm-bindgen-test-macro", "0.3.32" ]
       ]
     },
     "wasm-bindgen-test-macro": {
-      "0.3.31": [
-        [ "proc-macro2", "1.0.41" ],
+      "0.3.32": [
+        [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ]
       ]
     },
     "web-sys": {
-      "0.3.58": [
-        [ "js-sys", "0.3.58" ],
-        [ "wasm-bindgen", "0.2.81" ]
+      "0.3.59": [
+        [ "js-sys", "0.3.59" ],
+        [ "wasm-bindgen", "0.2.82" ]
       ]
     }
   },
@@ -154,17 +154,11 @@
       }
     },
     "js-sys": {
-      "0.3.58": {
-        "hash": "sha256-w/rBf3EjpzymLfQRsb9yfMyAXaoHAzj9pnHIbawb3Cc=",
+      "0.3.59": {
+        "hash": "sha256-JYRRqxCzT4r1NBbR/atywi6AXwySoRNtWUcOwLEROLI=",
         "pname": "js-sys",
         "type": "crates-io",
-        "version": "0.3.58"
-      }
-    },
-    "lazy_static": {
-      "1.4.0": {
-        "hash": "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646",
-        "type": "crates-io"
+        "version": "0.3.59"
       }
     },
     "log": {
@@ -173,9 +167,15 @@
         "type": "crates-io"
       }
     },
+    "once_cell": {
+      "1.13.0": {
+        "hash": "18a6dbe30758c9f83eb00cbea4ac95966305f5a7772f3f42ebfc7fc7eddbd8e1",
+        "type": "crates-io"
+      }
+    },
     "proc-macro2": {
-      "1.0.41": {
-        "hash": "cdcc2916cde080c1876ff40292a396541241fe0072ef928cd76582e9ea5d60d2",
+      "1.0.42": {
+        "hash": "c278e965f1d8cf32d6e0e96de3d3e79712178ae67986d9cf9151f51e95aac89b",
         "type": "crates-io"
       }
     },
@@ -204,56 +204,56 @@
       }
     },
     "wasm-bindgen": {
-      "0.2.81": {
-        "hash": "7c53b543413a17a202f4be280a7e5c62a1c69345f5de525ee64f8cfdbc954994",
+      "0.2.82": {
+        "hash": "fc7652e3f6c4706c8d9cd54832c4a4ccb9b5336e2c3bd154d5cccfbf1c1f5f7d",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-backend": {
-      "0.2.81": {
-        "hash": "5491a68ab4500fa6b4d726bd67408630c3dbe9c4fe7bda16d5c82a1fd8c7340a",
+      "0.2.82": {
+        "hash": "662cd44805586bd52971b9586b1df85cdbbd9112e4ef4d8f41559c334dc6ac3f",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-futures": {
-      "0.4.31": {
-        "hash": "de9a9cec1733468a8c657e57fa2413d2ae2c0129b95e87c5b72b8ace4d13f31f",
+      "0.4.32": {
+        "hash": "fa76fb221a1f8acddf5b54ace85912606980ad661ac7a503b4570ffd3a624dad",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-macro": {
-      "0.2.81": {
-        "hash": "c441e177922bc58f1e12c022624b6216378e5febc2f0533e41ba443d505b80aa",
+      "0.2.82": {
+        "hash": "b260f13d3012071dfb1512849c033b1925038373aea48ced3012c09df952c602",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-macro-support": {
-      "0.2.81": {
-        "hash": "7d94ac45fcf608c1f45ef53e748d35660f168490c10b23704c7779ab8f5c3048",
+      "0.2.82": {
+        "hash": "5be8e654bdd9b79216c2929ab90721aa82faf65c48cdf08bdc4e7f51357b80da",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-shared": {
-      "0.2.81": {
-        "hash": "6a89911bd99e5f3659ec4acf9c4d93b0a90fe4a2a11f15328472058edc5261be",
+      "0.2.82": {
+        "hash": "6598dd0bd3c7d51095ff6531a5b23e02acdc81804e30d8f07afb77b7215a140a",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-test": {
-      "0.3.31": {
-        "hash": "68b30cf2cba841a812f035c40c50f53eb9c56181192a9dd2c71b65e6a87a05ba",
+      "0.3.32": {
+        "hash": "513df541345bb9fcc07417775f3d51bbb677daf307d8035c0afafd87dc2e6599",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-test-macro": {
-      "0.3.31": {
-        "hash": "88ad594bf33e73cafcac2ae9062fc119d4f75f9c77e25022f91c9a64bd5b6463",
+      "0.3.32": {
+        "hash": "6150d36a03e90a3cf6c12650be10626a9902d70c5270fd47d7a47e5389a10d56",
         "type": "crates-io"
       }
     },
     "web-sys": {
-      "0.3.58": {
-        "hash": "2fed94beee57daf8dd7d51f2b15dc2bcde92d7a72304cdf662a4371008b71b90",
+      "0.3.59": {
+        "hash": "ed055ab27f941423197eb86b2035720b1a3ce40504df082cac2ecc6ed73335a1",
         "type": "crates-io"
       }
     }

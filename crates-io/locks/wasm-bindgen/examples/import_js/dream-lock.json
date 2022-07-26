@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.2": [
         [ "caniuse-lite", "1.0.30001370" ],
-        [ "electron-to-chromium", "1.4.199" ],
+        [ "electron-to-chromium", "1.4.200" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -505,7 +505,7 @@
         [ "html-webpack-plugin", "5.5.0" ],
         [ "null", "2.0.0" ],
         [ "text-encoding", "0.7.0" ],
-        [ "webpack", "5.73.0" ],
+        [ "webpack", "5.74.0" ],
         [ "webpack-cli", "4.10.0" ],
         [ "webpack-dev-server", "3.11.3" ]
       ]
@@ -1503,7 +1503,7 @@
       ]
     },
     "webpack": {
-      "5.73.0": [
+      "5.74.0": [
         [ "@types/eslint-scope", "3.7.4" ],
         [ "@types/estree", "0.0.51" ],
         [ "@webassemblyjs/ast", "1.11.1" ],
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.199": {
-        "hash": "sha512-WIGME0Cs7oob3mxsJwHbeWkH0tYkIE/sjkJ8ML2BYmuRcjhRl/q5kVDXG7W9LOOKwzPU5M0LBlXRq9rlSgnNlg==",
+      "1.4.200": {
+        "hash": "sha512-nPyI7oHc8T64oSqRXrAt99gNMpk0SAgPHw/o+hkNKyb5+bcdnFtZcSO9FUJES5cVkVZvo8u4qiZ1gQILl8UXsA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.199.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.200.tgz"
       }
     },
     "emoji-regex": {
@@ -4774,10 +4774,10 @@
       }
     },
     "webpack": {
-      "5.73.0": {
-        "hash": "sha512-svjudQRPPa0YiOYa2lM/Gacw0r6PvxptHj4FuEKQ2kX05ZLkjbVc5MnPs6its5j7IZljnIqSVo/OsY2X0IpHGA==",
+      "5.74.0": {
+        "hash": "sha512-A2InDwnhhGN4LYctJj6M1JEaGL7Luj6LOmyBHjcI8529cm5p6VXiTIW2sn6ffvEAKmveLzvu4jrihwXtPojlAA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/webpack/-/webpack-5.73.0.tgz"
+        "url": "https://registry.npmjs.org/webpack/-/webpack-5.74.0.tgz"
       }
     },
     "webpack-cli": {
