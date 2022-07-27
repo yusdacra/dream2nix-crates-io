@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "event-listener",
-    "invalidationHash": "77bb9650085f2dfb91e1a0be913d1b6907c81db7b4f93c8fef42fbeff306de43",
+    "invalidationHash": "8fef6c566f3d7dd28f4048de37ad268cf793e2f7a3d514a39d0b6453b3d9a5a0",
     "location": "",
     "packages": {
-      "event-listener": "2.5.2"
+      "event-listener": "2.5.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,108 +13,119 @@
     "gitSources": [],
     "relPathReplacements": {
       "event-listener": {
-        "2.5.2": {}
+        "2.5.3": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "event-listener": {
-      "2.5.2": [
-        [ "futures", "0.3.19" ],
+      "2.5.3": [
+        [ "futures", "0.3.21" ],
         [ "waker-fn", "1.1.0" ]
       ]
     },
     "futures": {
-      "0.3.19": [
-        [ "futures-channel", "0.3.19" ],
-        [ "futures-core", "0.3.19" ],
-        [ "futures-io", "0.3.19" ],
-        [ "futures-sink", "0.3.19" ],
-        [ "futures-task", "0.3.19" ],
-        [ "futures-util", "0.3.19" ]
+      "0.3.21": [
+        [ "futures-channel", "0.3.21" ],
+        [ "futures-core", "0.3.21" ],
+        [ "futures-io", "0.3.21" ],
+        [ "futures-sink", "0.3.21" ],
+        [ "futures-task", "0.3.21" ],
+        [ "futures-util", "0.3.21" ]
       ]
     },
     "futures-channel": {
-      "0.3.19": [
-        [ "futures-core", "0.3.19" ],
-        [ "futures-sink", "0.3.19" ]
+      "0.3.21": [
+        [ "futures-core", "0.3.21" ],
+        [ "futures-sink", "0.3.21" ]
       ]
     },
     "futures-util": {
-      "0.3.19": [
-        [ "futures-channel", "0.3.19" ],
-        [ "futures-core", "0.3.19" ],
-        [ "futures-io", "0.3.19" ],
-        [ "futures-sink", "0.3.19" ],
-        [ "futures-task", "0.3.19" ],
-        [ "memchr", "2.4.1" ],
-        [ "pin-project-lite", "0.2.8" ],
+      "0.3.21": [
+        [ "futures-channel", "0.3.21" ],
+        [ "futures-core", "0.3.21" ],
+        [ "futures-io", "0.3.21" ],
+        [ "futures-sink", "0.3.21" ],
+        [ "futures-task", "0.3.21" ],
+        [ "memchr", "2.5.0" ],
+        [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
-        [ "slab", "0.4.5" ]
+        [ "slab", "0.4.7" ]
+      ]
+    },
+    "slab": {
+      "0.4.7": [
+        [ "autocfg", "1.1.0" ]
       ]
     }
   },
   "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
     "event-listener": {
-      "2.5.2": {
-        "hash": "sha256-d/MwlBeTjyi/gij8/3mko3EDmB4+GG0szRnHSzj063E=",
+      "2.5.3": {
+        "hash": "sha256-AgYXX4K41r9mUv99caHif9Lk795Yf9NoZigU1uwdnOA=",
         "pname": "event-listener",
         "type": "crates-io",
-        "version": "2.5.2"
+        "version": "2.5.3"
       }
     },
     "futures": {
-      "0.3.19": {
-        "hash": "28560757fe2bb34e79f907794bb6b22ae8b0e5c669b638a1132f2592b19035b4",
+      "0.3.21": {
+        "hash": "f73fe65f54d1e12b726f517d3e2135ca3125a437b6d998caf1962961f7172d9e",
         "type": "crates-io"
       }
     },
     "futures-channel": {
-      "0.3.19": {
-        "hash": "ba3dda0b6588335f360afc675d0564c17a77a2bda81ca178a4b6081bd86c7f0b",
+      "0.3.21": {
+        "hash": "c3083ce4b914124575708913bca19bfe887522d6e2e6d0952943f5eac4a74010",
         "type": "crates-io"
       }
     },
     "futures-core": {
-      "0.3.19": {
-        "hash": "d0c8ff0461b82559810cdccfde3215c3f373807f5e5232b71479bff7bb2583d7",
+      "0.3.21": {
+        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
         "type": "crates-io"
       }
     },
     "futures-io": {
-      "0.3.19": {
-        "hash": "b1f9d34af5a1aac6fb380f735fe510746c38067c5bf16c7fd250280503c971b2",
+      "0.3.21": {
+        "hash": "fc4045962a5a5e935ee2fdedaa4e08284547402885ab326734432bed5d12966b",
         "type": "crates-io"
       }
     },
     "futures-sink": {
-      "0.3.19": {
-        "hash": "e3055baccb68d74ff6480350f8d6eb8fcfa3aa11bdc1a1ae3afdd0514617d508",
+      "0.3.21": {
+        "hash": "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.19": {
-        "hash": "6ee7c6485c30167ce4dfb83ac568a849fe53274c831081476ee13e0dce1aad72",
+      "0.3.21": {
+        "hash": "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.19": {
-        "hash": "d9b5cf40b47a271f77a8b1bec03ca09044d99d2372c0de244e66430761127164",
+      "0.3.21": {
+        "hash": "d8b7abd5d659d9b90c8cba917f6ec750a74e2dc23902ef9cd4cc8c8b22e6036a",
         "type": "crates-io"
       }
     },
     "memchr": {
-      "2.4.1": {
-        "hash": "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a",
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
         "type": "crates-io"
       }
     },
     "pin-project-lite": {
-      "0.2.8": {
-        "hash": "e280fbe77cc62c91527259e9442153f4688736748d24660126286329742b4c6c",
+      "0.2.9": {
+        "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
         "type": "crates-io"
       }
     },
@@ -125,8 +136,8 @@
       }
     },
     "slab": {
-      "0.4.5": {
-        "hash": "9def91fd1e018fe007022791f865d0ccc9b3a0d5001e01aabb8b40e46000afb5",
+      "0.4.7": {
+        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
         "type": "crates-io"
       }
     },
