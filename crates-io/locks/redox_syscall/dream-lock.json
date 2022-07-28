@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "redox_syscall",
-    "invalidationHash": "f51875a8d9ab53a3bdf64fd0c80bb480f22b05cb7941a3fab8839fc2ceee5761",
+    "invalidationHash": "51b722fb35abc781f851c073ffc49788cd709c5cbcfa969aae1792a4413fe29f",
     "location": "",
     "packages": {
-      "redox_syscall": "0.2.16"
+      "redox_syscall": "0.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "redox_syscall": {
-        "0.2.16": {}
+        "0.3.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "redox_syscall": {
-      "0.2.16": [
+      "0.3.0": [
         [ "bitflags", "1.3.2" ]
       ]
     }
@@ -33,11 +33,11 @@
       }
     },
     "redox_syscall": {
-      "0.2.16": {
-        "hash": "sha256-+1pYwYVbS2gZ1ZASFVYD8LIq0wytdSYAqt/LaVJlUZo=",
+      "0.3.0": {
+        "hash": "sha256-yozpabZin6pvYKcfhAIrAhflyovK620RZUUGpV6/j+0=",
         "pname": "redox_syscall",
         "type": "crates-io",
-        "version": "0.2.16"
+        "version": "0.3.0"
       }
     }
   }

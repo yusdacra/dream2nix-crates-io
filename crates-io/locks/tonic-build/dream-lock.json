@@ -57,7 +57,7 @@
       ]
     },
     "prettyplease": {
-      "0.1.16": [
+      "0.1.17": [
         [ "proc-macro2", "1.0.42" ],
         [ "syn", "1.0.98" ]
       ]
@@ -145,7 +145,7 @@
     },
     "tonic-build": {
       "0.7.2": [
-        [ "prettyplease", "0.1.16" ],
+        [ "prettyplease", "0.1.17" ],
         [ "proc-macro2", "1.0.42" ],
         [ "prost-build", "0.10.4" ],
         [ "quote", "1.0.20" ],
@@ -288,8 +288,8 @@
       }
     },
     "prettyplease": {
-      "0.1.16": {
-        "hash": "da6ffbe862780245013cb1c0a48c4e44b7d665548088f91f6b90876d0625e4c2",
+      "0.1.17": {
+        "hash": "fffbe84bf1905c007253d1f10ffb85fbc8ca8624a40cff8f2ded6f36920e38e0",
         "type": "crates-io"
       }
     },
