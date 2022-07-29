@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "serde_yaml",
-    "invalidationHash": "f34956ae88d714307eb6558bc4994e0124be13b1aa09c4adce2a6440dfa0a487",
+    "invalidationHash": "5b7267b024f999b24ec85afb28e0ffdf24fad8e3b0d8b328d85c0904cddbf4c9",
     "location": "",
     "packages": {
-      "serde_yaml": "0.8.26"
+      "serde_yaml": "0.9.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "serde_yaml": {
-        "0.8.26": {}
+        "0.9.0": {}
       }
     }
   },
@@ -43,14 +43,15 @@
       ]
     },
     "serde_yaml": {
-      "0.8.26": [
+      "0.9.0": [
         [ "anyhow", "1.0.58" ],
         [ "indexmap", "1.9.1" ],
         [ "indoc", "1.0.6" ],
+        [ "itoa", "1.0.2" ],
         [ "ryu", "1.0.10" ],
         [ "serde", "1.0.140" ],
         [ "serde_derive", "1.0.140" ],
-        [ "yaml-rust", "0.4.5" ]
+        [ "unsafe-libyaml", "0.2.1" ]
       ]
     },
     "syn": {
@@ -58,11 +59,6 @@
         [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "unicode-ident", "1.0.2" ]
-      ]
-    },
-    "yaml-rust": {
-      "0.4.5": [
-        [ "linked-hash-map", "0.5.6" ]
       ]
     }
   },
@@ -97,9 +93,9 @@
         "type": "crates-io"
       }
     },
-    "linked-hash-map": {
-      "0.5.6": {
-        "hash": "0717cef1bc8b636c6e1c1bbdefc09e6322da8a9321966e8928ef80d20f7f770f",
+    "itoa": {
+      "1.0.2": {
+        "hash": "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d",
         "type": "crates-io"
       }
     },
@@ -134,11 +130,11 @@
       }
     },
     "serde_yaml": {
-      "0.8.26": {
-        "hash": "sha256-V4p0M7d2tWo1eF7Vzpp+d3rAWYqsWm3RtLGKMHx/xxs=",
+      "0.9.0": {
+        "hash": "sha256-o1ozIKHI6tDvtL9Qhnjo3CmhvYkRiy+eri3MtRI7Gmk=",
         "pname": "serde_yaml",
         "type": "crates-io",
-        "version": "0.8.26"
+        "version": "0.9.0"
       }
     },
     "syn": {
@@ -153,9 +149,9 @@
         "type": "crates-io"
       }
     },
-    "yaml-rust": {
-      "0.4.5": {
-        "hash": "56c1936c4cc7a1c9ab21a1ebb602eb942ba868cbd44a99cb7cdc5892335e1c85",
+    "unsafe-libyaml": {
+      "0.2.1": {
+        "hash": "9dc1c637311091be28e5d462c07db78081e5828da80ba22605c81c4ad6f7f813",
         "type": "crates-io"
       }
     }

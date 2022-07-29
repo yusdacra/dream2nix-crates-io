@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "ctor",
-    "invalidationHash": "ab755a853cac15cd568988bb43354ab9404bbf119f9542ae3058f9d162488edd",
+    "invalidationHash": "2b587fdd749b2486a1f4702c52a3f0b5e4494d270faa917e30b85bce54203b77",
     "location": "",
     "packages": {
-      "ctor": "0.1.22"
+      "ctor": "0.1.23"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,84 +13,84 @@
     "gitSources": [],
     "relPathReplacements": {
       "ctor": {
-        "0.1.22": {}
+        "0.1.23": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "ctor": {
-      "0.1.22": [
-        [ "libc-print", "0.1.18" ],
-        [ "quote", "1.0.16" ],
-        [ "syn", "1.0.89" ]
+      "0.1.23": [
+        [ "libc-print", "0.1.20" ],
+        [ "quote", "1.0.20" ],
+        [ "syn", "1.0.98" ]
       ]
     },
     "libc-print": {
-      "0.1.18": [
-        [ "libc", "0.2.120" ]
+      "0.1.20": [
+        [ "libc", "0.2.126" ]
       ]
     },
     "proc-macro2": {
-      "1.0.36": [
-        [ "unicode-xid", "0.2.2" ]
+      "1.0.42": [
+        [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
-      "1.0.16": [
-        [ "proc-macro2", "1.0.36" ]
+      "1.0.20": [
+        [ "proc-macro2", "1.0.42" ]
       ]
     },
     "syn": {
-      "1.0.89": [
-        [ "proc-macro2", "1.0.36" ],
-        [ "quote", "1.0.16" ],
-        [ "unicode-xid", "0.2.2" ]
+      "1.0.98": [
+        [ "proc-macro2", "1.0.42" ],
+        [ "quote", "1.0.20" ],
+        [ "unicode-ident", "1.0.2" ]
       ]
     }
   },
   "sources": {
     "ctor": {
-      "0.1.22": {
-        "hash": "sha256-+He+T3yfJGsYMRFjT3W6oDlxXj9GzoYGd9Oxmmn7Ipw=",
+      "0.1.23": {
+        "hash": "sha256-zf/ofh1SGhD5aW+DP+UCKT6kRtfyVsBhKCk6QRm99Ms=",
         "pname": "ctor",
         "type": "crates-io",
-        "version": "0.1.22"
+        "version": "0.1.23"
       }
     },
     "libc": {
-      "0.2.120": {
-        "hash": "ad5c14e80759d0939d013e6ca49930e59fc53dd8e5009132f76240c179380c09",
+      "0.2.126": {
+        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
         "type": "crates-io"
       }
     },
     "libc-print": {
-      "0.1.18": {
-        "hash": "57ccf937aa7e09a1741635a6b33b9dcde399c1f332f76eb7ae69426005d0bf6b",
+      "0.1.20": {
+        "hash": "a574491aebd99996f31b32469bbd3b50e580c35f6305663d68f6d6b28eaced09",
         "type": "crates-io"
       }
     },
     "proc-macro2": {
-      "1.0.36": {
-        "hash": "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029",
+      "1.0.42": {
+        "hash": "c278e965f1d8cf32d6e0e96de3d3e79712178ae67986d9cf9151f51e95aac89b",
         "type": "crates-io"
       }
     },
     "quote": {
-      "1.0.16": {
-        "hash": "b4af2ec4714533fcdf07e886f17025ace8b997b9ce51204ee69b6da831c3da57",
+      "1.0.20": {
+        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
         "type": "crates-io"
       }
     },
     "syn": {
-      "1.0.89": {
-        "hash": "ea297be220d52398dcc07ce15a209fce436d361735ac1db700cab3b6cdfb9f54",
+      "1.0.98": {
+        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
         "type": "crates-io"
       }
     },
-    "unicode-xid": {
-      "0.2.2": {
-        "hash": "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3",
+    "unicode-ident": {
+      "1.0.2": {
+        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
         "type": "crates-io"
       }
     }

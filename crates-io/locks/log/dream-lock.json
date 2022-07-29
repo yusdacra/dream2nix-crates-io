@@ -20,7 +20,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "ctor": {
-      "0.1.22": [
+      "0.1.23": [
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -94,7 +94,7 @@
     },
     "value-bag": {
       "1.0.0-alpha.9": [
-        [ "ctor", "0.1.22" ],
+        [ "ctor", "0.1.23" ],
         [ "erased-serde", "0.3.21" ],
         [ "serde", "1.0.140" ],
         [ "serde_fmt", "1.0.1" ],
@@ -111,8 +111,8 @@
       }
     },
     "ctor": {
-      "0.1.22": {
-        "hash": "f877be4f7c9f246b183111634f75baa039715e3f46ce860677d3b19a69fb229c",
+      "0.1.23": {
+        "hash": "cdffe87e1d521a10f9696f833fe502293ea446d7f256c06128293a4119bdf4cb",
         "type": "crates-io"
       }
     },
