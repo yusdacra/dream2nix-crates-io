@@ -399,14 +399,14 @@
       ]
     },
     "tracing": {
-      "0.1.35": [
+      "0.1.36": [
         [ "cfg-if", "1.0.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-core", "0.1.28" ]
+        [ "tracing-core", "0.1.29" ]
       ]
     },
     "tracing-core": {
-      "0.1.28": [
+      "0.1.29": [
         [ "once_cell", "1.13.0" ],
         [ "valuable", "0.1.0" ]
       ]
@@ -420,8 +420,8 @@
         [ "tokio", "0.1.22" ],
         [ "tokio-executor", "0.1.10" ],
         [ "tokio-test", "0.2.1" ],
-        [ "tracing", "0.1.35" ],
-        [ "tracing-core", "0.1.28" ]
+        [ "tracing", "0.1.36" ],
+        [ "tracing-core", "0.1.29" ]
       ]
     },
     "winapi": {
@@ -867,14 +867,14 @@
       }
     },
     "tracing": {
-      "0.1.35": {
-        "hash": "a400e31aa60b9d44a52a8ee0343b5b18566b03a8321e0d321f695cf56e940160",
+      "0.1.36": {
+        "hash": "2fce9567bd60a67d08a16488756721ba392f24f29006402881e43b19aac64307",
         "type": "crates-io"
       }
     },
     "tracing-core": {
-      "0.1.28": {
-        "hash": "7b7358be39f2f274f322d2aaed611acc57f382e8eb1e5b48cb9ae30933495ce7",
+      "0.1.29": {
+        "hash": "5aeea4303076558a00714b823f9ad67d58a3bbda1df83d8827d21193156e22f7",
         "type": "crates-io"
       }
     },

@@ -70,7 +70,7 @@
     "num-traits": {
       "0.2.15": [
         [ "autocfg", "1.1.0" ],
-        [ "libm", "0.2.2" ]
+        [ "libm", "0.2.3" ]
       ]
     },
     "rand": {
@@ -87,8 +87,8 @@
       }
     },
     "libm": {
-      "0.2.2": {
-        "hash": "33a33a362ce288760ec6a508b94caaec573ae7d3bbbd91b87aa0bad4456839db",
+      "0.2.3": {
+        "hash": "da83a57f3f5ba3680950aa3cbc806fc297bc0b289d42e8942ed528ace71b8145",
         "type": "crates-io"
       }
     },

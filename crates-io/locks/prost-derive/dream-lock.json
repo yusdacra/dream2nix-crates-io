@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "prost-derive",
-    "invalidationHash": "12dee0baadd2009118f8bac42dcbbf57ad6b9dddb7452f5459ac5849b29363f7",
+    "invalidationHash": "17e75ab8f21501e895225cc60e882b546bcd073a80a6c1037041bd9fe21edf24",
     "location": "",
     "packages": {
-      "prost-derive": "0.10.1"
+      "prost-derive": "0.11.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "prost-derive": {
-        "0.10.1": {}
+        "0.11.0": {}
       }
     }
   },
@@ -30,7 +30,7 @@
       ]
     },
     "prost-derive": {
-      "0.10.1": [
+      "0.11.0": [
         [ "anyhow", "1.0.58" ],
         [ "itertools", "0.10.3" ],
         [ "proc-macro2", "1.0.42" ],
@@ -77,11 +77,11 @@
       }
     },
     "prost-derive": {
-      "0.10.1": {
-        "hash": "sha256-e2cPRdpX+4VC69u2EFqSX+Vxtn+eftn0egaoTnK058w=",
+      "0.11.0": {
+        "hash": "sha256-c0XV8OCMBTbXrHIplSWQI553q/CgEAobHYkK3W6pY2Q=",
         "pname": "prost-derive",
         "type": "crates-io",
-        "version": "0.10.1"
+        "version": "0.11.0"
       }
     },
     "quote": {

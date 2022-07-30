@@ -81,7 +81,7 @@
       "0.12.3": [
         [ "ahash", "0.7.6" ],
         [ "bumpalo", "3.10.0" ],
-        [ "compiler_builtins", "0.1.77" ],
+        [ "compiler_builtins", "0.1.78" ],
         [ "doc-comment", "0.3.3" ],
         [ "fnv", "1.0.7" ],
         [ "lazy_static", "1.4.0" ],
@@ -180,8 +180,8 @@
       }
     },
     "compiler_builtins": {
-      "0.1.77": {
-        "hash": "e6b556e484721d52c201f6fb31ec6ca4080cf57bbbf57ca3826dcd613dc6bddd",
+      "0.1.78": {
+        "hash": "413b6b13f725a46cdec40364e0c1d564a22cf0aaac5f1e267a129d956478a6b4",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tonic-build",
-    "invalidationHash": "eeda915a3c4aa0d1ae5e61b703c89529dd87f980715e04f162fc973ed53941bf",
+    "invalidationHash": "92ed6a71223db9f29a92999c507113457aef699592f9d4aa8b11f534aaa8e3eb",
     "location": "",
     "packages": {
-      "tonic-build": "0.7.2"
+      "tonic-build": "0.8.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,17 +13,12 @@
     "gitSources": [],
     "relPathReplacements": {
       "tonic-build": {
-        "0.7.2": {}
+        "0.8.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "cmake": {
-      "0.1.48": [
-        [ "cc", "1.0.73" ]
-      ]
-    },
     "fastrand": {
       "1.8.0": [
         [ "instant", "0.1.12" ]
@@ -68,31 +63,29 @@
       ]
     },
     "prost": {
-      "0.10.4": [
+      "0.11.0": [
         [ "bytes", "1.2.0" ],
-        [ "prost-derive", "0.10.1" ]
+        [ "prost-derive", "0.11.0" ]
       ]
     },
     "prost-build": {
-      "0.10.4": [
+      "0.11.0": [
         [ "bytes", "1.2.0" ],
-        [ "cfg-if", "1.0.0" ],
-        [ "cmake", "0.1.48" ],
         [ "heck", "0.4.0" ],
         [ "itertools", "0.10.3" ],
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
         [ "multimap", "0.8.3" ],
         [ "petgraph", "0.6.2" ],
-        [ "prost", "0.10.4" ],
-        [ "prost-types", "0.10.1" ],
+        [ "prost", "0.11.0" ],
+        [ "prost-types", "0.11.0" ],
         [ "regex", "1.6.0" ],
         [ "tempfile", "3.3.0" ],
         [ "which", "4.2.5" ]
       ]
     },
     "prost-derive": {
-      "0.10.1": [
+      "0.11.0": [
         [ "anyhow", "1.0.58" ],
         [ "itertools", "0.10.3" ],
         [ "proc-macro2", "1.0.42" ],
@@ -101,9 +94,9 @@
       ]
     },
     "prost-types": {
-      "0.10.1": [
+      "0.11.0": [
         [ "bytes", "1.2.0" ],
-        [ "prost", "0.10.4" ]
+        [ "prost", "0.11.0" ]
       ]
     },
     "quote": {
@@ -144,10 +137,10 @@
       ]
     },
     "tonic-build": {
-      "0.7.2": [
+      "0.8.0": [
         [ "prettyplease", "0.1.17" ],
         [ "proc-macro2", "1.0.42" ],
-        [ "prost-build", "0.10.4" ],
+        [ "prost-build", "0.11.0" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
       ]
@@ -191,21 +184,9 @@
         "type": "crates-io"
       }
     },
-    "cc": {
-      "1.0.73": {
-        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
-        "type": "crates-io"
-      }
-    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
-        "type": "crates-io"
-      }
-    },
-    "cmake": {
-      "0.1.48": {
-        "hash": "e8ad8cef104ac57b68b89df3208164d228503abbdce70f6880ffa3d970e7443a",
         "type": "crates-io"
       }
     },
@@ -300,26 +281,26 @@
       }
     },
     "prost": {
-      "0.10.4": {
-        "hash": "71adf41db68aa0daaefc69bb30bcd68ded9b9abaad5d1fbb6304c4fb390e083e",
+      "0.11.0": {
+        "hash": "399c3c31cdec40583bb68f0b18403400d01ec4289c383aa047560439952c4dd7",
         "type": "crates-io"
       }
     },
     "prost-build": {
-      "0.10.4": {
-        "hash": "8ae5a4388762d5815a9fc0dea33c56b021cdc8dde0c55e0c9ca57197254b0cab",
+      "0.11.0": {
+        "hash": "d49d928704208aba2cb1fb022ce1a319bdedcb03caf51ddf82734fa903407762",
         "type": "crates-io"
       }
     },
     "prost-derive": {
-      "0.10.1": {
-        "hash": "7b670f45da57fb8542ebdbb6105a925fe571b67f9e7ed9f47a06a84e72b4e7cc",
+      "0.11.0": {
+        "hash": "7345d5f0e08c0536d7ac7229952590239e77abf0a0100a1b1d890add6ea96364",
         "type": "crates-io"
       }
     },
     "prost-types": {
-      "0.10.1": {
-        "hash": "2d0a014229361011dc8e69c8a1ec6c2e8d0f2af7c91e3ea3f5b2170298461e68",
+      "0.11.0": {
+        "hash": "d30bc806a29b347314be074ff0608ef8e547286e8ea68b061a2fe55689edc01f",
         "type": "crates-io"
       }
     },
@@ -366,11 +347,11 @@
       }
     },
     "tonic-build": {
-      "0.7.2": {
-        "hash": "sha256-2SY79Mm/qucxfBwvr38YSR0v5Hb3DEFLc79dRFsA/6E=",
+      "0.8.0": {
+        "hash": "sha256-L7zSgA4050O5rnlYZ9X3e1NdOjvmn9cx45FFcZdS34w=",
         "pname": "tonic-build",
         "type": "crates-io",
-        "version": "0.7.2"
+        "version": "0.8.0"
       }
     },
     "unicode-ident": {
