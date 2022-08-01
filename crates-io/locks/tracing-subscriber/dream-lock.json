@@ -299,8 +299,9 @@
       ]
     },
     "time": {
-      "0.3.11": [
+      "0.3.12": [
         [ "itoa", "1.0.2" ],
+        [ "js-sys", "0.3.59" ],
         [ "libc", "0.2.126" ],
         [ "num_threads", "0.1.6" ],
         [ "time-macros", "0.2.4" ]
@@ -383,7 +384,7 @@
         [ "sharded-slab", "0.1.4" ],
         [ "smallvec", "1.9.0" ],
         [ "thread_local", "1.1.4" ],
-        [ "time", "0.3.11" ],
+        [ "time", "0.3.12" ],
         [ "tokio", "1.20.1" ],
         [ "tracing", "0.1.36" ],
         [ "tracing-core", "0.1.29" ],
@@ -850,8 +851,8 @@
       }
     },
     "time": {
-      "0.3.11": {
-        "hash": "72c91f41dcb2f096c05f0873d667dceec1087ce5bcf984ec8ffb19acddbb3217",
+      "0.3.12": {
+        "hash": "74b7cc93fc23ba97fde84f7eea56c55d1ba183f495c6715defdfc7b9cb8c870f",
         "type": "crates-io"
       }
     },
