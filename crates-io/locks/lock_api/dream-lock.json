@@ -24,7 +24,7 @@
         [ "autocfg", "1.1.0" ],
         [ "owning_ref", "0.4.1" ],
         [ "scopeguard", "1.1.0" ],
-        [ "serde", "1.0.140" ]
+        [ "serde", "1.0.141" ]
       ]
     },
     "owning_ref": {
@@ -61,8 +61,8 @@
       }
     },
     "serde": {
-      "1.0.140": {
-        "hash": "fc855a42c7967b7c369eb5860f7164ef1f6f81c20c7cc1141f2a604e18723b03",
+      "1.0.141": {
+        "hash": "7af873f2c95b99fcb0bd0fe622a43e29514658873c8ceba88c4cb88833a22500",
         "type": "crates-io"
       }
     },

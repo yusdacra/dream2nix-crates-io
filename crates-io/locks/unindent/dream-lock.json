@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "unindent",
-    "invalidationHash": "367b1998661b0f2371ac8f63159e2f553e0237a6289ad8f7207716a9b404a739",
+    "invalidationHash": "d934732de880550c5b73d8c677b88cf2c4435743761f82ac7b25ba224158b1ad",
     "location": "",
     "packages": {
-      "unindent": "0.1.9"
+      "unindent": "0.1.10"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "unindent": {
-        "0.1.9": {}
+        "0.1.10": {}
       }
     }
   },
@@ -21,11 +21,11 @@
   "dependencies": {},
   "sources": {
     "unindent": {
-      "0.1.9": {
-        "hash": "sha256-Uv7lGaPlcPffN3oGoad3XNv7eqRgvn4I3isfDmmXOkQ=",
+      "0.1.10": {
+        "hash": "sha256-WO6TYt60qWzvTUN9GtSc/8m56S0gK2mVZ06SjOaE8RI=",
         "pname": "unindent",
         "type": "crates-io",
-        "version": "0.1.9"
+        "version": "0.1.10"
       }
     }
   }

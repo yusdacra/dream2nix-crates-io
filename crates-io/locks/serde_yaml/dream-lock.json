@@ -36,7 +36,7 @@
       ]
     },
     "serde_derive": {
-      "1.0.140": [
+      "1.0.141": [
         [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
@@ -44,13 +44,13 @@
     },
     "serde_yaml": {
       "0.9.2": [
-        [ "anyhow", "1.0.58" ],
+        [ "anyhow", "1.0.59" ],
         [ "indexmap", "1.9.1" ],
-        [ "indoc", "1.0.6" ],
+        [ "indoc", "1.0.7" ],
         [ "itoa", "1.0.2" ],
         [ "ryu", "1.0.10" ],
-        [ "serde", "1.0.140" ],
-        [ "serde_derive", "1.0.140" ],
+        [ "serde", "1.0.141" ],
+        [ "serde_derive", "1.0.141" ],
         [ "unsafe-libyaml", "0.2.1" ]
       ]
     },
@@ -64,8 +64,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.58": {
-        "hash": "bb07d2053ccdbe10e2af2995a2f116c1330396493dc1269f6a91d0ae82e19704",
+      "1.0.59": {
+        "hash": "c91f1f46651137be86f3a2b9a8359f9ab421d04d941c62b5982e1ca21113adf9",
         "type": "crates-io"
       }
     },
@@ -88,8 +88,8 @@
       }
     },
     "indoc": {
-      "1.0.6": {
-        "hash": "05a0bd019339e5d968b37855180087b7b9d512c5046fbd244cf8c95687927d6e",
+      "1.0.7": {
+        "hash": "adab1eaa3408fb7f0c777a73e7465fd5656136fc93b670eb6df3c88c2c1344e3",
         "type": "crates-io"
       }
     },
@@ -118,14 +118,14 @@
       }
     },
     "serde": {
-      "1.0.140": {
-        "hash": "fc855a42c7967b7c369eb5860f7164ef1f6f81c20c7cc1141f2a604e18723b03",
+      "1.0.141": {
+        "hash": "7af873f2c95b99fcb0bd0fe622a43e29514658873c8ceba88c4cb88833a22500",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.140": {
-        "hash": "6f2122636b9fe3b81f1cb25099fcf2d3f542cdb1d45940d56c713158884a05da",
+      "1.0.141": {
+        "hash": "75743a150d003dd863b51dc809bcad0d73f2102c53632f1e954e738192a3413f",
         "type": "crates-io"
       }
     },

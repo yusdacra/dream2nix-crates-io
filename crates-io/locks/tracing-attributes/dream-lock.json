@@ -31,7 +31,7 @@
       ]
     },
     "async-trait": {
-      "0.1.56": [
+      "0.1.57": [
         [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ]
@@ -114,7 +114,7 @@
     },
     "tracing-attributes": {
       "0.1.22": [
-        [ "async-trait", "0.1.56" ],
+        [ "async-trait", "0.1.57" ],
         [ "proc-macro2", "1.0.42" ],
         [ "quote", "1.0.20" ],
         [ "syn", "1.0.98" ],
@@ -166,8 +166,8 @@
       }
     },
     "async-trait": {
-      "0.1.56": {
-        "hash": "96cf8829f67d2eab0b2dfa42c5d0ef737e0724e4a82b01b3e292456202b19716",
+      "0.1.57": {
+        "hash": "76464446b8bc32758d7e88ee1a804d9914cd9b1cb264c029899680b0be29826f",
         "type": "crates-io"
       }
     },
