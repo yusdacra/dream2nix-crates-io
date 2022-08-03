@@ -52,13 +52,13 @@
       ]
     },
     "prettyplease": {
-      "0.1.17": [
-        [ "proc-macro2", "1.0.42" ],
-        [ "syn", "1.0.98" ]
+      "0.1.18": [
+        [ "proc-macro2", "1.0.43" ],
+        [ "syn", "1.0.99" ]
       ]
     },
     "proc-macro2": {
-      "1.0.42": [
+      "1.0.43": [
         [ "unicode-ident", "1.0.2" ]
       ]
     },
@@ -69,7 +69,7 @@
       ]
     },
     "prost-build": {
-      "0.11.0": [
+      "0.11.1": [
         [ "bytes", "1.2.1" ],
         [ "heck", "0.4.0" ],
         [ "itertools", "0.10.3" ],
@@ -78,7 +78,7 @@
         [ "multimap", "0.8.3" ],
         [ "petgraph", "0.6.2" ],
         [ "prost", "0.11.0" ],
-        [ "prost-types", "0.11.0" ],
+        [ "prost-types", "0.11.1" ],
         [ "regex", "1.6.0" ],
         [ "tempfile", "3.3.0" ],
         [ "which", "4.2.5" ]
@@ -86,22 +86,22 @@
     },
     "prost-derive": {
       "0.11.0": [
-        [ "anyhow", "1.0.59" ],
+        [ "anyhow", "1.0.60" ],
         [ "itertools", "0.10.3" ],
-        [ "proc-macro2", "1.0.42" ],
-        [ "quote", "1.0.20" ],
-        [ "syn", "1.0.98" ]
+        [ "proc-macro2", "1.0.43" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.99" ]
       ]
     },
     "prost-types": {
-      "0.11.0": [
+      "0.11.1": [
         [ "bytes", "1.2.1" ],
         [ "prost", "0.11.0" ]
       ]
     },
     "quote": {
-      "1.0.20": [
-        [ "proc-macro2", "1.0.42" ]
+      "1.0.21": [
+        [ "proc-macro2", "1.0.43" ]
       ]
     },
     "redox_syscall": {
@@ -120,9 +120,9 @@
       ]
     },
     "syn": {
-      "1.0.98": [
-        [ "proc-macro2", "1.0.42" ],
-        [ "quote", "1.0.20" ],
+      "1.0.99": [
+        [ "proc-macro2", "1.0.43" ],
+        [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.2" ]
       ]
     },
@@ -138,11 +138,11 @@
     },
     "tonic-build": {
       "0.8.0": [
-        [ "prettyplease", "0.1.17" ],
-        [ "proc-macro2", "1.0.42" ],
-        [ "prost-build", "0.11.0" ],
-        [ "quote", "1.0.20" ],
-        [ "syn", "1.0.98" ]
+        [ "prettyplease", "0.1.18" ],
+        [ "proc-macro2", "1.0.43" ],
+        [ "prost-build", "0.11.1" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.99" ]
       ]
     },
     "which": {
@@ -161,8 +161,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.59": {
-        "hash": "c91f1f46651137be86f3a2b9a8359f9ab421d04d941c62b5982e1ca21113adf9",
+      "1.0.60": {
+        "hash": "c794e162a5eff65c72ef524dfe393eb923c354e350bb78b9c7383df13f3bc142",
         "type": "crates-io"
       }
     },
@@ -269,14 +269,14 @@
       }
     },
     "prettyplease": {
-      "0.1.17": {
-        "hash": "fffbe84bf1905c007253d1f10ffb85fbc8ca8624a40cff8f2ded6f36920e38e0",
+      "0.1.18": {
+        "hash": "697ae720ee02011f439e0701db107ffe2916d83f718342d65d7f8bf7b8a5fee9",
         "type": "crates-io"
       }
     },
     "proc-macro2": {
-      "1.0.42": {
-        "hash": "c278e965f1d8cf32d6e0e96de3d3e79712178ae67986d9cf9151f51e95aac89b",
+      "1.0.43": {
+        "hash": "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab",
         "type": "crates-io"
       }
     },
@@ -287,8 +287,8 @@
       }
     },
     "prost-build": {
-      "0.11.0": {
-        "hash": "d49d928704208aba2cb1fb022ce1a319bdedcb03caf51ddf82734fa903407762",
+      "0.11.1": {
+        "hash": "7f835c582e6bd972ba8347313300219fed5bfa52caf175298d860b61ff6069bb",
         "type": "crates-io"
       }
     },
@@ -299,14 +299,14 @@
       }
     },
     "prost-types": {
-      "0.11.0": {
-        "hash": "d30bc806a29b347314be074ff0608ef8e547286e8ea68b061a2fe55689edc01f",
+      "0.11.1": {
+        "hash": "4dfaa718ad76a44b3415e6c4d53b17c8f99160dcb3a99b10470fce8ad43f6e3e",
         "type": "crates-io"
       }
     },
     "quote": {
-      "1.0.20": {
-        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
         "type": "crates-io"
       }
     },
@@ -335,8 +335,8 @@
       }
     },
     "syn": {
-      "1.0.98": {
-        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+      "1.0.99": {
+        "hash": "58dbef6ec655055e20b86b15a8cc6d439cca19b667537ac6a1369572d151ab13",
         "type": "crates-io"
       }
     },

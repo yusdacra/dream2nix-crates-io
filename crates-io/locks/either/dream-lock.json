@@ -26,13 +26,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.42": [
+      "1.0.43": [
         [ "unicode-ident", "1.0.2" ]
       ]
     },
     "quote": {
-      "1.0.20": [
-        [ "proc-macro2", "1.0.42" ]
+      "1.0.21": [
+        [ "proc-macro2", "1.0.43" ]
       ]
     },
     "serde": {
@@ -42,22 +42,22 @@
     },
     "serde_derive": {
       "1.0.141": [
-        [ "proc-macro2", "1.0.42" ],
-        [ "quote", "1.0.20" ],
-        [ "syn", "1.0.98" ]
+        [ "proc-macro2", "1.0.43" ],
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.99" ]
       ]
     },
     "serde_json": {
       "1.0.82": [
         [ "itoa", "1.0.2" ],
-        [ "ryu", "1.0.10" ],
+        [ "ryu", "1.0.11" ],
         [ "serde", "1.0.141" ]
       ]
     },
     "syn": {
-      "1.0.98": [
-        [ "proc-macro2", "1.0.42" ],
-        [ "quote", "1.0.20" ],
+      "1.0.99": [
+        [ "proc-macro2", "1.0.43" ],
+        [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.2" ]
       ]
     }
@@ -78,20 +78,20 @@
       }
     },
     "proc-macro2": {
-      "1.0.42": {
-        "hash": "c278e965f1d8cf32d6e0e96de3d3e79712178ae67986d9cf9151f51e95aac89b",
+      "1.0.43": {
+        "hash": "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab",
         "type": "crates-io"
       }
     },
     "quote": {
-      "1.0.20": {
-        "hash": "3bcdf212e9776fbcb2d23ab029360416bb1706b1aea2d1a5ba002727cbcab804",
+      "1.0.21": {
+        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
         "type": "crates-io"
       }
     },
     "ryu": {
-      "1.0.10": {
-        "hash": "f3f6f92acf49d1b98f7a81226834412ada05458b7364277387724a237f062695",
+      "1.0.11": {
+        "hash": "4501abdff3ae82a1c1b477a17252eb69cee9e66eb915c1abaa4f44d873df9f09",
         "type": "crates-io"
       }
     },
@@ -114,8 +114,8 @@
       }
     },
     "syn": {
-      "1.0.98": {
-        "hash": "c50aef8a904de4c23c788f104b7dddc7d6f79c647c7c8ce4cc8f73eb0ca773dd",
+      "1.0.99": {
+        "hash": "58dbef6ec655055e20b86b15a8cc6d439cca19b667537ac6a1369572d151ab13",
         "type": "crates-io"
       }
     },

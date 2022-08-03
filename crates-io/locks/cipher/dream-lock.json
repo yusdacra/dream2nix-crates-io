@@ -21,7 +21,7 @@
   "dependencies": {
     "block-padding": {
       "0.3.2": [
-        [ "generic-array", "0.14.5" ]
+        [ "generic-array", "0.14.6" ]
       ]
     },
     "cipher": {
@@ -34,13 +34,13 @@
     },
     "crypto-common": {
       "0.1.6": [
-        [ "generic-array", "0.14.5" ],
+        [ "generic-array", "0.14.6" ],
         [ "rand_core", "0.6.3" ],
         [ "typenum", "1.15.0" ]
       ]
     },
     "generic-array": {
-      "0.14.5": [
+      "0.14.6": [
         [ "typenum", "1.15.0" ],
         [ "version_check", "0.9.4" ]
       ]
@@ -48,7 +48,7 @@
     "inout": {
       "0.1.3": [
         [ "block-padding", "0.3.2" ],
-        [ "generic-array", "0.14.5" ]
+        [ "generic-array", "0.14.6" ]
       ]
     }
   },
@@ -80,8 +80,8 @@
       }
     },
     "generic-array": {
-      "0.14.5": {
-        "hash": "fd48d33ec7f05fbfa152300fdad764757cbded343c1aa1cff2fbaf4134851803",
+      "0.14.6": {
+        "hash": "bff49e947297f3312447abdca79f45f4738097cc82b06e72054d2223f601f1b9",
         "type": "crates-io"
       }
     },
