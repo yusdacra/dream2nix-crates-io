@@ -73,7 +73,7 @@
     "getrandom": {
       "0.2.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -89,13 +89,13 @@
         [ "rayon", "1.5.3" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
         [ "rustc-std-workspace-core", "1.0.0" ],
-        [ "serde", "1.0.141" ],
-        [ "serde_test", "1.0.141" ]
+        [ "serde", "1.0.142" ],
+        [ "serde_test", "1.0.142" ]
       ]
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "memoffset": {
@@ -106,12 +106,12 @@
     "num_cpus": {
       "1.13.1": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.3" ]
       ]
@@ -144,8 +144,8 @@
       ]
     },
     "serde_test": {
-      "1.0.141": [
-        [ "serde", "1.0.141" ]
+      "1.0.142": [
+        [ "serde", "1.0.142" ]
       ]
     },
     "tiny-keccak": {
@@ -272,8 +272,8 @@
       }
     },
     "libc": {
-      "0.2.126": {
-        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+      "0.2.127": {
+        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
         "type": "crates-io"
       }
     },
@@ -356,14 +356,14 @@
       }
     },
     "serde": {
-      "1.0.141": {
-        "hash": "7af873f2c95b99fcb0bd0fe622a43e29514658873c8ceba88c4cb88833a22500",
+      "1.0.142": {
+        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
         "type": "crates-io"
       }
     },
     "serde_test": {
-      "1.0.141": {
-        "hash": "02dcf22b2d7b217b72a5b26c45a2ec9f8a84dd83b35b4561e406e64cf67477d6",
+      "1.0.142": {
+        "hash": "bbf855c7d1704095906013b4491af507f67cad13d778ff408ca9696e9d195cf5",
         "type": "crates-io"
       }
     },

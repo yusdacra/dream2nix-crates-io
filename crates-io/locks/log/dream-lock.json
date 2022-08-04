@@ -27,22 +27,22 @@
     },
     "erased-serde": {
       "0.3.22": [
-        [ "serde", "1.0.141" ]
+        [ "serde", "1.0.142" ]
       ]
     },
     "log": {
       "0.4.17": [
         [ "cfg-if", "1.0.0" ],
         [ "rustversion", "1.0.9" ],
-        [ "serde", "1.0.141" ],
-        [ "serde_test", "1.0.141" ],
+        [ "serde", "1.0.142" ],
+        [ "serde_test", "1.0.142" ],
         [ "sval", "1.0.0-alpha.5" ],
         [ "value-bag", "1.0.0-alpha.9" ]
       ]
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "quote": {
@@ -51,12 +51,12 @@
       ]
     },
     "serde": {
-      "1.0.141": [
-        [ "serde_derive", "1.0.141" ]
+      "1.0.142": [
+        [ "serde_derive", "1.0.142" ]
       ]
     },
     "serde_derive": {
-      "1.0.141": [
+      "1.0.142": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -64,17 +64,17 @@
     },
     "serde_fmt": {
       "1.0.1": [
-        [ "serde", "1.0.141" ]
+        [ "serde", "1.0.142" ]
       ]
     },
     "serde_test": {
-      "1.0.141": [
-        [ "serde", "1.0.141" ]
+      "1.0.142": [
+        [ "serde", "1.0.142" ]
       ]
     },
     "sval": {
       "1.0.0-alpha.5": [
-        [ "serde", "1.0.141" ],
+        [ "serde", "1.0.142" ],
         [ "sval_derive", "1.0.0-alpha.5" ]
       ]
     },
@@ -89,14 +89,14 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "value-bag": {
       "1.0.0-alpha.9": [
         [ "ctor", "0.1.23" ],
         [ "erased-serde", "0.3.22" ],
-        [ "serde", "1.0.141" ],
+        [ "serde", "1.0.142" ],
         [ "serde_fmt", "1.0.1" ],
         [ "sval", "1.0.0-alpha.5" ],
         [ "version_check", "0.9.4" ]
@@ -149,14 +149,14 @@
       }
     },
     "serde": {
-      "1.0.141": {
-        "hash": "7af873f2c95b99fcb0bd0fe622a43e29514658873c8ceba88c4cb88833a22500",
+      "1.0.142": {
+        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.141": {
-        "hash": "75743a150d003dd863b51dc809bcad0d73f2102c53632f1e954e738192a3413f",
+      "1.0.142": {
+        "hash": "34b5b8d809babe02f538c2cfec6f2c1ed10804c0e5a6a041a049a4f5588ccc2e",
         "type": "crates-io"
       }
     },
@@ -167,8 +167,8 @@
       }
     },
     "serde_test": {
-      "1.0.141": {
-        "hash": "02dcf22b2d7b217b72a5b26c45a2ec9f8a84dd83b35b4561e406e64cf67477d6",
+      "1.0.142": {
+        "hash": "bbf855c7d1704095906013b4491af507f67cad13d778ff408ca9696e9d195cf5",
         "type": "crates-io"
       }
     },
@@ -191,8 +191,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.2": {
-        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
+      "1.0.3": {
+        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
         "type": "crates-io"
       }
     },

@@ -21,7 +21,7 @@
   "dependencies": {
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "quote": {
@@ -38,7 +38,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "time-macros-impl": {
@@ -91,8 +91,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.2": {
-        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
+      "1.0.3": {
+        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
         "type": "crates-io"
       }
     },

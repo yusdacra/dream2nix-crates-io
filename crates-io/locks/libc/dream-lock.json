@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "libc",
-    "invalidationHash": "ccd44a9c900d2eb69bbfbc9cefca75d8946376a6e05c930cd2de5253ce00c044",
+    "invalidationHash": "b1fe0ee80d4c90d76327ff30cdb05ebf0d16bb3cb4b2a89a769badf325cc02e2",
     "location": "",
     "packages": {
-      "libc": "0.2.126"
+      "libc": "0.2.127"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,25 +13,25 @@
     "gitSources": [],
     "relPathReplacements": {
       "libc": {
-        "0.2.126": {}
+        "0.2.127": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "libc": {
-      "0.2.126": [
+      "0.2.127": [
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     }
   },
   "sources": {
     "libc": {
-      "0.2.126": {
-        "hash": "sha256-NJ1aWRzSi0nh0QN0cWF6Mt3NpXMbmUGQCAhfctWlODY=",
+      "0.2.127": {
+        "hash": "sha256-UF5xpHBvpJHpsbVfUbldQDfQgh7kATEZBHX2krNbAJs=",
         "pname": "libc",
         "type": "crates-io",
-        "version": "0.2.126"
+        "version": "0.2.127"
       }
     },
     "rustc-std-workspace-core": {

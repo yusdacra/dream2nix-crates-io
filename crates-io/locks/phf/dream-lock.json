@@ -22,7 +22,7 @@
     "getrandom": {
       "0.2.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -30,7 +30,7 @@
       "0.11.0": [
         [ "phf_macros", "0.11.0" ],
         [ "phf_shared", "0.11.0" ],
-        [ "serde", "1.0.141" ]
+        [ "serde", "1.0.142" ]
       ]
     },
     "phf_generator": {
@@ -58,7 +58,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "quote": {
@@ -68,7 +68,7 @@
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.3" ]
       ]
@@ -88,7 +88,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "uncased": {
@@ -116,8 +116,8 @@
       }
     },
     "libc": {
-      "0.2.126": {
-        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+      "0.2.127": {
+        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
         "type": "crates-io"
       }
     },
@@ -184,8 +184,8 @@
       }
     },
     "serde": {
-      "1.0.141": {
-        "hash": "7af873f2c95b99fcb0bd0fe622a43e29514658873c8ceba88c4cb88833a22500",
+      "1.0.142": {
+        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
         "type": "crates-io"
       }
     },
@@ -214,8 +214,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.2": {
-        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
+      "1.0.3": {
+        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
         "type": "crates-io"
       }
     },

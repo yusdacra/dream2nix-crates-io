@@ -68,12 +68,12 @@
       "0.2.8": [
         [ "bytes", "1.2.1" ],
         [ "fnv", "1.0.7" ],
-        [ "itoa", "1.0.2" ]
+        [ "itoa", "1.0.3" ]
       ]
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "quote": {
@@ -90,7 +90,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "tokio": {
@@ -196,8 +196,8 @@
       }
     },
     "itoa": {
-      "1.0.2": {
-        "hash": "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d",
+      "1.0.3": {
+        "hash": "6c8af84674fe1f223a982c933a0ee1086ac4d4052aa0fb8060c12c6ad838e754",
         "type": "crates-io"
       }
     },
@@ -270,8 +270,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.2": {
-        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
+      "1.0.3": {
+        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
         "type": "crates-io"
       }
     }

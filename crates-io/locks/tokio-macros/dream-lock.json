@@ -27,7 +27,7 @@
   "dependencies": {
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "lock_api": {
@@ -43,7 +43,7 @@
     },
     "mio": {
       "0.8.4": [
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "log", "0.4.17" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "windows-sys", "0.36.1" ]
@@ -52,7 +52,7 @@
     "num_cpus": {
       "1.13.1": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "parking_lot": {
@@ -64,7 +64,7 @@
     "parking_lot_core": {
       "0.9.3": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.9.0" ],
         [ "windows-sys", "0.36.1" ]
@@ -72,7 +72,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "quote": {
@@ -87,12 +87,12 @@
     },
     "signal-hook-registry": {
       "1.4.0": [
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "socket2": {
       "0.4.4": [
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -100,14 +100,14 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.2" ]
+        [ "unicode-ident", "1.0.3" ]
       ]
     },
     "tokio": {
       "1.20.1": [
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.2.1" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "memchr", "2.5.0" ],
         [ "mio", "0.8.4" ],
         [ "num_cpus", "1.13.1" ],
@@ -176,8 +176,8 @@
       }
     },
     "libc": {
-      "0.2.126": {
-        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+      "0.2.127": {
+        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
         "type": "crates-io"
       }
     },
@@ -298,8 +298,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.2": {
-        "hash": "15c61ba63f9235225a22310255a29b806b907c9b8c964bcbd0a2c70f3f2deea7",
+      "1.0.3": {
+        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
         "type": "crates-io"
       }
     },

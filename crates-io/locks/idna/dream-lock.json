@@ -30,7 +30,7 @@
         [ "bencher", "0.1.5" ],
         [ "matches", "0.1.9" ],
         [ "rustc-test", "0.3.1" ],
-        [ "serde_json", "1.0.82" ],
+        [ "serde_json", "1.0.83" ],
         [ "unicode-bidi", "0.3.8" ],
         [ "unicode-normalization", "0.1.21" ]
       ]
@@ -44,7 +44,7 @@
     "rustc-test": {
       "0.3.1": [
         [ "getopts", "0.2.21" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "rustc-serialize", "0.3.24" ],
         [ "rustc_version", "0.2.3" ],
         [ "term", "0.4.6" ],
@@ -62,10 +62,10 @@
       ]
     },
     "serde_json": {
-      "1.0.82": [
-        [ "itoa", "1.0.2" ],
+      "1.0.83": [
+        [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.141" ]
+        [ "serde", "1.0.142" ]
       ]
     },
     "term": {
@@ -76,7 +76,7 @@
     },
     "time": {
       "0.1.44": [
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "wasi", "0.10.0+wasi-snapshot-preview1" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -126,8 +126,8 @@
       }
     },
     "itoa": {
-      "1.0.2": {
-        "hash": "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d",
+      "1.0.3": {
+        "hash": "6c8af84674fe1f223a982c933a0ee1086ac4d4052aa0fb8060c12c6ad838e754",
         "type": "crates-io"
       }
     },
@@ -138,8 +138,8 @@
       }
     },
     "libc": {
-      "0.2.126": {
-        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+      "0.2.127": {
+        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
         "type": "crates-io"
       }
     },
@@ -186,14 +186,14 @@
       }
     },
     "serde": {
-      "1.0.141": {
-        "hash": "7af873f2c95b99fcb0bd0fe622a43e29514658873c8ceba88c4cb88833a22500",
+      "1.0.142": {
+        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
         "type": "crates-io"
       }
     },
     "serde_json": {
-      "1.0.82": {
-        "hash": "82c2c1fdcd807d1098552c5b9a36e425e42e9fbd7c6a37a8425f390f781f7fa7",
+      "1.0.83": {
+        "hash": "38dd04e3c8279e75b31ef29dbdceebfe5ad89f4d0937213c53f7d49d01b3d5a7",
         "type": "crates-io"
       }
     },

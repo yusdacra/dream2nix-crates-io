@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "dtoa",
-    "invalidationHash": "a308dbabf2c76fb726274f63bc1d5058de0966da8edd0434e0abe633f14a60ea",
+    "invalidationHash": "721ee933040d858393a06a262174864050cc2a30cd74cf30fe13b2d7be64abf6",
     "location": "",
     "packages": {
-      "dtoa": "1.0.2"
+      "dtoa": "1.0.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "dtoa": {
-        "1.0.2": {}
+        "1.0.3": {}
       }
     }
   },
@@ -21,11 +21,11 @@
   "dependencies": {},
   "sources": {
     "dtoa": {
-      "1.0.2": {
-        "hash": "sha256-XKqnXL0rlg/x5TktLPsfRHF//+EvwfMre10SZ/mXMqY=",
+      "1.0.3": {
+        "hash": "sha256-xgU/9GtWOc65F1aoWkyJFGaDk6AxcO/XnIiEpSnYBlY=",
         "pname": "dtoa",
         "type": "crates-io",
-        "version": "1.0.2"
+        "version": "1.0.3"
       }
     }
   }

@@ -51,13 +51,13 @@
     "getrandom": {
       "0.2.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "memoffset": {
@@ -68,12 +68,12 @@
     "num_cpus": {
       "1.13.1": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.126" ]
+        [ "libc", "0.2.127" ]
       ]
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.3" ]
       ]
@@ -99,7 +99,7 @@
         [ "crossbeam-channel", "0.5.6" ],
         [ "crossbeam-deque", "0.8.2" ],
         [ "crossbeam-utils", "0.8.11" ],
-        [ "libc", "0.2.126" ],
+        [ "libc", "0.2.127" ],
         [ "num_cpus", "1.13.1" ],
         [ "rand", "0.8.5" ],
         [ "rand_xorshift", "0.3.0" ],
@@ -157,8 +157,8 @@
       }
     },
     "libc": {
-      "0.2.126": {
-        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+      "0.2.127": {
+        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
         "type": "crates-io"
       }
     },

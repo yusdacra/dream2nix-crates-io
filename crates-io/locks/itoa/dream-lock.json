@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "itoa",
-    "invalidationHash": "733e0415ab6f1ba1f8579fa05069945c3638d45753ddad7837f46c6a8350d705",
+    "invalidationHash": "e85acd82c4b42dddd7d8d8974a8e5526e0e05352a6b6ba5b977b961fea7e449d",
     "location": "",
     "packages": {
-      "itoa": "1.0.2"
+      "itoa": "1.0.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "itoa": {
-        "1.0.2": {}
+        "1.0.3": {}
       }
     }
   },
@@ -21,11 +21,11 @@
   "dependencies": {},
   "sources": {
     "itoa": {
-      "1.0.2": {
-        "hash": "sha256-ESxnjUBQr84jP08oUrsutRkjCzzxLzNYUnVTfX5BV40=",
+      "1.0.3": {
+        "hash": "sha256-bIr4RnT+HyI6mCyTOg7hCGrE1AUqoPuAYMEsatg451Q=",
         "pname": "itoa",
         "type": "crates-io",
-        "version": "1.0.2"
+        "version": "1.0.3"
       }
     }
   }
