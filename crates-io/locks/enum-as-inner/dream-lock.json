@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "enum-as-inner",
-    "invalidationHash": "613cf65fb72420c898a7682e1abefca35f8326c231a75d31dfdc862eae256e19",
+    "invalidationHash": "3af23cdf1cf1aab2ca2c787e8494edc10b3c7cc189be00cb34907efb37394b3f",
     "location": "",
     "packages": {
-      "enum-as-inner": "0.5.0"
+      "enum-as-inner": "0.5.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "enum-as-inner": {
-        "0.5.0": {}
+        "0.5.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "enum-as-inner": {
-      "0.5.0": [
+      "0.5.1": [
         [ "heck", "0.4.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
@@ -47,11 +47,11 @@
   },
   "sources": {
     "enum-as-inner": {
-      "0.5.0": {
-        "hash": "sha256-Qy8ETpB3rWZm80Rt8Eiacaw+0DNupU7fa4XgDNdWIoM=",
+      "0.5.1": {
+        "hash": "sha256-yXILugR9Vn/8ijy6SL8ZEmYA4kmrfxKOkjPmN2l2oRY=",
         "pname": "enum-as-inner",
         "type": "crates-io",
-        "version": "0.5.0"
+        "version": "0.5.1"
       }
     },
     "heck": {

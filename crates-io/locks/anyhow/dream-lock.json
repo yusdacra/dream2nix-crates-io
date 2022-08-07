@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "anyhow",
-    "invalidationHash": "f6ec85fc0bde46cf3603421ede786e2e0ae4f5fc89c184b8d4c027640c4faa3f",
+    "invalidationHash": "b3abfe409d1bc07b5d9655c0a66514c50b1a735c0f6d314526bd20ef029a94c2",
     "location": "",
     "packages": {
-      "anyhow": "1.0.59"
+      "anyhow": "1.0.60"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "anyhow": {
-        "1.0.59": {}
+        "1.0.60": {}
       }
     }
   },
@@ -25,7 +25,7 @@
       ]
     },
     "anyhow": {
-      "1.0.59": [
+      "1.0.60": [
         [ "backtrace", "0.3.66" ],
         [ "futures", "0.3.21" ],
         [ "rustversion", "1.0.9" ],
@@ -171,11 +171,11 @@
       }
     },
     "anyhow": {
-      "1.0.59": {
-        "hash": "sha256-yR8fRmURN76G86K5qDWfmrQh0E2UHGK1mC4cohETrfk=",
+      "1.0.60": {
+        "hash": "sha256-x5ThYqXv9lxy71JN/jk+uSPDVONQu3i5xzg98T87wUI=",
         "pname": "anyhow",
         "type": "crates-io",
-        "version": "1.0.59"
+        "version": "1.0.60"
       }
     },
     "backtrace": {
