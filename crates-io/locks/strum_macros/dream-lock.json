@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "strum_macros",
-    "invalidationHash": "8378593da0eadeba8b6bce915efd8dc2597517465c60fbec8b16ffab673431d9",
+    "invalidationHash": "5a5907c26f2078b0521c430aa4e96a9c447893f9f22c96a0a7633fd1515b94f4",
     "location": "",
     "packages": {
-      "strum_macros": "0.24.2"
+      "strum_macros": "0.24.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "strum_macros": {
-        "0.24.2": {}
+        "0.24.3": {}
       }
     }
   },
@@ -30,7 +30,7 @@
       ]
     },
     "strum_macros": {
-      "0.24.2": [
+      "0.24.3": [
         [ "heck", "0.4.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
@@ -79,11 +79,11 @@
       }
     },
     "strum_macros": {
-      "0.24.2": {
-        "hash": "sha256-T6694A6P+UMWwBgA+QVP0rp30w2ekiVBkTBR0dl4kYs=",
+      "0.24.3": {
+        "hash": "sha256-Hjhb4NJPGGtM4vmYIZHnEBu3NzEq1hwfL5hPNLz4XVk=",
         "pname": "strum_macros",
         "type": "crates-io",
-        "version": "0.24.2"
+        "version": "0.24.3"
       }
     },
     "syn": {

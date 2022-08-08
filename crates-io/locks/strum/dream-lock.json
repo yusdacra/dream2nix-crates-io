@@ -85,11 +85,11 @@
     "strum": {
       "0.24.1": [
         [ "phf", "0.10.1" ],
-        [ "strum_macros", "0.24.2" ]
+        [ "strum_macros", "0.24.3" ]
       ]
     },
     "strum_macros": {
-      "0.24.2": [
+      "0.24.3": [
         [ "heck", "0.4.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
@@ -217,8 +217,8 @@
       }
     },
     "strum_macros": {
-      "0.24.2": {
-        "hash": "4faebde00e8ff94316c01800f9054fd2ba77d30d9e922541913051d1d978918b",
+      "0.24.3": {
+        "hash": "1e385be0d24f186b4ce2f9982191e7101bb737312ad61c1f2f984f34bcf85d59",
         "type": "crates-io"
       }
     },
