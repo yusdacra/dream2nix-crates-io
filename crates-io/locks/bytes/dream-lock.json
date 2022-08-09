@@ -27,8 +27,8 @@
     "bytes": {
       "1.2.1": [
         [ "loom", "0.5.6" ],
-        [ "serde", "1.0.142" ],
-        [ "serde_test", "1.0.142" ]
+        [ "serde", "1.0.143" ],
+        [ "serde_test", "1.0.143" ]
       ]
     },
     "generator": {
@@ -80,8 +80,8 @@
       ]
     },
     "serde_test": {
-      "1.0.142": [
-        [ "serde", "1.0.142" ]
+      "1.0.143": [
+        [ "serde", "1.0.143" ]
       ]
     },
     "sharded-slab": {
@@ -277,14 +277,14 @@
       }
     },
     "serde": {
-      "1.0.142": {
-        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
+      "1.0.143": {
+        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
         "type": "crates-io"
       }
     },
     "serde_test": {
-      "1.0.142": {
-        "hash": "bbf855c7d1704095906013b4491af507f67cad13d778ff408ca9696e9d195cf5",
+      "1.0.143": {
+        "hash": "d4b5b007c1bccdc70f8d8b5804da305a64d4279f990f1ae9e3b06eaae46f42e0",
         "type": "crates-io"
       }
     },

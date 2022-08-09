@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "phf",
-    "invalidationHash": "fdc6721a45f04dbb17d972de4582c7764566f9f4827bd77744f17df138584e69",
+    "invalidationHash": "86f1f68d31439904e1f5b0531fb53c43ef5900f8bb89ec4e379199530170f829",
     "location": "",
     "packages": {
-      "phf": "0.11.0"
+      "phf": "0.11.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,36 +13,29 @@
     "gitSources": [],
     "relPathReplacements": {
       "phf": {
-        "0.11.0": {}
+        "0.11.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
-    "getrandom": {
-      "0.2.7": [
-        [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.127" ],
-        [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
-      ]
-    },
     "phf": {
-      "0.11.0": [
-        [ "phf_macros", "0.11.0" ],
-        [ "phf_shared", "0.11.0" ],
-        [ "serde", "1.0.142" ]
+      "0.11.1": [
+        [ "phf_macros", "0.11.1" ],
+        [ "phf_shared", "0.11.1" ],
+        [ "serde", "1.0.143" ]
       ]
     },
     "phf_generator": {
-      "0.11.0": [
-        [ "phf_shared", "0.11.0" ],
+      "0.11.1": [
+        [ "phf_shared", "0.11.1" ],
         [ "rand", "0.8.5" ]
       ]
     },
     "phf_macros": {
-      "0.11.0": [
-        [ "phf_generator", "0.11.0" ],
-        [ "phf_shared", "0.11.0" ],
+      "0.11.1": [
+        [ "phf_generator", "0.11.1" ],
+        [ "phf_shared", "0.11.1" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
@@ -50,7 +43,7 @@
       ]
     },
     "phf_shared": {
-      "0.11.0": [
+      "0.11.1": [
         [ "siphasher", "0.3.10" ],
         [ "uncased", "0.9.7" ],
         [ "unicase", "2.6.0" ]
@@ -68,20 +61,7 @@
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.127" ],
-        [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.3" ]
-      ]
-    },
-    "rand_chacha": {
-      "0.3.1": [
-        [ "ppv-lite86", "0.2.16" ],
-        [ "rand_core", "0.6.3" ]
-      ]
-    },
-    "rand_core": {
-      "0.6.3": [
-        [ "getrandom", "0.2.7" ]
       ]
     },
     "syn": {
@@ -103,53 +83,29 @@
     }
   },
   "sources": {
-    "cfg-if": {
-      "1.0.0": {
-        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
-        "type": "crates-io"
-      }
-    },
-    "getrandom": {
-      "0.2.7": {
-        "hash": "4eb1a864a501629691edf6c15a593b7a51eebaa1e8468e9ddc623de7c9b58ec6",
-        "type": "crates-io"
-      }
-    },
-    "libc": {
-      "0.2.127": {
-        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
-        "type": "crates-io"
-      }
-    },
     "phf": {
-      "0.11.0": {
-        "hash": "sha256-RyT6lGyNHnzYgb09vuY84y/B6eGR41eGs9wTIKP2gTE=",
+      "0.11.1": {
+        "hash": "sha256-koxlNd6TVIGI72O7fEA2vUFc2PNq0lr0S5eJsu5ypIw=",
         "pname": "phf",
         "type": "crates-io",
-        "version": "0.11.0"
+        "version": "0.11.1"
       }
     },
     "phf_generator": {
-      "0.11.0": {
-        "hash": "5b450720b6f75cfbfabc195814bd3765f337a4f9a83186f8537297cac12f6705",
+      "0.11.1": {
+        "hash": "b1181c94580fa345f50f19d738aaa39c0ed30a600d95cb2d3e23f94266f14fbf",
         "type": "crates-io"
       }
     },
     "phf_macros": {
-      "0.11.0": {
-        "hash": "cd94351ac44e70e56b59883e15029a5135f902a8a3020f9c18d580a420e526aa",
+      "0.11.1": {
+        "hash": "92aacdc5f16768709a569e913f7451034034178b05bdc8acda226659a3dccc66",
         "type": "crates-io"
       }
     },
     "phf_shared": {
-      "0.11.0": {
-        "hash": "9dd5609d4b2df87167f908a32e1b146ce309c16cf35df76bc11f440b756048e4",
-        "type": "crates-io"
-      }
-    },
-    "ppv-lite86": {
-      "0.2.16": {
-        "hash": "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872",
+      "0.11.1": {
+        "hash": "e1fb5f6f826b772a8d4c0394209441e7d37cbbb967ae9c7e0e8134365c9ee676",
         "type": "crates-io"
       }
     },
@@ -171,12 +127,6 @@
         "type": "crates-io"
       }
     },
-    "rand_chacha": {
-      "0.3.1": {
-        "hash": "e6c10a63a0fa32252be49d21e7709d4d4baf8d231c2dbce1eaa8141b9b127d88",
-        "type": "crates-io"
-      }
-    },
     "rand_core": {
       "0.6.3": {
         "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
@@ -184,8 +134,8 @@
       }
     },
     "serde": {
-      "1.0.142": {
-        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
+      "1.0.143": {
+        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
         "type": "crates-io"
       }
     },
@@ -222,12 +172,6 @@
     "version_check": {
       "0.9.4": {
         "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
-        "type": "crates-io"
-      }
-    },
-    "wasi": {
-      "0.11.0+wasi-snapshot-preview1": {
-        "hash": "9c8d87e72b64a3b4db28d11ce29237c246188f4f51057d65a7eab63b7987e423",
         "type": "crates-io"
       }
     }

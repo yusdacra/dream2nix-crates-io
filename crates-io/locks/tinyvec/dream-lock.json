@@ -31,7 +31,7 @@
         [ "lazy_static", "1.4.0" ],
         [ "memchr", "2.5.0" ],
         [ "regex-automata", "0.1.10" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "clap": {
@@ -55,9 +55,9 @@
         [ "plotters", "0.3.2" ],
         [ "rayon", "1.5.3" ],
         [ "regex", "1.6.0" ],
-        [ "serde", "1.0.142" ],
+        [ "serde", "1.0.143" ],
         [ "serde_cbor", "0.11.2" ],
-        [ "serde_derive", "1.0.142" ],
+        [ "serde_derive", "1.0.143" ],
         [ "serde_json", "1.0.83" ],
         [ "tinytemplate", "1.2.1" ],
         [ "walkdir", "2.3.2" ]
@@ -104,7 +104,7 @@
         [ "csv-core", "0.1.10" ],
         [ "itoa", "0.4.8" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "csv-core": {
@@ -201,11 +201,11 @@
     "serde_cbor": {
       "0.11.2": [
         [ "half", "1.8.2" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "serde_derive": {
-      "1.0.142": [
+      "1.0.143": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -215,12 +215,12 @@
       "1.0.83": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "serde_test": {
-      "1.0.142": [
-        [ "serde", "1.0.142" ]
+      "1.0.143": [
+        [ "serde", "1.0.143" ]
       ]
     },
     "syn": {
@@ -237,7 +237,7 @@
     },
     "tinytemplate": {
       "1.2.1": [
-        [ "serde", "1.0.142" ],
+        [ "serde", "1.0.143" ],
         [ "serde_json", "1.0.83" ]
       ]
     },
@@ -245,8 +245,8 @@
       "1.6.0": [
         [ "arbitrary", "1.1.3" ],
         [ "criterion", "0.3.6" ],
-        [ "serde", "1.0.142" ],
-        [ "serde_test", "1.0.142" ],
+        [ "serde", "1.0.143" ],
+        [ "serde_test", "1.0.143" ],
         [ "smallvec", "1.9.0" ],
         [ "tinyvec_macros", "0.1.0" ]
       ]
@@ -584,8 +584,8 @@
       }
     },
     "serde": {
-      "1.0.142": {
-        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
+      "1.0.143": {
+        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
         "type": "crates-io"
       }
     },
@@ -596,8 +596,8 @@
       }
     },
     "serde_derive": {
-      "1.0.142": {
-        "hash": "34b5b8d809babe02f538c2cfec6f2c1ed10804c0e5a6a041a049a4f5588ccc2e",
+      "1.0.143": {
+        "hash": "d3d8e8de557aee63c26b85b947f5e59b690d0454c753f3adeb5cd7835ab88391",
         "type": "crates-io"
       }
     },
@@ -608,8 +608,8 @@
       }
     },
     "serde_test": {
-      "1.0.142": {
-        "hash": "bbf855c7d1704095906013b4491af507f67cad13d778ff408ca9696e9d195cf5",
+      "1.0.143": {
+        "hash": "d4b5b007c1bccdc70f8d8b5804da305a64d4279f990f1ae9e3b06eaae46f42e0",
         "type": "crates-io"
       }
     },

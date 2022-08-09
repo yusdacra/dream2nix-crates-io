@@ -21,7 +21,7 @@
   "dependencies": {
     "semver": {
       "1.0.13": [
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     }
   },
@@ -35,8 +35,8 @@
       }
     },
     "serde": {
-      "1.0.142": {
-        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
+      "1.0.143": {
+        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
         "type": "crates-io"
       }
     }

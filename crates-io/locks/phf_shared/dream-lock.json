@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "phf_shared",
-    "invalidationHash": "5842f34b084f109acbb0d0925aba4dd0b0d85e7e236f61f5329e88345da97a2b",
+    "invalidationHash": "5ce801eca402507d3c9c9e4c20e8bb77f8ecf179e13f6f0d7eb5d50d11218d8e",
     "location": "",
     "packages": {
-      "phf_shared": "0.11.0"
+      "phf_shared": "0.11.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "phf_shared": {
-        "0.11.0": {}
+        "0.11.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "phf_shared": {
-      "0.11.0": [
+      "0.11.1": [
         [ "siphasher", "0.3.10" ],
         [ "uncased", "0.9.7" ],
         [ "unicase", "2.6.0" ]
@@ -39,11 +39,11 @@
   },
   "sources": {
     "phf_shared": {
-      "0.11.0": {
-        "hash": "sha256-ndVgnUst+HFn+QijLhsUbOMJwWzzXfdrwR9EC3VgSOQ=",
+      "0.11.1": {
+        "hash": "sha256-4ftfb4JrdyqNTAOUIJRB59N8u7lnrpx+DoE0Nlye5nY=",
         "pname": "phf_shared",
         "type": "crates-io",
-        "version": "0.11.0"
+        "version": "0.11.1"
       }
     },
     "siphasher": {

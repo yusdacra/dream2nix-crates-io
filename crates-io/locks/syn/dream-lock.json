@@ -33,11 +33,6 @@
         [ "syn", "1.0.99" ]
       ]
     },
-    "serde_derive": {
-      "1.0.142": [
-        [ "syn", "1.0.99" ]
-      ]
-    },
     "wasm-bindgen-backend": {
       "0.2.82": [
         [ "syn", "1.0.99" ]
@@ -239,13 +234,13 @@
       ]
     },
     "insta": {
-      "1.17.2": [
+      "1.18.0": [
         [ "console", "0.15.1" ],
+        [ "linked-hash-map", "0.5.6" ],
         [ "once_cell", "1.13.0" ],
-        [ "serde", "1.0.142" ],
-        [ "serde_json", "1.0.83" ],
-        [ "serde_yaml", "0.8.26" ],
-        [ "similar", "2.2.0" ]
+        [ "serde", "1.0.143" ],
+        [ "similar", "2.2.0" ],
+        [ "yaml-rust", "0.4.5" ]
       ]
     },
     "instant": {
@@ -403,7 +398,7 @@
         [ "native-tls", "0.2.10" ],
         [ "percent-encoding", "2.1.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "serde", "1.0.142" ],
+        [ "serde", "1.0.143" ],
         [ "serde_json", "1.0.83" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "tokio", "1.20.1" ],
@@ -442,23 +437,11 @@
         [ "libc", "0.2.127" ]
       ]
     },
-    "serde": {
-      "1.0.142": [
-        [ "serde_derive", "1.0.142" ]
-      ]
-    },
-    "serde_derive": {
-      "1.0.142": [
-        [ "proc-macro2", "1.0.43" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.99" ]
-      ]
-    },
     "serde_json": {
       "1.0.83": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "serde_urlencoded": {
@@ -466,15 +449,7 @@
         [ "form_urlencoded", "1.0.1" ],
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ]
-      ]
-    },
-    "serde_yaml": {
-      "0.8.26": [
-        [ "indexmap", "1.9.1" ],
-        [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ],
-        [ "yaml-rust", "0.4.5" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "slab": {
@@ -493,7 +468,7 @@
         [ "anyhow", "1.0.60" ],
         [ "automod", "1.0.4" ],
         [ "flate2", "1.0.24" ],
-        [ "insta", "1.17.2" ],
+        [ "insta", "1.18.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "rayon", "1.5.3" ],
@@ -968,8 +943,8 @@
       }
     },
     "insta": {
-      "1.17.2": {
-        "hash": "f6de657c6e99c9f665a595db63c6342de64cbd076a817f24c4a548847a81aee5",
+      "1.18.0": {
+        "hash": "49de01ff8a0781c5414e674b4469b81f6693d6bda6a4d405600c2acd06ebc6d3",
         "type": "crates-io"
       }
     },
@@ -1226,14 +1201,8 @@
       }
     },
     "serde": {
-      "1.0.142": {
-        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
-        "type": "crates-io"
-      }
-    },
-    "serde_derive": {
-      "1.0.142": {
-        "hash": "34b5b8d809babe02f538c2cfec6f2c1ed10804c0e5a6a041a049a4f5588ccc2e",
+      "1.0.143": {
+        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
         "type": "crates-io"
       }
     },
@@ -1246,12 +1215,6 @@
     "serde_urlencoded": {
       "0.7.1": {
         "hash": "d3491c14715ca2294c4d6a88f15e84739788c1d030eed8c110436aafdaa2f3fd",
-        "type": "crates-io"
-      }
-    },
-    "serde_yaml": {
-      "0.8.26": {
-        "hash": "578a7433b776b56a35785ed5ce9a7e777ac0598aac5a6dd1b4b18a307c7fc71b",
         "type": "crates-io"
       }
     },

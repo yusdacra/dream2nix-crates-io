@@ -25,7 +25,7 @@
       ]
     },
     "async-channel": {
-      "1.6.1": [
+      "1.7.0": [
         [ "concurrent-queue", "1.2.4" ],
         [ "event-listener", "2.5.3" ],
         [ "futures-core", "0.3.21" ]
@@ -50,7 +50,7 @@
     },
     "async-global-executor": {
       "2.2.0": [
-        [ "async-channel", "1.6.1" ],
+        [ "async-channel", "1.7.0" ],
         [ "async-executor", "1.4.1" ],
         [ "async-io", "1.7.0" ],
         [ "async-lock", "2.5.0" ],
@@ -102,7 +102,7 @@
     },
     "async-std": {
       "1.12.0": [
-        [ "async-channel", "1.6.1" ],
+        [ "async-channel", "1.7.0" ],
         [ "async-global-executor", "2.2.0" ],
         [ "async-io", "1.7.0" ],
         [ "async-lock", "2.5.0" ],
@@ -131,7 +131,7 @@
     },
     "blocking": {
       "1.2.0": [
-        [ "async-channel", "1.6.1" ],
+        [ "async-channel", "1.7.0" ],
         [ "async-task", "4.3.0" ],
         [ "atomic-waker", "1.0.0" ],
         [ "fastrand", "1.8.0" ],
@@ -144,7 +144,7 @@
         [ "lazy_static", "1.4.0" ],
         [ "memchr", "2.5.0" ],
         [ "regex-automata", "0.1.10" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "clap": {
@@ -178,9 +178,9 @@
         [ "rand", "0.8.5" ],
         [ "rayon", "1.5.3" ],
         [ "regex", "1.6.0" ],
-        [ "serde", "1.0.142" ],
+        [ "serde", "1.0.143" ],
         [ "serde_cbor", "0.11.2" ],
-        [ "serde_derive", "1.0.142" ],
+        [ "serde_derive", "1.0.143" ],
         [ "serde_json", "1.0.83" ],
         [ "smol", "1.2.5" ],
         [ "tempfile", "3.3.0" ],
@@ -230,7 +230,7 @@
         [ "csv-core", "0.1.10" ],
         [ "itoa", "0.4.8" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "csv-core": {
@@ -454,11 +454,11 @@
     "serde_cbor": {
       "0.11.2": [
         [ "half", "1.8.2" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "serde_derive": {
-      "1.0.142": [
+      "1.0.143": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -468,7 +468,7 @@
       "1.0.83": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.142" ]
+        [ "serde", "1.0.143" ]
       ]
     },
     "signal-hook": {
@@ -489,7 +489,7 @@
     },
     "smol": {
       "1.2.5": [
-        [ "async-channel", "1.6.1" ],
+        [ "async-channel", "1.7.0" ],
         [ "async-executor", "1.4.1" ],
         [ "async-fs", "1.5.0" ],
         [ "async-io", "1.7.0" ],
@@ -531,7 +531,7 @@
     },
     "tinytemplate": {
       "1.2.1": [
-        [ "serde", "1.0.142" ],
+        [ "serde", "1.0.143" ],
         [ "serde_json", "1.0.83" ]
       ]
     },
@@ -626,8 +626,8 @@
       }
     },
     "async-channel": {
-      "1.6.1": {
-        "hash": "2114d64672151c0c5eaa5e131ec84a74f06e1e559830dabba01ca30605d66319",
+      "1.7.0": {
+        "hash": "4b31b87a3367ed04dbcbc252bce3f2a8172fef861d47177524c503c908dff2c6",
         "type": "crates-io"
       }
     },
@@ -1148,8 +1148,8 @@
       }
     },
     "serde": {
-      "1.0.142": {
-        "hash": "e590c437916fb6b221e1d00df6e3294f3fccd70ca7e92541c475d6ed6ef5fee2",
+      "1.0.143": {
+        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
         "type": "crates-io"
       }
     },
@@ -1160,8 +1160,8 @@
       }
     },
     "serde_derive": {
-      "1.0.142": {
-        "hash": "34b5b8d809babe02f538c2cfec6f2c1ed10804c0e5a6a041a049a4f5588ccc2e",
+      "1.0.143": {
+        "hash": "d3d8e8de557aee63c26b85b947f5e59b690d0454c753f3adeb5cd7835ab88391",
         "type": "crates-io"
       }
     },
