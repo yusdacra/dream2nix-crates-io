@@ -17,10 +17,22 @@
       }
     }
   },
-  "cyclicDependencies": {},
+  "cyclicDependencies": {
+    "iana-time-zone": {
+      "0.1.41": [
+        [ "core-foundation", "0.9.3" ]
+      ]
+    }
+  },
   "dependencies": {
+    "android_system_properties": {
+      "0.1.4": [
+        [ "libc", "0.2.129" ]
+      ]
+    },
     "chrono": {
-      "0.4.20": [
+      "0.4.21": [
+        [ "iana-time-zone", "0.1.41" ],
         [ "js-sys", "0.3.59" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ],
@@ -31,10 +43,19 @@
     },
     "core-foundation": {
       "0.9.3": [
-        [ "chrono", "0.4.20" ],
+        [ "chrono", "0.4.21" ],
         [ "core-foundation-sys", "0.8.3" ],
-        [ "libc", "0.2.127" ],
+        [ "libc", "0.2.129" ],
         [ "uuid", "0.5.1" ]
+      ]
+    },
+    "iana-time-zone": {
+      "0.1.41": [
+        [ "android_system_properties", "0.1.4" ],
+        [ "core-foundation", "0.9.3" ],
+        [ "js-sys", "0.3.59" ],
+        [ "wasm-bindgen", "0.2.82" ],
+        [ "winapi", "0.3.9" ]
       ]
     },
     "js-sys": {
@@ -77,7 +98,7 @@
     },
     "time": {
       "0.1.44": [
-        [ "libc", "0.2.127" ],
+        [ "libc", "0.2.129" ],
         [ "wasi", "0.10.0+wasi-snapshot-preview1" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -122,6 +143,12 @@
     }
   },
   "sources": {
+    "android_system_properties": {
+      "0.1.4": {
+        "hash": "d7ed72e1635e121ca3e79420540282af22da58be50de153d36f81ddc6b83aa9e",
+        "type": "crates-io"
+      }
+    },
     "autocfg": {
       "1.1.0": {
         "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
@@ -141,8 +168,8 @@
       }
     },
     "chrono": {
-      "0.4.20": {
-        "hash": "6127248204b9aba09a362f6c930ef6a78f2c1b2215f8a7b398c06e1083f17af0",
+      "0.4.21": {
+        "hash": "3f725f340c3854e3cb3ab736dc21f0cca183303acea3b3ffec30f141503ac8eb",
         "type": "crates-io"
       }
     },
@@ -160,6 +187,12 @@
         "type": "crates-io"
       }
     },
+    "iana-time-zone": {
+      "0.1.41": {
+        "hash": "1779539f58004e5dba1c1f093d44325ebeb244bfc04b791acdc0aaeca9c04570",
+        "type": "crates-io"
+      }
+    },
     "js-sys": {
       "0.3.59": {
         "hash": "258451ab10b34f8af53416d1fdab72c22e805f0c92a1136d59470ec0b11138b2",
@@ -167,8 +200,8 @@
       }
     },
     "libc": {
-      "0.2.127": {
-        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
+      "0.2.129": {
+        "hash": "64de3cc433455c14174d42e554d4027ee631c4d046d43e3ecc6efc4636cdc7a7",
         "type": "crates-io"
       }
     },

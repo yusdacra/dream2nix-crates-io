@@ -30,7 +30,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "compiler_builtins", "0.1.78" ],
         [ "js-sys", "0.3.59" ],
-        [ "libc", "0.2.127" ],
+        [ "libc", "0.2.129" ],
         [ "rustc-std-workspace-core", "1.0.0" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ],
         [ "wasm-bindgen", "0.2.82" ],
@@ -43,7 +43,7 @@
       ]
     },
     "libc": {
-      "0.2.127": [
+      "0.2.129": [
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     },
@@ -179,8 +179,8 @@
       }
     },
     "libc": {
-      "0.2.127": {
-        "hash": "505e71a4706fa491e9b1b55f51b95d4037d0821ee40131190475f692b35b009b",
+      "0.2.129": {
+        "hash": "64de3cc433455c14174d42e554d4027ee631c4d046d43e3ecc6efc4636cdc7a7",
         "type": "crates-io"
       }
     },

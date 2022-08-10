@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "combine",
-    "invalidationHash": "e71ae2000890140d2f1c4a187c8620e84d8032e1233f6b7ece7b981166a1ae1b",
+    "invalidationHash": "0b894ebe1233123a810bdd09e3c4602c9f108b5f5645cee8e5257fc3838c2392",
     "location": "",
     "packages": {
-      "combine": "4.6.4"
+      "combine": "4.6.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "combine": {
-        "4.6.4": {}
+        "4.6.6": {}
       }
     }
   },
@@ -145,7 +145,7 @@
       ]
     },
     "combine": {
-      "4.6.4": [
+      "4.6.6": [
         [ "async-std", "1.10.0" ],
         [ "bytes", "0.5.6" ],
         [ "bytes", "1.1.0" ],
@@ -873,11 +873,11 @@
       }
     },
     "combine": {
-      "4.6.4": {
-        "hash": "sha256-KmBOk7edGAgyem/Khaby1p3mZGHnYg9aTL9ftNHXyUg=",
+      "4.6.6": {
+        "hash": "sha256-Ne1unYTwtRp/Utrxx9cd0Tb9ej9BqEYrjNuMeNkg+tQ=",
         "pname": "combine",
         "type": "crates-io",
-        "version": "4.6.4"
+        "version": "4.6.6"
       }
     },
     "concurrent-queue": {
