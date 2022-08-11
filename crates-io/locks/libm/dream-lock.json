@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "libm",
-    "invalidationHash": "0db4a81173eb4b9f9213e62c47557518f81c5e6aa1d099c0f0bc85779abb00ae",
+    "invalidationHash": "78f285ecc83dd4697e76b4a2bcc5b50b7e2d8b4fa2eeec7eb39a3cab01b336ce",
     "location": "",
     "packages": {
-      "libm": "0.2.4"
+      "libm": "0.2.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "libm": {
-        "0.2.4": {}
+        "0.2.5": {}
       }
     }
   },
@@ -30,7 +30,7 @@
       ]
     },
     "libm": {
-      "0.2.4": [
+      "0.2.5": [
         [ "no-panic", "0.1.15" ],
         [ "rand", "0.6.5" ]
       ]
@@ -171,11 +171,11 @@
       }
     },
     "libm": {
-      "0.2.4": {
-        "hash": "sha256-x8411Imfo8BVjU9QgsmJJ3iaAQJCcHEc8ROZm2bO1lo=",
+      "0.2.5": {
+        "hash": "sha256-KSqUjNmR43bPdVQf5bl6EIHXE8YYtPG5UA+IROSetWU=",
         "pname": "libm",
         "type": "crates-io",
-        "version": "0.2.4"
+        "version": "0.2.5"
       }
     },
     "no-panic": {

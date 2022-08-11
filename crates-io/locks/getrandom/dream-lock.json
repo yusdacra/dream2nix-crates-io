@@ -28,7 +28,7 @@
     "getrandom": {
       "0.2.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "compiler_builtins", "0.1.78" ],
+        [ "compiler_builtins", "0.1.79" ],
         [ "js-sys", "0.3.59" ],
         [ "libc", "0.2.129" ],
         [ "rustc-std-workspace-core", "1.0.0" ],
@@ -71,7 +71,7 @@
     },
     "wasi": {
       "0.11.0+wasi-snapshot-preview1": [
-        [ "compiler_builtins", "0.1.78" ],
+        [ "compiler_builtins", "0.1.79" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
@@ -153,8 +153,8 @@
       }
     },
     "compiler_builtins": {
-      "0.1.78": {
-        "hash": "413b6b13f725a46cdec40364e0c1d564a22cf0aaac5f1e267a129d956478a6b4",
+      "0.1.79": {
+        "hash": "4f873ce2bd3550b0b565f878b3d04ea8253f4259dc3d20223af2e1ba86f5ecca",
         "type": "crates-io"
       }
     },

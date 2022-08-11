@@ -69,7 +69,7 @@
     },
     "thiserror": {
       "1.0.32": [
-        [ "anyhow", "1.0.60" ],
+        [ "anyhow", "1.0.61" ],
         [ "ref-cast", "1.0.9" ],
         [ "rustversion", "1.0.9" ],
         [ "thiserror-impl", "1.0.32" ],
@@ -114,8 +114,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.60": {
-        "hash": "c794e162a5eff65c72ef524dfe393eb923c354e350bb78b9c7383df13f3bc142",
+      "1.0.61": {
+        "hash": "508b352bb5c066aac251f6daf6b36eccd03e8a88e8081cd44959ea277a3af9a8",
         "type": "crates-io"
       }
     },

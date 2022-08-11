@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "async-channel",
-    "invalidationHash": "1033cafd3303bbde6de5f0ea86a6228fdc9bc2ac9c142ac7cd10259c981b6cc6",
+    "invalidationHash": "7ac54ba69f670fe0e58d11f55b2b24662f34acc33a5f2bacae080006a8d23854",
     "location": "",
     "packages": {
-      "async-channel": "1.7.0"
+      "async-channel": "1.7.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "async-channel": {
-        "1.7.0": {}
+        "1.7.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "async-channel": {
-      "1.7.0": [
+      "1.7.1": [
         [ "concurrent-queue", "1.2.4" ],
         [ "easy-parallel", "3.2.0" ],
         [ "event-listener", "2.5.3" ],
@@ -57,11 +57,11 @@
   },
   "sources": {
     "async-channel": {
-      "1.7.0": {
-        "hash": "sha256-SzG4ejNn7QTby8JSvOPyqBcv74YdRxd1JMUDyQjf8sY=",
+      "1.7.1": {
+        "hash": "sha256-4USFNkIUkS07Gcw0Nd3k32YGUSfwX6DXXHEvNvEsLyg=",
         "pname": "async-channel",
         "type": "crates-io",
-        "version": "1.7.0"
+        "version": "1.7.1"
       }
     },
     "cache-padded": {

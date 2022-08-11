@@ -69,7 +69,7 @@
         [ "bincode", "1.3.3" ],
         [ "criterion", "0.3.6" ],
         [ "doc-comment", "0.3.3" ],
-        [ "iana-time-zone", "0.1.41" ],
+        [ "iana-time-zone", "0.1.42" ],
         [ "js-sys", "0.3.59" ],
         [ "num-integer", "0.1.45" ],
         [ "num-iter", "0.1.43" ],
@@ -194,7 +194,7 @@
       ]
     },
     "iana-time-zone": {
-      "0.1.41": [
+      "0.1.42": [
         [ "android_system_properties", "0.1.4" ],
         [ "core-foundation", "0.9.3" ],
         [ "js-sys", "0.3.59" ],
@@ -646,8 +646,8 @@
       }
     },
     "iana-time-zone": {
-      "0.1.41": {
-        "hash": "1779539f58004e5dba1c1f093d44325ebeb244bfc04b791acdc0aaeca9c04570",
+      "0.1.42": {
+        "hash": "9512e544c25736b82aebbd2bf739a47c8a1c935dfcc3a6adcde10e35cd3cd468",
         "type": "crates-io"
       }
     },

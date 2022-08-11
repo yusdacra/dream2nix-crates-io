@@ -26,7 +26,7 @@
       ]
     },
     "async-channel": {
-      "1.7.0": [
+      "1.7.1": [
         [ "concurrent-queue", "1.2.4" ],
         [ "event-listener", "2.5.3" ],
         [ "futures-core", "0.3.21" ]
@@ -44,7 +44,7 @@
     },
     "async-global-executor": {
       "2.2.0": [
-        [ "async-channel", "1.7.0" ],
+        [ "async-channel", "1.7.1" ],
         [ "async-executor", "1.4.1" ],
         [ "async-io", "1.7.0" ],
         [ "async-lock", "2.5.0" ],
@@ -77,7 +77,7 @@
     "async-std": {
       "1.12.0": [
         [ "async-attributes", "1.1.2" ],
-        [ "async-channel", "1.7.0" ],
+        [ "async-channel", "1.7.1" ],
         [ "async-global-executor", "2.2.0" ],
         [ "async-io", "1.7.0" ],
         [ "async-lock", "2.5.0" ],
@@ -99,7 +99,7 @@
     },
     "blocking": {
       "1.2.0": [
-        [ "async-channel", "1.7.0" ],
+        [ "async-channel", "1.7.1" ],
         [ "async-task", "4.3.0" ],
         [ "atomic-waker", "1.0.0" ],
         [ "fastrand", "1.8.0" ],
@@ -342,8 +342,8 @@
       }
     },
     "async-channel": {
-      "1.7.0": {
-        "hash": "4b31b87a3367ed04dbcbc252bce3f2a8172fef861d47177524c503c908dff2c6",
+      "1.7.1": {
+        "hash": "e14485364214912d3b19cc3435dde4df66065127f05fa0d75c712f36f12c2f28",
         "type": "crates-io"
       }
     },
