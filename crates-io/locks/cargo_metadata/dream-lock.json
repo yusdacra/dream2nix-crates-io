@@ -20,7 +20,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "camino": {
-      "1.1.0": [
+      "1.1.1": [
         [ "serde", "1.0.143" ]
       ]
     },
@@ -31,7 +31,7 @@
     },
     "cargo_metadata": {
       "0.15.0": [
-        [ "camino", "1.1.0" ],
+        [ "camino", "1.1.1" ],
         [ "cargo-platform", "0.1.2" ],
         [ "derive_builder", "0.11.2" ],
         [ "semver", "1.0.13" ],
@@ -125,8 +125,8 @@
   },
   "sources": {
     "camino": {
-      "1.1.0": {
-        "hash": "35176a56fa5f5efe08df85cd5e68158471c2fa7057e85a5356ee4bd9787a6df9",
+      "1.1.1": {
+        "hash": "88ad0e1e3e88dd237a156ab9f571021b8a158caa0ae44b1968a241efb5144c1e",
         "type": "crates-io"
       }
     },

@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001375" ],
-        [ "electron-to-chromium", "1.4.217" ],
+        [ "electron-to-chromium", "1.4.218" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -1421,7 +1421,7 @@
       ]
     },
     "terser-webpack-plugin": {
-      "5.3.3": [
+      "5.3.4": [
         [ "@jridgewell/trace-mapping", "0.3.15" ],
         [ "jest-worker", "27.5.1" ],
         [ "schema-utils", "3.1.1" ],
@@ -1525,7 +1525,7 @@
         [ "neo-async", "2.6.2" ],
         [ "schema-utils", "3.1.1" ],
         [ "tapable", "2.2.1" ],
-        [ "terser-webpack-plugin", "5.3.3" ],
+        [ "terser-webpack-plugin", "5.3.4" ],
         [ "watchpack", "2.4.0" ],
         [ "webpack-sources", "3.2.3" ]
       ]
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.217": {
-        "hash": "sha512-iX8GbAMij7cOtJPZo02CClpaPMWjvN5meqXiJXkBgwvraNWTNH0Z7F9tkznI34JRPtWASoPM/xWamq3oNb49GA==",
+      "1.4.218": {
+        "hash": "sha512-INDylKH//YIf2w67D+IjkfVnGVrZ/D94DAU/FPPm6T4jEPbEDQvo9r2wTj0ncFdtJH8+V8BggZTaN8Rzk5wkgw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.217.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.218.tgz"
       }
     },
     "emoji-regex": {
@@ -4587,10 +4587,10 @@
       }
     },
     "terser-webpack-plugin": {
-      "5.3.3": {
-        "hash": "sha512-Fx60G5HNYknNTNQnzQ1VePRuu89ZVYWfjRAeT5rITuCY/1b08s49e5kSQwHDirKZWuoKOBRFS98EUUoZ9kLEwQ==",
+      "5.3.4": {
+        "hash": "sha512-SmnkUhBxLDcBfTIeaq+ZqJXLVEyXxSaNcCeSezECdKjfkMrTTnPvapBILylYwyEvHFZAn2cJ8dtiXel5XnfOfQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.3.tgz"
+        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.4.tgz"
       }
     },
     "text-encoding": {
