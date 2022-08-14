@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "os_str_bytes",
-    "invalidationHash": "2ca0633cee570177b9b33522403948fbff6fc4338da79f315fa978d448352c18",
+    "invalidationHash": "f74fc6029f52c19b662d2d4757e34b48998472bad51b554ca71ba882586e30e8",
     "location": "",
     "packages": {
-      "os_str_bytes": "6.2.0"
+      "os_str_bytes": "6.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "os_str_bytes": {
-        "6.2.0": {}
+        "6.3.0": {}
       }
     }
   },
@@ -27,7 +27,7 @@
       ]
     },
     "os_str_bytes": {
-      "6.2.0": [
+      "6.3.0": [
         [ "getrandom", "0.2.7" ],
         [ "memchr", "2.5.0" ],
         [ "print_bytes", "0.6.0" ],
@@ -75,11 +75,11 @@
       }
     },
     "os_str_bytes": {
-      "6.2.0": {
-        "hash": "sha256-ZIAB7+XVwBAtjOp2jjSNqF2Qr4upHwvqkI8VeVFJPNQ=",
+      "6.3.0": {
+        "hash": "sha256-n/dBXprj//EiWFHfng2eTlR5+Udhl3RnemNXLlXoDv8=",
         "pname": "os_str_bytes",
         "type": "crates-io",
-        "version": "6.2.0"
+        "version": "6.3.0"
       }
     },
     "print_bytes": {

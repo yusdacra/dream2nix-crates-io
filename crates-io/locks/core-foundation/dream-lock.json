@@ -25,7 +25,7 @@
       ]
     },
     "chrono": {
-      "0.4.21": [
+      "0.4.22": [
         [ "iana-time-zone", "0.1.44" ],
         [ "js-sys", "0.3.59" ],
         [ "num-integer", "0.1.45" ],
@@ -37,7 +37,7 @@
     },
     "core-foundation": {
       "0.9.3": [
-        [ "chrono", "0.4.21" ],
+        [ "chrono", "0.4.22" ],
         [ "core-foundation-sys", "0.8.3" ],
         [ "libc", "0.2.131" ],
         [ "uuid", "0.5.1" ]
@@ -162,8 +162,8 @@
       }
     },
     "chrono": {
-      "0.4.21": {
-        "hash": "3f725f340c3854e3cb3ab736dc21f0cca183303acea3b3ffec30f141503ac8eb",
+      "0.4.22": {
+        "hash": "bfd4d1b31faaa3a89d7934dbded3111da0d2ef28e3ebccdb4f0179f5929d1ef1",
         "type": "crates-io"
       }
     },

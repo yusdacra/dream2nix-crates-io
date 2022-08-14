@@ -138,7 +138,7 @@
       ]
     },
     "hdrhistogram": {
-      "7.5.0": [
+      "7.5.1": [
         [ "byteorder", "1.4.3" ],
         [ "num-traits", "0.2.15" ]
       ]
@@ -470,7 +470,7 @@
       "0.4.13": [
         [ "futures-core", "0.3.21" ],
         [ "futures-util", "0.3.21" ],
-        [ "hdrhistogram", "7.5.0" ],
+        [ "hdrhistogram", "7.5.1" ],
         [ "indexmap", "1.9.1" ],
         [ "pin-project", "1.0.11" ],
         [ "pin-project-lite", "0.2.9" ],
@@ -790,8 +790,8 @@
       }
     },
     "hdrhistogram": {
-      "7.5.0": {
-        "hash": "31672b7011be2c4f7456c4ddbcb40e7e9a4a9fad8efe49a6ebaf5f307d0109c0",
+      "7.5.1": {
+        "hash": "6ea9fe3952d32674a14e0975009a3547af9ea364995b5ec1add2e23c2ae523ab",
         "type": "crates-io"
       }
     },

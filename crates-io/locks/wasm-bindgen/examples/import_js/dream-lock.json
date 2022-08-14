@@ -48,7 +48,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "3.0.5" ],
-        [ "@types/node", "18.7.2" ]
+        [ "@types/node", "18.7.3" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001375" ],
-        [ "electron-to-chromium", "1.4.218" ],
+        [ "electron-to-chromium", "1.4.219" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.7.2" ],
+        [ "@types/node", "18.7.3" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1090,7 +1090,7 @@
       ]
     },
     "portfinder": {
-      "1.0.29": [
+      "1.0.32": [
         [ "async", "2.6.4" ],
         [ "debug", "3.2.7" ],
         [ "mkdirp", "0.5.6" ]
@@ -1575,7 +1575,7 @@
         [ "loglevel", "1.8.0" ],
         [ "opn", "5.5.0" ],
         [ "p-retry", "3.0.1" ],
-        [ "portfinder", "1.0.29" ],
+        [ "portfinder", "1.0.32" ],
         [ "schema-utils", "1.0.0" ],
         [ "selfsigned", "1.10.14" ],
         [ "semver", "6.3.0" ],
@@ -1752,10 +1752,10 @@
       }
     },
     "@types/node": {
-      "18.7.2": {
-        "hash": "sha512-ce7MIiaYWCFv6A83oEultwhBXb22fxwNOQf5DIxWA4WXvDQ7K+L0fbWl/YOfCzlR5B/uFkSnVBhPcOfOECcWvA==",
+      "18.7.3": {
+        "hash": "sha512-LJgzOEwWuMTBxHzgBR/fhhBOWrvBjvO+zPteUgbbuQi80rYIZHrk1mNbRUqPZqSLP2H7Rwt1EFLL/tNLD1Xx/w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.2.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.3.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.218": {
-        "hash": "sha512-INDylKH//YIf2w67D+IjkfVnGVrZ/D94DAU/FPPm6T4jEPbEDQvo9r2wTj0ncFdtJH8+V8BggZTaN8Rzk5wkgw==",
+      "1.4.219": {
+        "hash": "sha512-zoQJsXOUw0ZA0YxbjkmzBumAJRtr6je5JySuL/bAoFs0DuLiLJ+5FzRF7/ZayihxR2QcewlRZVm5QZdUhwjOgA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.218.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.219.tgz"
       }
     },
     "emoji-regex": {
@@ -3982,10 +3982,10 @@
       }
     },
     "portfinder": {
-      "1.0.29": {
-        "hash": "sha512-Z5+DarHWCKlufshB9Z1pN95oLtANoY5Wn9X3JGELGyQ6VhEcBfT2t+1fGUBq7MwUant6g/mqowH+4HifByPbiQ==",
+      "1.0.32": {
+        "hash": "sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/portfinder/-/portfinder-1.0.29.tgz"
+        "url": "https://registry.npmjs.org/portfinder/-/portfinder-1.0.32.tgz"
       }
     },
     "posix-character-classes": {

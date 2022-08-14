@@ -68,7 +68,7 @@
       ]
     },
     "cortex-m": {
-      "0.7.5": [
+      "0.7.6": [
         [ "bare-metal", "0.2.5" ],
         [ "bitfield", "0.13.2" ],
         [ "embedded-hal", "0.2.7" ],
@@ -84,7 +84,7 @@
       "0.2.7": [
         [ "bare-metal", "1.0.0" ],
         [ "cfg-if", "1.0.0" ],
-        [ "cortex-m", "0.7.5" ],
+        [ "cortex-m", "0.7.6" ],
         [ "riscv", "0.7.0" ]
       ]
     },
@@ -304,8 +304,8 @@
       }
     },
     "cortex-m": {
-      "0.7.5": {
-        "hash": "cd20d4ac4aa86f4f75f239d59e542ef67de87cce2c282818dc6e84155d3ea126",
+      "0.7.6": {
+        "hash": "70858629a458fdfd39f9675c4dc309411f2a3f83bede76988d81bf1a0ecee9e0",
         "type": "crates-io"
       }
     },
