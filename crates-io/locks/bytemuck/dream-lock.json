@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "bytemuck",
-    "invalidationHash": "8922283ae652b7d880540f5fbc14d0a11ec5bf7c1af4afc28101d5f5cb37c8e8",
+    "invalidationHash": "fbe4b6618f8a352c34d3250f65e86e0cb4ed238f3d00a26829db95460cbcce85",
     "location": "",
     "packages": {
-      "bytemuck": "1.11.0"
+      "bytemuck": "1.12.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,19 +13,19 @@
     "gitSources": [],
     "relPathReplacements": {
       "bytemuck": {
-        "1.11.0": {}
+        "1.12.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "bytemuck": {
-      "1.11.0": [
-        [ "bytemuck_derive", "1.1.1" ]
+      "1.12.0": [
+        [ "bytemuck_derive", "1.2.0" ]
       ]
     },
     "bytemuck_derive": {
-      "1.1.1": [
+      "1.2.0": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -51,16 +51,16 @@
   },
   "sources": {
     "bytemuck": {
-      "1.11.0": {
-        "hash": "sha256-pTd8iGXnShYNIfKcLUBmn1MobbbqtZuIVAy7Ev/IuDU=",
+      "1.12.0": {
+        "hash": "sha256-RPjLZLQUelKOHp53WDc55oNUGXMpWzXzvX541CxZcf0=",
         "pname": "bytemuck",
         "type": "crates-io",
-        "version": "1.11.0"
+        "version": "1.12.0"
       }
     },
     "bytemuck_derive": {
-      "1.1.1": {
-        "hash": "cfd2f4180c5721da6335cc9e9061cce522b87a35e51cc57636d28d22a9863c80",
+      "1.2.0": {
+        "hash": "339cdf1eb047d1c96cb8be64f4bc28975821222ec1736edfa06e140cf18d0064",
         "type": "crates-io"
       }
     },

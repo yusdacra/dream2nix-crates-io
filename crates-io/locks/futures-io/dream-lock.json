@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "futures-io",
-    "invalidationHash": "adde11e4f17eb7b967064f9dddddcfacdf0e02baa92a1ef8b91a5dbe417e0a45",
+    "invalidationHash": "8027729d3a82ccfc0a47cc6fb1a6958a496f4e5ed0a361f9fd237ecbfc93f3bd",
     "location": "",
     "packages": {
-      "futures-io": "0.3.21"
+      "futures-io": "0.3.23"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "futures-io": {
-        "0.3.21": {}
+        "0.3.23": {}
       }
     }
   },
@@ -21,11 +21,11 @@
   "dependencies": {},
   "sources": {
     "futures-io": {
-      "0.3.21": {
-        "hash": "sha256-/EBFlipaXpNe4v3tqk4IKEVHQCiFqzJnNEMr7V0Slms=",
+      "0.3.23": {
+        "hash": "sha256-k6ZvxtA1omo64lWm0ryjXtpjrkxVEr71REkRP3oSKOU=",
         "pname": "futures-io",
         "type": "crates-io",
-        "version": "0.3.21"
+        "version": "0.3.23"
       }
     }
   }

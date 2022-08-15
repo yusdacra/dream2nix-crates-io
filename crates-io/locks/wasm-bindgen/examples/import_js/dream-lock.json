@@ -239,7 +239,7 @@
     },
     "browserslist": {
       "4.21.3": [
-        [ "caniuse-lite", "1.0.30001375" ],
+        [ "caniuse-lite", "1.0.30001376" ],
         [ "electron-to-chromium", "1.4.219" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
@@ -2213,10 +2213,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001375": {
-        "hash": "sha512-kWIMkNzLYxSvnjy0hL8w1NOaWNr2rn39RTAVyIwcw8juu60bZDWiF1/loOYANzjtJmy6qPgNmn38ro5Pygagdw==",
+      "1.0.30001376": {
+        "hash": "sha512-I27WhtOQ3X3v3it9gNs/oTpoE5KpwmqKR5oKPA8M0G7uMXh9Ty81Q904HpKUrM30ei7zfcL5jE7AXefgbOfMig==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001375.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001376.tgz"
       }
     },
     "chalk": {

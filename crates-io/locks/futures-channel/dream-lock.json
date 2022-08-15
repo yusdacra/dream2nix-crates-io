@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "futures-channel",
-    "invalidationHash": "fc7c34fc36e18a9bd559e73b54a02f840a8150d95958c2787c95fdc617b90543",
+    "invalidationHash": "35d26f38fa403e5481c47b53087818c4733312e28d4407d6f6587be355372658",
     "location": "",
     "packages": {
-      "futures-channel": "0.3.21"
+      "futures-channel": "0.3.23"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,37 +13,37 @@
     "gitSources": [],
     "relPathReplacements": {
       "futures-channel": {
-        "0.3.21": {}
+        "0.3.23": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "futures-channel": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-sink", "0.3.21" ]
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-sink", "0.3.23" ]
       ]
     }
   },
   "sources": {
     "futures-channel": {
-      "0.3.21": {
-        "hash": "sha256-wwg85LkUEkV1cIkTvKGb/oh1Itbi5tCVKUP16sSnQBA=",
+      "0.3.23": {
+        "hash": "sha256-K/xSy93P10W/F0AzhJK7C9g9dsZ7RF+Rxfsp+uKeyqE=",
         "pname": "futures-channel",
         "type": "crates-io",
-        "version": "0.3.21"
+        "version": "0.3.23"
       }
     },
     "futures-core": {
-      "0.3.21": {
-        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+      "0.3.23": {
+        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
         "type": "crates-io"
       }
     },
     "futures-sink": {
-      "0.3.21": {
-        "hash": "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868",
+      "0.3.23": {
+        "hash": "ca0bae1fe9752cf7fd9b0064c674ae63f97b37bc714d745cbde0afb7ec4e6765",
         "type": "crates-io"
       }
     }

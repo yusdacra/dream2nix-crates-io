@@ -27,7 +27,7 @@
     "async-stream": {
       "0.3.3": [
         [ "async-stream-impl", "0.3.3" ],
-        [ "futures-core", "0.3.21" ]
+        [ "futures-core", "0.3.23" ]
       ]
     },
     "async-stream-impl": {
@@ -50,7 +50,7 @@
         [ "axum-core", "0.2.7" ],
         [ "bitflags", "1.3.2" ],
         [ "bytes", "1.2.1" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-util", "0.3.23" ],
         [ "http", "0.2.8" ],
         [ "http-body", "0.4.5" ],
         [ "hyper", "0.14.20" ],
@@ -73,7 +73,7 @@
       "0.2.7": [
         [ "async-trait", "0.1.57" ],
         [ "bytes", "1.2.1" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-util", "0.3.23" ],
         [ "http", "0.2.8" ],
         [ "http-body", "0.4.5" ],
         [ "mime", "0.3.16" ]
@@ -103,14 +103,14 @@
       ]
     },
     "futures-channel": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ]
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ]
       ]
     },
     "futures-util": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ]
       ]
@@ -126,9 +126,9 @@
       "0.3.13": [
         [ "bytes", "1.2.1" ],
         [ "fnv", "1.0.7" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-sink", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-sink", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "http", "0.2.8" ],
         [ "indexmap", "1.9.1" ],
         [ "slab", "0.4.7" ],
@@ -160,9 +160,9 @@
     "hyper": {
       "0.14.20": [
         [ "bytes", "1.2.1" ],
-        [ "futures-channel", "0.3.21" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-channel", "0.3.23" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "h2", "0.3.13" ],
         [ "http", "0.2.8" ],
         [ "http-body", "0.4.5" ],
@@ -413,7 +413,7 @@
     },
     "tokio-stream": {
       "0.1.9": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio", "1.20.1" ]
       ]
@@ -421,8 +421,8 @@
     "tokio-util": {
       "0.7.3": [
         [ "bytes", "1.2.1" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-sink", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-sink", "0.3.23" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio", "1.20.1" ],
         [ "tracing", "0.1.36" ]
@@ -437,8 +437,8 @@
         [ "bencher", "0.1.5" ],
         [ "bytes", "1.2.1" ],
         [ "flate2", "1.0.24" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "h2", "0.3.13" ],
         [ "http", "0.2.8" ],
         [ "http-body", "0.4.5" ],
@@ -468,8 +468,8 @@
     },
     "tower": {
       "0.4.13": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "hdrhistogram", "7.5.1" ],
         [ "indexmap", "1.9.1" ],
         [ "pin-project", "1.0.11" ],
@@ -487,8 +487,8 @@
       "0.3.4": [
         [ "bitflags", "1.3.2" ],
         [ "bytes", "1.2.1" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "http", "0.2.8" ],
         [ "http-body", "0.4.5" ],
         [ "http-range-header", "0.3.0" ],
@@ -742,32 +742,32 @@
       }
     },
     "futures-channel": {
-      "0.3.21": {
-        "hash": "c3083ce4b914124575708913bca19bfe887522d6e2e6d0952943f5eac4a74010",
+      "0.3.23": {
+        "hash": "2bfc52cbddcfd745bf1740338492bb0bd83d76c67b445f91c5fb29fae29ecaa1",
         "type": "crates-io"
       }
     },
     "futures-core": {
-      "0.3.21": {
-        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+      "0.3.23": {
+        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
         "type": "crates-io"
       }
     },
     "futures-sink": {
-      "0.3.21": {
-        "hash": "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868",
+      "0.3.23": {
+        "hash": "ca0bae1fe9752cf7fd9b0064c674ae63f97b37bc714d745cbde0afb7ec4e6765",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.21": {
-        "hash": "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a",
+      "0.3.23": {
+        "hash": "842fc63b931f4056a24d59de13fb1272134ce261816e063e634ad0c15cdc5306",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.21": {
-        "hash": "d8b7abd5d659d9b90c8cba917f6ec750a74e2dc23902ef9cd4cc8c8b22e6036a",
+      "0.3.23": {
+        "hash": "f0828a5471e340229c11c77ca80017937ce3c58cb788a17e5f1c2d5c485a9577",
         "type": "crates-io"
       }
     },

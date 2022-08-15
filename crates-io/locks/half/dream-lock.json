@@ -40,12 +40,12 @@
       ]
     },
     "bytemuck": {
-      "1.11.0": [
-        [ "bytemuck_derive", "1.1.1" ]
+      "1.12.0": [
+        [ "bytemuck_derive", "1.2.0" ]
       ]
     },
     "bytemuck_derive": {
-      "1.1.1": [
+      "1.2.0": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -144,7 +144,7 @@
     },
     "half": {
       "2.1.0": [
-        [ "bytemuck", "1.11.0" ],
+        [ "bytemuck", "1.12.0" ],
         [ "criterion", "0.3.6" ],
         [ "crunchy", "0.2.2" ],
         [ "num-traits", "0.2.15" ],
@@ -435,14 +435,14 @@
       }
     },
     "bytemuck": {
-      "1.11.0": {
-        "hash": "a5377c8865e74a160d21f29c2d40669f53286db6eab59b88540cbb12ffc8b835",
+      "1.12.0": {
+        "hash": "44f8cb64b4147a528e1e9e77583739e683541973295b35f3bd7e78d42c5971fd",
         "type": "crates-io"
       }
     },
     "bytemuck_derive": {
-      "1.1.1": {
-        "hash": "cfd2f4180c5721da6335cc9e9061cce522b87a35e51cc57636d28d22a9863c80",
+      "1.2.0": {
+        "hash": "339cdf1eb047d1c96cb8be64f4bc28975821222ec1736edfa06e140cf18d0064",
         "type": "crates-io"
       }
     },

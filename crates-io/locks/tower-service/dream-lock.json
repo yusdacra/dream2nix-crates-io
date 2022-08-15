@@ -20,44 +20,44 @@
   "cyclicDependencies": {},
   "dependencies": {
     "futures": {
-      "0.3.21": [
-        [ "futures-channel", "0.3.21" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-executor", "0.3.21" ],
-        [ "futures-io", "0.3.21" ],
-        [ "futures-sink", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
-        [ "futures-util", "0.3.21" ]
+      "0.3.23": [
+        [ "futures-channel", "0.3.23" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-executor", "0.3.23" ],
+        [ "futures-io", "0.3.23" ],
+        [ "futures-sink", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
+        [ "futures-util", "0.3.23" ]
       ]
     },
     "futures-channel": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-sink", "0.3.21" ]
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-sink", "0.3.23" ]
       ]
     },
     "futures-executor": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
-        [ "futures-util", "0.3.21" ]
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
+        [ "futures-util", "0.3.23" ]
       ]
     },
     "futures-macro": {
-      "0.3.21": [
+      "0.3.23": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
       ]
     },
     "futures-util": {
-      "0.3.21": [
-        [ "futures-channel", "0.3.21" ],
-        [ "futures-core", "0.3.21" ],
-        [ "futures-io", "0.3.21" ],
-        [ "futures-macro", "0.3.21" ],
-        [ "futures-sink", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
+      "0.3.23": [
+        [ "futures-channel", "0.3.23" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-io", "0.3.23" ],
+        [ "futures-macro", "0.3.23" ],
+        [ "futures-sink", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
         [ "memchr", "2.5.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
@@ -109,7 +109,7 @@
     },
     "tower-service": {
       "0.3.2": [
-        [ "futures", "0.3.21" ],
+        [ "futures", "0.3.23" ],
         [ "http", "0.2.8" ],
         [ "tokio", "1.20.1" ],
         [ "tower-layer", "0.3.1" ]
@@ -136,56 +136,56 @@
       }
     },
     "futures": {
-      "0.3.21": {
-        "hash": "f73fe65f54d1e12b726f517d3e2135ca3125a437b6d998caf1962961f7172d9e",
+      "0.3.23": {
+        "hash": "ab30e97ab6aacfe635fad58f22c2bb06c8b685f7421eb1e064a729e2a5f481fa",
         "type": "crates-io"
       }
     },
     "futures-channel": {
-      "0.3.21": {
-        "hash": "c3083ce4b914124575708913bca19bfe887522d6e2e6d0952943f5eac4a74010",
+      "0.3.23": {
+        "hash": "2bfc52cbddcfd745bf1740338492bb0bd83d76c67b445f91c5fb29fae29ecaa1",
         "type": "crates-io"
       }
     },
     "futures-core": {
-      "0.3.21": {
-        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+      "0.3.23": {
+        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
         "type": "crates-io"
       }
     },
     "futures-executor": {
-      "0.3.21": {
-        "hash": "9420b90cfa29e327d0429f19be13e7ddb68fa1cccb09d65e5706b8c7a749b8a6",
+      "0.3.23": {
+        "hash": "1d11aa21b5b587a64682c0094c2bdd4df0076c5324961a40cc3abd7f37930528",
         "type": "crates-io"
       }
     },
     "futures-io": {
-      "0.3.21": {
-        "hash": "fc4045962a5a5e935ee2fdedaa4e08284547402885ab326734432bed5d12966b",
+      "0.3.23": {
+        "hash": "93a66fc6d035a26a3ae255a6d2bca35eda63ae4c5512bef54449113f7a1228e5",
         "type": "crates-io"
       }
     },
     "futures-macro": {
-      "0.3.21": {
-        "hash": "33c1e13800337f4d4d7a316bf45a567dbcb6ffe087f16424852d97e97a91f512",
+      "0.3.23": {
+        "hash": "0db9cce532b0eae2ccf2766ab246f114b56b9cf6d445e00c2549fbc100ca045d",
         "type": "crates-io"
       }
     },
     "futures-sink": {
-      "0.3.21": {
-        "hash": "21163e139fa306126e6eedaf49ecdb4588f939600f0b1e770f4205ee4b7fa868",
+      "0.3.23": {
+        "hash": "ca0bae1fe9752cf7fd9b0064c674ae63f97b37bc714d745cbde0afb7ec4e6765",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.21": {
-        "hash": "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a",
+      "0.3.23": {
+        "hash": "842fc63b931f4056a24d59de13fb1272134ce261816e063e634ad0c15cdc5306",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.21": {
-        "hash": "d8b7abd5d659d9b90c8cba917f6ec750a74e2dc23902ef9cd4cc8c8b22e6036a",
+      "0.3.23": {
+        "hash": "f0828a5471e340229c11c77ca80017937ce3c58cb788a17e5f1c2d5c485a9577",
         "type": "crates-io"
       }
     },

@@ -51,9 +51,9 @@
   },
   "dependencies": {
     "futures-util": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ]
       ]
@@ -107,7 +107,7 @@
     },
     "tower": {
       "0.3.1": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "tower-buffer", "0.3.0" ],
         [ "tower-discover", "0.3.0" ],
         [ "tower-layer", "0.3.1" ],
@@ -121,7 +121,7 @@
     },
     "tower-buffer": {
       "0.3.0": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project", "0.4.30" ],
         [ "tokio", "0.2.25" ],
         [ "tower-layer", "0.3.1" ],
@@ -131,7 +131,7 @@
     },
     "tower-discover": {
       "0.3.0": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project", "0.4.30" ],
         [ "tower-service", "0.3.2" ]
       ]
@@ -144,7 +144,7 @@
     },
     "tower-limit": {
       "0.3.1": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project", "0.4.30" ],
         [ "tokio", "0.2.25" ],
         [ "tower-layer", "0.3.1" ],
@@ -154,7 +154,7 @@
     },
     "tower-load": {
       "0.3.0": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "log", "0.4.17" ],
         [ "pin-project", "0.4.30" ],
         [ "tokio", "0.2.25" ],
@@ -164,7 +164,7 @@
     },
     "tower-load-shed": {
       "0.3.0": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project", "0.4.30" ],
         [ "tower-layer", "0.3.1" ],
         [ "tower-service", "0.3.2" ]
@@ -172,7 +172,7 @@
     },
     "tower-retry": {
       "0.3.0": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project", "0.4.30" ],
         [ "tokio", "0.2.25" ],
         [ "tower-layer", "0.3.1" ],
@@ -189,8 +189,8 @@
     },
     "tower-util": {
       "0.3.1": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "pin-project", "0.4.30" ],
         [ "tower-service", "0.3.2" ]
       ]
@@ -243,20 +243,20 @@
       }
     },
     "futures-core": {
-      "0.3.21": {
-        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+      "0.3.23": {
+        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
         "type": "crates-io"
       }
     },
     "futures-task": {
-      "0.3.21": {
-        "hash": "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a",
+      "0.3.23": {
+        "hash": "842fc63b931f4056a24d59de13fb1272134ce261816e063e634ad0c15cdc5306",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.21": {
-        "hash": "d8b7abd5d659d9b90c8cba917f6ec750a74e2dc23902ef9cd4cc8c8b22e6036a",
+      "0.3.23": {
+        "hash": "f0828a5471e340229c11c77ca80017937ce3c58cb788a17e5f1c2d5c485a9577",
         "type": "crates-io"
       }
     },

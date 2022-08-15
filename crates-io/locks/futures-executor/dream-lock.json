@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "futures-executor",
-    "invalidationHash": "bbace546b10eb76ee6f4f2564dba8043a889dcee85a231324cea713694b883e1",
+    "invalidationHash": "b7aadad76379ab741ffab4bee5aaeca7ce0bef09a6e3a475ac58c349ea5731a8",
     "location": "",
     "packages": {
-      "futures-executor": "0.3.21"
+      "futures-executor": "0.3.23"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,24 +13,24 @@
     "gitSources": [],
     "relPathReplacements": {
       "futures-executor": {
-        "0.3.21": {}
+        "0.3.23": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "futures-executor": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
-        [ "futures-util", "0.3.21" ],
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
+        [ "futures-util", "0.3.23" ],
         [ "num_cpus", "1.13.1" ]
       ]
     },
     "futures-util": {
-      "0.3.21": [
-        [ "futures-core", "0.3.21" ],
-        [ "futures-task", "0.3.21" ],
+      "0.3.23": [
+        [ "futures-core", "0.3.23" ],
+        [ "futures-task", "0.3.23" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
         [ "slab", "0.4.7" ]
@@ -61,28 +61,28 @@
       }
     },
     "futures-core": {
-      "0.3.21": {
-        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+      "0.3.23": {
+        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
         "type": "crates-io"
       }
     },
     "futures-executor": {
-      "0.3.21": {
-        "hash": "sha256-lCC5DPop4yfQQp8ZvhPn3baPoczLCdZeVwa4x6dJuKY=",
+      "0.3.23": {
+        "hash": "sha256-HRGqIbW1h6ZGgsAJTCvdTfAHbFMklhpAzDq9fzeTBSg=",
         "pname": "futures-executor",
         "type": "crates-io",
-        "version": "0.3.21"
+        "version": "0.3.23"
       }
     },
     "futures-task": {
-      "0.3.21": {
-        "hash": "57c66a976bf5909d801bbef33416c41372779507e7a6b3a5e25e4749c58f776a",
+      "0.3.23": {
+        "hash": "842fc63b931f4056a24d59de13fb1272134ce261816e063e634ad0c15cdc5306",
         "type": "crates-io"
       }
     },
     "futures-util": {
-      "0.3.21": {
-        "hash": "d8b7abd5d659d9b90c8cba917f6ec750a74e2dc23902ef9cd4cc8c8b22e6036a",
+      "0.3.23": {
+        "hash": "f0828a5471e340229c11c77ca80017937ce3c58cb788a17e5f1c2d5c485a9577",
         "type": "crates-io"
       }
     },

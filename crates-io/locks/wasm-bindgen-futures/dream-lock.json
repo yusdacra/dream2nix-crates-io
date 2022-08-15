@@ -38,7 +38,7 @@
     },
     "futures-lite": {
       "1.12.0": [
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "pin-project-lite", "0.2.9" ]
       ]
     },
@@ -90,7 +90,7 @@
       "0.4.32": [
         [ "cfg-if", "1.0.0" ],
         [ "futures-channel-preview", "0.3.0-alpha.19" ],
-        [ "futures-core", "0.3.21" ],
+        [ "futures-core", "0.3.23" ],
         [ "futures-lite", "1.12.0" ],
         [ "js-sys", "0.3.59" ],
         [ "wasm-bindgen", "0.2.82" ],
@@ -162,8 +162,8 @@
       }
     },
     "futures-core": {
-      "0.3.21": {
-        "hash": "0c09fd04b7e4073ac7156a9539b57a484a8ea920f79c7c675d05d289ab6110d3",
+      "0.3.23": {
+        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "signature",
-    "invalidationHash": "f31a919f0d3763dcc24a54e4b7c646f7b6247d5d43e8d81e5a3fdc81f5aba747",
+    "invalidationHash": "6bf5e1bb60e6499b5731b265b9548cfbcceecb4ec01ba80cdb9e3430dc1a355b",
     "location": "",
     "packages": {
-      "signature": "1.5.0"
+      "signature": "1.6.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "signature": {
-        "1.5.0": {}
+        "1.6.0": {}
       }
     }
   },
@@ -47,17 +47,6 @@
         [ "version_check", "0.9.4" ]
       ]
     },
-    "hex-literal": {
-      "0.2.2": [
-        [ "hex-literal-impl", "0.2.3" ],
-        [ "proc-macro-hack", "0.5.19" ]
-      ]
-    },
-    "hex-literal-impl": {
-      "0.2.3": [
-        [ "proc-macro-hack", "0.5.19" ]
-      ]
-    },
     "proc-macro2": {
       "1.0.43": [
         [ "unicode-ident", "1.0.3" ]
@@ -76,16 +65,16 @@
       ]
     },
     "signature": {
-      "1.5.0": [
+      "1.6.0": [
         [ "digest", "0.10.3" ],
-        [ "hex-literal", "0.2.2" ],
+        [ "hex-literal", "0.3.4" ],
         [ "rand_core", "0.6.3" ],
         [ "sha2", "0.10.2" ],
-        [ "signature_derive", "1.0.0-pre.4" ]
+        [ "signature_derive", "1.0.0-pre.5" ]
       ]
     },
     "signature_derive": {
-      "1.0.0-pre.4": [
+      "1.0.0-pre.5": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
@@ -146,26 +135,14 @@
       }
     },
     "hex-literal": {
-      "0.2.2": {
-        "hash": "d70693199b3cf4552f3fa720b54163927a3ebed2aef240efaf556033ab336a11",
-        "type": "crates-io"
-      }
-    },
-    "hex-literal-impl": {
-      "0.2.3": {
-        "hash": "59448fc2f82a5fb6907f78c3d69d843e82ff5b051923313cc4438cb0c7b745a8",
+      "0.3.4": {
+        "hash": "7ebdb29d2ea9ed0083cd8cece49bbd968021bd99b0849edb4a9a7ee0fdf6a4e0",
         "type": "crates-io"
       }
     },
     "libc": {
       "0.2.131": {
         "hash": "04c3b4822ccebfa39c02fc03d1534441b22ead323fa0f48bb7ddd8e6ba076a40",
-        "type": "crates-io"
-      }
-    },
-    "proc-macro-hack": {
-      "0.5.19": {
-        "hash": "dbf0c48bc1d91375ae5c3cd81e3722dff1abcf81a30960240640d223f59fe0e5",
         "type": "crates-io"
       }
     },
@@ -194,16 +171,16 @@
       }
     },
     "signature": {
-      "1.5.0": {
-        "hash": "sha256-8FTGwabpUXnW8j7ZdAYNzvstk4i7claQC62taCxJneQ=",
+      "1.6.0": {
+        "hash": "sha256-8Ooyr0Mjnw01On3XWiLZTDKcjNqv3LTBwTNaoQwpiko=",
         "pname": "signature",
         "type": "crates-io",
-        "version": "1.5.0"
+        "version": "1.6.0"
       }
     },
     "signature_derive": {
-      "1.0.0-pre.4": {
-        "hash": "a7b87d3bd8d687b9265557e613e59ddc5dcb2ed6395523846d2fe76736073d5c",
+      "1.0.0-pre.5": {
+        "hash": "b4b02d9abb9987dd17dc7a8ae2e00afa95aae4e946b188c4ea9fa3e16e3bf766",
         "type": "crates-io"
       }
     },
