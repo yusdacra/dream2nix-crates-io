@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "memmap2",
-    "invalidationHash": "17f89dfd959f59192be3d6850583ed2e26b0c2f1a7def6f6e6e90f2fd999db96",
+    "invalidationHash": "627596eda2db90aabf497a98ff7d8497709b5e8b64bbe01c3eec8171aca8019e",
     "location": "",
     "packages": {
-      "memmap2": "0.5.6"
+      "memmap2": "0.5.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "memmap2": {
-        "0.5.6": {}
+        "0.5.7": {}
       }
     }
   },
@@ -30,7 +30,7 @@
       ]
     },
     "memmap2": {
-      "0.5.6": [
+      "0.5.7": [
         [ "libc", "0.2.99" ],
         [ "owning_ref", "0.4.1" ],
         [ "stable_deref_trait", "1.2.0" ],
@@ -101,11 +101,11 @@
       }
     },
     "memmap2": {
-      "0.5.6": {
-        "hash": "sha256-ji5EVb4gEOjF538NECNLMPOmNqUwVyVgm1pxrQDSJXc=",
+      "0.5.7": {
+        "hash": "sha256-la8V80WxevLvyOrWCA+4vDdvjOwbNSd7k1Y3WV/ndJg=",
         "pname": "memmap2",
         "type": "crates-io",
-        "version": "0.5.6"
+        "version": "0.5.7"
       }
     },
     "owning_ref": {
