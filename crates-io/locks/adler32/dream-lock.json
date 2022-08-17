@@ -34,7 +34,7 @@
     "atty": {
       "0.2.14": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.131" ],
+        [ "libc", "0.2.132" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -106,14 +106,14 @@
         [ "cfg-if", "1.0.0" ],
         [ "crossbeam-utils", "0.8.11" ],
         [ "memoffset", "0.6.5" ],
-        [ "once_cell", "1.13.0" ],
+        [ "once_cell", "1.13.1" ],
         [ "scopeguard", "1.1.0" ]
       ]
     },
     "crossbeam-utils": {
       "0.8.11": [
         [ "cfg-if", "1.0.0" ],
-        [ "once_cell", "1.13.0" ]
+        [ "once_cell", "1.13.1" ]
       ]
     },
     "csv": {
@@ -134,14 +134,14 @@
       "0.1.16": [
         [ "cfg-if", "1.0.0" ],
         [ "js-sys", "0.3.59" ],
-        [ "libc", "0.2.131" ],
+        [ "libc", "0.2.132" ],
         [ "wasi", "0.9.0+wasi-snapshot-preview1" ],
         [ "wasm-bindgen", "0.2.82" ]
       ]
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.131" ]
+        [ "libc", "0.2.132" ]
       ]
     },
     "itertools": {
@@ -172,7 +172,7 @@
     "num_cpus": {
       "1.13.1": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.131" ]
+        [ "libc", "0.2.132" ]
       ]
     },
     "plotters": {
@@ -202,7 +202,7 @@
     "rand": {
       "0.7.3": [
         [ "getrandom", "0.1.16" ],
-        [ "libc", "0.2.131" ],
+        [ "libc", "0.2.132" ],
         [ "rand_chacha", "0.2.2" ],
         [ "rand_core", "0.5.1" ],
         [ "rand_hc", "0.2.0" ]
@@ -305,7 +305,7 @@
       "0.2.82": [
         [ "bumpalo", "3.10.0" ],
         [ "log", "0.4.17" ],
-        [ "once_cell", "1.13.0" ],
+        [ "once_cell", "1.13.1" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
@@ -545,8 +545,8 @@
       }
     },
     "libc": {
-      "0.2.131": {
-        "hash": "04c3b4822ccebfa39c02fc03d1534441b22ead323fa0f48bb7ddd8e6ba076a40",
+      "0.2.132": {
+        "hash": "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5",
         "type": "crates-io"
       }
     },
@@ -581,8 +581,8 @@
       }
     },
     "once_cell": {
-      "1.13.0": {
-        "hash": "18a6dbe30758c9f83eb00cbea4ac95966305f5a7772f3f42ebfc7fc7eddbd8e1",
+      "1.13.1": {
+        "hash": "074864da206b4973b84eb91683020dbefd6a8c3f0f38e054d93954e891935e4e",
         "type": "crates-io"
       }
     },

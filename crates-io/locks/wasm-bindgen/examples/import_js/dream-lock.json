@@ -48,7 +48,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "3.0.5" ],
-        [ "@types/node", "18.7.5" ]
+        [ "@types/node", "18.7.6" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -239,8 +239,8 @@
     },
     "browserslist": {
       "4.21.3": [
-        [ "caniuse-lite", "1.0.30001377" ],
-        [ "electron-to-chromium", "1.4.221" ],
+        [ "caniuse-lite", "1.0.30001378" ],
+        [ "electron-to-chromium", "1.4.222" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.7.5" ],
+        [ "@types/node", "18.7.6" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1421,7 +1421,7 @@
       ]
     },
     "terser-webpack-plugin": {
-      "5.3.4": [
+      "5.3.5": [
         [ "@jridgewell/trace-mapping", "0.3.15" ],
         [ "jest-worker", "27.5.1" ],
         [ "schema-utils", "3.1.1" ],
@@ -1525,7 +1525,7 @@
         [ "neo-async", "2.6.2" ],
         [ "schema-utils", "3.1.1" ],
         [ "tapable", "2.2.1" ],
-        [ "terser-webpack-plugin", "5.3.4" ],
+        [ "terser-webpack-plugin", "5.3.5" ],
         [ "watchpack", "2.4.0" ],
         [ "webpack-sources", "3.2.3" ]
       ]
@@ -1752,10 +1752,10 @@
       }
     },
     "@types/node": {
-      "18.7.5": {
-        "hash": "sha512-NcKK6Ts+9LqdHJaW6HQmgr7dT/i3GOHG+pt6BiWv++5SnjtRd4NXeiuN2kA153SjhXPR/AhHIPHPbrsbpUVOww==",
+      "18.7.6": {
+        "hash": "sha512-EdxgKRXgYsNITy5mjjXjVE/CS8YENSdhiagGrLqjG0pvA2owgJ6i4l7wy/PFZGC0B1/H20lWKN7ONVDNYDZm7A==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.5.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.6.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2213,10 +2213,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001377": {
-        "hash": "sha512-I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==",
+      "1.0.30001378": {
+        "hash": "sha512-JVQnfoO7FK7WvU4ZkBRbPjaot4+YqxogSDosHv0Hv5mWpUESmN+UubMU6L/hGz8QlQ2aY5U0vR6MOs6j/CXpNA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001377.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001378.tgz"
       }
     },
     "chalk": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.221": {
-        "hash": "sha512-aWg2mYhpxZ6Q6Xvyk7B2ziBca4YqrCDlXzmcD7wuRs65pVEVkMT1u2ifdjpAQais2O2o0rW964ZWWWYRlAL/kw==",
+      "1.4.222": {
+        "hash": "sha512-gEM2awN5HZknWdLbngk4uQCVfhucFAfFzuchP3wM3NN6eow1eDU0dFy2kts43FB20ZfhVFF0jmFSTb1h5OhyIg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.221.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.222.tgz"
       }
     },
     "emoji-regex": {
@@ -4587,10 +4587,10 @@
       }
     },
     "terser-webpack-plugin": {
-      "5.3.4": {
-        "hash": "sha512-SmnkUhBxLDcBfTIeaq+ZqJXLVEyXxSaNcCeSezECdKjfkMrTTnPvapBILylYwyEvHFZAn2cJ8dtiXel5XnfOfQ==",
+      "5.3.5": {
+        "hash": "sha512-AOEDLDxD2zylUGf/wxHxklEkOe2/r+seuyOWujejFrIxHf11brA1/dWQNIgXa1c6/Wkxgu7zvv0JhOWfc2ELEA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.4.tgz"
+        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.5.tgz"
       }
     },
     "text-encoding": {

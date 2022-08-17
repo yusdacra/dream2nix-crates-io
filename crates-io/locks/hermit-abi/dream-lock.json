@@ -27,13 +27,13 @@
     "hermit-abi": {
       "0.2.5": [
         [ "compiler_builtins", "0.1.79" ],
-        [ "libc", "0.2.131" ],
+        [ "libc", "0.2.132" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     },
     "libc": {
-      "0.2.131": [
+      "0.2.132": [
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     }
@@ -54,8 +54,8 @@
       }
     },
     "libc": {
-      "0.2.131": {
-        "hash": "04c3b4822ccebfa39c02fc03d1534441b22ead323fa0f48bb7ddd8e6ba076a40",
+      "0.2.132": {
+        "hash": "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5",
         "type": "crates-io"
       }
     },

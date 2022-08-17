@@ -54,7 +54,7 @@
     "tokio": {
       "1.20.1": [
         [ "autocfg", "1.1.0" ],
-        [ "once_cell", "1.13.0" ],
+        [ "once_cell", "1.13.1" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio-macros", "1.8.0" ]
       ]
@@ -107,8 +107,8 @@
       }
     },
     "once_cell": {
-      "1.13.0": {
-        "hash": "18a6dbe30758c9f83eb00cbea4ac95966305f5a7772f3f42ebfc7fc7eddbd8e1",
+      "1.13.1": {
+        "hash": "074864da206b4973b84eb91683020dbefd6a8c3f0f38e054d93954e891935e4e",
         "type": "crates-io"
       }
     },

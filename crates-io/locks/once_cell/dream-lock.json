@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "once_cell",
-    "invalidationHash": "65ddd90b1075f3ef193142359b70184027dad811c171db40149d0dc378525781",
+    "invalidationHash": "cabcb1a7c2ce97baca01c54dc2589d9280323dcebdee916c5b7896815c614773",
     "location": "",
     "packages": {
-      "once_cell": "1.13.0"
+      "once_cell": "1.13.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "once_cell": {
-        "1.13.0": {}
+        "1.13.1": {}
       }
     }
   },
@@ -25,52 +25,20 @@
       ]
     },
     "atomic-polyfill": {
-      "0.1.8": [
-        [ "critical-section", "0.2.7" ]
-      ]
-    },
-    "bare-metal": {
-      "0.2.5": [
-        [ "rustc_version", "0.2.3" ]
-      ]
-    },
-    "cortex-m": {
-      "0.7.5": [
-        [ "bare-metal", "0.2.5" ],
-        [ "bitfield", "0.13.2" ],
-        [ "embedded-hal", "0.2.7" ],
-        [ "volatile-register", "0.2.1" ]
-      ]
-    },
-    "critical-section": {
-      "0.2.7": [
-        [ "bare-metal", "1.0.0" ],
-        [ "cfg-if", "1.0.0" ],
-        [ "cortex-m", "0.7.5" ],
-        [ "riscv", "0.7.0" ]
+      "1.0.1": [
+        [ "critical-section", "1.0.0" ]
       ]
     },
     "crossbeam-utils": {
-      "0.8.10": [
+      "0.8.11": [
         [ "cfg-if", "1.0.0" ],
-        [ "once_cell", "1.12.1" ]
-      ]
-    },
-    "embedded-hal": {
-      "0.2.7": [
-        [ "nb", "0.1.3" ],
-        [ "void", "1.0.2" ]
-      ]
-    },
-    "nb": {
-      "0.1.3": [
-        [ "nb", "1.0.0" ]
+        [ "once_cell", "1.13.0" ]
       ]
     },
     "once_cell": {
-      "1.13.0": [
-        [ "atomic-polyfill", "0.1.8" ],
-        [ "crossbeam-utils", "0.8.10" ],
+      "1.13.1": [
+        [ "atomic-polyfill", "1.0.1" ],
+        [ "crossbeam-utils", "0.8.11" ],
         [ "lazy_static", "1.0.0" ],
         [ "parking_lot_core", "0.9.3" ],
         [ "regex", "1.2.0" ]
@@ -79,14 +47,14 @@
     "parking_lot_core": {
       "0.9.3": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.126" ],
-        [ "redox_syscall", "0.2.13" ],
+        [ "libc", "0.2.131" ],
+        [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.9.0" ],
         [ "windows-sys", "0.36.1" ]
       ]
     },
     "redox_syscall": {
-      "0.2.13": [
+      "0.2.16": [
         [ "bitflags", "1.3.2" ]
       ]
     },
@@ -104,37 +72,9 @@
         [ "ucd-util", "0.1.4" ]
       ]
     },
-    "riscv": {
-      "0.7.0": [
-        [ "bare-metal", "1.0.0" ],
-        [ "bit_field", "0.10.1" ],
-        [ "riscv-target", "0.1.2" ]
-      ]
-    },
-    "riscv-target": {
-      "0.1.2": [
-        [ "lazy_static", "1.0.0" ],
-        [ "regex", "1.2.0" ]
-      ]
-    },
-    "rustc_version": {
-      "0.2.3": [
-        [ "semver", "0.9.0" ]
-      ]
-    },
-    "semver": {
-      "0.9.0": [
-        [ "semver-parser", "0.7.0" ]
-      ]
-    },
     "thread_local": {
       "0.3.6": [
         [ "lazy_static", "1.0.0" ]
-      ]
-    },
-    "volatile-register": {
-      "0.2.1": [
-        [ "vcell", "0.1.3" ]
       ]
     },
     "windows-sys": {
@@ -155,30 +95,8 @@
       }
     },
     "atomic-polyfill": {
-      "0.1.8": {
-        "hash": "e14bf7b4f565e5e717d7a7a65b2a05c0b8c96e4db636d6f780f03b15108cdd1b",
-        "type": "crates-io"
-      }
-    },
-    "bare-metal": {
-      "0.2.5": {
-        "hash": "5deb64efa5bd81e31fcd1938615a6d98c82eafcbcd787162b6f63b91d6bac5b3",
-        "type": "crates-io"
-      },
-      "1.0.0": {
-        "hash": "f8fe8f5a8a398345e52358e18ff07cc17a568fbca5c6f73873d3a62056309603",
-        "type": "crates-io"
-      }
-    },
-    "bit_field": {
-      "0.10.1": {
-        "hash": "dcb6dd1c2376d2e096796e234a70e17e94cc2d5d54ff8ce42b28cef1d0d359a4",
-        "type": "crates-io"
-      }
-    },
-    "bitfield": {
-      "0.13.2": {
-        "hash": "46afbd2983a5d5a7bd740ccb198caf5b82f45c40c09c0eed36052d91cb92e719",
+      "1.0.1": {
+        "hash": "d299f547288d6db8d5c3a2916f7b2f66134b15b8c1ac1c4357dd3b8752af7bb2",
         "type": "crates-io"
       }
     },
@@ -194,27 +112,15 @@
         "type": "crates-io"
       }
     },
-    "cortex-m": {
-      "0.7.5": {
-        "hash": "cd20d4ac4aa86f4f75f239d59e542ef67de87cce2c282818dc6e84155d3ea126",
-        "type": "crates-io"
-      }
-    },
     "critical-section": {
-      "0.2.7": {
-        "hash": "95da181745b56d4bd339530ec393508910c909c784e8962d15d722bacf0bcbcd",
+      "1.0.0": {
+        "hash": "ce181dda5a65c00fcbce2b9d44ad9be001202a54fb321865ed273ac39aa8ccbe",
         "type": "crates-io"
       }
     },
     "crossbeam-utils": {
-      "0.8.10": {
-        "hash": "7d82ee10ce34d7bc12c2122495e7593a9c41347ecdd64185af4ecf72cb1a7f83",
-        "type": "crates-io"
-      }
-    },
-    "embedded-hal": {
-      "0.2.7": {
-        "hash": "35949884794ad573cf46071e41c9b60efb0cb311e3ca01f7af807af1debc66ff",
+      "0.8.11": {
+        "hash": "51887d4adc7b564537b15adcfb307936f8075dfcd5f00dde9a9f1d29383682bc",
         "type": "crates-io"
       }
     },
@@ -225,8 +131,8 @@
       }
     },
     "libc": {
-      "0.2.126": {
-        "hash": "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836",
+      "0.2.131": {
+        "hash": "04c3b4822ccebfa39c02fc03d1534441b22ead323fa0f48bb7ddd8e6ba076a40",
         "type": "crates-io"
       }
     },
@@ -236,26 +142,16 @@
         "type": "crates-io"
       }
     },
-    "nb": {
-      "0.1.3": {
-        "hash": "801d31da0513b6ec5214e9bf433a77966320625a37860f910be265be6e18d06f",
-        "type": "crates-io"
-      },
-      "1.0.0": {
-        "hash": "546c37ac5d9e56f55e73b677106873d9d9f5190605e41a856503623648488cae",
-        "type": "crates-io"
-      }
-    },
     "once_cell": {
-      "1.12.1": {
-        "hash": "ac8b1a9b2518dc799a2271eff1688707eb315f0d4697aa6b0871369ca4c4da55",
+      "1.13.0": {
+        "hash": "18a6dbe30758c9f83eb00cbea4ac95966305f5a7772f3f42ebfc7fc7eddbd8e1",
         "type": "crates-io"
       },
-      "1.13.0": {
-        "hash": "sha256-GKbb4wdYyfg+sAy+pKyVlmMF9ad3Lz9C6/x/x+3b2OE=",
+      "1.13.1": {
+        "hash": "sha256-B0hk2iBrSXO4TrkWgwINvv1qjD8POOBU2TlU6JGTXk4=",
         "pname": "once_cell",
         "type": "crates-io",
-        "version": "1.13.0"
+        "version": "1.13.1"
       }
     },
     "parking_lot_core": {
@@ -265,8 +161,8 @@
       }
     },
     "redox_syscall": {
-      "0.2.13": {
-        "hash": "62f25bc4c7e55e0b0b7a1d43fb893f4fa1361d0abe38b9ce4f323c2adfe6ef42",
+      "0.2.16": {
+        "hash": "fb5a58c1855b4b6819d59012155603f0b22ad30cad752600aadfcb695265519a",
         "type": "crates-io"
       }
     },
@@ -279,36 +175,6 @@
     "regex-syntax": {
       "0.6.9": {
         "hash": "bfaca88e749e19dffb60f77b55e5d87a872fac7e9e48598f7cf93b2d8c047b0a",
-        "type": "crates-io"
-      }
-    },
-    "riscv": {
-      "0.7.0": {
-        "hash": "6907ccdd7a31012b70faf2af85cd9e5ba97657cc3987c4f13f8e4d2c2a088aba",
-        "type": "crates-io"
-      }
-    },
-    "riscv-target": {
-      "0.1.2": {
-        "hash": "88aa938cda42a0cf62a20cfe8d139ff1af20c2e681212b5b34adb5a58333f222",
-        "type": "crates-io"
-      }
-    },
-    "rustc_version": {
-      "0.2.3": {
-        "hash": "138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a",
-        "type": "crates-io"
-      }
-    },
-    "semver": {
-      "0.9.0": {
-        "hash": "1d7eb9ef2c18661902cc47e535f9bc51b78acd254da71d375c2f6720d9a40403",
-        "type": "crates-io"
-      }
-    },
-    "semver-parser": {
-      "0.7.0": {
-        "hash": "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3",
         "type": "crates-io"
       }
     },
@@ -333,24 +199,6 @@
     "utf8-ranges": {
       "1.0.1": {
         "hash": "fd70f467df6810094968e2fce0ee1bd0e87157aceb026a8c083bcf5e25b9efe4",
-        "type": "crates-io"
-      }
-    },
-    "vcell": {
-      "0.1.3": {
-        "hash": "77439c1b53d2303b20d9459b1ade71a83c716e3f9c34f3228c00e6f185d6c002",
-        "type": "crates-io"
-      }
-    },
-    "void": {
-      "1.0.2": {
-        "hash": "6a02e4885ed3bc0f2de90ea6dd45ebcbb66dacffe03547fadbb0eeae2770887d",
-        "type": "crates-io"
-      }
-    },
-    "volatile-register": {
-      "0.2.1": {
-        "hash": "9ee8f19f9d74293faf70901bc20ad067dc1ad390d2cbf1e3f75f721ffee908b6",
         "type": "crates-io"
       }
     },
