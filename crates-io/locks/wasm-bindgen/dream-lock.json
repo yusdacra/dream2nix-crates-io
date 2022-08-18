@@ -118,7 +118,7 @@
     },
     "wasm-bindgen-backend": {
       "0.2.82": [
-        [ "bumpalo", "3.10.0" ],
+        [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.13.1" ],
         [ "proc-macro2", "1.0.43" ],
@@ -185,8 +185,8 @@
   },
   "sources": {
     "bumpalo": {
-      "3.10.0": {
-        "hash": "37ccbd214614c6783386c1af30caf03192f17891059cecc394b4fb119e363de3",
+      "3.11.0": {
+        "hash": "c1ad822118d20d2c234f427000d5acc36eabe1e29a348c89b63dd60b13f28e5d",
         "type": "crates-io"
       }
     },

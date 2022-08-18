@@ -80,7 +80,7 @@
     "hashbrown": {
       "0.12.3": [
         [ "ahash", "0.7.6" ],
-        [ "bumpalo", "3.10.0" ],
+        [ "bumpalo", "3.11.0" ],
         [ "compiler_builtins", "0.1.79" ],
         [ "doc-comment", "0.3.3" ],
         [ "fnv", "1.0.7" ],
@@ -131,7 +131,7 @@
       "1.5.3": [
         [ "autocfg", "1.1.0" ],
         [ "crossbeam-deque", "0.8.2" ],
-        [ "either", "1.7.0" ],
+        [ "either", "1.8.0" ],
         [ "rayon-core", "1.9.3" ]
       ]
     },
@@ -168,8 +168,8 @@
       }
     },
     "bumpalo": {
-      "3.10.0": {
-        "hash": "37ccbd214614c6783386c1af30caf03192f17891059cecc394b4fb119e363de3",
+      "3.11.0": {
+        "hash": "c1ad822118d20d2c234f427000d5acc36eabe1e29a348c89b63dd60b13f28e5d",
         "type": "crates-io"
       }
     },
@@ -234,8 +234,8 @@
       }
     },
     "either": {
-      "1.7.0": {
-        "hash": "3f107b87b6afc2a64fd13cac55fe06d6c8859f12d4b14cbcdd2c67d0976781be",
+      "1.8.0": {
+        "hash": "90e5c1c8368803113bf0c9584fc495a58b86dc8a29edbf8fe877d21d9507e797",
         "type": "crates-io"
       }
     },

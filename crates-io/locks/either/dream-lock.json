@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "either",
-    "invalidationHash": "ceb5a59eb836b055d86f2276dc8aeaf959c7cc8e0e1cbb4b4639da74daca833a",
+    "invalidationHash": "262a45591f35f8f73f12b64cfe901f7aef6a6705322e712eec483f37726298a2",
     "location": "",
     "packages": {
-      "either": "1.7.0"
+      "either": "1.8.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "either": {
-        "1.7.0": {}
+        "1.8.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "either": {
-      "1.7.0": [
+      "1.8.0": [
         [ "serde", "1.0.143" ],
         [ "serde_json", "1.0.83" ]
       ]
@@ -64,11 +64,11 @@
   },
   "sources": {
     "either": {
-      "1.7.0": {
-        "hash": "sha256-PxB7h7avwqZP0TysVf4G1siFnxLUsUy83Sxn0Jdngb4=",
+      "1.8.0": {
+        "hash": "sha256-kOXByDaIAxE78MlYT8SVpYuG3Iop7b+P6HfSHZUH55c=",
         "pname": "either",
         "type": "crates-io",
-        "version": "1.7.0"
+        "version": "1.8.0"
       }
     },
     "itoa": {

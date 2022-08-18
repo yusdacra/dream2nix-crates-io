@@ -26,7 +26,7 @@
     },
     "chrono": {
       "0.4.22": [
-        [ "iana-time-zone", "0.1.45" ],
+        [ "iana-time-zone", "0.1.46" ],
         [ "js-sys", "0.3.59" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ],
@@ -44,7 +44,7 @@
       ]
     },
     "iana-time-zone": {
-      "0.1.45": [
+      "0.1.46": [
         [ "android_system_properties", "0.1.4" ],
         [ "core-foundation-sys", "0.8.3" ],
         [ "js-sys", "0.3.59" ],
@@ -105,7 +105,7 @@
     },
     "wasm-bindgen-backend": {
       "0.2.82": [
-        [ "bumpalo", "3.10.0" ],
+        [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.13.1" ],
         [ "proc-macro2", "1.0.43" ],
@@ -150,8 +150,8 @@
       }
     },
     "bumpalo": {
-      "3.10.0": {
-        "hash": "37ccbd214614c6783386c1af30caf03192f17891059cecc394b4fb119e363de3",
+      "3.11.0": {
+        "hash": "c1ad822118d20d2c234f427000d5acc36eabe1e29a348c89b63dd60b13f28e5d",
         "type": "crates-io"
       }
     },
@@ -182,8 +182,8 @@
       }
     },
     "iana-time-zone": {
-      "0.1.45": {
-        "hash": "ef5528d9c2817db4e10cc78f8d4c8228906e5854f389ff6b076cee3572a09d35",
+      "0.1.46": {
+        "hash": "ad2bfd338099682614d3ee3fe0cd72e0b6a41ca6a87f6a74a3bd593c91650501",
         "type": "crates-io"
       }
     },
