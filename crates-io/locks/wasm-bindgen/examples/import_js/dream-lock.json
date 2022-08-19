@@ -34,14 +34,14 @@
       ]
     },
     "@types/eslint": {
-      "8.4.5": [
+      "8.4.6": [
         [ "@types/estree", "0.0.51" ],
         [ "@types/json-schema", "7.0.11" ]
       ]
     },
     "@types/eslint-scope": {
       "3.7.4": [
-        [ "@types/eslint", "8.4.5" ],
+        [ "@types/eslint", "8.4.6" ],
         [ "@types/estree", "0.0.51" ]
       ]
     },
@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001378" ],
-        [ "electron-to-chromium", "1.4.224" ],
+        [ "electron-to-chromium", "1.4.225" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -1703,10 +1703,10 @@
       }
     },
     "@types/eslint": {
-      "8.4.5": {
-        "hash": "sha512-dhsC09y1gpJWnK+Ff4SGvCuSnk9DaU0BJZSzOwa6GVSg65XtTugLBITDAAzRU5duGBoXBHpdR/9jHGxJjNflJQ==",
+      "8.4.6": {
+        "hash": "sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/eslint/-/eslint-8.4.5.tgz"
+        "url": "https://registry.npmjs.org/@types/eslint/-/eslint-8.4.6.tgz"
       }
     },
     "@types/eslint-scope": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.224": {
-        "hash": "sha512-dOujC5Yzj0nOVE23iD5HKqrRSDj2SD7RazpZS/b/WX85MtO6/LzKDF4TlYZTBteB+7fvSg5JpWh0sN7fImNF8w==",
+      "1.4.225": {
+        "hash": "sha512-ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.224.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.225.tgz"
       }
     },
     "emoji-regex": {
