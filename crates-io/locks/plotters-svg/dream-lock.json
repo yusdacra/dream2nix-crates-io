@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "plotters-svg",
-    "invalidationHash": "3ad24eaa43d89c87ce53e3ca1969305493450ad37155916b63bfde840067b6c6",
+    "invalidationHash": "0b13cf5007b777fc9f3c057baadcd4b5d488905b96d115dedc0896f01f4d33ab",
     "location": "",
     "packages": {
-      "plotters-svg": "0.3.2"
+      "plotters-svg": "0.3.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,19 +13,168 @@
     "gitSources": [],
     "relPathReplacements": {
       "plotters-svg": {
-        "0.3.2": {}
+        "0.3.3": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
+    "crc32fast": {
+      "1.3.2": [
+        [ "cfg-if", "1.0.0" ]
+      ]
+    },
+    "deflate": {
+      "1.0.0": [
+        [ "adler32", "1.2.0" ]
+      ]
+    },
+    "image": {
+      "0.24.3": [
+        [ "bytemuck", "1.12.1" ],
+        [ "byteorder", "1.4.3" ],
+        [ "color_quant", "1.1.0" ],
+        [ "jpeg-decoder", "0.2.6" ],
+        [ "num-rational", "0.4.1" ],
+        [ "num-traits", "0.2.15" ],
+        [ "png", "0.17.5" ]
+      ]
+    },
+    "miniz_oxide": {
+      "0.5.3": [
+        [ "adler", "1.0.2" ]
+      ]
+    },
+    "num-integer": {
+      "0.1.45": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-rational": {
+      "0.4.1": [
+        [ "autocfg", "1.1.0" ],
+        [ "num-integer", "0.1.45" ],
+        [ "num-traits", "0.2.15" ]
+      ]
+    },
+    "num-traits": {
+      "0.2.15": [
+        [ "autocfg", "1.1.0" ]
+      ]
+    },
     "plotters-svg": {
-      "0.3.2": [
+      "0.3.3": [
+        [ "image", "0.24.3" ],
         [ "plotters-backend", "0.3.4" ]
+      ]
+    },
+    "png": {
+      "0.17.5": [
+        [ "bitflags", "1.3.2" ],
+        [ "crc32fast", "1.3.2" ],
+        [ "deflate", "1.0.0" ],
+        [ "miniz_oxide", "0.5.3" ]
       ]
     }
   },
   "sources": {
+    "adler": {
+      "1.0.2": {
+        "hash": "f26201604c87b1e01bd3d98f8d5d9a8fcbb815e8cedb41ffccbeb4bf593a35fe",
+        "type": "crates-io"
+      }
+    },
+    "adler32": {
+      "1.2.0": {
+        "hash": "aae1277d39aeec15cb388266ecc24b11c80469deae6067e17a1a7aa9e5c1f234",
+        "type": "crates-io"
+      }
+    },
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
+    "bitflags": {
+      "1.3.2": {
+        "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "bytemuck": {
+      "1.12.1": {
+        "hash": "2f5715e491b5a1598fc2bef5a606847b5dc1d48ea625bd3c02c00de8285591da",
+        "type": "crates-io"
+      }
+    },
+    "byteorder": {
+      "1.4.3": {
+        "hash": "14c189c53d098945499cdfa7ecc63567cf3886b3332b312a5b4585d8d3a6a610",
+        "type": "crates-io"
+      }
+    },
+    "cfg-if": {
+      "1.0.0": {
+        "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
+        "type": "crates-io"
+      }
+    },
+    "color_quant": {
+      "1.1.0": {
+        "hash": "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b",
+        "type": "crates-io"
+      }
+    },
+    "crc32fast": {
+      "1.3.2": {
+        "hash": "b540bd8bc810d3885c6ea91e2018302f68baba2129ab3e88f32389ee9370880d",
+        "type": "crates-io"
+      }
+    },
+    "deflate": {
+      "1.0.0": {
+        "hash": "c86f7e25f518f4b81808a2cf1c50996a61f5c2eb394b2393bd87f2a4780a432f",
+        "type": "crates-io"
+      }
+    },
+    "image": {
+      "0.24.3": {
+        "hash": "7e30ca2ecf7666107ff827a8e481de6a132a9b687ed3bb20bb1c144a36c00964",
+        "type": "crates-io"
+      }
+    },
+    "jpeg-decoder": {
+      "0.2.6": {
+        "hash": "9478aa10f73e7528198d75109c8be5cd7d15fb530238040148d5f9a22d4c5b3b",
+        "type": "crates-io"
+      }
+    },
+    "miniz_oxide": {
+      "0.5.3": {
+        "hash": "6f5c75688da582b8ffc1f1799e9db273f32133c49e048f614d22ec3256773ccc",
+        "type": "crates-io"
+      }
+    },
+    "num-integer": {
+      "0.1.45": {
+        "hash": "225d3389fb3509a24c93f5c29eb6bde2586b98d9f016636dff58d7c6f7569cd9",
+        "type": "crates-io"
+      }
+    },
+    "num-rational": {
+      "0.4.1": {
+        "hash": "0638a1c9d0a3c0914158145bc76cff373a75a627e6ecbfb71cbe6f453a5a19b0",
+        "type": "crates-io"
+      }
+    },
+    "num-traits": {
+      "0.2.15": {
+        "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
+        "type": "crates-io"
+      }
+    },
     "plotters-backend": {
       "0.3.4": {
         "hash": "193228616381fecdc1224c62e96946dfbc73ff4384fba576e052ff8c1bea8142",
@@ -33,11 +182,17 @@
       }
     },
     "plotters-svg": {
-      "0.3.2": {
-        "hash": "sha256-4JGHNjI9G6/zLuDq3lSYT28gGtfpfVz7XWq0o1hSlhU=",
+      "0.3.3": {
+        "hash": "sha256-+agdJ1mq4drmaPeDwwi8XI69GR/0GEqqGzf2WmrlpW8=",
         "pname": "plotters-svg",
         "type": "crates-io",
-        "version": "0.3.2"
+        "version": "0.3.3"
+      }
+    },
+    "png": {
+      "0.17.5": {
+        "hash": "dc38c0ad57efb786dd57b9864e5b18bae478c00c824dc55a38bbc9da95dde3ba",
+        "type": "crates-io"
       }
     }
   }
