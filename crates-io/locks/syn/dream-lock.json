@@ -238,7 +238,7 @@
         [ "console", "0.15.1" ],
         [ "linked-hash-map", "0.5.6" ],
         [ "once_cell", "1.13.1" ],
-        [ "serde", "1.0.143" ],
+        [ "serde", "1.0.144" ],
         [ "similar", "2.2.0" ],
         [ "yaml-rust", "0.4.5" ]
       ]
@@ -398,7 +398,7 @@
         [ "native-tls", "0.2.10" ],
         [ "percent-encoding", "2.1.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "serde", "1.0.143" ],
+        [ "serde", "1.0.144" ],
         [ "serde_json", "1.0.83" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "tokio", "1.20.1" ],
@@ -441,7 +441,7 @@
       "1.0.83": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.143" ]
+        [ "serde", "1.0.144" ]
       ]
     },
     "serde_urlencoded": {
@@ -449,7 +449,7 @@
         [ "form_urlencoded", "1.0.1" ],
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
-        [ "serde", "1.0.143" ]
+        [ "serde", "1.0.144" ]
       ]
     },
     "slab": {
@@ -1201,8 +1201,8 @@
       }
     },
     "serde": {
-      "1.0.143": {
-        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
+      "1.0.144": {
+        "hash": "0f747710de3dcd43b88c9168773254e809d8ddbdf9653b84e2554ab219f17860",
         "type": "crates-io"
       }
     },

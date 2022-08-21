@@ -338,12 +338,12 @@
       ]
     },
     "serde": {
-      "1.0.143": [
-        [ "serde_derive", "1.0.143" ]
+      "1.0.144": [
+        [ "serde_derive", "1.0.144" ]
       ]
     },
     "serde_derive": {
-      "1.0.143": [
+      "1.0.144": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -490,7 +490,7 @@
         [ "ring", "0.16.20" ],
         [ "rustls", "0.20.6" ],
         [ "rustls-pemfile", "0.3.0" ],
-        [ "serde", "1.0.143" ],
+        [ "serde", "1.0.144" ],
         [ "smallvec", "1.9.0" ],
         [ "socket2", "0.4.4" ],
         [ "thiserror", "1.0.32" ],
@@ -516,7 +516,7 @@
         [ "idna", "0.2.3" ],
         [ "matches", "0.1.9" ],
         [ "percent-encoding", "2.1.0" ],
-        [ "serde", "1.0.143" ]
+        [ "serde", "1.0.144" ]
       ]
     },
     "wasm-bindgen": {
@@ -1077,14 +1077,14 @@
       }
     },
     "serde": {
-      "1.0.143": {
-        "hash": "53e8e5d5b70924f74ff5c6d64d9a5acd91422117c60f48c4e07855238a254553",
+      "1.0.144": {
+        "hash": "0f747710de3dcd43b88c9168773254e809d8ddbdf9653b84e2554ab219f17860",
         "type": "crates-io"
       }
     },
     "serde_derive": {
-      "1.0.143": {
-        "hash": "d3d8e8de557aee63c26b85b947f5e59b690d0454c753f3adeb5cd7835ab88391",
+      "1.0.144": {
+        "hash": "94ed3a816fb1d101812f83e789f888322c34e291f894f19590dc310963e87a00",
         "type": "crates-io"
       }
     },

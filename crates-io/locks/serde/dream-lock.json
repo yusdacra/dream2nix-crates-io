@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "serde",
-    "invalidationHash": "68e76abf23548c699e6fd6c57ac9e57efda9b4183afed214a9182751dd3322b7",
+    "invalidationHash": "cbcefa49b00e46e37c28108bfe39c592f7cd1e674afe2e6fd2bb19342acfdc74",
     "location": "",
     "packages": {
-      "serde": "1.0.143"
+      "serde": "1.0.144"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "serde": {
-        "1.0.143": {}
+        "1.0.144": {}
       }
     }
   },
@@ -30,12 +30,12 @@
       ]
     },
     "serde": {
-      "1.0.143": [
-        [ "serde_derive", "1.0.143" ]
+      "1.0.144": [
+        [ "serde_derive", "1.0.144" ]
       ]
     },
     "serde_derive": {
-      "1.0.143": [
+      "1.0.144": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -63,16 +63,16 @@
       }
     },
     "serde": {
-      "1.0.143": {
-        "hash": "sha256-U+jl1bcJJPdP9cbWTZpazZFCIRfGD0jE4HhVI4olRVM=",
+      "1.0.144": {
+        "hash": "sha256-D3R3EN49zUO4jJFodzJU6AnY3b35ZTuE4lVKshnxeGA=",
         "pname": "serde",
         "type": "crates-io",
-        "version": "1.0.143"
+        "version": "1.0.144"
       }
     },
     "serde_derive": {
-      "1.0.143": {
-        "hash": "d3d8e8de557aee63c26b85b947f5e59b690d0454c753f3adeb5cd7835ab88391",
+      "1.0.144": {
+        "hash": "94ed3a816fb1d101812f83e789f888322c34e291f894f19590dc310963e87a00",
         "type": "crates-io"
       }
     },
