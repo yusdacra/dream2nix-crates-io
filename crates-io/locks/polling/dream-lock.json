@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "polling",
-    "invalidationHash": "860f2558226837c11d7379bf3905fb20c689217b6d6266a5a1e1a0e80b7ea19e",
+    "invalidationHash": "3cf65ff468d7f30dc07febc06294569730ccd135c7af078090f23f163929edba",
     "location": "",
     "packages": {
-      "polling": "2.2.0"
+      "polling": "2.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,30 +13,31 @@
     "gitSources": [],
     "relPathReplacements": {
       "polling": {
-        "2.2.0": {}
+        "2.3.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "log": {
-      "0.4.14": [
+      "0.4.17": [
         [ "cfg-if", "1.0.0" ]
       ]
     },
     "polling": {
-      "2.2.0": [
+      "2.3.0": [
+        [ "autocfg", "1.1.0" ],
         [ "cfg-if", "1.0.0" ],
-        [ "easy-parallel", "3.1.0" ],
-        [ "libc", "0.2.101" ],
-        [ "log", "0.4.14" ],
+        [ "easy-parallel", "3.2.0" ],
+        [ "libc", "0.2.132" ],
+        [ "log", "0.4.17" ],
         [ "wepoll-ffi", "0.1.2" ],
         [ "winapi", "0.3.9" ]
       ]
     },
     "wepoll-ffi": {
       "0.1.2": [
-        [ "cc", "1.0.70" ]
+        [ "cc", "1.0.73" ]
       ]
     },
     "winapi": {
@@ -47,9 +48,15 @@
     }
   },
   "sources": {
+    "autocfg": {
+      "1.1.0": {
+        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
+        "type": "crates-io"
+      }
+    },
     "cc": {
-      "1.0.70": {
-        "hash": "d26a6ce4b6a484fa3edb70f7efa6fc430fd2b87285fe8b84304fd0936faa0dc0",
+      "1.0.73": {
+        "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
         "type": "crates-io"
       }
     },
@@ -60,29 +67,29 @@
       }
     },
     "easy-parallel": {
-      "3.1.0": {
-        "hash": "1dd4afd79212583ff429b913ad6605242ed7eec277e950b1438f300748f948f4",
+      "3.2.0": {
+        "hash": "6907e25393cdcc1f4f3f513d9aac1e840eb1cc341a0fccb01171f7d14d10b946",
         "type": "crates-io"
       }
     },
     "libc": {
-      "0.2.101": {
-        "hash": "3cb00336871be5ed2c8ed44b60ae9959dc5b9f08539422ed43f09e34ecaeba21",
+      "0.2.132": {
+        "hash": "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5",
         "type": "crates-io"
       }
     },
     "log": {
-      "0.4.14": {
-        "hash": "51b9bbe6c47d51fc3e1a9b945965946b4c44142ab8792c50835a980d362c2710",
+      "0.4.17": {
+        "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
         "type": "crates-io"
       }
     },
     "polling": {
-      "2.2.0": {
-        "hash": "sha256-aFQE1QmIn63j6G/jpYA7yi7AmwwHeNWtpuyL96jeUlk=",
+      "2.3.0": {
+        "hash": "sha256-iZsAucirVTx0Oz4R6HxcfUI7Ki3iKbqVskp1Y0R0gBE=",
         "pname": "polling",
         "type": "crates-io",
-        "version": "2.2.0"
+        "version": "2.3.0"
       }
     },
     "wepoll-ffi": {

@@ -234,11 +234,10 @@
       ]
     },
     "insta": {
-      "1.18.2": [
+      "1.19.0": [
         [ "console", "0.15.1" ],
         [ "linked-hash-map", "0.5.6" ],
         [ "once_cell", "1.13.1" ],
-        [ "serde", "1.0.144" ],
         [ "similar", "2.2.0" ],
         [ "yaml-rust", "0.4.5" ]
       ]
@@ -399,7 +398,7 @@
         [ "percent-encoding", "2.1.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "serde", "1.0.144" ],
-        [ "serde_json", "1.0.83" ],
+        [ "serde_json", "1.0.85" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "tokio", "1.20.1" ],
         [ "tokio-native-tls", "0.3.0" ],
@@ -438,7 +437,7 @@
       ]
     },
     "serde_json": {
-      "1.0.83": [
+      "1.0.85": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.144" ]
@@ -468,7 +467,7 @@
         [ "anyhow", "1.0.62" ],
         [ "automod", "1.0.4" ],
         [ "flate2", "1.0.24" ],
-        [ "insta", "1.18.2" ],
+        [ "insta", "1.19.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "rayon", "1.5.3" ],
@@ -943,8 +942,8 @@
       }
     },
     "insta": {
-      "1.18.2": {
-        "hash": "57a9aec10c9a062ef0454fd49ebaefa59239f836d1b30891d9cc2289978dd970",
+      "1.19.0": {
+        "hash": "f37dc501f12ec0c339b385787fa89ffda3d5d2caa62e558da731134c24d6e0c4",
         "type": "crates-io"
       }
     },
@@ -1207,8 +1206,8 @@
       }
     },
     "serde_json": {
-      "1.0.83": {
-        "hash": "38dd04e3c8279e75b31ef29dbdceebfe5ad89f4d0937213c53f7d49d01b3d5a7",
+      "1.0.85": {
+        "hash": "e55a28e3aaef9d5ce0506d0a14dbba8054ddc7e499ef522dd8b26859ec9d4a44",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "pest_derive",
-    "invalidationHash": "11c3bd8ab07c18e7a14a608c0ea007b46c77dc0a9e1989099b49385cc8fd25db",
+    "invalidationHash": "00d8efa4175a48a1cb1e6fe3673e46b0413dcfb0a24f886fc1f1eb19032dab7a",
     "location": "",
     "packages": {
-      "pest_derive": "2.2.1"
+      "pest_derive": "2.3.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "pest_derive": {
-        "2.2.1": {}
+        "2.3.0": {}
       }
     }
   },
@@ -54,7 +54,7 @@
       ]
     },
     "pest_derive": {
-      "2.2.1": [
+      "2.3.0": [
         [ "pest", "2.3.0" ],
         [ "pest_generator", "2.3.0" ]
       ]
@@ -168,11 +168,11 @@
       }
     },
     "pest_derive": {
-      "2.2.1": {
-        "hash": "sha256-sTVwYzr/M8bSLOR91WaxCjuRIsL+nY51AYlZBb5TK5E=",
+      "2.3.0": {
+        "hash": "sha256-kFcI9/Z0UYSYwfjWREgUQPR205ym7K6DMZu6fGwS2pE=",
         "pname": "pest_derive",
         "type": "crates-io",
-        "version": "2.2.1"
+        "version": "2.3.0"
       }
     },
     "pest_generator": {

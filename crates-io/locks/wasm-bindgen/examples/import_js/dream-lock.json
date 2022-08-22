@@ -48,7 +48,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "3.0.5" ],
-        [ "@types/node", "18.7.8" ]
+        [ "@types/node", "18.7.9" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -239,7 +239,7 @@
     },
     "browserslist": {
       "4.21.3": [
-        [ "caniuse-lite", "1.0.30001380" ],
+        [ "caniuse-lite", "1.0.30001381" ],
         [ "electron-to-chromium", "1.4.225" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.7.8" ],
+        [ "@types/node", "18.7.9" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1752,10 +1752,10 @@
       }
     },
     "@types/node": {
-      "18.7.8": {
-        "hash": "sha512-/YP55EMK2341JkODUb8DM9O0x1SIz2aBvyF33Uf1c76St3VpsMXEIW0nxuKkq/5cxnbz0RD9cfwNZHEAZQD3ag==",
+      "18.7.9": {
+        "hash": "sha512-0N5Y1XAdcl865nDdjbO0m3T6FdmQ4ijE89/urOHLREyTXbpMWbSafx9y7XIsgWGtwUP2iYTinLyyW3FatAxBLQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.8.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.9.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2213,10 +2213,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001380": {
-        "hash": "sha512-OO+pPubxx16lkI7TVrbFpde8XHz66SMwstl1YWpg6uMGw56XnhYVwtPIjvX4kYpzwMwQKr4DDce394E03dQPGg==",
+      "1.0.30001381": {
+        "hash": "sha512-fEnkDOKpvp6qc+olg7+NzE1SqyfiyKf4uci7fAU38M3zxs0YOyKOxW/nMZ2l9sJbt7KZHcDIxUnbI0Iime7V4w==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001380.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001381.tgz"
       }
     },
     "chalk": {

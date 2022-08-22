@@ -70,7 +70,7 @@
         [ "log", "0.4.17" ],
         [ "once_cell", "1.13.1" ],
         [ "parking", "2.0.0" ],
-        [ "polling", "2.2.0" ],
+        [ "polling", "2.3.0" ],
         [ "slab", "0.4.7" ],
         [ "socket2", "0.4.4" ],
         [ "waker-fn", "1.1.0" ],
@@ -91,8 +91,9 @@
       ]
     },
     "async-process": {
-      "1.4.0": [
+      "1.5.0": [
         [ "async-io", "1.8.0" ],
+        [ "autocfg", "1.1.0" ],
         [ "blocking", "1.2.0" ],
         [ "cfg-if", "1.0.0" ],
         [ "event-listener", "2.5.3" ],
@@ -184,7 +185,7 @@
         [ "serde", "1.0.144" ],
         [ "serde_cbor", "0.11.2" ],
         [ "serde_derive", "1.0.144" ],
-        [ "serde_json", "1.0.83" ],
+        [ "serde_json", "1.0.85" ],
         [ "smol", "1.2.5" ],
         [ "tempfile", "3.3.0" ],
         [ "tinytemplate", "1.2.1" ],
@@ -377,7 +378,8 @@
       ]
     },
     "polling": {
-      "2.2.0": [
+      "2.3.0": [
+        [ "autocfg", "1.1.0" ],
         [ "cfg-if", "1.0.0" ],
         [ "libc", "0.2.132" ],
         [ "log", "0.4.17" ],
@@ -468,7 +470,7 @@
       ]
     },
     "serde_json": {
-      "1.0.83": [
+      "1.0.85": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.144" ]
@@ -498,7 +500,7 @@
         [ "async-io", "1.8.0" ],
         [ "async-lock", "2.5.0" ],
         [ "async-net", "1.7.0" ],
-        [ "async-process", "1.4.0" ],
+        [ "async-process", "1.5.0" ],
         [ "blocking", "1.2.0" ],
         [ "futures-lite", "1.12.0" ],
         [ "once_cell", "1.13.1" ]
@@ -535,7 +537,7 @@
     "tinytemplate": {
       "1.2.1": [
         [ "serde", "1.0.144" ],
-        [ "serde_json", "1.0.83" ]
+        [ "serde_json", "1.0.85" ]
       ]
     },
     "tokio": {
@@ -671,8 +673,8 @@
       }
     },
     "async-process": {
-      "1.4.0": {
-        "hash": "cf2c06e30a24e8c78a3987d07f0930edf76ef35e027e7bdb063fccafdad1f60c",
+      "1.5.0": {
+        "hash": "02111fd8655a613c25069ea89fc8d9bb89331fa77486eb3bc059ee757cfa481c",
         "type": "crates-io"
       }
     },
@@ -1043,8 +1045,8 @@
       }
     },
     "polling": {
-      "2.2.0": {
-        "hash": "685404d509889fade3e86fe3a5803bca2ec09b0c0778d5ada6ec8bf7a8de5259",
+      "2.3.0": {
+        "hash": "899b00b9c8ab553c743b3e11e87c5c7d423b2a2de229ba95b24a756344748011",
         "type": "crates-io"
       }
     },
@@ -1169,8 +1171,8 @@
       }
     },
     "serde_json": {
-      "1.0.83": {
-        "hash": "38dd04e3c8279e75b31ef29dbdceebfe5ad89f4d0937213c53f7d49d01b3d5a7",
+      "1.0.85": {
+        "hash": "e55a28e3aaef9d5ce0506d0a14dbba8054ddc7e499ef522dd8b26859ec9d4a44",
         "type": "crates-io"
       }
     },

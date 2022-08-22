@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "serde_json",
-    "invalidationHash": "e2694352595ed4ef516b44fb8fb7b8041cb82fe505fcd92f50253334dd6f177d",
+    "invalidationHash": "e3f370ac37393a660e4606c69564cf95ce351d70dfe2e1c6b129e11511e0bd27",
     "location": "",
     "packages": {
-      "serde_json": "1.0.83"
+      "serde_json": "1.0.85"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "serde_json": {
-        "1.0.83": {}
+        "1.0.85": {}
       }
     }
   },
   "cyclicDependencies": {
     "trybuild": {
       "1.0.64": [
-        [ "serde_json", "1.0.83" ]
+        [ "serde_json", "1.0.85" ]
       ]
     }
   },
@@ -83,9 +83,10 @@
       ]
     },
     "serde_json": {
-      "1.0.83": [
+      "1.0.85": [
         [ "automod", "1.0.4" ],
         [ "indexmap", "1.9.1" ],
+        [ "indoc", "1.0.7" ],
         [ "itoa", "1.0.3" ],
         [ "ref-cast", "1.0.9" ],
         [ "rustversion", "1.0.9" ],
@@ -136,7 +137,7 @@
         [ "once_cell", "1.13.1" ],
         [ "serde", "1.0.144" ],
         [ "serde_derive", "1.0.144" ],
-        [ "serde_json", "1.0.83" ],
+        [ "serde_json", "1.0.85" ],
         [ "termcolor", "1.1.3" ],
         [ "toml", "0.5.9" ]
       ]
@@ -199,6 +200,12 @@
     "indexmap": {
       "1.9.1": {
         "hash": "10a35a97730320ffe8e2d410b5d3b69279b98d2c14bdb8b70ea89ecf7888d41e",
+        "type": "crates-io"
+      }
+    },
+    "indoc": {
+      "1.0.7": {
+        "hash": "adab1eaa3408fb7f0c777a73e7465fd5656136fc93b670eb6df3c88c2c1344e3",
         "type": "crates-io"
       }
     },
@@ -281,11 +288,11 @@
       }
     },
     "serde_json": {
-      "1.0.83": {
-        "hash": "sha256-ON0E48gnnnWzHvKdvc7r/lrYn00JNyE8U/fUnQGz1ac=",
+      "1.0.85": {
+        "hash": "sha256-5Voo46rvnVzgUG0KFNu6gFTdx+SZ71It2LJoWeydSkQ=",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.83"
+        "version": "1.0.85"
       }
     },
     "serde_stacker": {

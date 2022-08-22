@@ -73,7 +73,7 @@
       ]
     },
     "serde_json": {
-      "1.0.83": [
+      "1.0.85": [
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.144" ]
@@ -89,7 +89,7 @@
         [ "discard", "1.0.4" ],
         [ "rustc_version", "0.2.3" ],
         [ "serde", "1.0.144" ],
-        [ "serde_json", "1.0.83" ],
+        [ "serde_json", "1.0.85" ],
         [ "stdweb-derive", "0.5.3" ],
         [ "stdweb-internal-macros", "0.2.9" ],
         [ "stdweb-internal-runtime", "0.1.5" ],
@@ -112,7 +112,7 @@
         [ "quote", "1.0.21" ],
         [ "serde", "1.0.144" ],
         [ "serde_derive", "1.0.144" ],
-        [ "serde_json", "1.0.83" ],
+        [ "serde_json", "1.0.85" ],
         [ "sha1", "0.6.1" ],
         [ "syn", "1.0.99" ]
       ]
@@ -305,8 +305,8 @@
       }
     },
     "serde_json": {
-      "1.0.83": {
-        "hash": "38dd04e3c8279e75b31ef29dbdceebfe5ad89f4d0937213c53f7d49d01b3d5a7",
+      "1.0.85": {
+        "hash": "e55a28e3aaef9d5ce0506d0a14dbba8054ddc7e499ef522dd8b26859ec9d4a44",
         "type": "crates-io"
       }
     },
