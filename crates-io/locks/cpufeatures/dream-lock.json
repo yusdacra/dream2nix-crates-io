@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "cpufeatures",
-    "invalidationHash": "7190ef7d28a5582addbf76b8671578c9af6d75a6b2f415cf6d06f84989d164ea",
+    "invalidationHash": "2fbc37adba815a193a05ec2a8a750c7e02c68fc64ec869d5a626f57e69128ec8",
     "location": "",
     "packages": {
-      "cpufeatures": "0.2.3"
+      "cpufeatures": "0.2.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,25 +13,25 @@
     "gitSources": [],
     "relPathReplacements": {
       "cpufeatures": {
-        "0.2.3": {}
+        "0.2.4": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "cpufeatures": {
-      "0.2.3": [
+      "0.2.4": [
         [ "libc", "0.2.132" ]
       ]
     }
   },
   "sources": {
     "cpufeatures": {
-      "0.2.3": {
-        "hash": "sha256-EHn7hSjZ+ciIseiqZR5uB5reRnMj1Y91+vHTCxgI9UA=",
+      "0.2.4": {
+        "hash": "sha256-3JSOu5YkG7QKtz7/64DZ+Tr6rUk1nRWaXmG+UWGf6BM=",
         "pname": "cpufeatures",
         "type": "crates-io",
-        "version": "0.2.3"
+        "version": "0.2.4"
       }
     },
     "libc": {
