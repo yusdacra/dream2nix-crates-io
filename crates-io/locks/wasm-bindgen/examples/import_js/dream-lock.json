@@ -48,7 +48,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "3.0.5" ],
-        [ "@types/node", "18.7.11" ]
+        [ "@types/node", "18.7.12" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001382" ],
-        [ "electron-to-chromium", "1.4.226" ],
+        [ "electron-to-chromium", "1.4.228" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -718,7 +718,7 @@
         [ "he", "1.2.0" ],
         [ "param-case", "3.0.4" ],
         [ "relateurl", "0.2.7" ],
-        [ "terser", "5.14.2" ]
+        [ "terser", "5.15.0" ]
       ]
     },
     "html-webpack-plugin": {
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.7.11" ],
+        [ "@types/node", "18.7.12" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1413,7 +1413,7 @@
       ]
     },
     "terser": {
-      "5.14.2": [
+      "5.15.0": [
         [ "@jridgewell/source-map", "0.3.2" ],
         [ "acorn", "8.8.0" ],
         [ "commander", "2.20.3" ],
@@ -1426,7 +1426,7 @@
         [ "jest-worker", "27.5.1" ],
         [ "schema-utils", "3.1.1" ],
         [ "serialize-javascript", "6.0.0" ],
-        [ "terser", "5.14.2" ]
+        [ "terser", "5.15.0" ]
       ]
     },
     "to-object-path": {
@@ -1752,10 +1752,10 @@
       }
     },
     "@types/node": {
-      "18.7.11": {
-        "hash": "sha512-KZhFpSLlmK/sdocfSAjqPETTMd0ug6HIMIAwkwUpU79olnZdQtMxpQP+G1wDzCH7na+FltSIhbaZuKdwZ8RDrw==",
+      "18.7.12": {
+        "hash": "sha512-caqFX7GwvZ4KLnhpI9CfiMkgHKp6kvFAIgpkha0cjO7bAQvB6dWe+q3fTHmm7fQvv59pd4tPj77nriq2M6U2dw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.11.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.12.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.226": {
-        "hash": "sha512-CvevLaSiUp0u12K0e+QhMX1hn724nSUNO9ToBek+FMHk/5RofrQs5MChjrD0re0IwqxDFxFMSZD+uic05i2Z5w==",
+      "1.4.228": {
+        "hash": "sha512-XfDHCvou7CsDMlFwb0WZ1tWmW48e7Sn7VBRyPfZsZZila9esRsJl1trO+OqDNV97GggFSt0ISbWslKXfQkG//g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.226.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.228.tgz"
       }
     },
     "emoji-regex": {
@@ -4580,10 +4580,10 @@
       }
     },
     "terser": {
-      "5.14.2": {
-        "hash": "sha512-oL0rGeM/WFQCUd0y2QrWxYnq7tfSuKBiqTjRPWrRgB46WD/kiwHwF8T23z78H6Q6kGCuuHcPB+KULHRdxvVGQA==",
+      "5.15.0": {
+        "hash": "sha512-L1BJiXVmheAQQy+as0oF3Pwtlo4s3Wi1X2zNZ2NxOB4wx9bdS9Vk67XQENLFdLYGCK/Z2di53mTj/hBafR+dTA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/terser/-/terser-5.14.2.tgz"
+        "url": "https://registry.npmjs.org/terser/-/terser-5.15.0.tgz"
       }
     },
     "terser-webpack-plugin": {
