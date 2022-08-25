@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "time",
-    "invalidationHash": "c549937a9863e990f617eee047cab254bc84dc8db19192bbdf876022f31c1f67",
+    "invalidationHash": "37e80dfd1b061eea29efd3b37c96b67db15dbdd0ea50a114d882097de73fa606",
     "location": "",
     "packages": {
-      "time": "0.3.13"
+      "time": "0.3.14"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "time": {
-        "0.3.13": {}
+        "0.3.14": {}
       }
     }
   },
@@ -285,7 +285,7 @@
       ]
     },
     "time": {
-      "0.3.13": [
+      "0.3.14": [
         [ "criterion", "0.3.6" ],
         [ "criterion-cycles-per-byte", "0.1.2" ],
         [ "itoa", "1.0.3" ],
@@ -747,11 +747,11 @@
       }
     },
     "time": {
-      "0.3.13": {
-        "hash": "sha256-23b/n6SxRYs8fwd/P/mIc5QFhGDSHmNDVbJzqvEe6kU=",
+      "0.3.14": {
+        "hash": "sha256-PD+aKLYYw6a5JRtpCOnJngS55cAuZYHMu2fVnDTvf5s=",
         "pname": "time",
         "type": "crates-io",
-        "version": "0.3.13"
+        "version": "0.3.14"
       }
     },
     "time-macros": {

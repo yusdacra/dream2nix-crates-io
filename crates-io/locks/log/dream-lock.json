@@ -26,7 +26,7 @@
       ]
     },
     "erased-serde": {
-      "0.3.22": [
+      "0.3.23": [
         [ "serde", "1.0.144" ]
       ]
     },
@@ -95,7 +95,7 @@
     "value-bag": {
       "1.0.0-alpha.9": [
         [ "ctor", "0.1.23" ],
-        [ "erased-serde", "0.3.22" ],
+        [ "erased-serde", "0.3.23" ],
         [ "serde", "1.0.144" ],
         [ "serde_fmt", "1.0.1" ],
         [ "sval", "1.0.0-alpha.5" ],
@@ -117,8 +117,8 @@
       }
     },
     "erased-serde": {
-      "0.3.22": {
-        "hash": "003000e712ad0f95857bd4d2ef8d1890069e06554101697d12050668b2f6f020",
+      "0.3.23": {
+        "hash": "54558e0ba96fbe24280072642eceb9d7d442e32c7ec0ea9e7ecd7b4ea2cf4e11",
         "type": "crates-io"
       }
     },
