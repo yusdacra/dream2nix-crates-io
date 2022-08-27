@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001383" ],
-        [ "electron-to-chromium", "1.4.230" ],
+        [ "electron-to-chromium", "1.4.233" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.230": {
-        "hash": "sha512-3pwjAK0qHSDN9+YAF4fJknsSruP7mpjdWzUSruIJD/JCH77pEh0SorEyb3xVaKkfwk2tzjOt2D8scJ0KAdfXLA==",
+      "1.4.233": {
+        "hash": "sha512-ejwIKXTg1wqbmkcRJh9Ur3hFGHFDZDw1POzdsVrB2WZjgRuRMHIQQKNpe64N/qh3ZtH2otEoRoS+s6arAAuAAw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.230.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.233.tgz"
       }
     },
     "emoji-regex": {
