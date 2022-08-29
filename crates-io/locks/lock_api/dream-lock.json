@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "lock_api",
-    "invalidationHash": "b13b8038c470c3d6dd120393e1b933159f6ea242153a4d8adcc1dc7994817db2",
+    "invalidationHash": "301fb4977209ed5ba9d7aecedac34111cc2f5d89303132ffb84a305251db46f0",
     "location": "",
     "packages": {
-      "lock_api": "0.4.7"
+      "lock_api": "0.4.8"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "lock_api": {
-        "0.4.7": {}
+        "0.4.8": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "lock_api": {
-      "0.4.7": [
+      "0.4.8": [
         [ "autocfg", "1.1.0" ],
         [ "owning_ref", "0.4.1" ],
         [ "scopeguard", "1.1.0" ],
@@ -41,11 +41,11 @@
       }
     },
     "lock_api": {
-      "0.4.7": {
-        "hash": "sha256-Mn+ltqaUDkaZ7Empvq4epIRca6uTFOT4SsaHQhOdjFM=",
+      "0.4.8": {
+        "hash": "sha256-n4C/WqyvJcv8ghDRz7cY8r87EcTFTlr+NsI2hTqOw5A=",
         "pname": "lock_api",
         "type": "crates-io",
-        "version": "0.4.7"
+        "version": "0.4.8"
       }
     },
     "owning_ref": {
