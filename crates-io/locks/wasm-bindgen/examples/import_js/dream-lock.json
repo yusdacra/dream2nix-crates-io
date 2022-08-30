@@ -47,8 +47,8 @@
     },
     "@types/glob": {
       "7.2.0": [
-        [ "@types/minimatch", "5.1.0" ],
-        [ "@types/node", "18.7.13" ]
+        [ "@types/minimatch", "5.1.1" ],
+        [ "@types/node", "18.7.14" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -239,8 +239,8 @@
     },
     "browserslist": {
       "4.21.3": [
-        [ "caniuse-lite", "1.0.30001384" ],
-        [ "electron-to-chromium", "1.4.233" ],
+        [ "caniuse-lite", "1.0.30001385" ],
+        [ "electron-to-chromium", "1.4.234" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.7.13" ],
+        [ "@types/node", "18.7.14" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1421,7 +1421,7 @@
       ]
     },
     "terser-webpack-plugin": {
-      "5.3.5": [
+      "5.3.6": [
         [ "@jridgewell/trace-mapping", "0.3.15" ],
         [ "jest-worker", "27.5.1" ],
         [ "schema-utils", "3.1.1" ],
@@ -1525,7 +1525,7 @@
         [ "neo-async", "2.6.2" ],
         [ "schema-utils", "3.1.1" ],
         [ "tapable", "2.2.1" ],
-        [ "terser-webpack-plugin", "5.3.5" ],
+        [ "terser-webpack-plugin", "5.3.6" ],
         [ "watchpack", "2.4.0" ],
         [ "webpack-sources", "3.2.3" ]
       ]
@@ -1745,17 +1745,17 @@
       }
     },
     "@types/minimatch": {
-      "5.1.0": {
-        "hash": "sha512-0RJHq5FqDWo17kdHe+SMDJLfxmLaqHbWnqZ6gNKzDvStUlrmx/eKIY17+ifLS1yybo7X86aUshQMlittDOVNnw==",
+      "5.1.1": {
+        "hash": "sha512-v55NF6Dz0wrj14Rn8iEABTWrhYRmgkJYuokduunSiq++t3hZ9VZ6dvcDt+850Pm5sGJZk8RaHzkFCXPxVINZ+g==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.0.tgz"
+        "url": "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.1.tgz"
       }
     },
     "@types/node": {
-      "18.7.13": {
-        "hash": "sha512-46yIhxSe5xEaJZXWdIBP7GU4HDTG8/eo0qd9atdiL+lFpA03y8KS+lkTN834TWJj5767GbWv4n/P6efyTFt1Dw==",
+      "18.7.14": {
+        "hash": "sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.13.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.14.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2213,10 +2213,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001384": {
-        "hash": "sha512-BBWt57kqWbc0GYZXb47wTXpmAgqr5LSibPzNjk/AWMdmJMQhLqOl3c/Kd4OAU/tu4NLfYkMx8Tlq3RVBkOBolQ==",
+      "1.0.30001385": {
+        "hash": "sha512-MpiCqJGhBkHgpyimE9GWmZTnyHyEEM35u115bD3QBrXpjvL/JgcP8cUhKJshfmg4OtEHFenifcK5sZayEw5tvQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001384.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001385.tgz"
       }
     },
     "chalk": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.233": {
-        "hash": "sha512-ejwIKXTg1wqbmkcRJh9Ur3hFGHFDZDw1POzdsVrB2WZjgRuRMHIQQKNpe64N/qh3ZtH2otEoRoS+s6arAAuAAw==",
+      "1.4.234": {
+        "hash": "sha512-VqlJ4Ihd9F7eQIfwEtf7C0eZZDl6bQtpez8vx8VHN9iCZEzePZjr7n9OGFHSav4WN9zfLa2CFLowj0siBoc0hQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.233.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.234.tgz"
       }
     },
     "emoji-regex": {
@@ -4587,10 +4587,10 @@
       }
     },
     "terser-webpack-plugin": {
-      "5.3.5": {
-        "hash": "sha512-AOEDLDxD2zylUGf/wxHxklEkOe2/r+seuyOWujejFrIxHf11brA1/dWQNIgXa1c6/Wkxgu7zvv0JhOWfc2ELEA==",
+      "5.3.6": {
+        "hash": "sha512-kfLFk+PoLUQIbLmB1+PZDMRSZS99Mp+/MHqDNmMA6tOItzRt+Npe3E+fsMs5mfcM0wCtrrdU387UnV+vnSffXQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.5.tgz"
+        "url": "https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.6.tgz"
       }
     },
     "text-encoding": {

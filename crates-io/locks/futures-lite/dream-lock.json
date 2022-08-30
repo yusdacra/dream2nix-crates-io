@@ -27,8 +27,8 @@
     "futures-lite": {
       "1.12.0": [
         [ "fastrand", "1.8.0" ],
-        [ "futures-core", "0.3.23" ],
-        [ "futures-io", "0.3.23" ],
+        [ "futures-core", "0.3.24" ],
+        [ "futures-io", "0.3.24" ],
         [ "memchr", "2.5.0" ],
         [ "parking", "2.0.0" ],
         [ "pin-project-lite", "0.2.9" ],
@@ -61,14 +61,14 @@
       }
     },
     "futures-core": {
-      "0.3.23": {
-        "hash": "d2acedae88d38235936c3922476b10fced7b2b68136f5e3c03c2d5be348a1115",
+      "0.3.24": {
+        "hash": "4e5aa3de05362c3fb88de6531e6296e85cde7739cccad4b9dfeeb7f6ebce56bf",
         "type": "crates-io"
       }
     },
     "futures-io": {
-      "0.3.23": {
-        "hash": "93a66fc6d035a26a3ae255a6d2bca35eda63ae4c5512bef54449113f7a1228e5",
+      "0.3.24": {
+        "hash": "bbf4d2a7a308fd4578637c0b17c7e1c7ba127b8f6ba00b29f717e9655d85eb68",
         "type": "crates-io"
       }
     },

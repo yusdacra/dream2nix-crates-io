@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "futures-sink",
-    "invalidationHash": "c0b50b2c61d9a1713556405edde3231ca1c1fe89317ee118724462b00a091dff",
+    "invalidationHash": "035645ed1ee6647c19e41595b387108b6050abd35b8b2a5115a87614731cc084",
     "location": "",
     "packages": {
-      "futures-sink": "0.3.23"
+      "futures-sink": "0.3.24"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "futures-sink": {
-        "0.3.23": {}
+        "0.3.24": {}
       }
     }
   },
@@ -21,11 +21,11 @@
   "dependencies": {},
   "sources": {
     "futures-sink": {
-      "0.3.23": {
-        "hash": "sha256-yguuH+l1LPf9mwBkxnSuY/l7N7xxTXRcveCvt+xOZ2U=",
+      "0.3.24": {
+        "hash": "sha256-IbILpakucnujDnKDRwZiPZSsk6clQQtqa2+8Gwf3ulY=",
         "pname": "futures-sink",
         "type": "crates-io",
-        "version": "0.3.23"
+        "version": "0.3.24"
       }
     }
   }

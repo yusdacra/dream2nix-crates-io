@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "futures-macro",
-    "invalidationHash": "c84b1c9daddbe4945d51e6fd4f7f94e6a54732d85bfb1b99897fb2f703f2d07c",
+    "invalidationHash": "959632adab87d9bc5b52efcaa51848fd4d842fd2eeb47920ffe979ea4f00c021",
     "location": "",
     "packages": {
-      "futures-macro": "0.3.23"
+      "futures-macro": "0.3.24"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "futures-macro": {
-        "0.3.23": {}
+        "0.3.24": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "futures-macro": {
-      "0.3.23": [
+      "0.3.24": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -46,11 +46,11 @@
   },
   "sources": {
     "futures-macro": {
-      "0.3.23": {
-        "hash": "sha256-DbnM5TKw6uLM8nZqskbxFLVrnPbUReAMJUn7wQDKBF0=",
+      "0.3.24": {
+        "hash": "sha256-Qs0V0cdFbATb336IvNaXYNdPOnmNZEThaXS1BbDmLxc=",
         "pname": "futures-macro",
         "type": "crates-io",
-        "version": "0.3.23"
+        "version": "0.3.24"
       }
     },
     "proc-macro2": {
