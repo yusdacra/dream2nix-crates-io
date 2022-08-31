@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "httparse",
-    "invalidationHash": "5c7d8b7b797a3f5b94ac1520d07fe5dea11e0d8c555163ec97f53ccf37a9ca83",
+    "invalidationHash": "966522a818123f73003801bc7789e4d9b021cb7b174ae3939a2b14c3499a0209",
     "location": "",
     "packages": {
-      "httparse": "1.7.1"
+      "httparse": "1.8.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "httparse": {
-        "1.7.1": {}
+        "1.8.0": {}
       }
     }
   },
@@ -118,7 +118,7 @@
       ]
     },
     "httparse": {
-      "1.7.1": [
+      "1.8.0": [
         [ "criterion", "0.3.6" ]
       ]
     },
@@ -414,11 +414,11 @@
       }
     },
     "httparse": {
-      "1.7.1": {
-        "hash": "sha256-SWzim7WlJ4W0Tg98ooR64LuDnJvSj2msrJuZ1GHAwEw=",
+      "1.8.0": {
+        "hash": "sha256-2JfzlLrWpwXV9BBHYuEWp1Y55HDYCQHu0FqGCpXLGQQ=",
         "pname": "httparse",
         "type": "crates-io",
-        "version": "1.7.1"
+        "version": "1.8.0"
       }
     },
     "itertools": {

@@ -27,7 +27,7 @@
       ]
     },
     "android_system_properties": {
-      "0.1.4": [
+      "0.1.5": [
         [ "libc", "0.2.132" ]
       ]
     },
@@ -69,7 +69,7 @@
         [ "bincode", "1.3.3" ],
         [ "criterion", "0.3.6" ],
         [ "doc-comment", "0.3.3" ],
-        [ "iana-time-zone", "0.1.46" ],
+        [ "iana-time-zone", "0.1.47" ],
         [ "js-sys", "0.3.59" ],
         [ "num-integer", "0.1.45" ],
         [ "num-iter", "0.1.43" ],
@@ -188,10 +188,11 @@
       ]
     },
     "iana-time-zone": {
-      "0.1.46": [
-        [ "android_system_properties", "0.1.4" ],
+      "0.1.47": [
+        [ "android_system_properties", "0.1.5" ],
         [ "core-foundation-sys", "0.8.3" ],
         [ "js-sys", "0.3.59" ],
+        [ "once_cell", "1.13.1" ],
         [ "wasm-bindgen", "0.2.82" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -458,8 +459,8 @@
       }
     },
     "android_system_properties": {
-      "0.1.4": {
-        "hash": "d7ed72e1635e121ca3e79420540282af22da58be50de153d36f81ddc6b83aa9e",
+      "0.1.5": {
+        "hash": "819e7219dbd41043ac279b19830f2efc897156490d7fd6ea916720117ee66311",
         "type": "crates-io"
       }
     },
@@ -634,8 +635,8 @@
       }
     },
     "iana-time-zone": {
-      "0.1.46": {
-        "hash": "ad2bfd338099682614d3ee3fe0cd72e0b6a41ca6a87f6a74a3bd593c91650501",
+      "0.1.47": {
+        "hash": "4c495f162af0bf17656d0014a0eded5f3cd2f365fdd204548c2869db89359dc7",
         "type": "crates-io"
       }
     },

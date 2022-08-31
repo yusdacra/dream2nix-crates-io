@@ -31,7 +31,7 @@
     },
     "prost-derive": {
       "0.11.0": [
-        [ "anyhow", "1.0.62" ],
+        [ "anyhow", "1.0.63" ],
         [ "itertools", "0.10.3" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
@@ -53,8 +53,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.62": {
-        "hash": "1485d4d2cc45e7b201ee3767015c96faa5904387c9d87c6efdd0fb511f12d305",
+      "1.0.63": {
+        "hash": "a26fa4d7e3f2eebadf743988fc8aec9fa9a9e82611acafd77c1462ed6262440a",
         "type": "crates-io"
       }
     },

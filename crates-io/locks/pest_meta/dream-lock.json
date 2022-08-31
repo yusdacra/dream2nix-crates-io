@@ -49,7 +49,7 @@
     },
     "pest": {
       "2.3.0": [
-        [ "thiserror", "1.0.32" ],
+        [ "thiserror", "1.0.33" ],
         [ "ucd-trie", "0.1.4" ]
       ]
     },
@@ -85,12 +85,12 @@
       ]
     },
     "thiserror": {
-      "1.0.32": [
-        [ "thiserror-impl", "1.0.32" ]
+      "1.0.33": [
+        [ "thiserror-impl", "1.0.33" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.32": [
+      "1.0.33": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -185,14 +185,14 @@
       }
     },
     "thiserror": {
-      "1.0.32": {
-        "hash": "f5f6586b7f764adc0231f4c79be7b920e766bb2f3e51b3661cdb263828f19994",
+      "1.0.33": {
+        "hash": "3d0a539a918745651435ac7db7a18761589a94cd7e94cd56999f828bf73c8a57",
         "type": "crates-io"
       }
     },
     "thiserror-impl": {
-      "1.0.32": {
-        "hash": "12bafc5b54507e0149cdf1b145a5d80ab80a90bcd9275df43d4fff68460f6c21",
+      "1.0.33": {
+        "hash": "c251e90f708e16c49a16f4917dc2131e75222b72edfa9cb7f7c58ae56aae0c09",
         "type": "crates-io"
       }
     },

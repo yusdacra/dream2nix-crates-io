@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "sha2",
-    "invalidationHash": "7eaf11024fe12ff7d46342b61f76ed21fa6df71e94db3aa962394e17ab0e91bb",
+    "invalidationHash": "09f52032a39cc3b0d5ed93c8e55651b1e7ef5dde8f99cf5a4272d8cf8fe5bb41",
     "location": "",
     "packages": {
-      "sha2": "0.10.2"
+      "sha2": "0.10.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "sha2": {
-        "0.10.2": {}
+        "0.10.3": {}
       }
     }
   },
@@ -60,7 +60,7 @@
       ]
     },
     "sha2": {
-      "0.10.2": [
+      "0.10.3": [
         [ "cfg-if", "1.0.0" ],
         [ "cpufeatures", "0.2.4" ],
         [ "digest", "0.10.3" ],
@@ -148,11 +148,11 @@
       }
     },
     "sha2": {
-      "0.10.2": {
-        "hash": "sha256-Vd6uxg+B7v48zg3FC9qS1tjojyon33xQM7Qq/rHtJnY=",
+      "0.10.3": {
+        "hash": "sha256-iZvwJ0aiySvxBT2TJ9rbJSsBrx+B+QzbkCQR9Ri8chU=",
         "pname": "sha2",
         "type": "crates-io",
-        "version": "0.10.2"
+        "version": "0.10.3"
       }
     },
     "sha2-asm": {
