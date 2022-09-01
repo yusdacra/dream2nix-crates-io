@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "paste",
-    "invalidationHash": "317d7bf68d7f9b7b9b6b0cd9ff48c7713b7f50d6a8cc08e06246c3f2aba2c3f1",
+    "invalidationHash": "059e1091300b52dd97754b2c98e73d7cd824f56c9e64ea9128801970ec84b4af",
     "location": "",
     "packages": {
-      "paste": "1.0.8"
+      "paste": "1.0.9"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "paste": {
-        "1.0.8": {}
+        "1.0.9": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "paste": {
-      "1.0.8": [
+      "1.0.9": [
         [ "paste-test-suite", "0.0.0" ],
         [ "rustversion", "1.0.9" ],
         [ "trybuild", "1.0.64" ]
@@ -117,11 +117,11 @@
       }
     },
     "paste": {
-      "1.0.8": {
-        "hash": "sha256-lCPisy96BDYpKHpTbyGVHoxqgkgtCsse7r/JC8IiWyI=",
+      "1.0.9": {
+        "hash": "sha256-sd4uVR+5BayD9z967fLwy0oNp+Ne+iSiAqk2Jp8fGOE=",
         "pname": "paste",
         "type": "crates-io",
-        "version": "1.0.8"
+        "version": "1.0.9"
       }
     },
     "paste-test-suite": {

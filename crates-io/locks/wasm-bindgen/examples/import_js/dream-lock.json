@@ -47,7 +47,7 @@
     },
     "@types/glob": {
       "7.2.0": [
-        [ "@types/minimatch", "5.1.1" ],
+        [ "@types/minimatch", "5.1.2" ],
         [ "@types/node", "18.7.14" ]
       ]
     },
@@ -240,7 +240,7 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001387" ],
-        [ "electron-to-chromium", "1.4.237" ],
+        [ "electron-to-chromium", "1.4.239" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.5" ]
       ]
@@ -1745,10 +1745,10 @@
       }
     },
     "@types/minimatch": {
-      "5.1.1": {
-        "hash": "sha512-v55NF6Dz0wrj14Rn8iEABTWrhYRmgkJYuokduunSiq++t3hZ9VZ6dvcDt+850Pm5sGJZk8RaHzkFCXPxVINZ+g==",
+      "5.1.2": {
+        "hash": "sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.1.tgz"
+        "url": "https://registry.npmjs.org/@types/minimatch/-/minimatch-5.1.2.tgz"
       }
     },
     "@types/node": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.237": {
-        "hash": "sha512-vxVyGJcsgArNOVUJcXm+7iY3PJAfmSapEszQD1HbyPLl0qoCmNQ1o/EX3RI7Et5/88In9oLxX3SGF8J3orkUgA==",
+      "1.4.239": {
+        "hash": "sha512-XbhfzxPIFzMjJm17T7yUGZEyYh5XuUjrA/FQ7JUy2bEd4qQ7MvFTaKpZ6zXZog1cfVttESo2Lx0ctnf7eQOaAQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.237.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.239.tgz"
       }
     },
     "emoji-regex": {

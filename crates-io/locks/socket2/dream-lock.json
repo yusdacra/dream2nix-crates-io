@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "socket2",
-    "invalidationHash": "e267c133d1cf68329549aebfeec47e5a377fd46a3b2478f58b9a66b2701866c5",
+    "invalidationHash": "f09e7f63031f5f22130476caea581a44c68b6ab5ce46385c62cebd1ee7b17c3a",
     "location": "",
     "packages": {
-      "socket2": "0.4.6"
+      "socket2": "0.4.7"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "socket2": {
-        "0.4.6": {}
+        "0.4.7": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "socket2": {
-      "0.4.6": [
+      "0.4.7": [
         [ "libc", "0.2.132" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -40,11 +40,11 @@
       }
     },
     "socket2": {
-      "0.4.6": {
-        "hash": "sha256-EMmLujcbmyKnGpQU5CD5Ld6yNpI5rwggCBYWnV4t16o=",
+      "0.4.7": {
+        "hash": "sha256-AuLS25Az0ToVZxId3XoJXuFE204cobG9o0GbwNopTr0=",
         "pname": "socket2",
         "type": "crates-io",
-        "version": "0.4.6"
+        "version": "0.4.7"
       }
     },
     "winapi": {

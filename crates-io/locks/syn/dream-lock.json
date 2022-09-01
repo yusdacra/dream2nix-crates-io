@@ -204,7 +204,7 @@
         [ "httpdate", "1.0.2" ],
         [ "itoa", "1.0.3" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "socket2", "0.4.6" ],
+        [ "socket2", "0.4.7" ],
         [ "tokio", "1.20.1" ],
         [ "tower-service", "0.3.2" ],
         [ "tracing", "0.1.36" ],
@@ -234,7 +234,7 @@
       ]
     },
     "insta": {
-      "1.19.0": [
+      "1.19.1": [
         [ "console", "0.15.1" ],
         [ "linked-hash-map", "0.5.6" ],
         [ "once_cell", "1.13.1" ],
@@ -457,7 +457,7 @@
       ]
     },
     "socket2": {
-      "0.4.6": [
+      "0.4.7": [
         [ "libc", "0.2.132" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -467,7 +467,7 @@
         [ "anyhow", "1.0.63" ],
         [ "automod", "1.0.4" ],
         [ "flate2", "1.0.24" ],
-        [ "insta", "1.19.0" ],
+        [ "insta", "1.19.1" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "rayon", "1.5.3" ],
@@ -524,7 +524,7 @@
         [ "num_cpus", "1.13.1" ],
         [ "once_cell", "1.13.1" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "socket2", "0.4.6" ],
+        [ "socket2", "0.4.7" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -942,8 +942,8 @@
       }
     },
     "insta": {
-      "1.19.0": {
-        "hash": "f37dc501f12ec0c339b385787fa89ffda3d5d2caa62e558da731134c24d6e0c4",
+      "1.19.1": {
+        "hash": "fc61e98be01e89296f3343a878e9f8ca75a494cb5aaf29df65ef55734aeb85f5",
         "type": "crates-io"
       }
     },
@@ -1230,8 +1230,8 @@
       }
     },
     "socket2": {
-      "0.4.6": {
-        "hash": "10c98bba371b9b22a71a9414e420f92ddeb2369239af08200816169d5e2dd7aa",
+      "0.4.7": {
+        "hash": "02e2d2db9033d13a1567121ddd7a095ee144db4e1ca1b1bda3419bc0da294ebd",
         "type": "crates-io"
       }
     },
