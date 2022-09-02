@@ -46,7 +46,7 @@
       "2.3.0": [
         [ "async-channel", "1.7.1" ],
         [ "async-executor", "1.4.1" ],
-        [ "async-io", "1.8.0" ],
+        [ "async-io", "1.9.0" ],
         [ "async-lock", "2.5.0" ],
         [ "blocking", "1.2.0" ],
         [ "futures-lite", "1.12.0" ],
@@ -54,7 +54,7 @@
       ]
     },
     "async-io": {
-      "1.8.0": [
+      "1.9.0": [
         [ "autocfg", "1.1.0" ],
         [ "concurrent-queue", "1.2.4" ],
         [ "futures-lite", "1.12.0" ],
@@ -79,7 +79,7 @@
         [ "async-attributes", "1.1.2" ],
         [ "async-channel", "1.7.1" ],
         [ "async-global-executor", "2.3.0" ],
-        [ "async-io", "1.8.0" ],
+        [ "async-io", "1.9.0" ],
         [ "async-lock", "2.5.0" ],
         [ "crossbeam-utils", "0.8.11" ],
         [ "futures-channel", "0.3.24" ],
@@ -350,8 +350,8 @@
       }
     },
     "async-io": {
-      "1.8.0": {
-        "hash": "0ab006897723d9352f63e2b13047177c3982d8d79709d713ce7747a8f19fd1b0",
+      "1.9.0": {
+        "hash": "83e21f3a490c72b3b0cf44962180e60045de2925d8dff97918f7ee43c8f637c7",
         "type": "crates-io"
       }
     },
