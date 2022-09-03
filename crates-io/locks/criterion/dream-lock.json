@@ -37,7 +37,7 @@
         [ "concurrent-queue", "1.2.4" ],
         [ "fastrand", "1.8.0" ],
         [ "futures-lite", "1.12.0" ],
-        [ "once_cell", "1.13.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "slab", "0.4.7" ]
       ]
     },
@@ -57,7 +57,7 @@
         [ "async-lock", "2.5.0" ],
         [ "blocking", "1.2.0" ],
         [ "futures-lite", "1.12.0" ],
-        [ "once_cell", "1.13.1" ]
+        [ "once_cell", "1.14.0" ]
       ]
     },
     "async-io": {
@@ -67,7 +67,7 @@
         [ "futures-lite", "1.12.0" ],
         [ "libc", "0.2.132" ],
         [ "log", "0.4.17" ],
-        [ "once_cell", "1.13.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "parking", "2.0.0" ],
         [ "polling", "2.3.0" ],
         [ "slab", "0.4.7" ],
@@ -98,7 +98,7 @@
         [ "event-listener", "2.5.3" ],
         [ "futures-lite", "1.12.0" ],
         [ "libc", "0.2.132" ],
-        [ "once_cell", "1.13.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "signal-hook", "0.3.14" ],
         [ "winapi", "0.3.9" ]
       ]
@@ -118,7 +118,7 @@
         [ "kv-log-macro", "1.0.7" ],
         [ "log", "0.4.17" ],
         [ "memchr", "2.5.0" ],
-        [ "once_cell", "1.13.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "pin-utils", "0.1.0" ],
         [ "slab", "0.4.7" ],
@@ -139,7 +139,7 @@
         [ "atomic-waker", "1.0.0" ],
         [ "fastrand", "1.8.0" ],
         [ "futures-lite", "1.12.0" ],
-        [ "once_cell", "1.13.1" ]
+        [ "once_cell", "1.14.0" ]
       ]
     },
     "bstr": {
@@ -188,7 +188,7 @@
         [ "smol", "1.2.5" ],
         [ "tempfile", "3.3.0" ],
         [ "tinytemplate", "1.2.1" ],
-        [ "tokio", "1.20.1" ],
+        [ "tokio", "1.21.0" ],
         [ "walkdir", "2.3.2" ]
       ]
     },
@@ -217,14 +217,14 @@
         [ "cfg-if", "1.0.0" ],
         [ "crossbeam-utils", "0.8.11" ],
         [ "memoffset", "0.6.5" ],
-        [ "once_cell", "1.13.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "scopeguard", "1.1.0" ]
       ]
     },
     "crossbeam-utils": {
       "0.8.11": [
         [ "cfg-if", "1.0.0" ],
-        [ "once_cell", "1.13.1" ]
+        [ "once_cell", "1.14.0" ]
       ]
     },
     "csv": {
@@ -502,7 +502,7 @@
         [ "async-process", "1.5.0" ],
         [ "blocking", "1.2.0" ],
         [ "futures-lite", "1.12.0" ],
-        [ "once_cell", "1.13.1" ]
+        [ "once_cell", "1.14.0" ]
       ]
     },
     "socket2": {
@@ -540,10 +540,11 @@
       ]
     },
     "tokio": {
-      "1.20.1": [
+      "1.21.0": [
         [ "autocfg", "1.1.0" ],
-        [ "once_cell", "1.13.1" ],
-        [ "pin-project-lite", "0.2.9" ]
+        [ "once_cell", "1.14.0" ],
+        [ "pin-project-lite", "0.2.9" ],
+        [ "socket2", "0.4.7" ]
       ]
     },
     "value-bag": {
@@ -569,7 +570,7 @@
       "0.2.82": [
         [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
-        [ "once_cell", "1.13.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
@@ -996,8 +997,8 @@
       }
     },
     "once_cell": {
-      "1.13.1": {
-        "hash": "074864da206b4973b84eb91683020dbefd6a8c3f0f38e054d93954e891935e4e",
+      "1.14.0": {
+        "hash": "2f7254b99e31cad77da24b08ebf628882739a608578bb1bcdfc1f9c21260d7c0",
         "type": "crates-io"
       }
     },
@@ -1230,8 +1231,8 @@
       }
     },
     "tokio": {
-      "1.20.1": {
-        "hash": "7a8325f63a7d4774dd041e363b2409ed1c5cbbd0f867795e661df066b2b0a581",
+      "1.21.0": {
+        "hash": "89797afd69d206ccd11fb0ea560a44bbb87731d020670e79416d442919257d42",
         "type": "crates-io"
       }
     },

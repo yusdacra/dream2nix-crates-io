@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "serde_yaml",
-    "invalidationHash": "001e0a64ca58e450a2b7e9ded178709647da9b56f0de7444f72faa7d43320831",
+    "invalidationHash": "22a217bf44379e44a3a9c5d059edeca534ee30905d686eaea864aab649ae8952",
     "location": "",
     "packages": {
-      "serde_yaml": "0.9.10"
+      "serde_yaml": "0.9.11"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "serde_yaml": {
-        "0.9.10": {}
+        "0.9.11": {}
       }
     }
   },
@@ -43,7 +43,7 @@
       ]
     },
     "serde_yaml": {
-      "0.9.10": [
+      "0.9.11": [
         [ "anyhow", "1.0.63" ],
         [ "indexmap", "1.9.1" ],
         [ "indoc", "1.0.7" ],
@@ -130,11 +130,11 @@
       }
     },
     "serde_yaml": {
-      "0.9.10": {
-        "hash": "sha256-egn1UczIIQJo74SPC6s3swboe4Wy4Be4mef7gV9a7WI=",
+      "0.9.11": {
+        "hash": "sha256-ifMd8/UJJs3yhV2l/YgSKVw0dSyyBDja5Cpn954CGsM=",
         "pname": "serde_yaml",
         "type": "crates-io",
-        "version": "0.9.10"
+        "version": "0.9.11"
       }
     },
     "syn": {

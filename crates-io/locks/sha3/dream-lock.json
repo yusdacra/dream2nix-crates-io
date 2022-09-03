@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "sha3",
-    "invalidationHash": "010103cae6d6e5f8592675f59d73edf3c681d26c0a5606e958f7c502f0e98896",
+    "invalidationHash": "92d36611154a52e02b6691bdfdba4521a0a3c301ecce8d58d2a0b7c1bbb09304",
     "location": "",
     "packages": {
-      "sha3": "0.10.2"
+      "sha3": "0.10.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "sha3": {
-        "0.10.2": {}
+        "0.10.4": {}
       }
     }
   },
@@ -55,7 +55,7 @@
       ]
     },
     "sha3": {
-      "0.10.2": [
+      "0.10.4": [
         [ "digest", "0.10.3" ],
         [ "hex-literal", "0.2.2" ],
         [ "keccak", "0.1.2" ]
@@ -118,11 +118,11 @@
       }
     },
     "sha3": {
-      "0.10.2": {
-        "hash": "sha256-CjFIA2bsmQ85WmG3wIEi2ZvUBUT9tavPwbBrspmUMSw=",
+      "0.10.4": {
+        "hash": "sha256-6u3zTtKJ6kfCt0G7cuU1eiCVEtZ7zUvaRDWeW/BHD1Y=",
         "pname": "sha3",
         "type": "crates-io",
-        "version": "0.10.2"
+        "version": "0.10.4"
       }
     },
     "typenum": {

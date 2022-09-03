@@ -34,7 +34,7 @@
     "crossbeam-utils": {
       "0.8.11": [
         [ "cfg-if", "1.0.0" ],
-        [ "once_cell", "1.13.1" ]
+        [ "once_cell", "1.14.0" ]
       ]
     },
     "dirs": {
@@ -168,8 +168,8 @@
       }
     },
     "once_cell": {
-      "1.13.1": {
-        "hash": "074864da206b4973b84eb91683020dbefd6a8c3f0f38e054d93954e891935e4e",
+      "1.14.0": {
+        "hash": "2f7254b99e31cad77da24b08ebf628882739a608578bb1bcdfc1f9c21260d7c0",
         "type": "crates-io"
       }
     },
