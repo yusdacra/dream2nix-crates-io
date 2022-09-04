@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "aho-corasick",
-    "invalidationHash": "1fb13ead9b134419fb2a16cc7d2a302c4f4d6163dfdc9cad17f4de0465099e5f",
+    "invalidationHash": "775289df9136e748567c2c78cc1180c3784350568e48b92f1cbcd63cd44d7f64",
     "location": "",
     "packages": {
-      "aho-corasick": "0.7.18"
+      "aho-corasick": "0.7.19"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,25 +13,25 @@
     "gitSources": [],
     "relPathReplacements": {
       "aho-corasick": {
-        "0.7.18": {}
+        "0.7.19": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "aho-corasick": {
-      "0.7.18": [
+      "0.7.19": [
         [ "memchr", "2.5.0" ]
       ]
     }
   },
   "sources": {
     "aho-corasick": {
-      "0.7.18": {
-        "hash": "sha256-HjfP1edletpF90LW6ZyleIWAtcUp3Hj68R7ObccCZW8=",
+      "0.7.19": {
+        "hash": "sha256-tPVb2RoJeMv9kcRXoWS6uLQAHIM7fzIxMsCk4ZIt1E4=",
         "pname": "aho-corasick",
         "type": "crates-io",
-        "version": "0.7.18"
+        "version": "0.7.19"
       }
     },
     "memchr": {

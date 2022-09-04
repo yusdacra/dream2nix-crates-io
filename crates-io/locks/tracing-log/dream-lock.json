@@ -27,7 +27,7 @@
       ]
     },
     "aho-corasick": {
-      "0.7.18": [
+      "0.7.19": [
         [ "memchr", "2.5.0" ]
       ]
     },
@@ -233,7 +233,7 @@
     },
     "regex": {
       "1.6.0": [
-        [ "aho-corasick", "0.7.18" ],
+        [ "aho-corasick", "0.7.19" ],
         [ "memchr", "2.5.0" ],
         [ "regex-syntax", "0.6.27" ]
       ]
@@ -384,8 +384,8 @@
       }
     },
     "aho-corasick": {
-      "0.7.18": {
-        "hash": "1e37cfd5e7657ada45f742d6e99ca5788580b5c529dc78faf11ece6dc702656f",
+      "0.7.19": {
+        "hash": "b4f55bd91a0978cbfd91c457a164bab8b4001c833b7f323132c0a4e1922dd44e",
         "type": "crates-io"
       }
     },

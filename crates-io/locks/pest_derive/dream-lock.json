@@ -50,7 +50,7 @@
     "pest": {
       "2.3.0": [
         [ "thiserror", "1.0.33" ],
-        [ "ucd-trie", "0.1.4" ]
+        [ "ucd-trie", "0.1.5" ]
       ]
     },
     "pest_derive": {
@@ -230,8 +230,8 @@
       }
     },
     "ucd-trie": {
-      "0.1.4": {
-        "hash": "89570599c4fe5585de2b388aab47e99f7fa4e9238a1399f707a02e356058141c",
+      "0.1.5": {
+        "hash": "9e79c4d996edb816c91e4308506774452e55e95c3c9de07b6729e17e15a5ef81",
         "type": "crates-io"
       }
     },
