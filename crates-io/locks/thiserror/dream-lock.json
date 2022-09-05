@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "thiserror",
-    "invalidationHash": "d6b745544e62916a0b609da58abe1e5a5387eed62e863a47b38ce20dcbce447f",
+    "invalidationHash": "e0e3413ace0ceca5187600c9821febe1cfc84ce294fc22ada4e6fed44a0267f5",
     "location": "",
     "packages": {
-      "thiserror": "1.0.33"
+      "thiserror": "1.0.34"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "thiserror": {
-        "1.0.33": {}
+        "1.0.34": {}
       }
     }
   },
@@ -68,16 +68,16 @@
       ]
     },
     "thiserror": {
-      "1.0.33": [
-        [ "anyhow", "1.0.63" ],
+      "1.0.34": [
+        [ "anyhow", "1.0.64" ],
         [ "ref-cast", "1.0.9" ],
         [ "rustversion", "1.0.9" ],
-        [ "thiserror-impl", "1.0.33" ],
+        [ "thiserror-impl", "1.0.34" ],
         [ "trybuild", "1.0.64" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.33": [
+      "1.0.34": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -114,8 +114,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.63": {
-        "hash": "a26fa4d7e3f2eebadf743988fc8aec9fa9a9e82611acafd77c1462ed6262440a",
+      "1.0.64": {
+        "hash": "b9a8f622bcf6ff3df478e9deba3e03e4e04b300f8e6a139e192c05fa3490afc7",
         "type": "crates-io"
       }
     },
@@ -210,16 +210,16 @@
       }
     },
     "thiserror": {
-      "1.0.33": {
-        "hash": "sha256-PQpTmpGHRWUUNax9t6GHYVialM1+lM1WmZ+Ci/c8ilc=",
+      "1.0.34": {
+        "hash": "sha256-jBsFyp0Qa6fS4xqdq0pk574szkFTIZZuoxMsSaZW4lI=",
         "pname": "thiserror",
         "type": "crates-io",
-        "version": "1.0.33"
+        "version": "1.0.34"
       }
     },
     "thiserror-impl": {
-      "1.0.33": {
-        "hash": "c251e90f708e16c49a16f4917dc2131e75222b72edfa9cb7f7c58ae56aae0c09",
+      "1.0.34": {
+        "hash": "e8f2591983642de85c921015f3f070c665a197ed69e417af436115e3a1407487",
         "type": "crates-io"
       }
     },

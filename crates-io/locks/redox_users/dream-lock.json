@@ -59,7 +59,7 @@
         [ "getrandom", "0.2.7" ],
         [ "redox_syscall", "0.2.16" ],
         [ "rust-argon2", "0.8.3" ],
-        [ "thiserror", "1.0.33" ],
+        [ "thiserror", "1.0.34" ],
         [ "zeroize", "1.5.7" ]
       ]
     },
@@ -87,12 +87,12 @@
       ]
     },
     "thiserror": {
-      "1.0.33": [
-        [ "thiserror-impl", "1.0.33" ]
+      "1.0.34": [
+        [ "thiserror-impl", "1.0.34" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.33": [
+      "1.0.34": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -224,14 +224,14 @@
       }
     },
     "thiserror": {
-      "1.0.33": {
-        "hash": "3d0a539a918745651435ac7db7a18761589a94cd7e94cd56999f828bf73c8a57",
+      "1.0.34": {
+        "hash": "8c1b05ca9d106ba7d2e31a9dab4a64e7be2cce415321966ea3132c49a656e252",
         "type": "crates-io"
       }
     },
     "thiserror-impl": {
-      "1.0.33": {
-        "hash": "c251e90f708e16c49a16f4917dc2131e75222b72edfa9cb7f7c58ae56aae0c09",
+      "1.0.34": {
+        "hash": "e8f2591983642de85c921015f3f070c665a197ed69e417af436115e3a1407487",
         "type": "crates-io"
       }
     },

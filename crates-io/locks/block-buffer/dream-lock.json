@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "block-buffer",
-    "invalidationHash": "c407e0dce22523a288ee6ed725fe198f3c29eed01a0a02cccef4a9508fa087e9",
+    "invalidationHash": "440a2aee848fd85858550d255b1ca5a83f83da203a8fc1b5d7a09747a24f9b94",
     "location": "",
     "packages": {
-      "block-buffer": "0.10.2"
+      "block-buffer": "0.10.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "block-buffer": {
-        "0.10.2": {}
+        "0.10.3": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "block-buffer": {
-      "0.10.2": [
+      "0.10.3": [
         [ "generic-array", "0.14.6" ]
       ]
     },
@@ -33,11 +33,11 @@
   },
   "sources": {
     "block-buffer": {
-      "0.10.2": {
-        "hash": "sha256-C/f+UYSepWn9RS83gi9galyrtoTckYcHoBk/1GZP8yQ=",
+      "0.10.3": {
+        "hash": "sha256-acziBzdJj5e5k0cKblNrhSPwr3iSpPkozOsaxeUuvn4=",
         "pname": "block-buffer",
         "type": "crates-io",
-        "version": "0.10.2"
+        "version": "0.10.3"
       }
     },
     "generic-array": {

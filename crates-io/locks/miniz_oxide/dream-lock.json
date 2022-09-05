@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "miniz_oxide",
-    "invalidationHash": "4f108524eb1cd622d40ffc4797133ac8fead25ba074d42e957d4faabbd94220e",
+    "invalidationHash": "0f9dc1692b343d34ecc17f9d30e0372c4e5f377ecfac5c90c0153584bca67b7a",
     "location": "",
     "packages": {
-      "miniz_oxide": "0.6.1"
+      "miniz_oxide": "0.6.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "miniz_oxide": {
-        "0.6.1": {}
+        "0.6.2": {}
       }
     }
   },
@@ -26,7 +26,7 @@
       ]
     },
     "miniz_oxide": {
-      "0.6.1": [
+      "0.6.2": [
         [ "adler", "1.0.2" ],
         [ "compiler_builtins", "0.1.79" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
@@ -49,11 +49,11 @@
       }
     },
     "miniz_oxide": {
-      "0.6.1": {
-        "hash": "sha256-Eo2P8B0QyGxEa0UU4ij/WCN8zGCVc9rZmX7CiPnxxNA=",
+      "0.6.2": {
+        "hash": "sha256-snWVDCizfnlOjFXYiuteE50M4j/bvtpo+NcXSr356Po=",
         "pname": "miniz_oxide",
         "type": "crates-io",
-        "version": "0.6.1"
+        "version": "0.6.2"
       }
     },
     "rustc-std-workspace-alloc": {

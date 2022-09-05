@@ -44,7 +44,7 @@
     },
     "serde_yaml": {
       "0.9.11": [
-        [ "anyhow", "1.0.63" ],
+        [ "anyhow", "1.0.64" ],
         [ "indexmap", "1.9.1" ],
         [ "indoc", "1.0.7" ],
         [ "itoa", "1.0.3" ],
@@ -64,8 +64,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.63": {
-        "hash": "a26fa4d7e3f2eebadf743988fc8aec9fa9a9e82611acafd77c1462ed6262440a",
+      "1.0.64": {
+        "hash": "b9a8f622bcf6ff3df478e9deba3e03e4e04b300f8e6a139e192c05fa3490afc7",
         "type": "crates-io"
       }
     },

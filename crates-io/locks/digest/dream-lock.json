@@ -20,7 +20,7 @@
   "cyclicDependencies": {},
   "dependencies": {
     "block-buffer": {
-      "0.10.2": [
+      "0.10.3": [
         [ "generic-array", "0.14.6" ]
       ]
     },
@@ -34,7 +34,7 @@
     "digest": {
       "0.10.3": [
         [ "blobby", "0.3.1" ],
-        [ "block-buffer", "0.10.2" ],
+        [ "block-buffer", "0.10.3" ],
         [ "crypto-common", "0.1.6" ],
         [ "subtle", "2.4.1" ]
       ]
@@ -54,8 +54,8 @@
       }
     },
     "block-buffer": {
-      "0.10.2": {
-        "hash": "0bf7fe51849ea569fd452f37822f606a5cabb684dc918707a0193fd4664ff324",
+      "0.10.3": {
+        "hash": "69cce20737498f97b993470a6e536b8523f0af7892a4f928cceb1ac5e52ebe7e",
         "type": "crates-io"
       }
     },

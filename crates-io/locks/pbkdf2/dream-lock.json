@@ -20,12 +20,12 @@
   "cyclicDependencies": {},
   "dependencies": {
     "block-buffer": {
-      "0.10.2": [
+      "0.10.3": [
         [ "generic-array", "0.14.6" ]
       ]
     },
     "cpufeatures": {
-      "0.2.4": [
+      "0.2.5": [
         [ "libc", "0.2.132" ]
       ]
     },
@@ -66,7 +66,7 @@
     },
     "digest": {
       "0.10.3": [
-        [ "block-buffer", "0.10.2" ],
+        [ "block-buffer", "0.10.3" ],
         [ "crypto-common", "0.1.6" ],
         [ "subtle", "2.4.1" ]
       ]
@@ -148,14 +148,14 @@
     "sha-1": {
       "0.10.0": [
         [ "cfg-if", "1.0.0" ],
-        [ "cpufeatures", "0.2.4" ],
+        [ "cpufeatures", "0.2.5" ],
         [ "digest", "0.10.3" ]
       ]
     },
     "sha2": {
       "0.10.5": [
         [ "cfg-if", "1.0.0" ],
-        [ "cpufeatures", "0.2.4" ],
+        [ "cpufeatures", "0.2.5" ],
         [ "digest", "0.10.3" ]
       ]
     },
@@ -179,8 +179,8 @@
       }
     },
     "block-buffer": {
-      "0.10.2": {
-        "hash": "0bf7fe51849ea569fd452f37822f606a5cabb684dc918707a0193fd4664ff324",
+      "0.10.3": {
+        "hash": "69cce20737498f97b993470a6e536b8523f0af7892a4f928cceb1ac5e52ebe7e",
         "type": "crates-io"
       }
     },
@@ -191,8 +191,8 @@
       }
     },
     "cpufeatures": {
-      "0.2.4": {
-        "hash": "dc948ebb96241bb40ab73effeb80d9f93afaad49359d159a5e61be51619fe813",
+      "0.2.5": {
+        "hash": "28d997bd5e24a5928dd43e46dc529867e207907fe0b239c3477d924f7f2ca320",
         "type": "crates-io"
       }
     },

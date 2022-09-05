@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "anyhow",
-    "invalidationHash": "2567ef9f70b6d7a5f8b39b860c49611e2ce636478c574ae1908d9fdcf0d856ef",
+    "invalidationHash": "e92efc31e738a897dcbb309139ac8439a7d48819e5e578842d414316d1bfbe1b",
     "location": "",
     "packages": {
-      "anyhow": "1.0.63"
+      "anyhow": "1.0.64"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "anyhow": {
-        "1.0.63": {}
+        "1.0.64": {}
       }
     }
   },
@@ -25,12 +25,12 @@
       ]
     },
     "anyhow": {
-      "1.0.63": [
+      "1.0.64": [
         [ "backtrace", "0.3.66" ],
         [ "futures", "0.3.24" ],
         [ "rustversion", "1.0.9" ],
         [ "syn", "1.0.99" ],
-        [ "thiserror", "1.0.33" ],
+        [ "thiserror", "1.0.34" ],
         [ "trybuild", "1.0.64" ]
       ]
     },
@@ -40,7 +40,7 @@
         [ "cc", "1.0.73" ],
         [ "cfg-if", "1.0.0" ],
         [ "libc", "0.2.132" ],
-        [ "miniz_oxide", "0.5.3" ],
+        [ "miniz_oxide", "0.5.4" ],
         [ "object", "0.29.0" ],
         [ "rustc-demangle", "0.1.21" ]
       ]
@@ -71,7 +71,7 @@
       ]
     },
     "miniz_oxide": {
-      "0.5.3": [
+      "0.5.4": [
         [ "adler", "1.0.2" ]
       ]
     },
@@ -117,12 +117,12 @@
       ]
     },
     "thiserror": {
-      "1.0.33": [
-        [ "thiserror-impl", "1.0.33" ]
+      "1.0.34": [
+        [ "thiserror-impl", "1.0.34" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.33": [
+      "1.0.34": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -171,11 +171,11 @@
       }
     },
     "anyhow": {
-      "1.0.63": {
-        "hash": "sha256-om+k1+Py7rrfdDmI/Irsn6mp6CYRrK/XfBRi7WJiRAo=",
+      "1.0.64": {
+        "hash": "sha256-uaj2Irz2/z30eOneuj4D5OBLMA+OahOeGSwF+jSQr8c=",
         "pname": "anyhow",
         "type": "crates-io",
-        "version": "1.0.63"
+        "version": "1.0.64"
       }
     },
     "backtrace": {
@@ -275,8 +275,8 @@
       }
     },
     "miniz_oxide": {
-      "0.5.3": {
-        "hash": "6f5c75688da582b8ffc1f1799e9db273f32133c49e048f614d22ec3256773ccc",
+      "0.5.4": {
+        "hash": "96590ba8f175222643a85693f33d26e9c8a015f599c216509b1a6894af675d34",
         "type": "crates-io"
       }
     },
@@ -365,14 +365,14 @@
       }
     },
     "thiserror": {
-      "1.0.33": {
-        "hash": "3d0a539a918745651435ac7db7a18761589a94cd7e94cd56999f828bf73c8a57",
+      "1.0.34": {
+        "hash": "8c1b05ca9d106ba7d2e31a9dab4a64e7be2cce415321966ea3132c49a656e252",
         "type": "crates-io"
       }
     },
     "thiserror-impl": {
-      "1.0.33": {
-        "hash": "c251e90f708e16c49a16f4917dc2131e75222b72edfa9cb7f7c58ae56aae0c09",
+      "1.0.34": {
+        "hash": "e8f2591983642de85c921015f3f070c665a197ed69e417af436115e3a1407487",
         "type": "crates-io"
       }
     },
