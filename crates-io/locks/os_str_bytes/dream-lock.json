@@ -30,12 +30,12 @@
       "6.3.0": [
         [ "getrandom", "0.2.7" ],
         [ "memchr", "2.5.0" ],
-        [ "print_bytes", "0.6.1" ],
+        [ "print_bytes", "0.6.2" ],
         [ "uniquote", "3.2.0" ]
       ]
     },
     "print_bytes": {
-      "0.6.1": [
+      "0.6.2": [
         [ "print_bytes", "0.7.0" ],
         [ "windows-sys", "0.36.1" ]
       ],
@@ -87,8 +87,8 @@
       }
     },
     "print_bytes": {
-      "0.6.1": {
-        "hash": "14b9950fb6044c89ed995e3b999c99ce6279ce061474d9a5f953ed61b7df6f0b",
+      "0.6.2": {
+        "hash": "795b19d28f1492b92e1122f26b85c36f75a629bee1a33692aabb3e767ae2805c",
         "type": "crates-io"
       },
       "0.7.0": {
