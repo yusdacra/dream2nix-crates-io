@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "hermit-abi",
-    "invalidationHash": "f77b14072f897440ebf508f0f583914ebf5cd279b8158c62d0f948c47b7573e2",
+    "invalidationHash": "98b6e1301a4aefd20abd5aa2fd697d42916947089fc459a06220c85fc4ad402b",
     "location": "",
     "packages": {
-      "hermit-abi": "0.2.5"
+      "hermit-abi": "0.2.6"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "hermit-abi": {
-        "0.2.5": {}
+        "0.2.6": {}
       }
     }
   },
@@ -25,7 +25,7 @@
       ]
     },
     "hermit-abi": {
-      "0.2.5": [
+      "0.2.6": [
         [ "compiler_builtins", "0.1.79" ],
         [ "libc", "0.2.132" ],
         [ "rustc-std-workspace-alloc", "1.0.0" ],
@@ -46,11 +46,11 @@
       }
     },
     "hermit-abi": {
-      "0.2.5": {
-        "hash": "sha256-iXzYWvY4e+FJ9VrPFo5BvhdqAt54ckA6qrGEr8LzJ+Y=",
+      "0.2.6": {
+        "hash": "sha256-7lEmQP41rL+0u3edtvDYBwTCys+i45tgHvPj9H0a5Mc=",
         "pname": "hermit-abi",
         "type": "crates-io",
-        "version": "0.2.5"
+        "version": "0.2.6"
       }
     },
     "libc": {
