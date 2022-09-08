@@ -52,7 +52,7 @@
         [ "lazy_static", "1.4.0" ],
         [ "num-traits", "0.2.15" ],
         [ "oorandom", "11.1.3" ],
-        [ "plotters", "0.3.3" ],
+        [ "plotters", "0.3.4" ],
         [ "rayon", "1.5.3" ],
         [ "regex", "1.6.0" ],
         [ "serde", "1.0.144" ],
@@ -157,7 +157,7 @@
       ]
     },
     "plotters": {
-      "0.3.3": [
+      "0.3.4": [
         [ "num-traits", "0.2.15" ],
         [ "plotters-backend", "0.3.4" ],
         [ "plotters-svg", "0.3.3" ],
@@ -512,8 +512,8 @@
       }
     },
     "plotters": {
-      "0.3.3": {
-        "hash": "716b4eeb6c4a1d3ecc956f75b43ec2e8e8ba80026413e70a3f41fd3313d3492b",
+      "0.3.4": {
+        "hash": "2538b639e642295546c50fcd545198c9d64ee2a38620a628724a3b266d5fbf97",
         "type": "crates-io"
       }
     },

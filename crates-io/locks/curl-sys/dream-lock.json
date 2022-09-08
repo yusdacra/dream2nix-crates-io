@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "curl-sys",
-    "invalidationHash": "3ab4b9b55733b477cecfa3fb000a474d0da720f89d29696dcfe86189e74187bf",
+    "invalidationHash": "d3181dd59674d981afe7367c7ed1084909fbb3d05f0e3a91e9e242cc6eb13995",
     "location": "",
     "packages": {
-      "curl-sys": "0.4.57+curl-7.85.0"
+      "curl-sys": "0.4.56+curl-7.83.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "curl-sys": {
-        "0.4.57+curl-7.85.0": {}
+        "0.4.56+curl-7.83.1": {}
       }
     }
   },
@@ -25,7 +25,7 @@
       ]
     },
     "curl-sys": {
-      "0.4.57+curl-7.85.0": [
+      "0.4.56+curl-7.83.1": [
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.132" ],
         [ "libnghttp2-sys", "0.1.7+1.45.0" ],
@@ -261,11 +261,11 @@
       }
     },
     "curl-sys": {
-      "0.4.57+curl-7.85.0": {
-        "hash": "sha256-wvXCCf3DuFbERsUqH56Q2yDqKxu7vWC8GCORdPpurnA=",
+      "0.4.56+curl-7.83.1": {
+        "hash": "sha256-YJPhad1N4p5Gj6ZJ+64Rzc1VUcgf5b8bBnetrX7z0m8=",
         "pname": "curl-sys",
         "type": "crates-io",
-        "version": "0.4.57+curl-7.85.0"
+        "version": "0.4.56+curl-7.83.1"
       }
     },
     "js-sys": {

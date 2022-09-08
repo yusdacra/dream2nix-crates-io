@@ -72,9 +72,8 @@
       ]
     },
     "form_urlencoded": {
-      "1.0.1": [
-        [ "matches", "0.1.9" ],
-        [ "percent-encoding", "2.1.0" ]
+      "1.1.0": [
+        [ "percent-encoding", "2.2.0" ]
       ]
     },
     "futures-channel": {
@@ -150,6 +149,10 @@
     "idna": {
       "0.2.3": [
         [ "matches", "0.1.9" ],
+        [ "unicode-bidi", "0.3.8" ],
+        [ "unicode-normalization", "0.1.21" ]
+      ],
+      "0.3.0": [
         [ "unicode-bidi", "0.3.8" ],
         [ "unicode-normalization", "0.1.21" ]
       ]
@@ -594,7 +597,7 @@
         [ "tokio-rustls", "0.23.4" ],
         [ "tracing", "0.1.36" ],
         [ "tracing-subscriber", "0.3.15" ],
-        [ "url", "2.2.2" ],
+        [ "url", "2.3.1" ],
         [ "wasm-bindgen", "0.2.82" ],
         [ "webpki", "0.22.0" ],
         [ "webpki-roots", "0.22.4" ]
@@ -606,11 +609,10 @@
       ]
     },
     "url": {
-      "2.2.2": [
-        [ "form_urlencoded", "1.0.1" ],
-        [ "idna", "0.2.3" ],
-        [ "matches", "0.1.9" ],
-        [ "percent-encoding", "2.1.0" ],
+      "2.3.1": [
+        [ "form_urlencoded", "1.1.0" ],
+        [ "idna", "0.3.0" ],
+        [ "percent-encoding", "2.2.0" ],
         [ "serde", "1.0.144" ]
       ]
     },
@@ -807,8 +809,8 @@
       }
     },
     "form_urlencoded": {
-      "1.0.1": {
-        "hash": "5fc25a87fa4fd2094bffb06925852034d90a17f0d1e05197d4956d3555752191",
+      "1.1.0": {
+        "hash": "a9c384f161156f5260c24a097c56119f9be8c798586aecc13afbcbe7b7e26bf8",
         "type": "crates-io"
       }
     },
@@ -911,6 +913,10 @@
     "idna": {
       "0.2.3": {
         "hash": "418a0a6fab821475f634efe3ccc45c013f742efe03d853e8d3355d5cb850ecf8",
+        "type": "crates-io"
+      },
+      "0.3.0": {
+        "hash": "e14ddfc70884202db2244c223200c204c2bda1bc6e0998d11b5e024d657209e6",
         "type": "crates-io"
       }
     },
@@ -1041,8 +1047,8 @@
       }
     },
     "percent-encoding": {
-      "2.1.0": {
-        "hash": "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e",
+      "2.2.0": {
+        "hash": "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e",
         "type": "crates-io"
       }
     },
@@ -1389,8 +1395,8 @@
       }
     },
     "url": {
-      "2.2.2": {
-        "hash": "a507c383b2d33b5fc35d1861e77e6b383d158b2da5e14fe51b83dfedf6fd578c",
+      "2.3.1": {
+        "hash": "0d68c799ae75762b8c3fe375feb6600ef5602c883c5d21eb51c09f22b83c4643",
         "type": "crates-io"
       }
     },

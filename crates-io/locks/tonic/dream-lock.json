@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tonic",
-    "invalidationHash": "78a713689abb21017db7f9c7c2896b299b33dc82e68ae88cd39b244de6bbf6be",
+    "invalidationHash": "d42d2f2e873a10d9ac5332fb8bafcbfbf660dc32d7d366e7f016fabcce6939b6",
     "location": "",
     "packages": {
-      "tonic": "0.8.0"
+      "tonic": "0.8.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "tonic": {
-        "0.8.0": {}
+        "0.8.1": {}
       }
     }
   },
@@ -58,7 +58,7 @@
         [ "matchit", "0.5.0" ],
         [ "memchr", "2.5.0" ],
         [ "mime", "0.3.16" ],
-        [ "percent-encoding", "2.1.0" ],
+        [ "percent-encoding", "2.2.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "serde", "1.0.144" ],
         [ "sync_wrapper", "0.1.1" ],
@@ -429,7 +429,7 @@
       ]
     },
     "tonic": {
-      "0.8.0": [
+      "0.8.1": [
         [ "async-stream", "0.3.3" ],
         [ "async-trait", "0.1.57" ],
         [ "axum", "0.5.15" ],
@@ -444,7 +444,7 @@
         [ "http-body", "0.4.5" ],
         [ "hyper", "0.14.20" ],
         [ "hyper-timeout", "0.4.1" ],
-        [ "percent-encoding", "2.1.0" ],
+        [ "percent-encoding", "2.2.0" ],
         [ "pin-project", "1.0.12" ],
         [ "prost", "0.11.0" ],
         [ "prost-derive", "0.11.0" ],
@@ -928,8 +928,8 @@
       }
     },
     "percent-encoding": {
-      "2.1.0": {
-        "hash": "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e",
+      "2.2.0": {
+        "hash": "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e",
         "type": "crates-io"
       }
     },
@@ -1156,11 +1156,11 @@
       }
     },
     "tonic": {
-      "0.8.0": {
-        "hash": "sha256-SY8nGtxGrM511m9jnk01sxsjlMKVyCSWcn2voW1GXdI=",
+      "0.8.1": {
+        "hash": "sha256-Ec1WvbVO+Tk1pqedvR2R8evUxkFQ/WFlQDH9a4t3XJE=",
         "pname": "tonic",
         "type": "crates-io",
-        "version": "0.8.0"
+        "version": "0.8.1"
       }
     },
     "tower": {

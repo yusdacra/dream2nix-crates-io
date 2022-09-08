@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "bstr",
-    "invalidationHash": "d4f27d6302ec1a9030c4e7473fb1758fb348115f4bfbec3dbfbf37ec91fc70af",
+    "invalidationHash": "5aa4edd1b004080e2a49fd7d1d651c2fc4511501aa6950b1494733f4c43f9247",
     "location": "",
     "packages": {
-      "bstr": "0.2.17"
+      "bstr": "1.0.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,16 +13,16 @@
     "gitSources": [],
     "relPathReplacements": {
       "bstr": {
-        "0.2.17": {}
+        "1.0.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "bstr": {
-      "0.2.17": [
-        [ "lazy_static", "1.4.0" ],
+      "1.0.0": [
         [ "memchr", "2.4.1" ],
+        [ "once_cell", "1.14.0" ],
         [ "quickcheck", "1.0.3" ],
         [ "regex-automata", "0.1.9" ],
         [ "serde", "1.0.117" ],
@@ -71,11 +71,11 @@
   },
   "sources": {
     "bstr": {
-      "0.2.17": {
-        "hash": "sha256-ujVp84Po8VmESfGkI+cumVaRN7R3QLHaEe8Zrz1cMiM=",
+      "1.0.0": {
+        "hash": "sha256-Ea7nkqQZc89UyDfW80TjWgMHYyiDGwHvMKFNll1Hv7w=",
         "pname": "bstr",
         "type": "crates-io",
-        "version": "0.2.17"
+        "version": "1.0.0"
       }
     },
     "byteorder": {
@@ -111,6 +111,12 @@
     "memchr": {
       "2.4.1": {
         "hash": "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a",
+        "type": "crates-io"
+      }
+    },
+    "once_cell": {
+      "1.14.0": {
+        "hash": "2f7254b99e31cad77da24b08ebf628882739a608578bb1bcdfc1f9c21260d7c0",
         "type": "crates-io"
       }
     },

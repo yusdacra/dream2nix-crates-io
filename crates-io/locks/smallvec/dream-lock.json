@@ -26,7 +26,7 @@
     },
     "smallvec": {
       "1.9.0": [
-        [ "arbitrary", "1.1.4" ],
+        [ "arbitrary", "1.1.5" ],
         [ "bincode", "1.3.3" ],
         [ "serde", "1.0.144" ]
       ]
@@ -34,8 +34,8 @@
   },
   "sources": {
     "arbitrary": {
-      "1.1.4": {
-        "hash": "8931eb436ab9bf1980c6cb2b9d1ba5390cd6793b2c6e2d2ea8147da3570c2a2e",
+      "1.1.5": {
+        "hash": "5b0d87f4e4aaa9f3a00706edc7cbbeab0e3cc45ff1062b1160bc0204d6481ad4",
         "type": "crates-io"
       }
     },
