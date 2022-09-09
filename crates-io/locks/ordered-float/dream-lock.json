@@ -48,7 +48,7 @@
     },
     "ordered-float": {
       "3.0.0": [
-        [ "arbitrary", "1.1.5" ],
+        [ "arbitrary", "1.1.6" ],
         [ "num-traits", "0.2.15" ],
         [ "proptest", "1.0.0" ],
         [ "rand", "0.8.5" ],
@@ -229,8 +229,8 @@
   },
   "sources": {
     "arbitrary": {
-      "1.1.5": {
-        "hash": "5b0d87f4e4aaa9f3a00706edc7cbbeab0e3cc45ff1062b1160bc0204d6481ad4",
+      "1.1.6": {
+        "hash": "f44124848854b941eafdb34f05b3bcf59472f643c7e151eba7c2b69daa469ed5",
         "type": "crates-io"
       }
     },

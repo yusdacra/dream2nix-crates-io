@@ -58,7 +58,7 @@
         [ "base64", "0.13.0" ],
         [ "hkdf", "0.12.3" ],
         [ "hmac", "0.12.1" ],
-        [ "percent-encoding", "2.1.0" ],
+        [ "percent-encoding", "2.2.0" ],
         [ "rand", "0.8.5" ],
         [ "sha2", "0.10.5" ],
         [ "subtle", "2.4.1" ],
@@ -301,8 +301,8 @@
       }
     },
     "percent-encoding": {
-      "2.1.0": {
-        "hash": "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e",
+      "2.2.0": {
+        "hash": "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e",
         "type": "crates-io"
       }
     },

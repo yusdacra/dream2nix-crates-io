@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "convert_case",
-    "invalidationHash": "d97a54eed223465a30cea40ba84751e9c466937bc4cc12c2a0618752afbd3169",
+    "invalidationHash": "477f292189d12ad500036436030be364436aae8c1aa40816c4559ae5a27cd704",
     "location": "",
     "packages": {
-      "convert_case": "0.5.0"
+      "convert_case": "0.6.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,17 +13,18 @@
     "gitSources": [],
     "relPathReplacements": {
       "convert_case": {
-        "0.5.0": {}
+        "0.6.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "convert_case": {
-      "0.5.0": [
+      "0.6.0": [
         [ "rand", "0.7.3" ],
         [ "strum", "0.18.0" ],
-        [ "strum_macros", "0.18.0" ]
+        [ "strum_macros", "0.18.0" ],
+        [ "unicode-segmentation", "1.9.0" ]
       ]
     },
     "getrandom": {
@@ -97,11 +98,11 @@
       }
     },
     "convert_case": {
-      "0.5.0": {
-        "hash": "sha256-+0oksarw/QzotFFhFE1vQs2RZ3/VlA/UMRg+sCOzorg=",
+      "0.6.0": {
+        "hash": "sha256-7BgrDKLzXY/Bls80BJiP2LjHOaTScP8RijmP6wy+wco=",
         "pname": "convert_case",
         "type": "crates-io",
-        "version": "0.5.0"
+        "version": "0.6.0"
       }
     },
     "getrandom": {

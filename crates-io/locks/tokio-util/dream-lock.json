@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tokio-util",
-    "invalidationHash": "e44413d6075050c7d076e63d0403c2118908a264ddd994d111c4405a328a67dd",
+    "invalidationHash": "448418d58416f4a9bc544540d43fc3f885354dc0e542e31caabefc83f4653b54",
     "location": "",
     "packages": {
-      "tokio-util": "0.7.3"
+      "tokio-util": "0.7.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "tokio-util": {
-        "0.7.3": {}
+        "0.7.4": {}
       }
     }
   },
@@ -245,7 +245,7 @@
       ]
     },
     "tokio-util": {
-      "0.7.3": [
+      "0.7.4": [
         [ "async-stream", "0.3.3" ],
         [ "bytes", "1.2.1" ],
         [ "futures", "0.3.24" ],
@@ -255,6 +255,7 @@
         [ "futures-test", "0.3.24" ],
         [ "futures-util", "0.3.24" ],
         [ "hashbrown", "0.12.3" ],
+        [ "parking_lot", "0.12.1" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "slab", "0.4.7" ],
         [ "tokio", "1.21.0" ],
@@ -569,11 +570,11 @@
       }
     },
     "tokio-util": {
-      "0.7.3": {
-        "hash": "sha256-zEY82N7dw3cNIPmFIUPVC/YJTmQLSFyy4YmiCZCF/0U=",
+      "0.7.4": {
+        "hash": "sha256-C7LgdfA7PWbY2HhTViJLpojSkGo3EBXiJb7rZcqSx0A=",
         "pname": "tokio-util",
         "type": "crates-io",
-        "version": "0.7.3"
+        "version": "0.7.4"
       }
     },
     "tracing": {

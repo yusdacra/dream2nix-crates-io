@@ -136,9 +136,8 @@
       ]
     },
     "form_urlencoded": {
-      "1.0.1": [
-        [ "matches", "0.1.9" ],
-        [ "percent-encoding", "2.1.0" ]
+      "1.1.0": [
+        [ "percent-encoding", "2.2.0" ]
       ]
     },
     "futures-channel": {
@@ -168,7 +167,7 @@
         [ "indexmap", "1.9.1" ],
         [ "slab", "0.4.7" ],
         [ "tokio", "1.21.0" ],
-        [ "tokio-util", "0.7.3" ],
+        [ "tokio-util", "0.7.4" ],
         [ "tracing", "0.1.36" ]
       ]
     },
@@ -221,8 +220,7 @@
       ]
     },
     "idna": {
-      "0.2.3": [
-        [ "matches", "0.1.9" ],
+      "0.3.0": [
         [ "unicode-bidi", "0.3.8" ],
         [ "unicode-normalization", "0.1.21" ]
       ]
@@ -395,7 +393,7 @@
         [ "log", "0.4.17" ],
         [ "mime", "0.3.16" ],
         [ "native-tls", "0.2.10" ],
-        [ "percent-encoding", "2.1.0" ],
+        [ "percent-encoding", "2.2.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "serde", "1.0.144" ],
         [ "serde_json", "1.0.85" ],
@@ -403,7 +401,7 @@
         [ "tokio", "1.21.0" ],
         [ "tokio-native-tls", "0.3.0" ],
         [ "tower-service", "0.3.2" ],
-        [ "url", "2.3.0" ],
+        [ "url", "2.3.1" ],
         [ "wasm-bindgen", "0.2.82" ],
         [ "wasm-bindgen-futures", "0.4.32" ],
         [ "web-sys", "0.3.59" ],
@@ -445,7 +443,7 @@
     },
     "serde_urlencoded": {
       "0.7.1": [
-        [ "form_urlencoded", "1.0.1" ],
+        [ "form_urlencoded", "1.1.0" ],
         [ "itoa", "1.0.3" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.144" ]
@@ -535,7 +533,7 @@
       ]
     },
     "tokio-util": {
-      "0.7.3": [
+      "0.7.4": [
         [ "bytes", "1.2.1" ],
         [ "futures-core", "0.3.24" ],
         [ "futures-sink", "0.3.24" ],
@@ -562,10 +560,10 @@
       ]
     },
     "url": {
-      "2.3.0": [
-        [ "form_urlencoded", "1.0.1" ],
-        [ "idna", "0.2.3" ],
-        [ "percent-encoding", "2.1.0" ]
+      "2.3.1": [
+        [ "form_urlencoded", "1.1.0" ],
+        [ "idna", "0.3.0" ],
+        [ "percent-encoding", "2.2.0" ]
       ]
     },
     "walkdir": {
@@ -833,8 +831,8 @@
       }
     },
     "form_urlencoded": {
-      "1.0.1": {
-        "hash": "5fc25a87fa4fd2094bffb06925852034d90a17f0d1e05197d4956d3555752191",
+      "1.1.0": {
+        "hash": "a9c384f161156f5260c24a097c56119f9be8c798586aecc13afbcbe7b7e26bf8",
         "type": "crates-io"
       }
     },
@@ -929,8 +927,8 @@
       }
     },
     "idna": {
-      "0.2.3": {
-        "hash": "418a0a6fab821475f634efe3ccc45c013f742efe03d853e8d3355d5cb850ecf8",
+      "0.3.0": {
+        "hash": "e14ddfc70884202db2244c223200c204c2bda1bc6e0998d11b5e024d657209e6",
         "type": "crates-io"
       }
     },
@@ -991,12 +989,6 @@
     "log": {
       "0.4.17": {
         "hash": "abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e",
-        "type": "crates-io"
-      }
-    },
-    "matches": {
-      "0.1.9": {
-        "hash": "a3e378b66a060d48947b590737b30a1be76706c8dd7b8ba0f2fe3989c68a853f",
         "type": "crates-io"
       }
     },
@@ -1073,8 +1065,8 @@
       }
     },
     "percent-encoding": {
-      "2.1.0": {
-        "hash": "d4fd5641d01c8f18a23da7b6fe29298ff4b55afcccdf78973b24cf3175fee32e",
+      "2.2.0": {
+        "hash": "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e",
         "type": "crates-io"
       }
     },
@@ -1297,8 +1289,8 @@
       }
     },
     "tokio-util": {
-      "0.7.3": {
-        "hash": "cc463cd8deddc3770d20f9852143d50bf6094e640b485cb2e189a2099085ff45",
+      "0.7.4": {
+        "hash": "0bb2e075f03b3d66d8d8785356224ba688d2906a371015e225beeb65ca92c740",
         "type": "crates-io"
       }
     },
@@ -1345,8 +1337,8 @@
       }
     },
     "url": {
-      "2.3.0": {
-        "hash": "22fe195a4f217c25b25cb5058ced57059824a678474874038dc88d211bf508d3",
+      "2.3.1": {
+        "hash": "0d68c799ae75762b8c3fe375feb6600ef5602c883c5d21eb51c09f22b83c4643",
         "type": "crates-io"
       }
     },
