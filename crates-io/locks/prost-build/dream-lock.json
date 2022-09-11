@@ -80,7 +80,7 @@
         [ "prost", "0.11.0" ],
         [ "prost-types", "0.11.1" ],
         [ "pulldown-cmark", "0.9.2" ],
-        [ "pulldown-cmark-to-cmark", "10.0.3" ],
+        [ "pulldown-cmark-to-cmark", "10.0.4" ],
         [ "regex", "1.6.0" ],
         [ "tempfile", "3.3.0" ],
         [ "which", "4.3.0" ]
@@ -109,7 +109,7 @@
       ]
     },
     "pulldown-cmark-to-cmark": {
-      "10.0.3": [
+      "10.0.4": [
         [ "pulldown-cmark", "0.9.2" ]
       ]
     },
@@ -335,8 +335,8 @@
       }
     },
     "pulldown-cmark-to-cmark": {
-      "10.0.3": {
-        "hash": "8767c409de03841610013b05cb581a0cbd908a24a4a90c3b569bb4c988d8cef8",
+      "10.0.4": {
+        "hash": "0194e6e1966c23cc5fd988714f85b18d548d773e81965413555d96569931833d",
         "type": "crates-io"
       }
     },
