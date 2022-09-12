@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "pest_derive",
-    "invalidationHash": "00d8efa4175a48a1cb1e6fe3673e46b0413dcfb0a24f886fc1f1eb19032dab7a",
+    "invalidationHash": "4be36c15790c876cd047045a67111e5b3e130ccffbe0b3f496589a351ecee70d",
     "location": "",
     "packages": {
-      "pest_derive": "2.3.0"
+      "pest_derive": "2.3.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "pest_derive": {
-        "2.3.0": {}
+        "2.3.1": {}
       }
     }
   },
@@ -48,31 +48,31 @@
       ]
     },
     "pest": {
-      "2.3.0": [
+      "2.3.1": [
         [ "thiserror", "1.0.34" ],
         [ "ucd-trie", "0.1.5" ]
       ]
     },
     "pest_derive": {
-      "2.3.0": [
-        [ "pest", "2.3.0" ],
-        [ "pest_generator", "2.3.0" ]
+      "2.3.1": [
+        [ "pest", "2.3.1" ],
+        [ "pest_generator", "2.3.1" ]
       ]
     },
     "pest_generator": {
-      "2.3.0": [
-        [ "pest", "2.3.0" ],
-        [ "pest_meta", "2.3.0" ],
+      "2.3.1": [
+        [ "pest", "2.3.1" ],
+        [ "pest_meta", "2.3.1" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
       ]
     },
     "pest_meta": {
-      "2.3.0": [
+      "2.3.1": [
         [ "once_cell", "1.14.0" ],
-        [ "pest", "2.3.0" ],
-        [ "sha-1", "0.10.0" ]
+        [ "pest", "2.3.1" ],
+        [ "sha1", "0.10.4" ]
       ]
     },
     "proc-macro2": {
@@ -85,8 +85,8 @@
         [ "proc-macro2", "1.0.43" ]
       ]
     },
-    "sha-1": {
-      "0.10.0": [
+    "sha1": {
+      "0.10.4": [
         [ "cfg-if", "1.0.0" ],
         [ "cpufeatures", "0.2.5" ],
         [ "digest", "0.10.3" ]
@@ -162,28 +162,28 @@
       }
     },
     "pest": {
-      "2.3.0": {
-        "hash": "4b0560d531d1febc25a3c9398a62a71256c0178f2e3443baedd9ad4bb8c9deb4",
+      "2.3.1": {
+        "hash": "cb779fcf4bb850fbbb0edc96ff6cf34fd90c4b1a112ce042653280d9a7364048",
         "type": "crates-io"
       }
     },
     "pest_derive": {
-      "2.3.0": {
-        "hash": "sha256-kFcI9/Z0UYSYwfjWREgUQPR205ym7K6DMZu6fGwS2pE=",
+      "2.3.1": {
+        "hash": "sha256-UCtiptAkU3iwT/4Kf7T0QZpIFfzoE72KDsiaVuB9Z7E=",
         "pname": "pest_derive",
         "type": "crates-io",
-        "version": "2.3.0"
+        "version": "2.3.1"
       }
     },
     "pest_generator": {
-      "2.3.0": {
-        "hash": "5803d8284a629cc999094ecd630f55e91b561a1d1ba75e233b00ae13b91a69ad",
+      "2.3.1": {
+        "hash": "451e629bf49b750254da26132f1a5a9d11fd8a95a3df51d15c4abd1ba154cb6c",
         "type": "crates-io"
       }
     },
     "pest_meta": {
-      "2.3.0": {
-        "hash": "1538eb784f07615c6d9a8ab061089c6c54a344c5b4301db51990ca1c241e8c04",
+      "2.3.1": {
+        "hash": "bcec162c71c45e269dfc3fc2916eaeb97feab22993a21bcce4721d08cd7801a6",
         "type": "crates-io"
       }
     },
@@ -199,9 +199,9 @@
         "type": "crates-io"
       }
     },
-    "sha-1": {
-      "0.10.0": {
-        "hash": "028f48d513f9678cda28f6e4064755b3fbb2af6acd672f2c209b62323f7aea0f",
+    "sha1": {
+      "0.10.4": {
+        "hash": "006769ba83e921b3085caa8334186b00cf92b4cb1a6cf4632fbccc8eff5c7549",
         "type": "crates-io"
       }
     },
