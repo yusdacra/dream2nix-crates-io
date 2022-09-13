@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "signature",
-    "invalidationHash": "6bf5e1bb60e6499b5731b265b9548cfbcceecb4ec01ba80cdb9e3430dc1a355b",
+    "invalidationHash": "c56d669b0e9e61ba83bc50abecba7aeaa01db2d8fb4fa41e0e1dda6288a19eb3",
     "location": "",
     "packages": {
-      "signature": "1.6.0"
+      "signature": "1.6.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "signature": {
-        "1.6.0": {}
+        "1.6.1": {}
       }
     }
   },
@@ -65,20 +65,19 @@
       ]
     },
     "signature": {
-      "1.6.0": [
+      "1.6.1": [
         [ "digest", "0.10.3" ],
         [ "hex-literal", "0.3.4" ],
         [ "rand_core", "0.6.3" ],
         [ "sha2", "0.10.5" ],
-        [ "signature_derive", "1.0.0-pre.5" ]
+        [ "signature_derive", "1.0.0-pre.6" ]
       ]
     },
     "signature_derive": {
-      "1.0.0-pre.5": [
+      "1.0.0-pre.6": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.99" ],
-        [ "synstructure", "0.12.6" ]
+        [ "syn", "1.0.99" ]
       ]
     },
     "syn": {
@@ -86,14 +85,6 @@
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.3" ]
-      ]
-    },
-    "synstructure": {
-      "0.12.6": [
-        [ "proc-macro2", "1.0.43" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.99" ],
-        [ "unicode-xid", "0.2.3" ]
       ]
     }
   },
@@ -171,28 +162,22 @@
       }
     },
     "signature": {
-      "1.6.0": {
-        "hash": "sha256-8Ooyr0Mjnw01On3XWiLZTDKcjNqv3LTBwTNaoQwpiko=",
+      "1.6.1": {
+        "hash": "sha256-6QUxcjsI5NbXG3kRCPr1HwPhtKd4T5ayuH+FLrwkcig=",
         "pname": "signature",
         "type": "crates-io",
-        "version": "1.6.0"
+        "version": "1.6.1"
       }
     },
     "signature_derive": {
-      "1.0.0-pre.5": {
-        "hash": "b4b02d9abb9987dd17dc7a8ae2e00afa95aae4e946b188c4ea9fa3e16e3bf766",
+      "1.0.0-pre.6": {
+        "hash": "48fa9899d06020eba99938bd40ce86b68f127806c7d1492fe6189c515d6b7ec9",
         "type": "crates-io"
       }
     },
     "syn": {
       "1.0.99": {
         "hash": "58dbef6ec655055e20b86b15a8cc6d439cca19b667537ac6a1369572d151ab13",
-        "type": "crates-io"
-      }
-    },
-    "synstructure": {
-      "0.12.6": {
-        "hash": "f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f",
         "type": "crates-io"
       }
     },
@@ -205,12 +190,6 @@
     "unicode-ident": {
       "1.0.3": {
         "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
-        "type": "crates-io"
-      }
-    },
-    "unicode-xid": {
-      "0.2.3": {
-        "hash": "957e51f3646910546462e67d5f7599b9e4fb8acdd304b087a6494730f9eebf04",
         "type": "crates-io"
       }
     },

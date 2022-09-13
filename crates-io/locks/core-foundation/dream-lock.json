@@ -26,12 +26,12 @@
     },
     "chrono": {
       "0.4.22": [
-        [ "iana-time-zone", "0.1.47" ],
-        [ "js-sys", "0.3.59" ],
+        [ "iana-time-zone", "0.1.48" ],
+        [ "js-sys", "0.3.60" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ],
         [ "time", "0.1.44" ],
-        [ "wasm-bindgen", "0.2.82" ],
+        [ "wasm-bindgen", "0.2.83" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -44,18 +44,18 @@
       ]
     },
     "iana-time-zone": {
-      "0.1.47": [
+      "0.1.48": [
         [ "android_system_properties", "0.1.5" ],
         [ "core-foundation-sys", "0.8.3" ],
-        [ "js-sys", "0.3.59" ],
+        [ "js-sys", "0.3.60" ],
         [ "once_cell", "1.14.0" ],
-        [ "wasm-bindgen", "0.2.82" ],
+        [ "wasm-bindgen", "0.2.83" ],
         [ "winapi", "0.3.9" ]
       ]
     },
     "js-sys": {
-      "0.3.59": [
-        [ "wasm-bindgen", "0.2.82" ]
+      "0.3.60": [
+        [ "wasm-bindgen", "0.2.83" ]
       ]
     },
     "log": {
@@ -99,35 +99,35 @@
       ]
     },
     "wasm-bindgen": {
-      "0.2.82": [
+      "0.2.83": [
         [ "cfg-if", "1.0.0" ],
-        [ "wasm-bindgen-macro", "0.2.82" ]
+        [ "wasm-bindgen-macro", "0.2.83" ]
       ]
     },
     "wasm-bindgen-backend": {
-      "0.2.82": [
+      "0.2.83": [
         [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.14.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
-        [ "wasm-bindgen-shared", "0.2.82" ]
+        [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     },
     "wasm-bindgen-macro": {
-      "0.2.82": [
+      "0.2.83": [
         [ "quote", "1.0.21" ],
-        [ "wasm-bindgen-macro-support", "0.2.82" ]
+        [ "wasm-bindgen-macro-support", "0.2.83" ]
       ]
     },
     "wasm-bindgen-macro-support": {
-      "0.2.82": [
+      "0.2.83": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
-        [ "wasm-bindgen-backend", "0.2.82" ],
-        [ "wasm-bindgen-shared", "0.2.82" ]
+        [ "wasm-bindgen-backend", "0.2.83" ],
+        [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     },
     "winapi": {
@@ -183,14 +183,14 @@
       }
     },
     "iana-time-zone": {
-      "0.1.47": {
-        "hash": "4c495f162af0bf17656d0014a0eded5f3cd2f365fdd204548c2869db89359dc7",
+      "0.1.48": {
+        "hash": "237a0714f28b1ee39ccec0770ccb544eb02c9ef2c82bb096230eefcffa6468b0",
         "type": "crates-io"
       }
     },
     "js-sys": {
-      "0.3.59": {
-        "hash": "258451ab10b34f8af53416d1fdab72c22e805f0c92a1136d59470ec0b11138b2",
+      "0.3.60": {
+        "hash": "49409df3e3bf0856b916e2ceaca09ee28e6871cf7d9ce97a692cacfdb2a25a47",
         "type": "crates-io"
       }
     },
@@ -267,32 +267,32 @@
       }
     },
     "wasm-bindgen": {
-      "0.2.82": {
-        "hash": "fc7652e3f6c4706c8d9cd54832c4a4ccb9b5336e2c3bd154d5cccfbf1c1f5f7d",
+      "0.2.83": {
+        "hash": "eaf9f5aceeec8be17c128b2e93e031fb8a4d469bb9c4ae2d7dc1888b26887268",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-backend": {
-      "0.2.82": {
-        "hash": "662cd44805586bd52971b9586b1df85cdbbd9112e4ef4d8f41559c334dc6ac3f",
+      "0.2.83": {
+        "hash": "4c8ffb332579b0557b52d268b91feab8df3615f265d5270fec2a8c95b17c1142",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-macro": {
-      "0.2.82": {
-        "hash": "b260f13d3012071dfb1512849c033b1925038373aea48ced3012c09df952c602",
+      "0.2.83": {
+        "hash": "052be0f94026e6cbc75cdefc9bae13fd6052cdcaf532fa6c45e7ae33a1e6c810",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-macro-support": {
-      "0.2.82": {
-        "hash": "5be8e654bdd9b79216c2929ab90721aa82faf65c48cdf08bdc4e7f51357b80da",
+      "0.2.83": {
+        "hash": "07bc0c051dc5f23e307b13285f9d75df86bfdf816c5721e573dec1f9b8aa193c",
         "type": "crates-io"
       }
     },
     "wasm-bindgen-shared": {
-      "0.2.82": {
-        "hash": "6598dd0bd3c7d51095ff6531a5b23e02acdc81804e30d8f07afb77b7215a140a",
+      "0.2.83": {
+        "hash": "1c38c045535d93ec4f0b4defec448e4291638ee608530863b1e2ba115d4fff7f",
         "type": "crates-io"
       }
     },

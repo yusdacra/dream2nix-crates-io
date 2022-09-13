@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "wasm-bindgen-backend",
-    "invalidationHash": "2fbff5a6d96210e195849f97560ced2c9669daa592d64becfa1eaf24c0713956",
+    "invalidationHash": "42559ea559e9389f5bb3f96f3ac2c4661438d4d7a337d5595b796dfd559be00c",
     "location": "",
     "packages": {
-      "wasm-bindgen-backend": "0.2.82"
+      "wasm-bindgen-backend": "0.2.83"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "wasm-bindgen-backend": {
-        "0.2.82": {}
+        "0.2.83": {}
       }
     }
   },
@@ -42,14 +42,14 @@
       ]
     },
     "wasm-bindgen-backend": {
-      "0.2.82": [
+      "0.2.83": [
         [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.14.0" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ],
-        [ "wasm-bindgen-shared", "0.2.82" ]
+        [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     }
   },
@@ -103,16 +103,16 @@
       }
     },
     "wasm-bindgen-backend": {
-      "0.2.82": {
-        "hash": "sha256-ZizUSAVYa9UpcblYax34XNu9kRLk702PQVWcM03GrD8=",
+      "0.2.83": {
+        "hash": "sha256-TI/7MyV5sFV7UtJouR/quN82FfJl1ScP7CqMlbF8EUI=",
         "pname": "wasm-bindgen-backend",
         "type": "crates-io",
-        "version": "0.2.82"
+        "version": "0.2.83"
       }
     },
     "wasm-bindgen-shared": {
-      "0.2.82": {
-        "hash": "6598dd0bd3c7d51095ff6531a5b23e02acdc81804e30d8f07afb77b7215a140a",
+      "0.2.83": {
+        "hash": "1c38c045535d93ec4f0b4defec448e4291638ee608530863b1e2ba115d4fff7f",
         "type": "crates-io"
       }
     }
