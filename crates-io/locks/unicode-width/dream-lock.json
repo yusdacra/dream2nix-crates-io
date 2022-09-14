@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "unicode-width",
-    "invalidationHash": "1a990c5b3da10ece67c756fd69a860f4abb3d03720e8172fbe054143ab002ef0",
+    "invalidationHash": "f369dcf1c8fc0ffb16178520374efa099ca400cb77c1427d9a24bd36ad3d88bf",
     "location": "",
     "packages": {
-      "unicode-width": "0.1.9"
+      "unicode-width": "0.1.10"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "unicode-width": {
-        "0.1.9": {}
+        "0.1.10": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "unicode-width": {
-      "0.1.9": [
+      "0.1.10": [
         [ "compiler_builtins", "0.1.79" ],
         [ "rustc-std-workspace-core", "1.0.0" ],
         [ "rustc-std-workspace-std", "1.0.1" ]
@@ -47,11 +47,11 @@
       }
     },
     "unicode-width": {
-      "0.1.9": {
-        "hash": "sha256-PtdC1Oor0RduI2FyyEKar1RIbnrAmNsp/+ZSngzlCXM=",
+      "0.1.10": {
+        "hash": "sha256-wO3R5bFGU/eDdwvOSk2rtKUQilNwpfXYz+hxDDYfbIs=",
         "pname": "unicode-width",
         "type": "crates-io",
-        "version": "0.1.9"
+        "version": "0.1.10"
       }
     }
   }

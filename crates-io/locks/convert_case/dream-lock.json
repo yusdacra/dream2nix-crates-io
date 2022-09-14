@@ -24,7 +24,7 @@
         [ "rand", "0.7.3" ],
         [ "strum", "0.18.0" ],
         [ "strum_macros", "0.18.0" ],
-        [ "unicode-segmentation", "1.9.0" ]
+        [ "unicode-segmentation", "1.10.0" ]
       ]
     },
     "getrandom": {
@@ -36,12 +36,12 @@
     },
     "heck": {
       "0.3.3": [
-        [ "unicode-segmentation", "1.9.0" ]
+        [ "unicode-segmentation", "1.10.0" ]
       ]
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
@@ -86,7 +86,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     }
   },
@@ -184,14 +184,14 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },
     "unicode-segmentation": {
-      "1.9.0": {
-        "hash": "7e8820f5d777f6224dc4be3632222971ac30164d4a258d595640799554ebfd99",
+      "1.10.0": {
+        "hash": "0fdbf052a0783de01e944a6ce7a8cb939e295b1e7be835a1112c3b9a7f047a5a",
         "type": "crates-io"
       }
     },

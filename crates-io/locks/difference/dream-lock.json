@@ -39,7 +39,7 @@
     },
     "getopts": {
       "0.2.21": [
-        [ "unicode-width", "0.1.9" ]
+        [ "unicode-width", "0.1.10" ]
       ]
     },
     "kernel32-sys": {
@@ -254,8 +254,8 @@
       }
     },
     "unicode-width": {
-      "0.1.9": {
-        "hash": "3ed742d4ea2bd1176e236172c8429aaf54486e7ac098db29ffe6529e0ce50973",
+      "0.1.10": {
+        "hash": "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b",
         "type": "crates-io"
       }
     },

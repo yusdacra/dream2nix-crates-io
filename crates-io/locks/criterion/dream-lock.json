@@ -193,7 +193,7 @@
         [ "criterion-plot", "0.5.0" ],
         [ "csv", "1.1.6" ],
         [ "futures", "0.3.24" ],
-        [ "itertools", "0.10.3" ],
+        [ "itertools", "0.10.4" ],
         [ "lazy_static", "1.4.0" ],
         [ "num-traits", "0.2.15" ],
         [ "oorandom", "11.1.3" ],
@@ -208,14 +208,14 @@
         [ "smol", "1.2.5" ],
         [ "tempfile", "3.3.0" ],
         [ "tinytemplate", "1.2.1" ],
-        [ "tokio", "1.21.0" ],
+        [ "tokio", "1.21.1" ],
         [ "walkdir", "2.3.2" ]
       ]
     },
     "criterion-plot": {
       "0.5.0": [
         [ "cast", "0.3.0" ],
-        [ "itertools", "0.10.3" ]
+        [ "itertools", "0.10.4" ]
       ]
     },
     "crossbeam-channel": {
@@ -352,7 +352,7 @@
       ]
     },
     "itertools": {
-      "0.10.3": [
+      "0.10.4": [
         [ "either", "1.8.0" ]
       ]
     },
@@ -414,7 +414,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quickcheck": {
@@ -540,7 +540,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "tempfile": {
@@ -560,11 +560,10 @@
       ]
     },
     "tokio": {
-      "1.21.0": [
+      "1.21.1": [
         [ "autocfg", "1.1.0" ],
         [ "once_cell", "1.14.0" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "socket2", "0.4.7" ]
+        [ "pin-project-lite", "0.2.9" ]
       ]
     },
     "value-bag": {
@@ -989,8 +988,8 @@
       }
     },
     "itertools": {
-      "0.10.3": {
-        "hash": "a9a9d19fa1e79b6215ff29b9d6880b706147f16e9b1dbb1e4e5947b5b02bc5e3",
+      "0.10.4": {
+        "hash": "d8bf247779e67a9082a4790b45e71ac7cfd1321331a5c856a74a9faebdab78d0",
         "type": "crates-io"
       }
     },
@@ -1293,14 +1292,14 @@
       }
     },
     "tokio": {
-      "1.21.0": {
-        "hash": "89797afd69d206ccd11fb0ea560a44bbb87731d020670e79416d442919257d42",
+      "1.21.1": {
+        "hash": "0020c875007ad96677dcc890298f4b942882c5d4eb7cc8f439fc3bf813dc9c95",
         "type": "crates-io"
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },

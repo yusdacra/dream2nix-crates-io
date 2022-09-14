@@ -41,7 +41,7 @@
       ]
     },
     "itertools": {
-      "0.10.3": [
+      "0.10.4": [
         [ "either", "1.8.0" ]
       ]
     },
@@ -58,7 +58,7 @@
         [ "defmac", "0.2.1" ],
         [ "fixedbitset", "0.4.2" ],
         [ "indexmap", "1.9.1" ],
-        [ "itertools", "0.10.3" ],
+        [ "itertools", "0.10.4" ],
         [ "odds", "0.4.0" ],
         [ "quickcheck", "0.8.5" ],
         [ "rand", "0.5.6" ],
@@ -68,7 +68,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quickcheck": {
@@ -174,7 +174,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "winapi": {
@@ -250,8 +250,8 @@
       }
     },
     "itertools": {
-      "0.10.3": {
-        "hash": "a9a9d19fa1e79b6215ff29b9d6880b706147f16e9b1dbb1e4e5947b5b02bc5e3",
+      "0.10.4": {
+        "hash": "d8bf247779e67a9082a4790b45e71ac7cfd1321331a5c856a74a9faebdab78d0",
         "type": "crates-io"
       }
     },
@@ -398,8 +398,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },

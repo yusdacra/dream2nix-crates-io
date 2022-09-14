@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "thiserror",
-    "invalidationHash": "e0e3413ace0ceca5187600c9821febe1cfc84ce294fc22ada4e6fed44a0267f5",
+    "invalidationHash": "4937baa4858a9e3757707193f9cffbd097c3f41deffd3037f7b122e892369dde",
     "location": "",
     "packages": {
-      "thiserror": "1.0.34"
+      "thiserror": "1.0.35"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "thiserror": {
-        "1.0.34": {}
+        "1.0.35": {}
       }
     }
   },
@@ -21,7 +21,7 @@
   "dependencies": {
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
@@ -59,7 +59,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "termcolor": {
@@ -68,16 +68,16 @@
       ]
     },
     "thiserror": {
-      "1.0.34": [
-        [ "anyhow", "1.0.64" ],
+      "1.0.35": [
+        [ "anyhow", "1.0.65" ],
         [ "ref-cast", "1.0.9" ],
         [ "rustversion", "1.0.9" ],
-        [ "thiserror-impl", "1.0.34" ],
+        [ "thiserror-impl", "1.0.35" ],
         [ "trybuild", "1.0.64" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.34": [
+      "1.0.35": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -114,8 +114,8 @@
   },
   "sources": {
     "anyhow": {
-      "1.0.64": {
-        "hash": "b9a8f622bcf6ff3df478e9deba3e03e4e04b300f8e6a139e192c05fa3490afc7",
+      "1.0.65": {
+        "hash": "98161a4e3e2184da77bb14f02184cdd111e83bbbcc9979dfee3c44b9a85f5602",
         "type": "crates-io"
       }
     },
@@ -210,16 +210,16 @@
       }
     },
     "thiserror": {
-      "1.0.34": {
-        "hash": "sha256-jBsFyp0Qa6fS4xqdq0pk574szkFTIZZuoxMsSaZW4lI=",
+      "1.0.35": {
+        "hash": "sha256-xT+Yh0YVrqJoEHdlqh7Y9hFnglAdGOU9CLRxczvqbIU=",
         "pname": "thiserror",
         "type": "crates-io",
-        "version": "1.0.34"
+        "version": "1.0.35"
       }
     },
     "thiserror-impl": {
-      "1.0.34": {
-        "hash": "e8f2591983642de85c921015f3f070c665a197ed69e417af436115e3a1407487",
+      "1.0.35": {
+        "hash": "f8b463991b4eab2d801e724172285ec4195c650e8ec79b149e6c2a8e6dd3f783",
         "type": "crates-io"
       }
     },
@@ -236,8 +236,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },

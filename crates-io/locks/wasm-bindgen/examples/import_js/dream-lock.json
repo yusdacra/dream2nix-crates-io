@@ -48,7 +48,7 @@
     "@types/glob": {
       "7.2.0": [
         [ "@types/minimatch", "5.1.2" ],
-        [ "@types/node", "18.7.17" ]
+        [ "@types/node", "18.7.18" ]
       ]
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -240,9 +240,9 @@
     "browserslist": {
       "4.21.3": [
         [ "caniuse-lite", "1.0.30001399" ],
-        [ "electron-to-chromium", "1.4.248" ],
+        [ "electron-to-chromium", "1.4.249" ],
         [ "node-releases", "2.0.6" ],
-        [ "update-browserslist-db", "1.0.8" ]
+        [ "update-browserslist-db", "1.0.9" ]
       ]
     },
     "cache-base": {
@@ -756,7 +756,7 @@
     "http-proxy": {
       "1.18.1": [
         [ "eventemitter3", "4.0.7" ],
-        [ "follow-redirects", "1.15.1" ],
+        [ "follow-redirects", "1.15.2" ],
         [ "requires-port", "1.0.0" ]
       ]
     },
@@ -890,7 +890,7 @@
     },
     "jest-worker": {
       "27.5.1": [
-        [ "@types/node", "18.7.17" ],
+        [ "@types/node", "18.7.18" ],
         [ "merge-stream", "2.0.0" ],
         [ "supports-color", "8.1.1" ]
       ]
@@ -1469,7 +1469,7 @@
       ]
     },
     "update-browserslist-db": {
-      "1.0.8": [
+      "1.0.9": [
         [ "escalade", "3.1.1" ],
         [ "picocolors", "1.0.0" ]
       ]
@@ -1752,10 +1752,10 @@
       }
     },
     "@types/node": {
-      "18.7.17": {
-        "hash": "sha512-0UyfUnt02zIuqp7yC8RYtDkp/vo8bFaQ13KkSEvUAohPOAlnVNbj5Fi3fgPSuwzakS+EvvnnZ4x9y7i6ASaSPQ==",
+      "18.7.18": {
+        "hash": "sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.17.tgz"
+        "url": "https://registry.npmjs.org/@types/node/-/node-18.7.18.tgz"
       }
     },
     "@wasm-tool/wasm-pack-plugin": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.248": {
-        "hash": "sha512-qShjzEYpa57NnhbW2K+g+Fl+eNoDvQ7I+2MRwWnU6Z6F0HhXekzsECCLv+y2OJUsRodjqoSfwHkIX42VUFtUzg==",
+      "1.4.249": {
+        "hash": "sha512-GMCxR3p2HQvIw47A599crTKYZprqihoBL4lDSAUmr7IYekXFK5t/WgEBrGJDCa2HWIZFQEkGuMqPCi05ceYqPQ==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.248.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.249.tgz"
       }
     },
     "emoji-regex": {
@@ -2835,10 +2835,10 @@
       }
     },
     "follow-redirects": {
-      "1.15.1": {
-        "hash": "sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==",
+      "1.15.2": {
+        "hash": "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==",
         "type": "http",
-        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.1.tgz"
+        "url": "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
       }
     },
     "for-in": {
@@ -4678,10 +4678,10 @@
       }
     },
     "update-browserslist-db": {
-      "1.0.8": {
-        "hash": "sha512-GHg7C4M7oJSJYW/ED/5QOJ7nL/E0lwTOBGsOorA7jqHr8ExUhPfwAotIAmdSw/LWv3SMLSNpzTAgeLG9zaZKTA==",
+      "1.0.9": {
+        "hash": "sha512-/xsqn21EGVdXI3EXSum1Yckj3ZVZugqyOZQ/CxYPBD/R+ko9NSUScf8tFF4dOKY+2pvSSJA/S+5B8s4Zr4kyvg==",
         "type": "http",
-        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.8.tgz"
+        "url": "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.0.9.tgz"
       }
     },
     "uri-js": {

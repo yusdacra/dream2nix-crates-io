@@ -49,7 +49,7 @@
     },
     "pest": {
       "2.3.1": [
-        [ "thiserror", "1.0.34" ],
+        [ "thiserror", "1.0.35" ],
         [ "ucd-trie", "0.1.5" ]
       ]
     },
@@ -71,7 +71,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
@@ -90,16 +90,16 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "thiserror": {
-      "1.0.34": [
-        [ "thiserror-impl", "1.0.34" ]
+      "1.0.35": [
+        [ "thiserror-impl", "1.0.35" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.34": [
+      "1.0.35": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.99" ]
@@ -200,14 +200,14 @@
       }
     },
     "thiserror": {
-      "1.0.34": {
-        "hash": "8c1b05ca9d106ba7d2e31a9dab4a64e7be2cce415321966ea3132c49a656e252",
+      "1.0.35": {
+        "hash": "c53f98874615aea268107765aa1ed8f6116782501d18e53d08b471733bea6c85",
         "type": "crates-io"
       }
     },
     "thiserror-impl": {
-      "1.0.34": {
-        "hash": "e8f2591983642de85c921015f3f070c665a197ed69e417af436115e3a1407487",
+      "1.0.35": {
+        "hash": "f8b463991b4eab2d801e724172285ec4195c650e8ec79b149e6c2a8e6dd3f783",
         "type": "crates-io"
       }
     },
@@ -224,8 +224,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },

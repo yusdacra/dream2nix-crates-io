@@ -74,7 +74,7 @@
         [ "bitflags", "1.3.2" ],
         [ "strsim", "0.8.0" ],
         [ "textwrap", "0.11.0" ],
-        [ "unicode-width", "0.1.9" ],
+        [ "unicode-width", "0.1.10" ],
         [ "vec_map", "0.8.2" ]
       ]
     },
@@ -127,7 +127,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
@@ -149,7 +149,7 @@
     },
     "textwrap": {
       "0.11.0": [
-        [ "unicode-width", "0.1.9" ]
+        [ "unicode-width", "0.1.10" ]
       ]
     },
     "which": {
@@ -403,14 +403,14 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },
     "unicode-width": {
-      "0.1.9": {
-        "hash": "3ed742d4ea2bd1176e236172c8429aaf54486e7ac098db29ffe6529e0ce50973",
+      "0.1.10": {
+        "hash": "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b",
         "type": "crates-io"
       }
     },

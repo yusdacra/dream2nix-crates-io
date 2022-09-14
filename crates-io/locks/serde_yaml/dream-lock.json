@@ -27,7 +27,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
@@ -44,7 +44,7 @@
     },
     "serde_yaml": {
       "0.9.11": [
-        [ "anyhow", "1.0.64" ],
+        [ "anyhow", "1.0.65" ],
         [ "indexmap", "1.9.1" ],
         [ "indoc", "1.0.7" ],
         [ "itoa", "1.0.3" ],
@@ -58,14 +58,14 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     }
   },
   "sources": {
     "anyhow": {
-      "1.0.64": {
-        "hash": "b9a8f622bcf6ff3df478e9deba3e03e4e04b300f8e6a139e192c05fa3490afc7",
+      "1.0.65": {
+        "hash": "98161a4e3e2184da77bb14f02184cdd111e83bbbcc9979dfee3c44b9a85f5602",
         "type": "crates-io"
       }
     },
@@ -144,8 +144,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },

@@ -131,7 +131,7 @@
     },
     "proc-macro2": {
       "1.0.43": [
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "proptest": {
@@ -211,7 +211,7 @@
       "1.0.99": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.3" ]
+        [ "unicode-ident", "1.0.4" ]
       ]
     },
     "tempfile": {
@@ -225,7 +225,7 @@
       ]
     },
     "tokio": {
-      "1.21.0": [
+      "1.21.1": [
         [ "autocfg", "1.1.0" ],
         [ "bytes", "1.2.1" ],
         [ "libc", "0.2.132" ],
@@ -255,7 +255,7 @@
         [ "futures-core", "0.3.24" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "proptest", "1.0.0" ],
-        [ "tokio", "1.21.0" ],
+        [ "tokio", "1.21.1" ],
         [ "tokio-util", "0.7.4" ]
       ]
     },
@@ -265,7 +265,7 @@
         [ "futures-core", "0.3.24" ],
         [ "futures-sink", "0.3.24" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.21.0" ]
+        [ "tokio", "1.21.1" ]
       ]
     },
     "wait-timeout": {
@@ -613,8 +613,8 @@
       }
     },
     "tokio": {
-      "1.21.0": {
-        "hash": "89797afd69d206ccd11fb0ea560a44bbb87731d020670e79416d442919257d42",
+      "1.21.1": {
+        "hash": "0020c875007ad96677dcc890298f4b942882c5d4eb7cc8f439fc3bf813dc9c95",
         "type": "crates-io"
       }
     },
@@ -639,8 +639,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.3": {
-        "hash": "c4f5b37a154999a8f3f98cc23a628d850e154479cd94decf3414696e12e31aaf",
+      "1.0.4": {
+        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
         "type": "crates-io"
       }
     },
