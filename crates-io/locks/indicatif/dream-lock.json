@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "indicatif",
-    "invalidationHash": "09ed0ed46260836cb94069f409d7de83f16a08b968b44f612ccc1fdf48a8cc84",
+    "invalidationHash": "4a9e56a51e88f1153b2283d32542d7f580f9615c36cf4b651c944739f255e85c",
     "location": "",
     "packages": {
-      "indicatif": "0.17.0"
+      "indicatif": "0.17.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "indicatif": {
-        "0.17.0": {}
+        "0.17.1": {}
       }
     }
   },
@@ -121,7 +121,7 @@
       ]
     },
     "indicatif": {
-      "0.17.0": [
+      "0.17.1": [
         [ "console", "0.15.0" ],
         [ "number_prefix", "0.4.0" ],
         [ "once_cell", "1.9.0" ],
@@ -452,11 +452,11 @@
       }
     },
     "indicatif": {
-      "0.17.0": {
-        "hash": "sha256-/MQrIG5w2G7AMoWxI+ZaVFjJICfR+yrjVVh4uBE7Pd8=",
+      "0.17.1": {
+        "hash": "sha256-v93JVh6LryZODkXhl/12ljIAJusQqBgDQN68J7GPU1s=",
         "pname": "indicatif",
         "type": "crates-io",
-        "version": "0.17.0"
+        "version": "0.17.1"
       }
     },
     "itoa": {
