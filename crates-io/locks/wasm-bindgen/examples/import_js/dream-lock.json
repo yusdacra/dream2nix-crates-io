@@ -238,9 +238,9 @@
       ]
     },
     "browserslist": {
-      "4.21.3": [
-        [ "caniuse-lite", "1.0.30001400" ],
-        [ "electron-to-chromium", "1.4.251" ],
+      "4.21.4": [
+        [ "caniuse-lite", "1.0.30001402" ],
+        [ "electron-to-chromium", "1.4.253" ],
         [ "node-releases", "2.0.6" ],
         [ "update-browserslist-db", "1.0.9" ]
       ]
@@ -1511,7 +1511,7 @@
         [ "@webassemblyjs/wasm-parser", "1.11.1" ],
         [ "acorn", "8.8.0" ],
         [ "acorn-import-assertions", "1.8.0" ],
-        [ "browserslist", "4.21.3" ],
+        [ "browserslist", "4.21.4" ],
         [ "chrome-trace-event", "1.0.3" ],
         [ "enhanced-resolve", "5.10.0" ],
         [ "es-module-lexer", "0.9.3" ],
@@ -2152,10 +2152,10 @@
       }
     },
     "browserslist": {
-      "4.21.3": {
-        "hash": "sha512-898rgRXLAyRkM1GryrrBHGkqA5hlpkV5MhtZwg9QXeiyLUYs2k00Un05aX5l2/yJIOObYKOpS2JNo8nJDE7fWQ==",
+      "4.21.4": {
+        "hash": "sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.3.tgz"
+        "url": "https://registry.npmjs.org/browserslist/-/browserslist-4.21.4.tgz"
       }
     },
     "buffer-from": {
@@ -2213,10 +2213,10 @@
       }
     },
     "caniuse-lite": {
-      "1.0.30001400": {
-        "hash": "sha512-Mv659Hn65Z4LgZdJ7ge5JTVbE3rqbJaaXgW5LEI9/tOaXclfIZ8DW7D7FCWWWmWiiPS7AC48S8kf3DApSxQdgA==",
+      "1.0.30001402": {
+        "hash": "sha512-Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==",
         "type": "http",
-        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001400.tgz"
+        "url": "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001402.tgz"
       }
     },
     "chalk": {
@@ -2596,10 +2596,10 @@
       }
     },
     "electron-to-chromium": {
-      "1.4.251": {
-        "hash": "sha512-k4o4cFrWPv4SoJGGAydd07GmlRVzmeDIJ6MaEChTUjk4Dmomn189tCicSzil2oyvbPoGgg2suwPDNWq4gWRhoQ==",
+      "1.4.253": {
+        "hash": "sha512-1pezJ2E1UyBTGbA7fUlHdPSXQw1k+82VhTFLG5G0AUqLGvsZqFzleOblceqegZzxYX4kC7hGEEdzIQI9RZ1Cuw==",
         "type": "http",
-        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.251.tgz"
+        "url": "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.253.tgz"
       }
     },
     "emoji-regex": {

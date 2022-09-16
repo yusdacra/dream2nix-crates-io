@@ -31,7 +31,7 @@
       ]
     },
     "digest": {
-      "0.10.3": [
+      "0.10.5": [
         [ "blobby", "0.3.1" ],
         [ "block-buffer", "0.10.3" ],
         [ "crypto-common", "0.1.6" ]
@@ -56,7 +56,7 @@
     },
     "md-5": {
       "0.10.4": [
-        [ "digest", "0.10.3" ],
+        [ "digest", "0.10.5" ],
         [ "hex-literal", "0.2.2" ],
         [ "md5-asm", "0.5.0" ]
       ]
@@ -93,8 +93,8 @@
       }
     },
     "digest": {
-      "0.10.3": {
-        "hash": "f2fb860ca6fafa5552fb6d0e816a69c8e49f0908bf524e30a90d97c85892d506",
+      "0.10.5": {
+        "hash": "adfbc57365a37acbd2ebf2b64d7e69bb766e2fea813521ed536f5d0520dcf86c",
         "type": "crates-io"
       }
     },

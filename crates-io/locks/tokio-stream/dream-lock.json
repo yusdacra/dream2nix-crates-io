@@ -159,23 +159,23 @@
       "0.8.5": [
         [ "libc", "0.2.132" ],
         [ "rand_chacha", "0.3.1" ],
-        [ "rand_core", "0.6.3" ]
+        [ "rand_core", "0.6.4" ]
       ]
     },
     "rand_chacha": {
       "0.3.1": [
         [ "ppv-lite86", "0.2.16" ],
-        [ "rand_core", "0.6.3" ]
+        [ "rand_core", "0.6.4" ]
       ]
     },
     "rand_core": {
-      "0.6.3": [
+      "0.6.4": [
         [ "getrandom", "0.2.7" ]
       ]
     },
     "rand_xorshift": {
       "0.3.0": [
-        [ "rand_core", "0.6.3" ]
+        [ "rand_core", "0.6.4" ]
       ]
     },
     "redox_syscall": {
@@ -541,8 +541,8 @@
       }
     },
     "rand_core": {
-      "0.6.3": {
-        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
         "type": "crates-io"
       }
     },

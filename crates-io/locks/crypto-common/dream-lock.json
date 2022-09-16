@@ -22,7 +22,7 @@
     "crypto-common": {
       "0.1.6": [
         [ "generic-array", "0.14.6" ],
-        [ "rand_core", "0.6.3" ],
+        [ "rand_core", "0.6.4" ],
         [ "typenum", "1.15.0" ]
       ]
     },
@@ -40,7 +40,7 @@
       ]
     },
     "rand_core": {
-      "0.6.3": [
+      "0.6.4": [
         [ "getrandom", "0.2.7" ]
       ]
     }
@@ -79,8 +79,8 @@
       }
     },
     "rand_core": {
-      "0.6.3": {
-        "hash": "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7",
+      "0.6.4": {
+        "hash": "ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c",
         "type": "crates-io"
       }
     },

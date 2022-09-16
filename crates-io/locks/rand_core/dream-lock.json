@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "rand_core",
-    "invalidationHash": "14733c8399d9cf9bfa2a2acd8fad219a341312b33411819df9578e26fb36e630",
+    "invalidationHash": "6f2cc730c3ac2a310fe0f5be95e933622e5d01d3b65229e987892fe2f8058953",
     "location": "",
     "packages": {
-      "rand_core": "0.6.3"
+      "rand_core": "0.6.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "rand_core": {
-        "0.6.3": {}
+        "0.6.4": {}
       }
     }
   },
@@ -37,7 +37,7 @@
       ]
     },
     "rand_core": {
-      "0.6.3": [
+      "0.6.4": [
         [ "getrandom", "0.2.7" ],
         [ "serde", "1.0.144" ]
       ]
@@ -94,11 +94,11 @@
       }
     },
     "rand_core": {
-      "0.6.3": {
-        "hash": "sha256-008UCPVSlEU3kMSLLx67scW0t1Y+sfQYvPz9uwbrtOc=",
+      "0.6.4": {
+        "hash": "sha256-7AvkeV4vaigGm+wLX/PirJuvyZ5qmn3DVHmWxcgWkiw=",
         "pname": "rand_core",
         "type": "crates-io",
-        "version": "0.6.3"
+        "version": "0.6.4"
       }
     },
     "serde": {

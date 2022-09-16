@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "unicode-xid",
-    "invalidationHash": "d47c18c012330428b1b99a00ea831a3aacde32283d49a5cc7d7e22709255425f",
+    "invalidationHash": "2abb15b2bcba72c8ea443f606a5117a9dd661c76d97ba1e02c161413fcf059ff",
     "location": "",
     "packages": {
-      "unicode-xid": "0.2.3"
+      "unicode-xid": "0.2.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "unicode-xid": {
-        "0.2.3": {}
+        "0.2.4": {}
       }
     }
   },
@@ -237,7 +237,7 @@
       ]
     },
     "unicode-xid": {
-      "0.2.3": [
+      "0.2.4": [
         [ "criterion", "0.3.6" ]
       ]
     },
@@ -622,11 +622,11 @@
       }
     },
     "unicode-xid": {
-      "0.2.3": {
-        "hash": "sha256-lX5R82RpEFRkYuZ9X3WZueT7is3TBLCHpklHMPnuvwQ=",
+      "0.2.4": {
+        "hash": "sha256-+WLfdMjAWmZ7Xui88WKZMTTBBOlkQLZjyNqhdtx3LYw=",
         "pname": "unicode-xid",
         "type": "crates-io",
-        "version": "0.2.3"
+        "version": "0.2.4"
       }
     },
     "walkdir": {

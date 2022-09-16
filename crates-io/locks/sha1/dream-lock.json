@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "sha1",
-    "invalidationHash": "fb063742b3787d960fddd91640accc76eaa26b4cc424ac40b7955141316d11b9",
+    "invalidationHash": "a7811a9a4e6f07a68b3a8f3b155305033787569cc467f5484b7e34614539fe43",
     "location": "",
     "packages": {
-      "sha1": "0.10.4"
+      "sha1": "0.10.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "sha1": {
-        "0.10.4": {}
+        "0.10.5": {}
       }
     }
   },
@@ -36,9 +36,10 @@
       ]
     },
     "digest": {
-      "0.10.3": [
+      "0.10.5": [
         [ "blobby", "0.3.1" ],
         [ "block-buffer", "0.10.3" ],
+        [ "const-oid", "0.9.0" ],
         [ "crypto-common", "0.1.6" ]
       ]
     },
@@ -60,10 +61,10 @@
       ]
     },
     "sha1": {
-      "0.10.4": [
+      "0.10.5": [
         [ "cfg-if", "1.0.0" ],
         [ "cpufeatures", "0.2.5" ],
-        [ "digest", "0.10.3" ],
+        [ "digest", "0.10.5" ],
         [ "hex-literal", "0.2.2" ],
         [ "sha1-asm", "0.5.1" ]
       ]
@@ -99,6 +100,12 @@
         "type": "crates-io"
       }
     },
+    "const-oid": {
+      "0.9.0": {
+        "hash": "722e23542a15cea1f65d4a1419c4cfd7a26706c70871a13a04238ca3f40f1661",
+        "type": "crates-io"
+      }
+    },
     "cpufeatures": {
       "0.2.5": {
         "hash": "28d997bd5e24a5928dd43e46dc529867e207907fe0b239c3477d924f7f2ca320",
@@ -112,8 +119,8 @@
       }
     },
     "digest": {
-      "0.10.3": {
-        "hash": "f2fb860ca6fafa5552fb6d0e816a69c8e49f0908bf524e30a90d97c85892d506",
+      "0.10.5": {
+        "hash": "adfbc57365a37acbd2ebf2b64d7e69bb766e2fea813521ed536f5d0520dcf86c",
         "type": "crates-io"
       }
     },
@@ -148,11 +155,11 @@
       }
     },
     "sha1": {
-      "0.10.4": {
-        "hash": "sha256-AGdpuoPpIbMIXKqDNBhrAM+StMsabPRjL7zMjv9cdUk=",
+      "0.10.5": {
+        "hash": "sha256-8EKT3IDDmTUZ8tf29RFwfucJT+DG00Bv6zMM2zVA66M=",
         "pname": "sha1",
         "type": "crates-io",
-        "version": "0.10.4"
+        "version": "0.10.5"
       }
     },
     "sha1-asm": {

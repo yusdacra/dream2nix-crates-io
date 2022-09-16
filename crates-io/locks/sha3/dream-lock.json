@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "sha3",
-    "invalidationHash": "92d36611154a52e02b6691bdfdba4521a0a3c301ecce8d58d2a0b7c1bbb09304",
+    "invalidationHash": "dd4fbffa1c077656576bb5f571fb5b597f68a7ddb24800be2efba3e2bea5b866",
     "location": "",
     "packages": {
-      "sha3": "0.10.4"
+      "sha3": "0.10.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "sha3": {
-        "0.10.4": {}
+        "0.10.5": {}
       }
     }
   },
@@ -31,9 +31,10 @@
       ]
     },
     "digest": {
-      "0.10.3": [
+      "0.10.5": [
         [ "blobby", "0.3.1" ],
         [ "block-buffer", "0.10.3" ],
+        [ "const-oid", "0.9.0" ],
         [ "crypto-common", "0.1.6" ]
       ]
     },
@@ -55,8 +56,8 @@
       ]
     },
     "sha3": {
-      "0.10.4": [
-        [ "digest", "0.10.3" ],
+      "0.10.5": [
+        [ "digest", "0.10.5" ],
         [ "hex-literal", "0.2.2" ],
         [ "keccak", "0.1.2" ]
       ]
@@ -75,6 +76,12 @@
         "type": "crates-io"
       }
     },
+    "const-oid": {
+      "0.9.0": {
+        "hash": "722e23542a15cea1f65d4a1419c4cfd7a26706c70871a13a04238ca3f40f1661",
+        "type": "crates-io"
+      }
+    },
     "crypto-common": {
       "0.1.6": {
         "hash": "1bfb12502f3fc46cca1bb51ac28df9d618d813cdc3d2f25b9fe775a34af26bb3",
@@ -82,8 +89,8 @@
       }
     },
     "digest": {
-      "0.10.3": {
-        "hash": "f2fb860ca6fafa5552fb6d0e816a69c8e49f0908bf524e30a90d97c85892d506",
+      "0.10.5": {
+        "hash": "adfbc57365a37acbd2ebf2b64d7e69bb766e2fea813521ed536f5d0520dcf86c",
         "type": "crates-io"
       }
     },
@@ -118,11 +125,11 @@
       }
     },
     "sha3": {
-      "0.10.4": {
-        "hash": "sha256-6u3zTtKJ6kfCt0G7cuU1eiCVEtZ7zUvaRDWeW/BHD1Y=",
+      "0.10.5": {
+        "hash": "sha256-4pBL6hahrpYrSDMioce4HZdgKSA66h9GHlHNdwXbe6k=",
         "pname": "sha3",
         "type": "crates-io",
-        "version": "0.10.4"
+        "version": "0.10.5"
       }
     },
     "typenum": {
