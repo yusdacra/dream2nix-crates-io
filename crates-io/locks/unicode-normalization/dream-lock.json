@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "unicode-normalization",
-    "invalidationHash": "35c702bdab74e63ef6fad53cb213dedea3cfebb95ce7d6323ac45b3b34796b67",
+    "invalidationHash": "6be140a3c2c5ae6a82bd8a37ea4d83830dfd97cd2111dc8b134f6c26c9da11f0",
     "location": "",
     "packages": {
-      "unicode-normalization": "0.1.21"
+      "unicode-normalization": "0.1.22"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "unicode-normalization": {
-        "0.1.21": {}
+        "0.1.22": {}
       }
     }
   },
@@ -25,7 +25,7 @@
       ]
     },
     "unicode-normalization": {
-      "0.1.21": [
+      "0.1.22": [
         [ "tinyvec", "1.6.0" ]
       ]
     }
@@ -44,11 +44,11 @@
       }
     },
     "unicode-normalization": {
-      "0.1.21": {
-        "hash": "sha256-hUy9xPe8auGcgg1Eq9wyd6w+GyuT2yCmNoJdkyL7YOY=",
+      "0.1.22": {
+        "hash": "sha256-XFcT8PxLXbZooqxjzbe7RGnYyf7QR7HQKSzHsM4rqSE=",
         "pname": "unicode-normalization",
         "type": "crates-io",
-        "version": "0.1.21"
+        "version": "0.1.22"
       }
     }
   }

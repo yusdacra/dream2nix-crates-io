@@ -150,11 +150,11 @@
       "0.2.3": [
         [ "matches", "0.1.9" ],
         [ "unicode-bidi", "0.3.8" ],
-        [ "unicode-normalization", "0.1.21" ]
+        [ "unicode-normalization", "0.1.22" ]
       ],
       "0.3.0": [
         [ "unicode-bidi", "0.3.8" ],
-        [ "unicode-normalization", "0.1.21" ]
+        [ "unicode-normalization", "0.1.22" ]
       ]
     },
     "indexmap": {
@@ -604,7 +604,7 @@
       ]
     },
     "unicode-normalization": {
-      "0.1.21": [
+      "0.1.22": [
         [ "tinyvec", "1.6.0" ]
       ]
     },
@@ -1383,8 +1383,8 @@
       }
     },
     "unicode-normalization": {
-      "0.1.21": {
-        "hash": "854cbdc4f7bc6ae19c820d44abdc3277ac3e1b2b93db20a636825d9322fb60e6",
+      "0.1.22": {
+        "hash": "5c5713f0fc4b5db668a2ac63cdb7bb4469d8c9fed047b1d0292cc7b0ce2ba921",
         "type": "crates-io"
       }
     },
