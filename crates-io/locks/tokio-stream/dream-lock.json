@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tokio-stream",
-    "invalidationHash": "5381b4637e990c07a6eda71d2bc0f4737c8e3e2767979a809a3e07621d52fc6f",
+    "invalidationHash": "485c64bc0ad5df1bf9c0e72b75983e636fff5e35405186c80c765bcb8fffc72f",
     "location": "",
     "packages": {
-      "tokio-stream": "0.1.9"
+      "tokio-stream": "0.1.10"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "tokio-stream": {
-        "0.1.9": {}
+        "0.1.10": {}
       }
     }
   },
@@ -29,7 +29,7 @@
       "0.3.3": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.99" ]
+        [ "syn", "1.0.100" ]
       ]
     },
     "bit-set": {
@@ -208,7 +208,7 @@
       ]
     },
     "syn": {
-      "1.0.99": [
+      "1.0.100": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
@@ -245,14 +245,15 @@
       "1.8.0": [
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.99" ]
+        [ "syn", "1.0.100" ]
       ]
     },
     "tokio-stream": {
-      "0.1.9": [
+      "0.1.10": [
         [ "async-stream", "0.3.3" ],
         [ "futures", "0.3.24" ],
         [ "futures-core", "0.3.24" ],
+        [ "parking_lot", "0.12.1" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "proptest", "1.0.0" ],
         [ "tokio", "1.21.1" ],
@@ -601,8 +602,8 @@
       }
     },
     "syn": {
-      "1.0.99": {
-        "hash": "58dbef6ec655055e20b86b15a8cc6d439cca19b667537ac6a1369572d151ab13",
+      "1.0.100": {
+        "hash": "52205623b1b0f064a4e71182c3b18ae902267282930c6d5462c91b859668426e",
         "type": "crates-io"
       }
     },
@@ -625,11 +626,11 @@
       }
     },
     "tokio-stream": {
-      "0.1.9": {
-        "hash": "sha256-31TVQRfW/cTk/qQP4eTlZrNQVwDhSKaCflmzSw0mANk=",
+      "0.1.10": {
+        "hash": "sha256-9u3y1rwDikPTE1NXDicnBgP0ZI0Y9e0QwOF5q+QyVa8=",
         "pname": "tokio-stream",
         "type": "crates-io",
-        "version": "0.1.9"
+        "version": "0.1.10"
       }
     },
     "tokio-util": {
