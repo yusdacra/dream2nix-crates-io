@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "ordered-float",
-    "invalidationHash": "3f76d022c5b5ee1d3dc305361e5733988f5b6caa0ef721d7f6ea52b37bdced9c",
+    "invalidationHash": "c62a596a2a4c7651fab18f258f0d89b6839512ca1b8987d405207e7a7002c218",
     "location": "",
     "packages": {
-      "ordered-float": "3.0.0"
+      "ordered-float": "3.1.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "ordered-float": {
-        "3.0.0": {}
+        "3.1.0": {}
       }
     }
   },
@@ -32,7 +32,7 @@
     "getrandom": {
       "0.2.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.132" ],
+        [ "libc", "0.2.133" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -47,7 +47,7 @@
       ]
     },
     "ordered-float": {
-      "3.0.0": [
+      "3.1.0": [
         [ "arbitrary", "1.1.6" ],
         [ "num-traits", "0.2.15" ],
         [ "proptest", "1.0.0" ],
@@ -98,7 +98,7 @@
     },
     "rand": {
       "0.8.5": [
-        [ "libc", "0.2.132" ],
+        [ "libc", "0.2.133" ],
         [ "rand_chacha", "0.3.1" ],
         [ "rand_core", "0.6.4" ]
       ]
@@ -209,7 +209,7 @@
       "3.3.0": [
         [ "cfg-if", "1.0.0" ],
         [ "fastrand", "1.8.0" ],
-        [ "libc", "0.2.132" ],
+        [ "libc", "0.2.133" ],
         [ "redox_syscall", "0.2.16" ],
         [ "remove_dir_all", "0.5.3" ],
         [ "winapi", "0.3.9" ]
@@ -217,7 +217,7 @@
     },
     "wait-timeout": {
       "0.2.0": [
-        [ "libc", "0.2.132" ]
+        [ "libc", "0.2.133" ]
       ]
     },
     "winapi": {
@@ -313,8 +313,8 @@
       }
     },
     "libc": {
-      "0.2.132": {
-        "hash": "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5",
+      "0.2.133": {
+        "hash": "c0f80d65747a3e43d1596c7c5492d95d5edddaabd45a7fcdb02b95f644164966",
         "type": "crates-io"
       }
     },
@@ -325,11 +325,11 @@
       }
     },
     "ordered-float": {
-      "3.0.0": {
-        "hash": "sha256-lry6tL/qelnCwP5HIRoaxOPpa+putEbXBPMQvFxzKuI=",
+      "3.1.0": {
+        "hash": "sha256-mP/bFHMO0u9ZnGWBDBWwAIluIeh3a1Et4NsMPXM1zCo=",
         "pname": "ordered-float",
         "type": "crates-io",
-        "version": "3.0.0"
+        "version": "3.1.0"
       }
     },
     "ppv-lite86": {

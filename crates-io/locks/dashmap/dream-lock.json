@@ -61,7 +61,7 @@
     },
     "hermit-abi": {
       "0.1.19": [
-        [ "libc", "0.2.132" ]
+        [ "libc", "0.2.133" ]
       ]
     },
     "lock_api": {
@@ -78,13 +78,13 @@
     "num_cpus": {
       "1.13.1": [
         [ "hermit-abi", "0.1.19" ],
-        [ "libc", "0.2.132" ]
+        [ "libc", "0.2.133" ]
       ]
     },
     "parking_lot_core": {
       "0.9.3": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.132" ],
+        [ "libc", "0.2.133" ],
         [ "redox_syscall", "0.2.16" ],
         [ "smallvec", "1.9.0" ],
         [ "windows-sys", "0.36.1" ]
@@ -220,8 +220,8 @@
       }
     },
     "libc": {
-      "0.2.132": {
-        "hash": "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5",
+      "0.2.133": {
+        "hash": "c0f80d65747a3e43d1596c7c5492d95d5edddaabd45a7fcdb02b95f644164966",
         "type": "crates-io"
       }
     },

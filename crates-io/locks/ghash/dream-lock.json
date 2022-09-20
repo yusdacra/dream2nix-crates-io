@@ -21,7 +21,7 @@
   "dependencies": {
     "cpufeatures": {
       "0.2.5": [
-        [ "libc", "0.2.132" ]
+        [ "libc", "0.2.133" ]
       ]
     },
     "crypto-common": {
@@ -99,8 +99,8 @@
       }
     },
     "libc": {
-      "0.2.132": {
-        "hash": "8371e4e5341c3a96db127eb2465ac681ced4c433e01dd0e938adbef26ba93ba5",
+      "0.2.133": {
+        "hash": "c0f80d65747a3e43d1596c7c5492d95d5edddaabd45a7fcdb02b95f644164966",
         "type": "crates-io"
       }
     },
