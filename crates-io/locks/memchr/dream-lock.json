@@ -28,7 +28,7 @@
     },
     "memchr": {
       "2.5.0": [
-        [ "compiler_builtins", "0.1.79" ],
+        [ "compiler_builtins", "0.1.80" ],
         [ "libc", "0.2.133" ],
         [ "quickcheck", "1.0.3" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
@@ -58,8 +58,8 @@
       }
     },
     "compiler_builtins": {
-      "0.1.79": {
-        "hash": "4f873ce2bd3550b0b565f878b3d04ea8253f4259dc3d20223af2e1ba86f5ecca",
+      "0.1.80": {
+        "hash": "c3feb824e4dde07fb32acc53c8cc1f9e537bb4d7e0a331198000840979d410d3",
         "type": "crates-io"
       }
     },

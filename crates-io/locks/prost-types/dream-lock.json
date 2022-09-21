@@ -42,7 +42,7 @@
       ]
     },
     "itertools": {
-      "0.10.4": [
+      "0.10.5": [
         [ "either", "1.8.0" ]
       ]
     },
@@ -81,7 +81,7 @@
     "prost-derive": {
       "0.11.0": [
         [ "anyhow", "1.0.65" ],
-        [ "itertools", "0.10.4" ],
+        [ "itertools", "0.10.5" ],
         [ "proc-macro2", "1.0.43" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.100" ]
@@ -249,8 +249,8 @@
       }
     },
     "itertools": {
-      "0.10.4": {
-        "hash": "d8bf247779e67a9082a4790b45e71ac7cfd1321331a5c856a74a9faebdab78d0",
+      "0.10.5": {
+        "hash": "b0fd2260e829bddf4cb6ea802289de2f86d6a7a690192fbe91b3f46e0f2c8473",
         "type": "crates-io"
       }
     },

@@ -100,7 +100,7 @@
       ]
     },
     "lock_api": {
-      "0.4.8": [
+      "0.4.9": [
         [ "autocfg", "1.1.0" ],
         [ "scopeguard", "1.1.0" ]
       ]
@@ -150,7 +150,7 @@
     },
     "spin": {
       "0.9.4": [
-        [ "lock_api", "0.4.8" ]
+        [ "lock_api", "0.4.9" ]
       ]
     },
     "volatile-register": {
@@ -293,8 +293,8 @@
       }
     },
     "lock_api": {
-      "0.4.8": {
-        "hash": "9f80bf5aacaf25cbfc8210d1cfb718f2bf3b11c4c54e5afe36c236853a8ec390",
+      "0.4.9": {
+        "hash": "435011366fe56583b16cf956f9df0095b405b82d76425bc8981c0e22e60ec4df",
         "type": "crates-io"
       }
     },
