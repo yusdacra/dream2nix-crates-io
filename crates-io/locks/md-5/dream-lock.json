@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "md-5",
-    "invalidationHash": "868e85afae981e05860a027d823a72f633884e26390a3f064667c15751e8dc40",
+    "invalidationHash": "c7efd3545739e7cbdfc7dfb1e82f517a29bafb260be7dd14fda5109fea0c379c",
     "location": "",
     "packages": {
-      "md-5": "0.10.4"
+      "md-5": "0.10.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "md-5": {
-        "0.10.4": {}
+        "0.10.5": {}
       }
     }
   },
@@ -34,6 +34,7 @@
       "0.10.5": [
         [ "blobby", "0.3.1" ],
         [ "block-buffer", "0.10.3" ],
+        [ "const-oid", "0.9.0" ],
         [ "crypto-common", "0.1.6" ]
       ]
     },
@@ -55,7 +56,7 @@
       ]
     },
     "md-5": {
-      "0.10.4": [
+      "0.10.5": [
         [ "digest", "0.10.5" ],
         [ "hex-literal", "0.2.2" ],
         [ "md5-asm", "0.5.0" ]
@@ -83,6 +84,12 @@
     "cc": {
       "1.0.73": {
         "hash": "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11",
+        "type": "crates-io"
+      }
+    },
+    "const-oid": {
+      "0.9.0": {
+        "hash": "722e23542a15cea1f65d4a1419c4cfd7a26706c70871a13a04238ca3f40f1661",
         "type": "crates-io"
       }
     },
@@ -117,11 +124,11 @@
       }
     },
     "md-5": {
-      "0.10.4": {
-        "hash": "sha256-ZrSGcMiTB508LteRFONkS3AE3xw2Gk4K1S4uaUDQfD0=",
+      "0.10.5": {
+        "hash": "sha256-Y2VQaFDUS/9uL7y1F2z2NlDki9Re8v4mZa4VcOD0uco=",
         "pname": "md-5",
         "type": "crates-io",
-        "version": "0.10.4"
+        "version": "0.10.5"
       }
     },
     "md5-asm": {
