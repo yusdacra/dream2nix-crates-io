@@ -27,13 +27,13 @@
     "linked-hash-map": {
       "0.5.6": [
         [ "heapsize", "0.4.2" ],
-        [ "serde", "1.0.144" ],
-        [ "serde_test", "1.0.144" ]
+        [ "serde", "1.0.145" ],
+        [ "serde_test", "1.0.145" ]
       ]
     },
     "serde_test": {
-      "1.0.144": [
-        [ "serde", "1.0.144" ]
+      "1.0.145": [
+        [ "serde", "1.0.145" ]
       ]
     },
     "winapi": {
@@ -59,14 +59,14 @@
       }
     },
     "serde": {
-      "1.0.144": {
-        "hash": "0f747710de3dcd43b88c9168773254e809d8ddbdf9653b84e2554ab219f17860",
+      "1.0.145": {
+        "hash": "728eb6351430bccb993660dfffc5a72f91ccc1295abaa8ce19b27ebe4f75568b",
         "type": "crates-io"
       }
     },
     "serde_test": {
-      "1.0.144": {
-        "hash": "6c7f3621491f256177206a7c2152c17f322c0d0b30af05359088172437d29e25",
+      "1.0.145": {
+        "hash": "9c17d2112159132660b4c5399e274f676fb75a2f8d70b7468f18f045b71138ed",
         "type": "crates-io"
       }
     },

@@ -38,7 +38,7 @@
         [ "num-bigint", "0.4.3" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ],
-        [ "serde", "1.0.144" ]
+        [ "serde", "1.0.145" ]
       ]
     },
     "num-traits": {
@@ -81,8 +81,8 @@
       }
     },
     "serde": {
-      "1.0.144": {
-        "hash": "0f747710de3dcd43b88c9168773254e809d8ddbdf9653b84e2554ab219f17860",
+      "1.0.145": {
+        "hash": "728eb6351430bccb993660dfffc5a72f91ccc1295abaa8ce19b27ebe4f75568b",
         "type": "crates-io"
       }
     }

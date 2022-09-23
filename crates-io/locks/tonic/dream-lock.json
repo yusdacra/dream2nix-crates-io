@@ -60,7 +60,7 @@
         [ "mime", "0.3.16" ],
         [ "percent-encoding", "2.2.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "serde", "1.0.144" ],
+        [ "serde", "1.0.145" ],
         [ "sync_wrapper", "0.1.1" ],
         [ "tokio", "1.21.1" ],
         [ "tower", "0.4.13" ],
@@ -1080,8 +1080,8 @@
       }
     },
     "serde": {
-      "1.0.144": {
-        "hash": "0f747710de3dcd43b88c9168773254e809d8ddbdf9653b84e2554ab219f17860",
+      "1.0.145": {
+        "hash": "728eb6351430bccb993660dfffc5a72f91ccc1295abaa8ce19b27ebe4f75568b",
         "type": "crates-io"
       }
     },
