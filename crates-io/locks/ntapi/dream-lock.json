@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "ntapi",
-    "invalidationHash": "ec27e3c4855fad48f968eb09dcee2d988e94940ee5d6a1b762baeff198635549",
+    "invalidationHash": "9c6370ded3a1b313684d3ac316e7f02108568c255b47b15d79f8f5d047f07a55",
     "location": "",
     "packages": {
-      "ntapi": "0.3.7"
+      "ntapi": "0.4.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "ntapi": {
-        "0.3.7": {}
+        "0.4.0": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "ntapi": {
-      "0.3.7": [
+      "0.4.0": [
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -33,11 +33,11 @@
   },
   "sources": {
     "ntapi": {
-      "0.3.7": {
-        "hash": "sha256-wod0p/0vu08Lq9gjfOVUtzr2gCG19pWjzr1sWbrAmA8=",
+      "0.4.0": {
+        "hash": "sha256-vFHbezYrIFlB9xIy5WxiUVbrmpKfjPdKQo/VvAlKSvw=",
         "pname": "ntapi",
         "type": "crates-io",
-        "version": "0.3.7"
+        "version": "0.4.0"
       }
     },
     "winapi": {
