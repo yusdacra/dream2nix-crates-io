@@ -57,7 +57,7 @@
       "0.4.30": [
         [ "unicode-xid", "0.1.0" ]
       ],
-      "1.0.43": [
+      "1.0.44": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
@@ -66,12 +66,12 @@
         [ "proc-macro2", "0.4.30" ]
       ],
       "1.0.21": [
-        [ "proc-macro2", "1.0.43" ]
+        [ "proc-macro2", "1.0.44" ]
       ]
     },
     "serde_derive": {
       "1.0.145": [
-        [ "proc-macro2", "1.0.43" ],
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.100" ]
       ]
@@ -90,7 +90,7 @@
         [ "unicode-xid", "0.1.0" ]
       ],
       "1.0.100": [
-        [ "proc-macro2", "1.0.43" ],
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -172,8 +172,8 @@
         "hash": "cf3d2011ab5c909338f7887f4fc896d35932e29146c12c8d01da6b22a80ba759",
         "type": "crates-io"
       },
-      "1.0.43": {
-        "hash": "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab",
+      "1.0.44": {
+        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
         "type": "crates-io"
       }
     },

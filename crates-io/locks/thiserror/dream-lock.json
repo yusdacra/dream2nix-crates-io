@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "thiserror",
-    "invalidationHash": "4937baa4858a9e3757707193f9cffbd097c3f41deffd3037f7b122e892369dde",
+    "invalidationHash": "2f907e04a6e74f9d49991ddcb20fa1ee1f3d55bb3e968b23533bdb046afd6b3a",
     "location": "",
     "packages": {
-      "thiserror": "1.0.35"
+      "thiserror": "1.0.36"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,20 +13,20 @@
     "gitSources": [],
     "relPathReplacements": {
       "thiserror": {
-        "1.0.35": {}
+        "1.0.36": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "proc-macro2": {
-      "1.0.43": [
+      "1.0.44": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.43" ]
+        [ "proc-macro2", "1.0.44" ]
       ]
     },
     "ref-cast": {
@@ -36,14 +36,14 @@
     },
     "ref-cast-impl": {
       "1.0.9": [
-        [ "proc-macro2", "1.0.43" ],
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.100" ]
       ]
     },
     "serde_derive": {
       "1.0.145": [
-        [ "proc-macro2", "1.0.43" ],
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.100" ]
       ]
@@ -57,7 +57,7 @@
     },
     "syn": {
       "1.0.100": [
-        [ "proc-macro2", "1.0.43" ],
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -68,17 +68,17 @@
       ]
     },
     "thiserror": {
-      "1.0.35": [
+      "1.0.36": [
         [ "anyhow", "1.0.65" ],
         [ "ref-cast", "1.0.9" ],
         [ "rustversion", "1.0.9" ],
-        [ "thiserror-impl", "1.0.35" ],
+        [ "thiserror-impl", "1.0.36" ],
         [ "trybuild", "1.0.65" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.35": [
-        [ "proc-macro2", "1.0.43" ],
+      "1.0.36": [
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.100" ]
       ]
@@ -144,8 +144,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.43": {
-        "hash": "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab",
+      "1.0.44": {
+        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
         "type": "crates-io"
       }
     },
@@ -210,16 +210,16 @@
       }
     },
     "thiserror": {
-      "1.0.35": {
-        "hash": "sha256-xT+Yh0YVrqJoEHdlqh7Y9hFnglAdGOU9CLRxczvqbIU=",
+      "1.0.36": {
+        "hash": "sha256-CpnLjEuajvDnkHzTthfMjcBNVxxOc8iuQD2ArBYLsSI=",
         "pname": "thiserror",
         "type": "crates-io",
-        "version": "1.0.35"
+        "version": "1.0.36"
       }
     },
     "thiserror-impl": {
-      "1.0.35": {
-        "hash": "f8b463991b4eab2d801e724172285ec4195c650e8ec79b149e6c2a8e6dd3f783",
+      "1.0.36": {
+        "hash": "3a891860d3c8d66fec8e73ddb3765f90082374dbaaa833407b904a94f1a7eb43",
         "type": "crates-io"
       }
     },

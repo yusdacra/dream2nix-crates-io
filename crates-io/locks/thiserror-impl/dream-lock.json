@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "thiserror-impl",
-    "invalidationHash": "5c1f949763756d24724184a17b5dbe2b522eb6722a3b4917b419a35ce1c6e514",
+    "invalidationHash": "189136cfbd96175634e0cf6e4a9450fdeeb95ab36f9092c63899cbf9e06f141d",
     "location": "",
     "packages": {
-      "thiserror-impl": "1.0.35"
+      "thiserror-impl": "1.0.36"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,32 +13,32 @@
     "gitSources": [],
     "relPathReplacements": {
       "thiserror-impl": {
-        "1.0.35": {}
+        "1.0.36": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "proc-macro2": {
-      "1.0.43": [
+      "1.0.44": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.43" ]
+        [ "proc-macro2", "1.0.44" ]
       ]
     },
     "syn": {
       "1.0.100": [
-        [ "proc-macro2", "1.0.43" ],
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "thiserror-impl": {
-      "1.0.35": [
-        [ "proc-macro2", "1.0.43" ],
+      "1.0.36": [
+        [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.100" ]
       ]
@@ -46,8 +46,8 @@
   },
   "sources": {
     "proc-macro2": {
-      "1.0.43": {
-        "hash": "0a2ca2c61bc9f3d74d2886294ab7b9853abd9c1ad903a3ac7815c58989bb7bab",
+      "1.0.44": {
+        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
         "type": "crates-io"
       }
     },
@@ -64,11 +64,11 @@
       }
     },
     "thiserror-impl": {
-      "1.0.35": {
-        "hash": "sha256-+LRjmRtOqy2AHnJBcihexBlcZQ6Ox5sUnmwqjm3T94M=",
+      "1.0.36": {
+        "hash": "sha256-OokYYNPI1m/sjnPds3ZfkAgjdNuqqDNAe5BKlPGn60M=",
         "pname": "thiserror-impl",
         "type": "crates-io",
-        "version": "1.0.35"
+        "version": "1.0.36"
       }
     },
     "unicode-ident": {

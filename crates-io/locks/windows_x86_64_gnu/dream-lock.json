@@ -1,0 +1,32 @@
+{
+  "_generic": {
+    "defaultPackage": "windows_x86_64_gnu",
+    "invalidationHash": "4f18815d84fb794ca40ed97fdfd70dd497688090f8b6269febedb948152d5079",
+    "location": "",
+    "packages": {
+      "windows_x86_64_gnu": "0.41.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "windows_x86_64_gnu": {
+        "0.41.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {},
+  "sources": {
+    "windows_x86_64_gnu": {
+      "0.41.0": {
+        "hash": "sha256-/DldrBrfRE4nbQltkzrnlhNhyM2jJFz/73qbOnCo+ZQ=",
+        "pname": "windows_x86_64_gnu",
+        "type": "crates-io",
+        "version": "0.41.0"
+      }
+    }
+  }
+}
