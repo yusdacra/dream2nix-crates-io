@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "webpki-roots",
-    "invalidationHash": "38c6731086d0244c3c722e91d566df305b3361a6c0b7933d5076dbd4b1b41743",
+    "invalidationHash": "1de31a70215a367936f88be818293e09bb6af1fa3cd1faabe836d98f05512971",
     "location": "",
     "packages": {
-      "webpki-roots": "0.22.4"
+      "webpki-roots": "0.22.5"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "webpki-roots": {
-        "0.22.4": {}
+        "0.22.5": {}
       }
     }
   },
@@ -102,7 +102,7 @@
       ]
     },
     "webpki-roots": {
-      "0.22.4": [
+      "0.22.5": [
         [ "webpki", "0.22.0" ]
       ]
     },
@@ -247,11 +247,11 @@
       }
     },
     "webpki-roots": {
-      "0.22.4": {
-        "hash": "sha256-8cdg8NNmpsJKAu14FuI+aR9dkikflNFeg2AG/RGwTa8=",
+      "0.22.5": {
+        "hash": "sha256-Nov+ZXlp+wEji7dW01HcreKF4Pb8vTbcsjNZpRaZdb4=",
         "pname": "webpki-roots",
         "type": "crates-io",
-        "version": "0.22.4"
+        "version": "0.22.5"
       }
     },
     "winapi": {

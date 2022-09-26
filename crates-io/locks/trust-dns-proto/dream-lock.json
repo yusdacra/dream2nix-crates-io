@@ -600,7 +600,7 @@
         [ "url", "2.3.1" ],
         [ "wasm-bindgen", "0.2.83" ],
         [ "webpki", "0.22.0" ],
-        [ "webpki-roots", "0.22.4" ]
+        [ "webpki-roots", "0.22.5" ]
       ]
     },
     "unicode-normalization": {
@@ -661,7 +661,7 @@
       ]
     },
     "webpki-roots": {
-      "0.22.4": [
+      "0.22.5": [
         [ "webpki", "0.22.0" ]
       ]
     },
@@ -1461,8 +1461,8 @@
       }
     },
     "webpki-roots": {
-      "0.22.4": {
-        "hash": "f1c760f0d366a6c24a02ed7816e23e691f5d92291f94d15e836006fd11b04daf",
+      "0.22.5": {
+        "hash": "368bfe657969fb01238bb756d351dcade285e0f6fcbd36dcb23359a5169975be",
         "type": "crates-io"
       }
     },

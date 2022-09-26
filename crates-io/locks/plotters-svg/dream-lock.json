@@ -31,7 +31,7 @@
       ]
     },
     "image": {
-      "0.24.3": [
+      "0.24.4": [
         [ "bytemuck", "1.12.1" ],
         [ "byteorder", "1.4.3" ],
         [ "color_quant", "1.1.0" ],
@@ -66,7 +66,7 @@
     },
     "plotters-svg": {
       "0.3.3": [
-        [ "image", "0.24.3" ],
+        [ "image", "0.24.4" ],
         [ "plotters-backend", "0.3.4" ]
       ]
     },
@@ -135,8 +135,8 @@
       }
     },
     "image": {
-      "0.24.3": {
-        "hash": "7e30ca2ecf7666107ff827a8e481de6a132a9b687ed3bb20bb1c144a36c00964",
+      "0.24.4": {
+        "hash": "bd8e4fb07cf672b1642304e731ef8a6a4c7891d67bb4fd4f5ce58cd6ed86803c",
         "type": "crates-io"
       }
     },
