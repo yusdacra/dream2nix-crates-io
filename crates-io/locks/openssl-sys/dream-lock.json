@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "openssl-sys",
-    "invalidationHash": "d285dd0b5f5013586304afdd75c0e1c12602c538125ae55ff9f9cf78573e66a2",
+    "invalidationHash": "c3f55e17602b1b91342a5f98d708049e1f55eb1a5aa43fb9c9c39f2a120d56b7",
     "location": "",
     "packages": {
-      "openssl-sys": "0.9.75"
+      "openssl-sys": "0.9.76"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "openssl-sys": {
-        "0.9.75": {}
+        "0.9.76": {}
       }
     }
   },
@@ -115,9 +115,10 @@
       ]
     },
     "openssl-sys": {
-      "0.9.75": [
+      "0.9.76": [
         [ "autocfg", "1.1.0" ],
         [ "bindgen", "0.59.2" ],
+        [ "bssl-sys", "0.1.0" ],
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.133" ],
         [ "openssl-src", "111.22.0+1.1.1q" ],
@@ -205,6 +206,12 @@
     "bitflags": {
       "1.3.2": {
         "hash": "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a",
+        "type": "crates-io"
+      }
+    },
+    "bssl-sys": {
+      "0.1.0": {
+        "hash": "312d12393c060384f2e6ed14c7b4be37b3dd90249857485613c1a91b9a1abb5c",
         "type": "crates-io"
       }
     },
@@ -329,11 +336,11 @@
       }
     },
     "openssl-sys": {
-      "0.9.75": {
-        "hash": "sha256-5fm9DCcQVBo82nPW+axPGyQN5K4mEGXTCdvnPZ3OtC8=",
+      "0.9.76": {
+        "hash": "sha256-UjAVHkTA8FFX7/t0Po1RdHKEMSHPkkPouBOT7bWs2c4=",
         "pname": "openssl-sys",
         "type": "crates-io",
-        "version": "0.9.75"
+        "version": "0.9.76"
       }
     },
     "peeking_take_while": {

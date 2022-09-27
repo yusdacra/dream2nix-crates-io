@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "syn",
-    "invalidationHash": "4d8e62c0abcc99133c82232e5d1b6877ef6163afdf1acf793f9de7475bfe7ead",
+    "invalidationHash": "f3fde51b9b00d825e8bc8f9ba7b82dbf70e10335eff6ceb32cd452dc2a7705f7",
     "location": "",
     "packages": {
-      "syn": "1.0.100"
+      "syn": "1.0.101"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,34 +13,34 @@
     "gitSources": [],
     "relPathReplacements": {
       "syn": {
-        "1.0.100": {}
+        "1.0.101": {}
       }
     }
   },
   "cyclicDependencies": {
     "automod": {
       "1.0.4": [
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "openssl-macros": {
       "0.1.0": [
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "ref-cast-impl": {
       "1.0.9": [
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "wasm-bindgen-backend": {
       "0.2.83": [
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "wasm-bindgen-macro-support": {
       "0.2.83": [
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     }
   },
@@ -54,7 +54,7 @@
       "1.0.4": [
         [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "console": {
@@ -278,9 +278,9 @@
         [ "lazy_static", "1.4.0" ],
         [ "libc", "0.2.133" ],
         [ "log", "0.4.17" ],
-        [ "openssl", "0.10.41" ],
+        [ "openssl", "0.10.42" ],
         [ "openssl-probe", "0.1.5" ],
-        [ "openssl-sys", "0.9.75" ],
+        [ "openssl-sys", "0.9.76" ],
         [ "schannel", "0.1.20" ],
         [ "security-framework", "2.7.0" ],
         [ "security-framework-sys", "2.6.1" ],
@@ -294,25 +294,25 @@
       ]
     },
     "openssl": {
-      "0.10.41": [
+      "0.10.42": [
         [ "bitflags", "1.3.2" ],
         [ "cfg-if", "1.0.0" ],
         [ "foreign-types", "0.3.2" ],
         [ "libc", "0.2.133" ],
         [ "once_cell", "1.15.0" ],
         [ "openssl-macros", "0.1.0" ],
-        [ "openssl-sys", "0.9.75" ]
+        [ "openssl-sys", "0.9.76" ]
       ]
     },
     "openssl-macros": {
       "0.1.0": [
         [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "openssl-sys": {
-      "0.9.75": [
+      "0.9.76": [
         [ "autocfg", "1.1.0" ],
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.133" ],
@@ -360,7 +360,7 @@
       "1.0.9": [
         [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.100" ]
+        [ "syn", "1.0.101" ]
       ]
     },
     "regex": {
@@ -461,7 +461,7 @@
       ]
     },
     "syn": {
-      "1.0.100": [
+      "1.0.101": [
         [ "anyhow", "1.0.65" ],
         [ "automod", "1.0.4" ],
         [ "flate2", "1.0.24" ],
@@ -592,7 +592,7 @@
         [ "once_cell", "1.15.0" ],
         [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.100" ],
+        [ "syn", "1.0.101" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     },
@@ -614,7 +614,7 @@
       "0.2.83": [
         [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.100" ],
+        [ "syn", "1.0.101" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
@@ -1041,8 +1041,8 @@
       }
     },
     "openssl": {
-      "0.10.41": {
-        "hash": "618febf65336490dfcf20b73f885f5651a0c89c64c2d4a8c3662585a70bf5bd0",
+      "0.10.42": {
+        "hash": "12fc0523e3bd51a692c8850d075d74dc062ccf251c0110668cbd921917118a13",
         "type": "crates-io"
       }
     },
@@ -1059,8 +1059,8 @@
       }
     },
     "openssl-sys": {
-      "0.9.75": {
-        "hash": "e5f9bd0c2710541a3cda73d6f9ac4f1b240de4ae261065d309dbe73d9dceb42f",
+      "0.9.76": {
+        "hash": "5230151e44c0f05157effb743e8d517472843121cf9243e8b81393edb5acd9ce",
         "type": "crates-io"
       }
     },
@@ -1227,11 +1227,11 @@
       }
     },
     "syn": {
-      "1.0.100": {
-        "hash": "sha256-UiBWI7Gw8GSk5xGCw7GK6QImcoKTDG1UYskbhZZoQm4=",
+      "1.0.101": {
+        "hash": "sha256-6QzeESxLlpC4y+gQy6nd2LwddHLiyuMXtp6UOMHLp9I=",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.100"
+        "version": "1.0.101"
       }
     },
     "syn-test-suite": {
