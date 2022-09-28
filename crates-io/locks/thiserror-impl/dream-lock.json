@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "thiserror-impl",
-    "invalidationHash": "189136cfbd96175634e0cf6e4a9450fdeeb95ab36f9092c63899cbf9e06f141d",
+    "invalidationHash": "d505eba9e4cbdc9d2e238941db5fec1dd276a9c15d594aeeddb5343905c2118f",
     "location": "",
     "packages": {
-      "thiserror-impl": "1.0.36"
+      "thiserror-impl": "1.0.37"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "thiserror-impl": {
-        "1.0.36": {}
+        "1.0.37": {}
       }
     }
   },
@@ -37,7 +37,7 @@
       ]
     },
     "thiserror-impl": {
-      "1.0.36": [
+      "1.0.37": [
         [ "proc-macro2", "1.0.44" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
@@ -64,11 +64,11 @@
       }
     },
     "thiserror-impl": {
-      "1.0.36": {
-        "hash": "sha256-OokYYNPI1m/sjnPds3ZfkAgjdNuqqDNAe5BKlPGn60M=",
+      "1.0.37": {
+        "hash": "sha256-mC0XVGtHFGso98IuPQhGX2uJA9DqE8FmDZ2Epuetzbs=",
         "pname": "thiserror-impl",
         "type": "crates-io",
-        "version": "1.0.36"
+        "version": "1.0.37"
       }
     },
     "unicode-ident": {

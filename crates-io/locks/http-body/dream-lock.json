@@ -31,7 +31,7 @@
         [ "bytes", "1.2.1" ],
         [ "http", "0.2.8" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tokio", "1.21.1" ]
+        [ "tokio", "1.21.2" ]
       ]
     },
     "proc-macro2": {
@@ -52,9 +52,8 @@
       ]
     },
     "tokio": {
-      "1.21.1": [
+      "1.21.2": [
         [ "autocfg", "1.1.0" ],
-        [ "once_cell", "1.15.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio-macros", "1.8.0" ]
       ]
@@ -106,12 +105,6 @@
         "type": "crates-io"
       }
     },
-    "once_cell": {
-      "1.15.0": {
-        "hash": "e82dad04139b71a90c080c8463fe0dc7902db5192d939bd0950f074d014339e1",
-        "type": "crates-io"
-      }
-    },
     "pin-project-lite": {
       "0.2.9": {
         "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
@@ -137,8 +130,8 @@
       }
     },
     "tokio": {
-      "1.21.1": {
-        "hash": "0020c875007ad96677dcc890298f4b942882c5d4eb7cc8f439fc3bf813dc9c95",
+      "1.21.2": {
+        "hash": "a9e03c497dc955702ba729190dc4aac6f2a0ce97f913e5b1b5912fc5039d9099",
         "type": "crates-io"
       }
     },

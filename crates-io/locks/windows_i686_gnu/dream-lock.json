@@ -1,10 +1,10 @@
 {
   "_generic": {
-    "defaultPackage": "windows_i686_msvc",
-    "invalidationHash": "c6146da5e12ec9cc60bf7eafa0e2bba14dafc2b885dbc1aa2b893eb4acd61de3",
+    "defaultPackage": "windows_i686_gnu",
+    "invalidationHash": "6997be9a67482a8f1eb4c834c08a3a62cef68c1fb9f3c3a582f8cc6f058eed68",
     "location": "",
     "packages": {
-      "windows_i686_msvc": "0.42.0"
+      "windows_i686_gnu": "0.42.0"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -12,7 +12,7 @@
   "_subsystem": {
     "gitSources": [],
     "relPathReplacements": {
-      "windows_i686_msvc": {
+      "windows_i686_gnu": {
         "0.42.0": {}
       }
     }
@@ -20,10 +20,10 @@
   "cyclicDependencies": {},
   "dependencies": {},
   "sources": {
-    "windows_i686_msvc": {
+    "windows_i686_gnu": {
       "0.42.0": {
-        "hash": "sha256-hMEvZdqjndK6vm5EKYj8Mp1iQ/3OR9fS0VW42HSGIkY=",
-        "pname": "windows_i686_msvc",
+        "hash": "sha256-++rhn2cWhBY2wo1pU3XfF1Ysogiyt9DcR2NaUK5sXec=",
+        "pname": "windows_i686_gnu",
         "type": "crates-io",
         "version": "0.42.0"
       }
