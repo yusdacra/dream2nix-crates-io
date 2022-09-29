@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "proc-macro2",
-    "invalidationHash": "a175f13e6c6cdc15e3376801d885cd629a852e7b64cd7b730ceb13c48b947c64",
+    "invalidationHash": "2fc80fcfe408d9fd2bc042b1fdfc79daef9637231e240c808893afc468e14122",
     "location": "",
     "packages": {
-      "proc-macro2": "1.0.44"
+      "proc-macro2": "1.0.46"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,37 +13,37 @@
     "gitSources": [],
     "relPathReplacements": {
       "proc-macro2": {
-        "1.0.44": {}
+        "1.0.46": {}
       }
     }
   },
   "cyclicDependencies": {
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     }
   },
   "dependencies": {
     "proc-macro2": {
-      "1.0.44": [
+      "1.0.46": [
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     }
   },
   "sources": {
     "proc-macro2": {
-      "1.0.44": {
-        "hash": "sha256-e9c1aoEitsSiSoKyeGgMczV5hMovx5oPn6bep9ztfFg=",
+      "1.0.46": {
+        "hash": "sha256-lOLvjb/DR7EMCUiQ93juLjbKm7QmLobcmc0hfjXzRws=",
         "pname": "proc-macro2",
         "type": "crates-io",
-        "version": "1.0.44"
+        "version": "1.0.46"
       }
     },
     "quote": {

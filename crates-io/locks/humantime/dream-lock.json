@@ -83,13 +83,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.44": [
+      "1.0.46": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     },
     "rand": {
@@ -163,7 +163,7 @@
     },
     "syn": {
       "1.0.101": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -186,7 +186,7 @@
         [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.15.0" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
@@ -200,7 +200,7 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.83": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
@@ -324,8 +324,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.44": {
-        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
+      "1.0.46": {
+        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "clap_derive",
-    "invalidationHash": "4a3bc114c659060d6612cb60aee0c8eae34a59c406d3317135b8a8bbc47e6a4c",
+    "invalidationHash": "21d451ef7a4a4471fca3a7a897600a73925e9876724d003b5c4a0222bf914fb0",
     "location": "",
     "packages": {
-      "clap_derive": "3.2.18"
+      "clap_derive": "4.0.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,17 +13,17 @@
     "gitSources": [],
     "relPathReplacements": {
       "clap_derive": {
-        "3.2.18": {}
+        "4.0.1": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "clap_derive": {
-      "3.2.18": [
+      "4.0.1": [
         [ "heck", "0.4.0" ],
         [ "proc-macro-error", "1.0.4" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
@@ -31,7 +31,7 @@
     "proc-macro-error": {
       "1.0.4": [
         [ "proc-macro-error-attr", "1.0.4" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ],
         [ "version_check", "0.9.4" ]
@@ -39,24 +39,24 @@
     },
     "proc-macro-error-attr": {
       "1.0.4": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "version_check", "0.9.4" ]
       ]
     },
     "proc-macro2": {
-      "1.0.44": [
+      "1.0.46": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     },
     "syn": {
       "1.0.101": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -64,11 +64,11 @@
   },
   "sources": {
     "clap_derive": {
-      "3.2.18": {
-        "hash": "sha256-6gyLzlKMS+TaE+pv6tiWXpW2BzWFovBSBL2PQRn4KmU=",
+      "4.0.1": {
+        "hash": "sha256-ymiddDTORFF6EqiUVrK+TR6hyvzY9YGXjAPUX1pcEqc=",
         "pname": "clap_derive",
         "type": "crates-io",
-        "version": "3.2.18"
+        "version": "4.0.1"
       }
     },
     "heck": {
@@ -90,8 +90,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.44": {
-        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
+      "1.0.46": {
+        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
         "type": "crates-io"
       }
     },

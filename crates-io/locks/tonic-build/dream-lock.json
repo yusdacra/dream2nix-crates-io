@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tonic-build",
-    "invalidationHash": "92ed6a71223db9f29a92999c507113457aef699592f9d4aa8b11f534aaa8e3eb",
+    "invalidationHash": "54b5ce157c510a4c83f1ce6ed21fe2c6e80fcfedd74907ee43cd6b352fcc8d2e",
     "location": "",
     "packages": {
-      "tonic-build": "0.8.0"
+      "tonic-build": "0.8.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "tonic-build": {
-        "0.8.0": {}
+        "0.8.2": {}
       }
     }
   },
@@ -53,12 +53,12 @@
     },
     "prettyplease": {
       "0.1.19": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "syn", "1.0.101" ]
       ]
     },
     "proc-macro2": {
-      "1.0.44": [
+      "1.0.46": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
@@ -79,6 +79,8 @@
         [ "petgraph", "0.6.2" ],
         [ "prost", "0.11.0" ],
         [ "prost-types", "0.11.1" ],
+        [ "pulldown-cmark", "0.9.2" ],
+        [ "pulldown-cmark-to-cmark", "10.0.4" ],
         [ "regex", "1.6.0" ],
         [ "tempfile", "3.3.0" ],
         [ "which", "4.3.0" ]
@@ -88,7 +90,7 @@
       "0.11.0": [
         [ "anyhow", "1.0.65" ],
         [ "itertools", "0.10.5" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
@@ -99,9 +101,21 @@
         [ "prost", "0.11.0" ]
       ]
     },
+    "pulldown-cmark": {
+      "0.9.2": [
+        [ "bitflags", "1.3.2" ],
+        [ "memchr", "2.5.0" ],
+        [ "unicase", "2.6.0" ]
+      ]
+    },
+    "pulldown-cmark-to-cmark": {
+      "10.0.4": [
+        [ "pulldown-cmark", "0.9.2" ]
+      ]
+    },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     },
     "redox_syscall": {
@@ -121,7 +135,7 @@
     },
     "syn": {
       "1.0.101": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -137,12 +151,17 @@
       ]
     },
     "tonic-build": {
-      "0.8.0": [
+      "0.8.2": [
         [ "prettyplease", "0.1.19" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "prost-build", "0.11.1" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
+      ]
+    },
+    "unicase": {
+      "2.6.0": [
+        [ "version_check", "0.9.4" ]
       ]
     },
     "which": {
@@ -256,6 +275,12 @@
         "type": "crates-io"
       }
     },
+    "memchr": {
+      "2.5.0": {
+        "hash": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+        "type": "crates-io"
+      }
+    },
     "multimap": {
       "0.8.3": {
         "hash": "e5ce46fe64a9d73be07dcbe690a38ce1b293be448fd8ce1e6c1b8062c9f72c6a",
@@ -281,8 +306,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.44": {
-        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
+      "1.0.46": {
+        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
         "type": "crates-io"
       }
     },
@@ -307,6 +332,18 @@
     "prost-types": {
       "0.11.1": {
         "hash": "4dfaa718ad76a44b3415e6c4d53b17c8f99160dcb3a99b10470fce8ad43f6e3e",
+        "type": "crates-io"
+      }
+    },
+    "pulldown-cmark": {
+      "0.9.2": {
+        "hash": "2d9cc634bc78768157b5cbfe988ffcd1dcba95cd2b2f03a88316c08c6d00ed63",
+        "type": "crates-io"
+      }
+    },
+    "pulldown-cmark-to-cmark": {
+      "10.0.4": {
+        "hash": "0194e6e1966c23cc5fd988714f85b18d548d773e81965413555d96569931833d",
         "type": "crates-io"
       }
     },
@@ -353,16 +390,28 @@
       }
     },
     "tonic-build": {
-      "0.8.0": {
-        "hash": "sha256-L7zSgA4050O5rnlYZ9X3e1NdOjvmn9cx45FFcZdS34w=",
+      "0.8.2": {
+        "hash": "sha256-SMb9fCWB421jOIqeBMNQwhvreosFlYCy6TmTxSaJndw=",
         "pname": "tonic-build",
         "type": "crates-io",
-        "version": "0.8.0"
+        "version": "0.8.2"
+      }
+    },
+    "unicase": {
+      "2.6.0": {
+        "hash": "50f37be617794602aabbeee0be4f259dc1778fabe05e2d67ee8f79326d5cb4f6",
+        "type": "crates-io"
       }
     },
     "unicode-ident": {
       "1.0.4": {
         "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
+        "type": "crates-io"
+      }
+    },
+    "version_check": {
+      "0.9.4": {
+        "hash": "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f",
         "type": "crates-io"
       }
     },

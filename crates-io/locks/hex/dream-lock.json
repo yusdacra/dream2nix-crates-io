@@ -77,30 +77,28 @@
     "crossbeam-channel": {
       "0.5.6": [
         [ "cfg-if", "1.0.0" ],
-        [ "crossbeam-utils", "0.8.11" ]
+        [ "crossbeam-utils", "0.8.12" ]
       ]
     },
     "crossbeam-deque": {
       "0.8.2": [
         [ "cfg-if", "1.0.0" ],
-        [ "crossbeam-epoch", "0.9.10" ],
-        [ "crossbeam-utils", "0.8.11" ]
+        [ "crossbeam-epoch", "0.9.11" ],
+        [ "crossbeam-utils", "0.8.12" ]
       ]
     },
     "crossbeam-epoch": {
-      "0.9.10": [
+      "0.9.11": [
         [ "autocfg", "1.1.0" ],
         [ "cfg-if", "1.0.0" ],
-        [ "crossbeam-utils", "0.8.11" ],
+        [ "crossbeam-utils", "0.8.12" ],
         [ "memoffset", "0.6.5" ],
-        [ "once_cell", "1.15.0" ],
         [ "scopeguard", "1.1.0" ]
       ]
     },
     "crossbeam-utils": {
-      "0.8.11": [
-        [ "cfg-if", "1.0.0" ],
-        [ "once_cell", "1.15.0" ]
+      "0.8.12": [
+        [ "cfg-if", "1.0.0" ]
       ]
     },
     "csv": {
@@ -209,7 +207,7 @@
       ]
     },
     "proc-macro2": {
-      "1.0.44": [
+      "1.0.46": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
@@ -222,7 +220,7 @@
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     },
     "rayon": {
@@ -237,7 +235,7 @@
       "1.9.3": [
         [ "crossbeam-channel", "0.5.6" ],
         [ "crossbeam-deque", "0.8.2" ],
-        [ "crossbeam-utils", "0.8.11" ],
+        [ "crossbeam-utils", "0.8.12" ],
         [ "num_cpus", "1.13.1" ]
       ]
     },
@@ -264,7 +262,7 @@
     },
     "serde_derive": {
       "1.0.145": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
@@ -278,7 +276,7 @@
     },
     "syn": {
       "1.0.101": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -323,7 +321,7 @@
     },
     "version-sync": {
       "0.9.4": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "pulldown-cmark", "0.8.0" ],
         [ "regex", "1.6.0" ],
         [ "semver", "1.0.14" ],
@@ -350,7 +348,7 @@
         [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.15.0" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
@@ -364,7 +362,7 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.83": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
@@ -469,14 +467,14 @@
       }
     },
     "crossbeam-epoch": {
-      "0.9.10": {
-        "hash": "045ebe27666471bb549370b4b0b3e51b07f56325befa4284db65fc89c02511b1",
+      "0.9.11": {
+        "hash": "f916dfc5d356b0ed9dae65f1db9fc9770aa2851d2662b988ccf4fe3516e86348",
         "type": "crates-io"
       }
     },
     "crossbeam-utils": {
-      "0.8.11": {
-        "hash": "51887d4adc7b564537b15adcfb307936f8075dfcd5f00dde9a9f1d29383682bc",
+      "0.8.12": {
+        "hash": "edbafec5fa1f196ca66527c1b12c2ec4745ca14b50f1ad8f9f6f720b55d11fac",
         "type": "crates-io"
       }
     },
@@ -661,8 +659,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.44": {
-        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
+      "1.0.46": {
+        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
         "type": "crates-io"
       }
     },

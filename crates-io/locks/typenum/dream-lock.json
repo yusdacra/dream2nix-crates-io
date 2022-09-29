@@ -21,14 +21,14 @@
   "dependencies": {
     "derive_more": {
       "0.99.17": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
     },
     "impl-trait-for-tuples": {
       "0.2.2": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
@@ -44,7 +44,7 @@
     "parity-scale-codec-derive": {
       "2.3.1": [
         [ "proc-macro-crate", "1.2.1" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
@@ -57,13 +57,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.44": [
+      "1.0.46": [
         [ "unicode-ident", "1.0.4" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.44" ]
+        [ "proc-macro2", "1.0.46" ]
       ]
     },
     "scale-info": {
@@ -77,14 +77,14 @@
     "scale-info-derive": {
       "1.0.0": [
         [ "proc-macro-crate", "1.2.1" ],
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
     },
     "syn": {
       "1.0.101": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
       ]
@@ -96,7 +96,7 @@
     },
     "thiserror-impl": {
       "1.0.37": [
-        [ "proc-macro2", "1.0.44" ],
+        [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.101" ]
       ]
@@ -168,8 +168,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.44": {
-        "hash": "7bd7356a8122b6c4a24a82b278680c73357984ca2fc79a0f9fa6dea7dced7c58",
+      "1.0.46": {
+        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
         "type": "crates-io"
       }
     },
