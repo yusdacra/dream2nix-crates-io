@@ -23,7 +23,7 @@
       "0.1.37": [
         [ "cc", "1.0.73" ],
         [ "compiler_builtins", "0.1.81" ],
-        [ "libc", "0.2.133" ],
+        [ "libc", "0.2.134" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     }
@@ -50,8 +50,8 @@
       }
     },
     "libc": {
-      "0.2.133": {
-        "hash": "c0f80d65747a3e43d1596c7c5492d95d5edddaabd45a7fcdb02b95f644164966",
+      "0.2.134": {
+        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
         "type": "crates-io"
       }
     },

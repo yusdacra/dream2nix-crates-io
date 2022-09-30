@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "ctr",
-    "invalidationHash": "baff84423cb9a331b0c3b9749d24dae2e648ce6ce1b03ab12396dcf2c49847b4",
+    "invalidationHash": "f2eff38be654562fba37a4eef969f88db71664f723ab87a6063b4b3960f84e3b",
     "location": "",
     "packages": {
-      "ctr": "0.9.1"
+      "ctr": "0.9.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "ctr": {
-        "0.9.1": {}
+        "0.9.2": {}
       }
     }
   },
@@ -41,7 +41,7 @@
     },
     "cpufeatures": {
       "0.2.5": [
-        [ "libc", "0.2.133" ]
+        [ "libc", "0.2.134" ]
       ]
     },
     "crypto-common": {
@@ -51,7 +51,7 @@
       ]
     },
     "ctr": {
-      "0.9.1": [
+      "0.9.2": [
         [ "aes", "0.8.1" ],
         [ "cipher", "0.4.3" ],
         [ "hex-literal", "0.3.4" ],
@@ -126,11 +126,11 @@
       }
     },
     "ctr": {
-      "0.9.1": {
-        "hash": "sha256-DRTzKc+69dDga16H//fiZdJnPF6n0sJ2kaLBB9sUQqA=",
+      "0.9.2": {
+        "hash": "sha256-A2nuGtZxg0WAUViJuA8uqRXyO4vo0Nqku68qxcdZCDU=",
         "pname": "ctr",
         "type": "crates-io",
-        "version": "0.9.1"
+        "version": "0.9.2"
       }
     },
     "generic-array": {
@@ -158,8 +158,8 @@
       }
     },
     "libc": {
-      "0.2.133": {
-        "hash": "c0f80d65747a3e43d1596c7c5492d95d5edddaabd45a7fcdb02b95f644164966",
+      "0.2.134": {
+        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
         "type": "crates-io"
       }
     },
