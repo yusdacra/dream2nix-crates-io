@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "lru",
-    "invalidationHash": "65719f08081cda056c84f57650de0a0e58218bac6aeb59b712f4e41fdb0d2c7b",
+    "invalidationHash": "ab99a9005aa60eea8f4173ced6f31415465dec5a2d5d3bdd9b33eac763168360",
     "location": "",
     "packages": {
-      "lru": "0.8.0"
+      "lru": "0.8.1"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "lru": {
-        "0.8.0": {}
+        "0.8.1": {}
       }
     }
   },
@@ -39,7 +39,7 @@
       ]
     },
     "lru": {
-      "0.8.0": [
+      "0.8.1": [
         [ "hashbrown", "0.12.3" ],
         [ "scoped_threadpool", "0.1.9" ],
         [ "stats_alloc", "0.1.10" ]
@@ -78,11 +78,11 @@
       }
     },
     "lru": {
-      "0.8.0": {
-        "hash": "sha256-k22Y0t3XnBhkHGcJ57sJmBRJaU5ALRoPD2V+qNYfSlE=",
+      "0.8.1": {
+        "hash": "sha256-tuiqo/Ixu0vVe4Sy1dw65/NQJl34qpZJLgvDlKFXGQk=",
         "pname": "lru",
         "type": "crates-io",
-        "version": "0.8.0"
+        "version": "0.8.1"
       }
     },
     "once_cell": {
