@@ -84,7 +84,7 @@
         [ "instant", "0.1.12" ],
         [ "libc", "0.2.134" ],
         [ "redox_syscall", "0.2.16" ],
-        [ "smallvec", "1.9.0" ],
+        [ "smallvec", "1.10.0" ],
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -360,8 +360,8 @@
       }
     },
     "smallvec": {
-      "1.9.0": {
-        "hash": "2fd0db749597d91ff862fd1d55ea87f7855a744a8425a64695b6fca237d1dad1",
+      "1.10.0": {
+        "hash": "a507befe795404456341dfab10cef66ead4c041f62b8b11bbb92bffe5d0953e0",
         "type": "crates-io"
       }
     },
