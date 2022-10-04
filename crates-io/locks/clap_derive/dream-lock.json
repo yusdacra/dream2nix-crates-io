@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "clap_derive",
-    "invalidationHash": "769ceeea0fac55da398172f2e09b987a39c85efcc1434e9b058c097047c0d3a9",
+    "invalidationHash": "f666ac8ad3cccce06331cd0a62b0f979fbb81c6f4811df9437f6b0925e94513d",
     "location": "",
     "packages": {
-      "clap_derive": "4.0.8"
+      "clap_derive": "4.0.9"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "clap_derive": {
-        "4.0.8": {}
+        "4.0.9": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "clap_derive": {
-      "4.0.8": [
+      "4.0.9": [
         [ "heck", "0.4.0" ],
         [ "proc-macro-error", "1.0.4" ],
         [ "proc-macro2", "1.0.46" ],
@@ -64,11 +64,11 @@
   },
   "sources": {
     "clap_derive": {
-      "4.0.8": {
-        "hash": "sha256-kiif/G+0qF2FwkbduHTAWoei5UD7atUvfKB8jB4YQLE=",
+      "4.0.9": {
+        "hash": "sha256-pKMHSS4aNJOfedO2uWUL0rlxUTzXdUNr8reN7+ta8As=",
         "pname": "clap_derive",
         "type": "crates-io",
-        "version": "4.0.8"
+        "version": "4.0.9"
       }
     },
     "heck": {

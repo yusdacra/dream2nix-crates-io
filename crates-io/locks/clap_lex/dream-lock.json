@@ -1,0 +1,44 @@
+{
+  "_generic": {
+    "defaultPackage": "clap_lex",
+    "invalidationHash": "1d228a355beffe59fb7ae27b33b906b6a2ebe78ccf53b9ccdb39178e4d5f7f1e",
+    "location": "",
+    "packages": {
+      "clap_lex": "0.3.0"
+    },
+    "sourcesAggregatedHash": null,
+    "subsystem": "rust"
+  },
+  "_subsystem": {
+    "gitSources": [],
+    "relPathReplacements": {
+      "clap_lex": {
+        "0.3.0": {}
+      }
+    }
+  },
+  "cyclicDependencies": {},
+  "dependencies": {
+    "clap_lex": {
+      "0.3.0": [
+        [ "os_str_bytes", "6.3.0" ]
+      ]
+    }
+  },
+  "sources": {
+    "clap_lex": {
+      "0.3.0": {
+        "hash": "sha256-DUGY9z5CtJNrNbW7JI2B0rWV7LFw2gusdlXFTu36jag=",
+        "pname": "clap_lex",
+        "type": "crates-io",
+        "version": "0.3.0"
+      }
+    },
+    "os_str_bytes": {
+      "6.3.0": {
+        "hash": "9ff7415e9ae3fff1225851df9e0d9e4e5479f947619774677a63572e55e80eff",
+        "type": "crates-io"
+      }
+    }
+  }
+}
