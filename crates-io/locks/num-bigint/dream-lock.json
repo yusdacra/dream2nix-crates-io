@@ -28,7 +28,7 @@
     },
     "num-bigint": {
       "0.4.3": [
-        [ "arbitrary", "1.1.6" ],
+        [ "arbitrary", "1.1.7" ],
         [ "autocfg", "1.1.0" ],
         [ "num-integer", "0.1.45" ],
         [ "num-traits", "0.2.15" ],
@@ -66,8 +66,8 @@
   },
   "sources": {
     "arbitrary": {
-      "1.1.6": {
-        "hash": "f44124848854b941eafdb34f05b3bcf59472f643c7e151eba7c2b69daa469ed5",
+      "1.1.7": {
+        "hash": "d86fd10d912cab78764cc44307d9cd5f164e09abbeb87fb19fb6d95937e8da5f",
         "type": "crates-io"
       }
     },
