@@ -19,17 +19,12 @@
   },
   "cyclicDependencies": {
     "tracing-subscriber": {
-      "0.3.15": [
+      "0.3.16": [
         [ "sharded-slab", "0.1.4" ]
       ]
     }
   },
   "dependencies": {
-    "ansi_term": {
-      "0.12.1": [
-        [ "winapi", "0.3.9" ]
-      ]
-    },
     "atty": {
       "0.2.14": [
         [ "hermit-abi", "0.1.19" ],
@@ -179,8 +174,8 @@
         [ "scoped-tls", "1.0.0" ],
         [ "serde", "1.0.145" ],
         [ "serde_json", "1.0.85" ],
-        [ "tracing", "0.1.36" ],
-        [ "tracing-subscriber", "0.3.15" ]
+        [ "tracing", "0.1.37" ],
+        [ "tracing-subscriber", "0.3.16" ]
       ]
     },
     "matchers": {
@@ -191,6 +186,12 @@
     "memoffset": {
       "0.6.5": [
         [ "autocfg", "1.1.0" ]
+      ]
+    },
+    "nu-ansi-term": {
+      "0.46.0": [
+        [ "overload", "0.1.1" ],
+        [ "winapi", "0.3.9" ]
       ]
     },
     "num-traits": {
@@ -331,12 +332,12 @@
       "1.0.145": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "serde_json": {
       "1.0.85": [
-        [ "itoa", "1.0.3" ],
+        [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.145" ]
       ]
@@ -356,7 +357,7 @@
       ]
     },
     "syn": {
-      "1.0.101": [
+      "1.0.102": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
@@ -389,22 +390,22 @@
       ]
     },
     "tracing": {
-      "0.1.36": [
+      "0.1.37": [
         [ "cfg-if", "1.0.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-attributes", "0.1.22" ],
-        [ "tracing-core", "0.1.29" ]
+        [ "tracing-attributes", "0.1.23" ],
+        [ "tracing-core", "0.1.30" ]
       ]
     },
     "tracing-attributes": {
-      "0.1.22": [
+      "0.1.23": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "tracing-core": {
-      "0.1.29": [
+      "0.1.30": [
         [ "once_cell", "1.15.0" ],
         [ "valuable", "0.1.0" ]
       ]
@@ -413,20 +414,20 @@
       "0.1.3": [
         [ "lazy_static", "1.4.0" ],
         [ "log", "0.4.17" ],
-        [ "tracing-core", "0.1.29" ]
+        [ "tracing-core", "0.1.30" ]
       ]
     },
     "tracing-subscriber": {
-      "0.3.15": [
-        [ "ansi_term", "0.12.1" ],
+      "0.3.16": [
         [ "matchers", "0.1.0" ],
+        [ "nu-ansi-term", "0.46.0" ],
         [ "once_cell", "1.15.0" ],
         [ "regex", "1.6.0" ],
         [ "sharded-slab", "0.1.4" ],
         [ "smallvec", "1.10.0" ],
         [ "thread_local", "1.1.4" ],
-        [ "tracing", "0.1.36" ],
-        [ "tracing-core", "0.1.29" ],
+        [ "tracing", "0.1.37" ],
+        [ "tracing-core", "0.1.30" ],
         [ "tracing-log", "0.1.3" ]
       ]
     },
@@ -455,7 +456,7 @@
         [ "once_cell", "1.15.0" ],
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ],
+        [ "syn", "1.0.102" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     },
@@ -469,7 +470,7 @@
       "0.2.83": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ],
+        [ "syn", "1.0.102" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
@@ -502,12 +503,6 @@
     }
   },
   "sources": {
-    "ansi_term": {
-      "0.12.1": {
-        "hash": "d52a9bb7ec0cf484c551830a7ce27bd20d67eac647e1befb56b0be4ee39a55d2",
-        "type": "crates-io"
-      }
-    },
     "atty": {
       "0.2.14": {
         "hash": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
@@ -687,8 +682,8 @@
         "hash": "b71991ff56294aa922b450139ee08b3bfc70982c6b2c7562771375cf73542dd4",
         "type": "crates-io"
       },
-      "1.0.3": {
-        "hash": "6c8af84674fe1f223a982c933a0ee1086ac4d4052aa0fb8060c12c6ad838e754",
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
         "type": "crates-io"
       }
     },
@@ -740,6 +735,12 @@
         "type": "crates-io"
       }
     },
+    "nu-ansi-term": {
+      "0.46.0": {
+        "hash": "77a8165726e8236064dbb45459242600304b42a5ea24ee2948e18e023bf7ba84",
+        "type": "crates-io"
+      }
+    },
     "num-traits": {
       "0.2.15": {
         "hash": "578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd",
@@ -761,6 +762,12 @@
     "oorandom": {
       "11.1.3": {
         "hash": "0ab1bc2a289d34bd04a330323ac98a1b4bc82c9d9fcb1e66b63caa84da26b575",
+        "type": "crates-io"
+      }
+    },
+    "overload": {
+      "0.1.1": {
+        "hash": "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39",
         "type": "crates-io"
       }
     },
@@ -969,8 +976,8 @@
       }
     },
     "syn": {
-      "1.0.101": {
-        "hash": "e90cde112c4b9690b8cbe810cba9ddd8bc1d7472e2cae317b69e9438c1cba7d2",
+      "1.0.102": {
+        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
         "type": "crates-io"
       }
     },
@@ -999,20 +1006,20 @@
       }
     },
     "tracing": {
-      "0.1.36": {
-        "hash": "2fce9567bd60a67d08a16488756721ba392f24f29006402881e43b19aac64307",
+      "0.1.37": {
+        "hash": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
         "type": "crates-io"
       }
     },
     "tracing-attributes": {
-      "0.1.22": {
-        "hash": "11c75893af559bc8e10716548bdef5cb2b983f8e637db9d0e15126b61b484ee2",
+      "0.1.23": {
+        "hash": "4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a",
         "type": "crates-io"
       }
     },
     "tracing-core": {
-      "0.1.29": {
-        "hash": "5aeea4303076558a00714b823f9ad67d58a3bbda1df83d8827d21193156e22f7",
+      "0.1.30": {
+        "hash": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a",
         "type": "crates-io"
       }
     },
@@ -1023,8 +1030,8 @@
       }
     },
     "tracing-subscriber": {
-      "0.3.15": {
-        "hash": "60db860322da191b40952ad9affe65ea23e7dd6a5c442c2c42865810c6ab8e6b",
+      "0.3.16": {
+        "hash": "a6176eae26dd70d0c919749377897b54a9276bd7061339665dd68777926b5a70",
         "type": "crates-io"
       }
     },

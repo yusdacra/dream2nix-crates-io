@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "syn",
-    "invalidationHash": "f3fde51b9b00d825e8bc8f9ba7b82dbf70e10335eff6ceb32cd452dc2a7705f7",
+    "invalidationHash": "5a35244c22dbd40d97f3972c645178673ce461ed5f8191abc11d4f126c9daa5c",
     "location": "",
     "packages": {
-      "syn": "1.0.101"
+      "syn": "1.0.102"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,34 +13,34 @@
     "gitSources": [],
     "relPathReplacements": {
       "syn": {
-        "1.0.101": {}
+        "1.0.102": {}
       }
     }
   },
   "cyclicDependencies": {
     "automod": {
       "1.0.4": [
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "openssl-macros": {
       "0.1.0": [
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "ref-cast-impl": {
       "1.0.9": [
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "wasm-bindgen-backend": {
       "0.2.83": [
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "wasm-bindgen-macro-support": {
       "0.2.83": [
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     }
   },
@@ -54,7 +54,7 @@
       "1.0.4": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "console": {
@@ -166,7 +166,7 @@
         [ "slab", "0.4.7" ],
         [ "tokio", "1.21.2" ],
         [ "tokio-util", "0.7.4" ],
-        [ "tracing", "0.1.36" ]
+        [ "tracing", "0.1.37" ]
       ]
     },
     "hermit-abi": {
@@ -178,7 +178,7 @@
       "0.2.8": [
         [ "bytes", "1.2.1" ],
         [ "fnv", "1.0.7" ],
-        [ "itoa", "1.0.3" ]
+        [ "itoa", "1.0.4" ]
       ]
     },
     "http-body": {
@@ -199,12 +199,12 @@
         [ "http-body", "0.4.5" ],
         [ "httparse", "1.8.0" ],
         [ "httpdate", "1.0.2" ],
-        [ "itoa", "1.0.3" ],
+        [ "itoa", "1.0.4" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "socket2", "0.4.7" ],
         [ "tokio", "1.21.2" ],
         [ "tower-service", "0.3.2" ],
-        [ "tracing", "0.1.36" ],
+        [ "tracing", "0.1.37" ],
         [ "want", "0.3.0" ]
       ]
     },
@@ -306,7 +306,7 @@
       "0.1.0": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "openssl-sys": {
@@ -358,7 +358,7 @@
       "1.0.9": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "regex": {
@@ -434,7 +434,7 @@
     },
     "serde_json": {
       "1.0.85": [
-        [ "itoa", "1.0.3" ],
+        [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.145" ]
       ]
@@ -442,7 +442,7 @@
     "serde_urlencoded": {
       "0.7.1": [
         [ "form_urlencoded", "1.1.0" ],
-        [ "itoa", "1.0.3" ],
+        [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.145" ]
       ]
@@ -459,7 +459,7 @@
       ]
     },
     "syn": {
-      "1.0.101": [
+      "1.0.102": [
         [ "anyhow", "1.0.65" ],
         [ "automod", "1.0.4" ],
         [ "flate2", "1.0.24" ],
@@ -536,18 +536,18 @@
         [ "futures-sink", "0.3.24" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio", "1.21.2" ],
-        [ "tracing", "0.1.36" ]
+        [ "tracing", "0.1.37" ]
       ]
     },
     "tracing": {
-      "0.1.36": [
+      "0.1.37": [
         [ "cfg-if", "1.0.0" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-core", "0.1.29" ]
+        [ "tracing-core", "0.1.30" ]
       ]
     },
     "tracing-core": {
-      "0.1.29": [
+      "0.1.30": [
         [ "once_cell", "1.15.0" ]
       ]
     },
@@ -589,7 +589,7 @@
         [ "once_cell", "1.15.0" ],
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ],
+        [ "syn", "1.0.102" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
     },
@@ -611,7 +611,7 @@
       "0.2.83": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ],
+        [ "syn", "1.0.102" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
       ]
@@ -954,8 +954,8 @@
       }
     },
     "itoa": {
-      "1.0.3": {
-        "hash": "6c8af84674fe1f223a982c933a0ee1086ac4d4052aa0fb8060c12c6ad838e754",
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
         "type": "crates-io"
       }
     },
@@ -1224,11 +1224,11 @@
       }
     },
     "syn": {
-      "1.0.101": {
-        "hash": "sha256-6QzeESxLlpC4y+gQy6nd2LwddHLiyuMXtp6UOMHLp9I=",
+      "1.0.102": {
+        "hash": "sha256-P82VL6zUkvm+PvDQtwMqbkQu6bNh1KzCsdDEqqX2E6E=",
         "pname": "syn",
         "type": "crates-io",
-        "version": "1.0.101"
+        "version": "1.0.102"
       }
     },
     "syn-test-suite": {
@@ -1298,14 +1298,14 @@
       }
     },
     "tracing": {
-      "0.1.36": {
-        "hash": "2fce9567bd60a67d08a16488756721ba392f24f29006402881e43b19aac64307",
+      "0.1.37": {
+        "hash": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
         "type": "crates-io"
       }
     },
     "tracing-core": {
-      "0.1.29": {
-        "hash": "5aeea4303076558a00714b823f9ad67d58a3bbda1df83d8827d21193156e22f7",
+      "0.1.30": {
+        "hash": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a",
         "type": "crates-io"
       }
     },

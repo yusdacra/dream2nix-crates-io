@@ -165,7 +165,7 @@
     },
     "time": {
       "0.3.15": [
-        [ "itoa", "1.0.3" ],
+        [ "itoa", "1.0.4" ],
         [ "libc", "0.2.134" ],
         [ "num_threads", "0.1.6" ],
         [ "time-macros", "0.2.4" ]
@@ -290,8 +290,8 @@
       }
     },
     "itoa": {
-      "1.0.3": {
-        "hash": "6c8af84674fe1f223a982c933a0ee1086ac4d4052aa0fb8060c12c6ad838e754",
+      "1.0.4": {
+        "hash": "4217ad341ebadf8d8e724e264f13e593e0648f5b3e94b3896a5df283be015ecc",
         "type": "crates-io"
       }
     },

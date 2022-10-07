@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "signature",
-    "invalidationHash": "e29ff7aecb56a015fd4e6b987abb0bfc8270129686134565158b42d92e793334",
+    "invalidationHash": "2d386e6f5d3aa2a254016864a770ed95aff52162214528d9ea84bba9f493f94b",
     "location": "",
     "packages": {
-      "signature": "1.6.3"
+      "signature": "1.6.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "signature": {
-        "1.6.3": {}
+        "1.6.4": {}
       }
     }
   },
@@ -65,7 +65,7 @@
       ]
     },
     "signature": {
-      "1.6.3": [
+      "1.6.4": [
         [ "digest", "0.10.5" ],
         [ "hex-literal", "0.3.4" ],
         [ "rand_core", "0.6.4" ],
@@ -77,11 +77,11 @@
       "1.0.0-pre.7": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "syn": {
-      "1.0.101": [
+      "1.0.102": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
@@ -162,11 +162,11 @@
       }
     },
     "signature": {
-      "1.6.3": {
-        "hash": "sha256-3rdmVwooJfqXK87/DRlXJ4dqnN8kYKsuUtRV3C3kf9k=",
+      "1.6.4": {
+        "hash": "sha256-dCM9OzsvbUsAbcGd7nRec+Kmv7b5NgfNOwK9WwB5fXw=",
         "pname": "signature",
         "type": "crates-io",
-        "version": "1.6.3"
+        "version": "1.6.4"
       }
     },
     "signature_derive": {
@@ -176,8 +176,8 @@
       }
     },
     "syn": {
-      "1.0.101": {
-        "hash": "e90cde112c4b9690b8cbe810cba9ddd8bc1d7472e2cae317b69e9438c1cba7d2",
+      "1.0.102": {
+        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
         "type": "crates-io"
       }
     },

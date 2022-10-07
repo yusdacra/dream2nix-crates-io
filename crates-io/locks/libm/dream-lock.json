@@ -31,15 +31,15 @@
     },
     "libm": {
       "0.2.5": [
-        [ "no-panic", "0.1.15" ],
+        [ "no-panic", "0.1.16" ],
         [ "rand", "0.6.5" ]
       ]
     },
     "no-panic": {
-      "0.1.15": [
+      "0.1.16": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "syn", "1.0.101" ]
+        [ "syn", "1.0.102" ]
       ]
     },
     "proc-macro2": {
@@ -122,7 +122,7 @@
       ]
     },
     "syn": {
-      "1.0.101": [
+      "1.0.102": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.4" ]
@@ -179,8 +179,8 @@
       }
     },
     "no-panic": {
-      "0.1.15": {
-        "hash": "3b884e0f4a7a80970539a7757902675ce503d98615f5b564564b4bd0236f7f36",
+      "0.1.16": {
+        "hash": "12f10d4b6dcf2138f0fc171f4cc8f49517cc71ac57e29aa061c61aa57ec2dffc",
         "type": "crates-io"
       }
     },
@@ -261,8 +261,8 @@
       }
     },
     "syn": {
-      "1.0.101": {
-        "hash": "e90cde112c4b9690b8cbe810cba9ddd8bc1d7472e2cae317b69e9438c1cba7d2",
+      "1.0.102": {
+        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
         "type": "crates-io"
       }
     },
