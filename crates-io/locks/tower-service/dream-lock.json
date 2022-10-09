@@ -73,7 +73,7 @@
     },
     "proc-macro2": {
       "1.0.46": [
-        [ "unicode-ident", "1.0.4" ]
+        [ "unicode-ident", "1.0.5" ]
       ]
     },
     "quote": {
@@ -90,7 +90,7 @@
       "1.0.102": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.4" ]
+        [ "unicode-ident", "1.0.5" ]
       ]
     },
     "tokio": {
@@ -270,8 +270,8 @@
       }
     },
     "unicode-ident": {
-      "1.0.4": {
-        "hash": "dcc811dc4066ac62f84f11307873c4850cb653bfa9b1719cee2bd2204a4bc5dd",
+      "1.0.5": {
+        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
         "type": "crates-io"
       }
     }
