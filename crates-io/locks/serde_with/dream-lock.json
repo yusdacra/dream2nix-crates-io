@@ -242,7 +242,7 @@
       ]
     },
     "serde_json": {
-      "1.0.85": [
+      "1.0.86": [
         [ "indexmap", "1.9.1" ],
         [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
@@ -272,7 +272,7 @@
         [ "rustversion", "1.0.9" ],
         [ "serde", "1.0.145" ],
         [ "serde-xml-rs", "0.6.0" ],
-        [ "serde_json", "1.0.85" ],
+        [ "serde_json", "1.0.86" ],
         [ "serde_test", "1.0.145" ],
         [ "serde_with_macros", "2.0.1" ],
         [ "serde_yaml", "0.9.13" ],
@@ -791,8 +791,8 @@
       }
     },
     "serde_json": {
-      "1.0.85": {
-        "hash": "e55a28e3aaef9d5ce0506d0a14dbba8054ddc7e499ef522dd8b26859ec9d4a44",
+      "1.0.86": {
+        "hash": "41feea4228a6f1cd09ec7a3593a682276702cd67b5273544757dae23c096f074",
         "type": "crates-io"
       }
     },

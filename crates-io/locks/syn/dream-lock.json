@@ -29,7 +29,7 @@
       ]
     },
     "ref-cast-impl": {
-      "1.0.9": [
+      "1.0.10": [
         [ "syn", "1.0.102" ]
       ]
     },
@@ -350,12 +350,12 @@
       ]
     },
     "ref-cast": {
-      "1.0.9": [
-        [ "ref-cast-impl", "1.0.9" ]
+      "1.0.10": [
+        [ "ref-cast-impl", "1.0.10" ]
       ]
     },
     "ref-cast-impl": {
-      "1.0.9": [
+      "1.0.10": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ]
@@ -394,7 +394,7 @@
         [ "percent-encoding", "2.2.0" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "serde", "1.0.145" ],
-        [ "serde_json", "1.0.85" ],
+        [ "serde_json", "1.0.86" ],
         [ "serde_urlencoded", "0.7.1" ],
         [ "tokio", "1.21.2" ],
         [ "tokio-native-tls", "0.3.0" ],
@@ -433,7 +433,7 @@
       ]
     },
     "serde_json": {
-      "1.0.85": [
+      "1.0.86": [
         [ "itoa", "1.0.4" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.145" ]
@@ -467,7 +467,7 @@
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "rayon", "1.5.3" ],
-        [ "ref-cast", "1.0.9" ],
+        [ "ref-cast", "1.0.10" ],
         [ "regex", "1.6.0" ],
         [ "reqwest", "0.11.12" ],
         [ "syn-test-suite", "0.0.0+test" ],
@@ -1116,14 +1116,14 @@
       }
     },
     "ref-cast": {
-      "1.0.9": {
-        "hash": "ed13bcd201494ab44900a96490291651d200730904221832b9547d24a87d332b",
+      "1.0.10": {
+        "hash": "b8ebf632f3e32bf35133f620cf481f29c99ae0fb01450fd3d85eee0225274ec1",
         "type": "crates-io"
       }
     },
     "ref-cast-impl": {
-      "1.0.9": {
-        "hash": "5234cd6063258a5e32903b53b1b6ac043a0541c8adc1f610f67b0326c7a578fa",
+      "1.0.10": {
+        "hash": "caab98faa75ce294d40512ce514a46b15eafe78d72c9397a68ea45b3a88201b6",
         "type": "crates-io"
       }
     },
@@ -1194,8 +1194,8 @@
       }
     },
     "serde_json": {
-      "1.0.85": {
-        "hash": "e55a28e3aaef9d5ce0506d0a14dbba8054ddc7e499ef522dd8b26859ec9d4a44",
+      "1.0.86": {
+        "hash": "41feea4228a6f1cd09ec7a3593a682276702cd67b5273544757dae23c096f074",
         "type": "crates-io"
       }
     },

@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "serde_json",
-    "invalidationHash": "e3f370ac37393a660e4606c69564cf95ce351d70dfe2e1c6b129e11511e0bd27",
+    "invalidationHash": "c1b179a712c1163a6c33630a683ad46606a0b844a70730584c8ffca93d86bcf9",
     "location": "",
     "packages": {
-      "serde_json": "1.0.85"
+      "serde_json": "1.0.86"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "serde_json": {
-        "1.0.85": {}
+        "1.0.86": {}
       }
     }
   },
   "cyclicDependencies": {
     "trybuild": {
       "1.0.71": [
-        [ "serde_json", "1.0.85" ]
+        [ "serde_json", "1.0.86" ]
       ]
     }
   },
@@ -54,12 +54,12 @@
       ]
     },
     "ref-cast": {
-      "1.0.9": [
-        [ "ref-cast-impl", "1.0.9" ]
+      "1.0.10": [
+        [ "ref-cast-impl", "1.0.10" ]
       ]
     },
     "ref-cast-impl": {
-      "1.0.9": [
+      "1.0.10": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ]
@@ -83,12 +83,12 @@
       ]
     },
     "serde_json": {
-      "1.0.85": [
+      "1.0.86": [
         [ "automod", "1.0.4" ],
         [ "indexmap", "1.9.1" ],
         [ "indoc", "1.0.7" ],
         [ "itoa", "1.0.4" ],
-        [ "ref-cast", "1.0.9" ],
+        [ "ref-cast", "1.0.10" ],
         [ "rustversion", "1.0.9" ],
         [ "ryu", "1.0.11" ],
         [ "serde", "1.0.145" ],
@@ -137,7 +137,7 @@
         [ "once_cell", "1.15.0" ],
         [ "serde", "1.0.145" ],
         [ "serde_derive", "1.0.145" ],
-        [ "serde_json", "1.0.85" ],
+        [ "serde_json", "1.0.86" ],
         [ "termcolor", "1.1.3" ],
         [ "toml", "0.5.9" ]
       ]
@@ -246,14 +246,14 @@
       }
     },
     "ref-cast": {
-      "1.0.9": {
-        "hash": "ed13bcd201494ab44900a96490291651d200730904221832b9547d24a87d332b",
+      "1.0.10": {
+        "hash": "b8ebf632f3e32bf35133f620cf481f29c99ae0fb01450fd3d85eee0225274ec1",
         "type": "crates-io"
       }
     },
     "ref-cast-impl": {
-      "1.0.9": {
-        "hash": "5234cd6063258a5e32903b53b1b6ac043a0541c8adc1f610f67b0326c7a578fa",
+      "1.0.10": {
+        "hash": "caab98faa75ce294d40512ce514a46b15eafe78d72c9397a68ea45b3a88201b6",
         "type": "crates-io"
       }
     },
@@ -288,11 +288,11 @@
       }
     },
     "serde_json": {
-      "1.0.85": {
-        "hash": "sha256-5Voo46rvnVzgUG0KFNu6gFTdx+SZ71It2LJoWeydSkQ=",
+      "1.0.86": {
+        "hash": "sha256-Qf7qQiim8c0J7Ho1k6aCJ2cCzWe1JzVEdX2uI8CW8HQ=",
         "pname": "serde_json",
         "type": "crates-io",
-        "version": "1.0.85"
+        "version": "1.0.86"
       }
     },
     "serde_stacker": {
