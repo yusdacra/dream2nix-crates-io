@@ -23,7 +23,7 @@
       "0.1.16": [
         [ "cfg-if", "1.0.0" ],
         [ "js-sys", "0.3.60" ],
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.135" ],
         [ "log", "0.4.17" ],
         [ "stdweb", "0.4.20" ],
         [ "wasi", "0.9.0+wasi-snapshot-preview1" ],
@@ -207,8 +207,8 @@
       }
     },
     "libc": {
-      "0.2.134": {
-        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
+      "0.2.135": {
+        "hash": "68783febc7782c6c5cb401fbda4de5a9898be1762314da0bb2c10ced61f18b0c",
         "type": "crates-io"
       }
     },

@@ -22,14 +22,14 @@
     "getrandom": {
       "0.2.7": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.135" ],
         [ "wasi", "0.11.0+wasi-snapshot-preview1" ]
       ]
     },
     "memchr": {
       "2.5.0": [
-        [ "compiler_builtins", "0.1.81" ],
-        [ "libc", "0.2.134" ],
+        [ "compiler_builtins", "0.1.82" ],
+        [ "libc", "0.2.135" ],
         [ "quickcheck", "1.0.3" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
@@ -58,8 +58,8 @@
       }
     },
     "compiler_builtins": {
-      "0.1.81": {
-        "hash": "7927b44b9659f9a9af77eb0e6d98d8172ee5aec6924ed9360ae527cdd8551245",
+      "0.1.82": {
+        "hash": "18cd7635fea7bb481ea543b392789844c1ad581299da70184c7175ce3af76603",
         "type": "crates-io"
       }
     },
@@ -70,8 +70,8 @@
       }
     },
     "libc": {
-      "0.2.134": {
-        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
+      "0.2.135": {
+        "hash": "68783febc7782c6c5cb401fbda4de5a9898be1762314da0bb2c10ced61f18b0c",
         "type": "crates-io"
       }
     },

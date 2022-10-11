@@ -21,7 +21,7 @@
   "dependencies": {
     "cfg-if": {
       "1.0.0": [
-        [ "compiler_builtins", "0.1.81" ],
+        [ "compiler_builtins", "0.1.82" ],
         [ "rustc-std-workspace-core", "1.0.0" ]
       ]
     }
@@ -36,8 +36,8 @@
       }
     },
     "compiler_builtins": {
-      "0.1.81": {
-        "hash": "7927b44b9659f9a9af77eb0e6d98d8172ee5aec6924ed9360ae527cdd8551245",
+      "0.1.82": {
+        "hash": "18cd7635fea7bb481ea543b392789844c1ad581299da70184c7175ce3af76603",
         "type": "crates-io"
       }
     },

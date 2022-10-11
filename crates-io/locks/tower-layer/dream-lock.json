@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tower-layer",
-    "invalidationHash": "05fe130305f36803a2163d16b8968deaff590bb9caaf26ca939a186a9672ae7b",
+    "invalidationHash": "4fdae4dee976c3b38586ac0977ca2239fa38d20f4a69ee425f5c26d9ba1905c2",
     "location": "",
     "packages": {
-      "tower-layer": "0.3.1"
+      "tower-layer": "0.3.2"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,185 +13,33 @@
     "gitSources": [],
     "relPathReplacements": {
       "tower-layer": {
-        "0.3.1": {}
+        "0.3.2": {}
       }
     }
   },
   "cyclicDependencies": {
     "tower": {
-      "0.3.1": [
-        [ "tower-layer", "0.3.1" ]
-      ]
-    },
-    "tower-buffer": {
-      "0.3.0": [
-        [ "tower-layer", "0.3.1" ]
-      ]
-    },
-    "tower-limit": {
-      "0.3.1": [
-        [ "tower-layer", "0.3.1" ]
-      ]
-    },
-    "tower-load-shed": {
-      "0.3.0": [
-        [ "tower-layer", "0.3.1" ]
-      ]
-    },
-    "tower-retry": {
-      "0.3.0": [
-        [ "tower-layer", "0.3.1" ]
-      ]
-    },
-    "tower-timeout": {
-      "0.3.0": [
-        [ "tower-layer", "0.3.1" ]
+      "0.4.13": [
+        [ "tower-layer", "0.3.2" ]
       ]
     }
   },
   "dependencies": {
-    "futures-util": {
-      "0.3.24": [
-        [ "futures-core", "0.3.24" ],
-        [ "futures-task", "0.3.24" ],
-        [ "pin-project-lite", "0.2.9" ],
-        [ "pin-utils", "0.1.0" ]
-      ]
-    },
     "log": {
       "0.4.17": [
         [ "cfg-if", "1.0.0" ]
       ]
     },
-    "pin-project": {
-      "0.4.30": [
-        [ "pin-project-internal", "0.4.30" ]
-      ]
-    },
-    "pin-project-internal": {
-      "0.4.30": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ]
-      ]
-    },
-    "proc-macro2": {
-      "1.0.46": [
-        [ "unicode-ident", "1.0.5" ]
-      ]
-    },
-    "quote": {
-      "1.0.21": [
-        [ "proc-macro2", "1.0.46" ]
-      ]
-    },
-    "slab": {
-      "0.4.7": [
-        [ "autocfg", "1.1.0" ]
-      ]
-    },
-    "syn": {
-      "1.0.102": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "unicode-ident", "1.0.5" ]
-      ]
-    },
-    "tokio": {
-      "0.2.25": [
-        [ "bytes", "0.5.6" ],
-        [ "fnv", "1.0.7" ],
-        [ "pin-project-lite", "0.1.12" ],
-        [ "slab", "0.4.7" ]
-      ]
-    },
     "tower": {
-      "0.3.1": [
-        [ "futures-core", "0.3.24" ],
-        [ "tower-buffer", "0.3.0" ],
-        [ "tower-discover", "0.3.0" ],
-        [ "tower-layer", "0.3.1" ],
-        [ "tower-limit", "0.3.1" ],
-        [ "tower-load-shed", "0.3.0" ],
-        [ "tower-retry", "0.3.0" ],
-        [ "tower-service", "0.3.2" ],
-        [ "tower-timeout", "0.3.0" ],
-        [ "tower-util", "0.3.1" ]
-      ]
-    },
-    "tower-buffer": {
-      "0.3.0": [
-        [ "futures-core", "0.3.24" ],
-        [ "pin-project", "0.4.30" ],
-        [ "tokio", "0.2.25" ],
-        [ "tower-layer", "0.3.1" ],
+      "0.4.13": [
+        [ "tower-layer", "0.3.2" ],
         [ "tower-service", "0.3.2" ],
         [ "tracing", "0.1.37" ]
       ]
     },
-    "tower-discover": {
-      "0.3.0": [
-        [ "futures-core", "0.3.24" ],
-        [ "pin-project", "0.4.30" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
     "tower-layer": {
-      "0.3.1": [
-        [ "tower", "0.3.1" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
-    "tower-limit": {
-      "0.3.1": [
-        [ "futures-core", "0.3.24" ],
-        [ "pin-project", "0.4.30" ],
-        [ "tokio", "0.2.25" ],
-        [ "tower-layer", "0.3.1" ],
-        [ "tower-load", "0.3.0" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
-    "tower-load": {
-      "0.3.0": [
-        [ "futures-core", "0.3.24" ],
-        [ "log", "0.4.17" ],
-        [ "pin-project", "0.4.30" ],
-        [ "tokio", "0.2.25" ],
-        [ "tower-discover", "0.3.0" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
-    "tower-load-shed": {
-      "0.3.0": [
-        [ "futures-core", "0.3.24" ],
-        [ "pin-project", "0.4.30" ],
-        [ "tower-layer", "0.3.1" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
-    "tower-retry": {
-      "0.3.0": [
-        [ "futures-core", "0.3.24" ],
-        [ "pin-project", "0.4.30" ],
-        [ "tokio", "0.2.25" ],
-        [ "tower-layer", "0.3.1" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
-    "tower-timeout": {
-      "0.3.0": [
-        [ "pin-project", "0.4.30" ],
-        [ "tokio", "0.2.25" ],
-        [ "tower-layer", "0.3.1" ],
-        [ "tower-service", "0.3.2" ]
-      ]
-    },
-    "tower-util": {
-      "0.3.1": [
-        [ "futures-core", "0.3.24" ],
-        [ "futures-util", "0.3.24" ],
-        [ "pin-project", "0.4.30" ],
+      "0.3.2": [
+        [ "tower", "0.4.13" ],
         [ "tower-service", "0.3.2" ]
       ]
     },
@@ -200,15 +48,7 @@
         [ "cfg-if", "1.0.0" ],
         [ "log", "0.4.17" ],
         [ "pin-project-lite", "0.2.9" ],
-        [ "tracing-attributes", "0.1.23" ],
         [ "tracing-core", "0.1.30" ]
-      ]
-    },
-    "tracing-attributes": {
-      "0.1.23": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ]
       ]
     },
     "tracing-core": {
@@ -218,45 +58,9 @@
     }
   },
   "sources": {
-    "autocfg": {
-      "1.1.0": {
-        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
-        "type": "crates-io"
-      }
-    },
-    "bytes": {
-      "0.5.6": {
-        "hash": "0e4cec68f03f32e44924783795810fa50a7035d8c8ebe78580ad7e6c703fba38",
-        "type": "crates-io"
-      }
-    },
     "cfg-if": {
       "1.0.0": {
         "hash": "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd",
-        "type": "crates-io"
-      }
-    },
-    "fnv": {
-      "1.0.7": {
-        "hash": "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1",
-        "type": "crates-io"
-      }
-    },
-    "futures-core": {
-      "0.3.24": {
-        "hash": "4e5aa3de05362c3fb88de6531e6296e85cde7739cccad4b9dfeeb7f6ebce56bf",
-        "type": "crates-io"
-      }
-    },
-    "futures-task": {
-      "0.3.24": {
-        "hash": "a6508c467c73851293f390476d4491cf4d227dbabcd4170f3bb6044959b294f1",
-        "type": "crates-io"
-      }
-    },
-    "futures-util": {
-      "0.3.24": {
-        "hash": "44fb6cb1be61cc1d2e43b262516aafcf63b241cffdb1d3fa115f91d9c7b09c90",
         "type": "crates-io"
       }
     },
@@ -272,129 +76,29 @@
         "type": "crates-io"
       }
     },
-    "pin-project": {
-      "0.4.30": {
-        "hash": "3ef0f924a5ee7ea9cbcea77529dba45f8a9ba9f622419fe3386ca581a3ae9d5a",
-        "type": "crates-io"
-      }
-    },
-    "pin-project-internal": {
-      "0.4.30": {
-        "hash": "851c8d0ce9bebe43790dedfc86614c23494ac9f423dd618d3a61fc693eafe61e",
-        "type": "crates-io"
-      }
-    },
     "pin-project-lite": {
-      "0.1.12": {
-        "hash": "257b64915a082f7811703966789728173279bdebb956b143dbcd23f6f970a777",
-        "type": "crates-io"
-      },
       "0.2.9": {
         "hash": "e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116",
         "type": "crates-io"
       }
     },
-    "pin-utils": {
-      "0.1.0": {
-        "hash": "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184",
-        "type": "crates-io"
-      }
-    },
-    "proc-macro2": {
-      "1.0.46": {
-        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
-        "type": "crates-io"
-      }
-    },
-    "quote": {
-      "1.0.21": {
-        "hash": "bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179",
-        "type": "crates-io"
-      }
-    },
-    "slab": {
-      "0.4.7": {
-        "hash": "4614a76b2a8be0058caa9dbbaf66d988527d86d003c11a94fbd335d7661edcef",
-        "type": "crates-io"
-      }
-    },
-    "syn": {
-      "1.0.102": {
-        "hash": "3fcd952facd492f9be3ef0d0b7032a6e442ee9b361d4acc2b1d0c4aaa5f613a1",
-        "type": "crates-io"
-      }
-    },
-    "tokio": {
-      "0.2.25": {
-        "hash": "6703a273949a90131b290be1fe7b039d0fc884aa1935860dfcbe056f28cd8092",
-        "type": "crates-io"
-      }
-    },
     "tower": {
-      "0.3.1": {
-        "hash": "fd3169017c090b7a28fce80abaad0ab4f5566423677c9331bb320af7e49cfe62",
-        "type": "crates-io"
-      }
-    },
-    "tower-buffer": {
-      "0.3.0": {
-        "hash": "c4887dc2a65d464c8b9b66e0e4d51c2fd6cf5b3373afc72805b0a60bce00446a",
-        "type": "crates-io"
-      }
-    },
-    "tower-discover": {
-      "0.3.0": {
-        "hash": "0f6b5000c3c54d269cc695dff28136bb33d08cbf1df2c48129e143ab65bf3c2a",
+      "0.4.13": {
+        "hash": "b8fa9be0de6cf49e536ce1851f987bd21a43b771b09473c3549a6c853db37c1c",
         "type": "crates-io"
       }
     },
     "tower-layer": {
-      "0.3.1": {
-        "hash": "sha256-NDvJRm0/5rD5YO9FlgUJ+ESAv0/Zb5KQGv5/89+dOmI=",
+      "0.3.2": {
+        "hash": "sha256-wgyNvtYoOglgTD5ptLfutU4pi4pgDU1ey1rTneYJ8dA=",
         "pname": "tower-layer",
         "type": "crates-io",
-        "version": "0.3.1"
-      }
-    },
-    "tower-limit": {
-      "0.3.1": {
-        "hash": "92c3040c5dbed68abffaa0d4517ac1a454cd741044f33ab0eefab6b8d1361404",
-        "type": "crates-io"
-      }
-    },
-    "tower-load": {
-      "0.3.0": {
-        "hash": "8cc79fc3afd07492b7966d7efa7c6c50f8ed58d768a6075dd7ae6591c5d2017b",
-        "type": "crates-io"
-      }
-    },
-    "tower-load-shed": {
-      "0.3.0": {
-        "hash": "9f021e23900173dc315feb4b6922510dae3e79c689b74c089112066c11f0ae4e",
-        "type": "crates-io"
-      }
-    },
-    "tower-retry": {
-      "0.3.0": {
-        "hash": "e6727956aaa2f8957d4d9232b308fe8e4e65d99db30f42b225646e86c9b6a952",
-        "type": "crates-io"
+        "version": "0.3.2"
       }
     },
     "tower-service": {
       "0.3.2": {
         "hash": "b6bc1c9ce2b5135ac7f93c72918fc37feb872bdc6a5533a8b85eb4b86bfdae52",
-        "type": "crates-io"
-      }
-    },
-    "tower-timeout": {
-      "0.3.0": {
-        "hash": "127b8924b357be938823eaaec0608c482d40add25609481027b96198b2e4b31e",
-        "type": "crates-io"
-      }
-    },
-    "tower-util": {
-      "0.3.1": {
-        "hash": "d1093c19826d33807c72511e68f73b4a0469a3f22c2bd5f7d5212178b4b89674",
         "type": "crates-io"
       }
     },
@@ -404,21 +108,9 @@
         "type": "crates-io"
       }
     },
-    "tracing-attributes": {
-      "0.1.23": {
-        "hash": "4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a",
-        "type": "crates-io"
-      }
-    },
     "tracing-core": {
       "0.1.30": {
         "hash": "24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a",
-        "type": "crates-io"
-      }
-    },
-    "unicode-ident": {
-      "1.0.5": {
-        "hash": "6ceab39d59e4c9499d4e5a8ee0e2735b891bb7308ac83dfb4e80cad195c9f6f3",
         "type": "crates-io"
       }
     }

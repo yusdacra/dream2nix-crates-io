@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "clap",
-    "invalidationHash": "878cd7be3207691f54c0c86a69f2d8814095f8a75f5455612c2e0fadf7679552",
+    "invalidationHash": "5ac3811aa915ee786fdfdca615a5b7790078b1c199ee7601667f5e58ef0bce2a",
     "location": "",
     "packages": {
-      "clap": "4.0.11"
+      "clap": "4.0.12"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "clap": {
-        "4.0.11": {}
+        "4.0.12": {}
       }
     }
   },
@@ -43,7 +43,7 @@
       ]
     },
     "clap": {
-      "4.0.11": [
+      "4.0.12": [
         [ "atty", "0.2.14" ],
         [ "backtrace", "0.3.66" ],
         [ "bitflags", "1.3.2" ],
@@ -436,11 +436,11 @@
       }
     },
     "clap": {
-      "4.0.11": {
-        "hash": "sha256-TtRcwsYqPv9SPnGNhXa6diyDoxRhUQkyg6xirhGTOnM=",
+      "4.0.12": {
+        "hash": "sha256-OFAHy77YmSYDlaQQdDX+rUytgGhEYbPMeCOL3LC61Y8=",
         "pname": "clap",
         "type": "crates-io",
-        "version": "4.0.11"
+        "version": "4.0.12"
       }
     },
     "clap_derive": {

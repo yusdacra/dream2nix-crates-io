@@ -21,7 +21,7 @@
   "dependencies": {
     "iovec": {
       "0.1.4": [
-        [ "libc", "0.2.134" ]
+        [ "libc", "0.2.135" ]
       ]
     }
   },
@@ -35,8 +35,8 @@
       }
     },
     "libc": {
-      "0.2.134": {
-        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
+      "0.2.135": {
+        "hash": "68783febc7782c6c5cb401fbda4de5a9898be1762314da0bb2c10ced61f18b0c",
         "type": "crates-io"
       }
     }

@@ -30,7 +30,7 @@
     "getrandom": {
       "0.1.16": [
         [ "cfg-if", "1.0.0" ],
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.135" ],
         [ "wasi", "0.9.0+wasi-snapshot-preview1" ]
       ]
     },
@@ -52,7 +52,7 @@
     "rand": {
       "0.7.3": [
         [ "getrandom", "0.1.16" ],
-        [ "libc", "0.2.134" ],
+        [ "libc", "0.2.135" ],
         [ "rand_chacha", "0.2.2" ],
         [ "rand_core", "0.5.1" ],
         [ "rand_hc", "0.2.0" ]
@@ -118,8 +118,8 @@
       }
     },
     "libc": {
-      "0.2.134": {
-        "hash": "329c933548736bc49fd575ee68c89e8be4d260064184389a5b77517cddd99ffb",
+      "0.2.135": {
+        "hash": "68783febc7782c6c5cb401fbda4de5a9898be1762314da0bb2c10ced61f18b0c",
         "type": "crates-io"
       }
     },
