@@ -228,7 +228,7 @@
       ]
     },
     "tokio-stream": {
-      "0.1.10": [
+      "0.1.11": [
         [ "futures-core", "0.3.24" ],
         [ "pin-project-lite", "0.2.9" ],
         [ "tokio", "1.21.2" ]
@@ -240,7 +240,7 @@
         [ "bytes", "1.2.1" ],
         [ "futures-core", "0.3.24" ],
         [ "tokio", "1.21.2" ],
-        [ "tokio-stream", "0.1.10" ]
+        [ "tokio-stream", "0.1.11" ]
       ]
     },
     "tokio-util": {
@@ -258,7 +258,7 @@
         [ "pin-project-lite", "0.2.9" ],
         [ "slab", "0.4.7" ],
         [ "tokio", "1.21.2" ],
-        [ "tokio-stream", "0.1.10" ],
+        [ "tokio-stream", "0.1.11" ],
         [ "tokio-test", "0.4.2" ],
         [ "tracing", "0.1.37" ]
       ]
@@ -557,8 +557,8 @@
       }
     },
     "tokio-stream": {
-      "0.1.10": {
-        "hash": "f6edf2d6bc038a43d31353570e27270603f4648d18f5ed10c0e179abe43255af",
+      "0.1.11": {
+        "hash": "d660770404473ccd7bc9f8b28494a811bc18542b915c0855c51e8f419d5223ce",
         "type": "crates-io"
       }
     },

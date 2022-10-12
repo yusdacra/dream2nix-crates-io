@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "tokio-stream",
-    "invalidationHash": "485c64bc0ad5df1bf9c0e72b75983e636fff5e35405186c80c765bcb8fffc72f",
+    "invalidationHash": "276e4bfff82446cda3748dc4fd503ba30587b2979bd7621c706dd232f5c32ec4",
     "location": "",
     "packages": {
-      "tokio-stream": "0.1.10"
+      "tokio-stream": "0.1.11"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "tokio-stream": {
-        "0.1.10": {}
+        "0.1.11": {}
       }
     }
   },
@@ -248,7 +248,7 @@
       ]
     },
     "tokio-stream": {
-      "0.1.10": [
+      "0.1.11": [
         [ "async-stream", "0.3.3" ],
         [ "futures", "0.3.24" ],
         [ "futures-core", "0.3.24" ],
@@ -619,11 +619,11 @@
       }
     },
     "tokio-stream": {
-      "0.1.10": {
-        "hash": "sha256-9u3y1rwDikPTE1NXDicnBgP0ZI0Y9e0QwOF5q+QyVa8=",
+      "0.1.11": {
+        "hash": "sha256-1mB3BARHPM17yfiyhJSoEbwYVCuRXAhVxR6PQZ1SI84=",
         "pname": "tokio-stream",
         "type": "crates-io",
-        "version": "0.1.10"
+        "version": "0.1.11"
       }
     },
     "tokio-util": {

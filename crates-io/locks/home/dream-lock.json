@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "home",
-    "invalidationHash": "0f0d28b5c6a916b505c01e31611b9bb96a243ebb3f93c18019bee0589d5024db",
+    "invalidationHash": "8a52b7abcaff9cd76b2dc4df9e54f5994d8c9916c47fe310e9079f582d743dc2",
     "location": "",
     "packages": {
-      "home": "0.5.3"
+      "home": "0.5.4"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,14 +13,14 @@
     "gitSources": [],
     "relPathReplacements": {
       "home": {
-        "0.5.3": {}
+        "0.5.4": {}
       }
     }
   },
   "cyclicDependencies": {},
   "dependencies": {
     "home": {
-      "0.5.3": [
+      "0.5.4": [
         [ "winapi", "0.3.9" ]
       ]
     },
@@ -33,11 +33,11 @@
   },
   "sources": {
     "home": {
-      "0.5.3": {
-        "hash": "sha256-JFau8ua2qXhBkq54DA8VvFffDpGFhSgjJejIrCdzdlQ=",
+      "0.5.4": {
+        "hash": "sha256-dHMJtLRAwG1XsLJfKu4D7pteU5fSiMYOIfxwm7mKdAg=",
         "pname": "home",
         "type": "crates-io",
-        "version": "0.5.3"
+        "version": "0.5.4"
       }
     },
     "winapi": {

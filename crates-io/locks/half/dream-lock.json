@@ -306,14 +306,6 @@
         [ "unicode-ident", "1.0.5" ]
       ]
     },
-    "synstructure": {
-      "0.12.6": [
-        [ "proc-macro2", "1.0.46" ],
-        [ "quote", "1.0.21" ],
-        [ "syn", "1.0.102" ],
-        [ "unicode-xid", "0.2.4" ]
-      ]
-    },
     "textwrap": {
       "0.11.0": [
         [ "unicode-width", "0.1.10" ]
@@ -384,14 +376,14 @@
     "zerocopy": {
       "0.6.1": [
         [ "byteorder", "1.4.3" ],
-        [ "zerocopy-derive", "0.3.1" ]
+        [ "zerocopy-derive", "0.3.2" ]
       ]
     },
     "zerocopy-derive": {
-      "0.3.1": [
+      "0.3.2": [
         [ "proc-macro2", "1.0.46" ],
-        [ "syn", "1.0.102" ],
-        [ "synstructure", "0.12.6" ]
+        [ "quote", "1.0.21" ],
+        [ "syn", "1.0.102" ]
       ]
     }
   },
@@ -784,12 +776,6 @@
         "type": "crates-io"
       }
     },
-    "synstructure": {
-      "0.12.6": {
-        "hash": "f36bdaa60a83aca3921b5259d5400cbf5e90fc51931376a9bd4a0eb79aa7210f",
-        "type": "crates-io"
-      }
-    },
     "textwrap": {
       "0.11.0": {
         "hash": "d326610f408c7a4eb6f51c37c330e496b08506c9457c9d34287ecc38809fb060",
@@ -811,12 +797,6 @@
     "unicode-width": {
       "0.1.10": {
         "hash": "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b",
-        "type": "crates-io"
-      }
-    },
-    "unicode-xid": {
-      "0.2.4": {
-        "hash": "f962df74c8c05a667b5ee8bcf162993134c104e96440b663c8daa176dc772d8c",
         "type": "crates-io"
       }
     },
@@ -899,8 +879,8 @@
       }
     },
     "zerocopy-derive": {
-      "0.3.1": {
-        "hash": "a0fbc82b82efe24da867ee52e015e58178684bd9dd64c34e66bdf21da2582a9f",
+      "0.3.2": {
+        "hash": "6505e6815af7de1746a08f69c69606bb45695a17149517680f3b2149713b19a3",
         "type": "crates-io"
       }
     }

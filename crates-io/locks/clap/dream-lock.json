@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "clap",
-    "invalidationHash": "5ac3811aa915ee786fdfdca615a5b7790078b1c199ee7601667f5e58ef0bce2a",
+    "invalidationHash": "abcfa0e9bf0a00d741f52f79a9eefa76a1703250da1d60d06cc32f0731583f8a",
     "location": "",
     "packages": {
-      "clap": "4.0.12"
+      "clap": "4.0.13"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "clap": {
-        "4.0.12": {}
+        "4.0.13": {}
       }
     }
   },
@@ -43,11 +43,11 @@
       ]
     },
     "clap": {
-      "4.0.12": [
+      "4.0.13": [
         [ "atty", "0.2.14" ],
         [ "backtrace", "0.3.66" ],
         [ "bitflags", "1.3.2" ],
-        [ "clap_derive", "4.0.10" ],
+        [ "clap_derive", "4.0.13" ],
         [ "clap_lex", "0.3.0" ],
         [ "humantime", "2.1.0" ],
         [ "once_cell", "1.15.0" ],
@@ -66,7 +66,7 @@
       ]
     },
     "clap_derive": {
-      "4.0.10": [
+      "4.0.13": [
         [ "heck", "0.4.0" ],
         [ "proc-macro-error", "1.0.4" ],
         [ "proc-macro2", "1.0.46" ],
@@ -436,16 +436,16 @@
       }
     },
     "clap": {
-      "4.0.12": {
-        "hash": "sha256-OFAHy77YmSYDlaQQdDX+rUytgGhEYbPMeCOL3LC61Y8=",
+      "4.0.13": {
+        "hash": "sha256-adZOiEKHRxVL2Lw3jReDd+9NrOelc1yh84Vb5y8sLLU=",
         "pname": "clap",
         "type": "crates-io",
-        "version": "4.0.12"
+        "version": "4.0.13"
       }
     },
     "clap_derive": {
-      "4.0.10": {
-        "hash": "db342ce9fda24fb191e2ed4e102055a4d381c1086a06630174cd8da8d5d917ce",
+      "4.0.13": {
+        "hash": "c42f169caba89a7d512b5418b09864543eeb4d497416c917d7137863bd2076ad",
         "type": "crates-io"
       }
     },

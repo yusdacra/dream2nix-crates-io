@@ -29,7 +29,7 @@
       ]
     },
     "ref-cast-impl": {
-      "1.0.10": [
+      "1.0.11": [
         [ "syn", "1.0.102" ]
       ]
     },
@@ -350,12 +350,12 @@
       ]
     },
     "ref-cast": {
-      "1.0.10": [
-        [ "ref-cast-impl", "1.0.10" ]
+      "1.0.11": [
+        [ "ref-cast-impl", "1.0.11" ]
       ]
     },
     "ref-cast-impl": {
-      "1.0.10": [
+      "1.0.11": [
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ]
@@ -467,7 +467,7 @@
         [ "proc-macro2", "1.0.46" ],
         [ "quote", "1.0.21" ],
         [ "rayon", "1.5.3" ],
-        [ "ref-cast", "1.0.10" ],
+        [ "ref-cast", "1.0.11" ],
         [ "regex", "1.6.0" ],
         [ "reqwest", "0.11.12" ],
         [ "syn-test-suite", "0.0.0+test" ],
@@ -1116,14 +1116,14 @@
       }
     },
     "ref-cast": {
-      "1.0.10": {
-        "hash": "b8ebf632f3e32bf35133f620cf481f29c99ae0fb01450fd3d85eee0225274ec1",
+      "1.0.11": {
+        "hash": "70d392892f272751a9ab8dbcdb379092be98acc6331d029fbb8643eff11d3315",
         "type": "crates-io"
       }
     },
     "ref-cast-impl": {
-      "1.0.10": {
-        "hash": "caab98faa75ce294d40512ce514a46b15eafe78d72c9397a68ea45b3a88201b6",
+      "1.0.11": {
+        "hash": "213c2951ea9c3641b1044acbce5510fdceae2caf3d853c3a79dc2d7d51e138fb",
         "type": "crates-io"
       }
     },
