@@ -1,10 +1,10 @@
 {
   "_generic": {
     "defaultPackage": "zip",
-    "invalidationHash": "ca45dfcd7e57f84bb9dc7edb1793747b23b4d9e3ba2593136717659dddb98bbb",
+    "invalidationHash": "390c45b68970aa565733c302440c079c98baa70d4d3e338aafcf1e25f5a68fb7",
     "location": "",
     "packages": {
-      "zip": "0.6.2"
+      "zip": "0.6.3"
     },
     "sourcesAggregatedHash": null,
     "subsystem": "rust"
@@ -13,7 +13,7 @@
     "gitSources": [],
     "relPathReplacements": {
       "zip": {
-        "0.6.2": {}
+        "0.6.3": {}
       }
     }
   },
@@ -85,12 +85,10 @@
       ]
     },
     "flate2": {
-      "1.0.22": [
-        [ "cfg-if", "1.0.0" ],
+      "1.0.24": [
         [ "crc32fast", "1.3.2" ],
-        [ "libc", "0.2.121" ],
-        [ "libz-sys", "1.1.5" ],
-        [ "miniz_oxide", "0.4.4" ]
+        [ "libz-sys", "1.1.8" ],
+        [ "miniz_oxide", "0.5.4" ]
       ]
     },
     "generic-array": {
@@ -117,16 +115,15 @@
       ]
     },
     "libz-sys": {
-      "1.1.5": [
+      "1.1.8": [
         [ "cc", "1.0.73" ],
         [ "pkg-config", "0.3.25" ],
         [ "vcpkg", "0.2.15" ]
       ]
     },
     "miniz_oxide": {
-      "0.4.4": [
-        [ "adler", "1.0.2" ],
-        [ "autocfg", "1.1.0" ]
+      "0.5.4": [
+        [ "adler", "1.0.2" ]
       ]
     },
     "num_threads": {
@@ -135,17 +132,17 @@
       ]
     },
     "password-hash": {
-      "0.3.2": [
+      "0.4.2": [
         [ "base64ct", "1.0.1" ],
         [ "rand_core", "0.6.3" ],
         [ "subtle", "2.4.1" ]
       ]
     },
     "pbkdf2": {
-      "0.10.1": [
+      "0.11.0": [
         [ "digest", "0.10.3" ],
         [ "hmac", "0.12.1" ],
-        [ "password-hash", "0.3.2" ],
+        [ "password-hash", "0.4.2" ],
         [ "sha2", "0.10.2" ]
       ]
     },
@@ -195,7 +192,7 @@
       ]
     },
     "zip": {
-      "0.6.2": [
+      "0.6.3": [
         [ "aes", "0.7.5" ],
         [ "bencher", "0.1.5" ],
         [ "byteorder", "1.4.3" ],
@@ -203,29 +200,29 @@
         [ "constant_time_eq", "0.1.5" ],
         [ "crc32fast", "1.3.2" ],
         [ "crossbeam-utils", "0.8.8" ],
-        [ "flate2", "1.0.22" ],
+        [ "flate2", "1.0.24" ],
         [ "getrandom", "0.2.6" ],
         [ "hmac", "0.12.1" ],
-        [ "pbkdf2", "0.10.1" ],
+        [ "pbkdf2", "0.11.0" ],
         [ "sha1", "0.10.1" ],
         [ "time", "0.3.9" ],
         [ "walkdir", "2.3.2" ],
-        [ "zstd", "0.10.0+zstd.1.5.2" ]
+        [ "zstd", "0.11.2+zstd.1.5.2" ]
       ]
     },
     "zstd": {
-      "0.10.0+zstd.1.5.2": [
-        [ "zstd-safe", "4.1.4+zstd.1.5.2" ]
+      "0.11.2+zstd.1.5.2": [
+        [ "zstd-safe", "5.0.2+zstd.1.5.2" ]
       ]
     },
     "zstd-safe": {
-      "4.1.4+zstd.1.5.2": [
+      "5.0.2+zstd.1.5.2": [
         [ "libc", "0.2.121" ],
-        [ "zstd-sys", "1.6.3+zstd.1.5.2" ]
+        [ "zstd-sys", "2.0.1+zstd.1.5.2" ]
       ]
     },
     "zstd-sys": {
-      "1.6.3+zstd.1.5.2": [
+      "2.0.1+zstd.1.5.2": [
         [ "cc", "1.0.73" ],
         [ "libc", "0.2.121" ]
       ]
@@ -241,12 +238,6 @@
     "aes": {
       "0.7.5": {
         "hash": "9e8b47f52ea9bae42228d07ec09eb676433d7c4ed1ebdf0f1d1c29ed446f1ab8",
-        "type": "crates-io"
-      }
-    },
-    "autocfg": {
-      "1.1.0": {
-        "hash": "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa",
         "type": "crates-io"
       }
     },
@@ -341,8 +332,8 @@
       }
     },
     "flate2": {
-      "1.0.22": {
-        "hash": "1e6988e897c1c9c485f43b47a529cef42fde0547f9d8d41a7062518f1d8fc53f",
+      "1.0.24": {
+        "hash": "f82b0f4c27ad9f8bfd1f3208d882da2b09c301bc1c828fd3a00d0216d2fbbff6",
         "type": "crates-io"
       }
     },
@@ -389,14 +380,14 @@
       }
     },
     "libz-sys": {
-      "1.1.5": {
-        "hash": "6f35facd4a5673cb5a48822be2be1d4236c1c99cb4113cab7061ac720d5bf859",
+      "1.1.8": {
+        "hash": "9702761c3935f8cc2f101793272e202c72b99da8f4224a19ddcf1279a6450bbf",
         "type": "crates-io"
       }
     },
     "miniz_oxide": {
-      "0.4.4": {
-        "hash": "a92518e98c078586bc6c934028adcca4c92a53d6a958196de835170a01d84e4b",
+      "0.5.4": {
+        "hash": "96590ba8f175222643a85693f33d26e9c8a015f599c216509b1a6894af675d34",
         "type": "crates-io"
       }
     },
@@ -413,14 +404,14 @@
       }
     },
     "password-hash": {
-      "0.3.2": {
-        "hash": "1d791538a6dcc1e7cb7fe6f6b58aca40e7f79403c45b2bc274008b5e647af1d8",
+      "0.4.2": {
+        "hash": "7676374caaee8a325c9e7a2ae557f216c5563a171d6997b0ef8a65af35147700",
         "type": "crates-io"
       }
     },
     "pbkdf2": {
-      "0.10.1": {
-        "hash": "271779f35b581956db91a3e55737327a03aa051e90b1c47aeb189508533adfd7",
+      "0.11.0": {
+        "hash": "83a0692ec44e4cf1ef28ca317f14f8f07da2d95ec3fa01f86e4467b725e60917",
         "type": "crates-io"
       }
     },
@@ -527,28 +518,28 @@
       }
     },
     "zip": {
-      "0.6.2": {
-        "hash": "sha256-vyJbz3O7Usu0lucEdce9ej92nfaZwAIPbHvZqW3PC40=",
+      "0.6.3": {
+        "hash": "sha256-U3znQR0l5U6K4hp84LFYQOe/z/FbUdaX7DJmzHa98IA=",
         "pname": "zip",
         "type": "crates-io",
-        "version": "0.6.2"
+        "version": "0.6.3"
       }
     },
     "zstd": {
-      "0.10.0+zstd.1.5.2": {
-        "hash": "3b1365becbe415f3f0fcd024e2f7b45bacfb5bdd055f0dc113571394114e7bdd",
+      "0.11.2+zstd.1.5.2": {
+        "hash": "20cc960326ece64f010d2d2107537f26dc589a6573a316bd5b1dba685fa5fde4",
         "type": "crates-io"
       }
     },
     "zstd-safe": {
-      "4.1.4+zstd.1.5.2": {
-        "hash": "2f7cd17c9af1a4d6c24beb1cc54b17e2ef7b593dc92f19e9d9acad8b182bbaee",
+      "5.0.2+zstd.1.5.2": {
+        "hash": "1d2a5585e04f9eea4b2a3d1eca508c4dee9592a89ef6f450c11719da0726f4db",
         "type": "crates-io"
       }
     },
     "zstd-sys": {
-      "1.6.3+zstd.1.5.2": {
-        "hash": "fc49afa5c8d634e75761feda8c592051e7eeb4683ba827211eb0d731d3402ea8",
+      "2.0.1+zstd.1.5.2": {
+        "hash": "9fd07cbbc53846d9145dbffdf6dd09a7a0aa52be46741825f5c97bdd4f73f12b",
         "type": "crates-io"
       }
     }
