@@ -131,7 +131,7 @@
         [ "byteorder", "1.4.3" ],
         [ "criterion", "0.3.6" ],
         [ "digest", "0.9.0" ],
-        [ "fiat-crypto", "0.1.14" ],
+        [ "fiat-crypto", "0.1.16" ],
         [ "hex", "0.4.3" ],
         [ "packed_simd_2", "0.3.8" ],
         [ "rand", "0.7.3" ],
@@ -528,8 +528,8 @@
       }
     },
     "fiat-crypto": {
-      "0.1.14": {
-        "hash": "70ec9f20e8cd0badcd280ad9be817f0799fe27c45301d096a7e28c9244ad3ace",
+      "0.1.16": {
+        "hash": "826132095c34ac8d15662f076e0dd6c3969f99d16fd57c48a41bafe62b5073d4",
         "type": "crates-io"
       }
     },
