@@ -46,13 +46,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.46": [
+      "1.0.47": [
         [ "unicode-ident", "1.0.5" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.46" ]
+        [ "proc-macro2", "1.0.47" ]
       ]
     },
     "rustc_version": {
@@ -67,7 +67,7 @@
     },
     "serde_derive": {
       "1.0.145": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ]
       ]
@@ -98,7 +98,7 @@
     },
     "stdweb-derive": {
       "0.5.3": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "serde", "1.0.145" ],
         [ "serde_derive", "1.0.145" ],
@@ -108,7 +108,7 @@
     "stdweb-internal-macros": {
       "0.2.9": [
         [ "base-x", "0.2.11" ],
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "serde", "1.0.145" ],
         [ "serde_derive", "1.0.145" ],
@@ -119,7 +119,7 @@
     },
     "syn": {
       "1.0.102": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.5" ]
       ]
@@ -135,7 +135,7 @@
         [ "bumpalo", "3.11.0" ],
         [ "log", "0.4.17" ],
         [ "once_cell", "1.15.0" ],
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ],
         [ "wasm-bindgen-shared", "0.2.83" ]
@@ -157,7 +157,7 @@
     },
     "wasm-bindgen-macro-support": {
       "0.2.83": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ],
         [ "wasm-bindgen-backend", "0.2.83" ],
@@ -176,7 +176,7 @@
     },
     "wasm-bindgen-test-macro": {
       "0.3.33": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ]
       ]
     },
@@ -251,8 +251,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.46": {
-        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
         "type": "crates-io"
       }
     },

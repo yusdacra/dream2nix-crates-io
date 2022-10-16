@@ -25,13 +25,13 @@
       ]
     },
     "proc-macro2": {
-      "1.0.46": [
+      "1.0.47": [
         [ "unicode-ident", "1.0.5" ]
       ]
     },
     "quote": {
       "1.0.21": [
-        [ "proc-macro2", "1.0.46" ]
+        [ "proc-macro2", "1.0.47" ]
       ]
     },
     "rand_pcg": {
@@ -48,14 +48,14 @@
     },
     "serde_derive": {
       "1.0.145": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "syn", "1.0.102" ]
       ]
     },
     "syn": {
       "1.0.102": [
-        [ "proc-macro2", "1.0.46" ],
+        [ "proc-macro2", "1.0.47" ],
         [ "quote", "1.0.21" ],
         [ "unicode-ident", "1.0.5" ]
       ]
@@ -69,8 +69,8 @@
       }
     },
     "proc-macro2": {
-      "1.0.46": {
-        "hash": "94e2ef8dbfc347b10c094890f778ee2e36ca9bb4262e86dc99cd217e35f3470b",
+      "1.0.47": {
+        "hash": "5ea3d908b0e36316caf9e9e2c4625cdde190a7e6f440d794667ed17a1855e725",
         "type": "crates-io"
       }
     },

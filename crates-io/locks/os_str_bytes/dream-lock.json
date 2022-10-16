@@ -31,7 +31,7 @@
         [ "getrandom", "0.2.7" ],
         [ "memchr", "2.5.0" ],
         [ "print_bytes", "0.6.2" ],
-        [ "uniquote", "3.2.0" ]
+        [ "uniquote", "3.2.1" ]
       ]
     },
     "print_bytes": {
@@ -97,8 +97,8 @@
       }
     },
     "uniquote": {
-      "3.2.0": {
-        "hash": "2890f8bc197bdd492c2f89bd62912b08d22d52e4dfda6a35d091d77d280ba23d",
+      "3.2.1": {
+        "hash": "c4cf928bac801da70013650f4a44c512692d5755bbd8df8ee4db4e43cd3d6d1d",
         "type": "crates-io"
       }
     },
